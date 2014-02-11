@@ -10,9 +10,6 @@
     <availablePage>
       <emfPageIdentifier href="WebApplicationHosting.notation#_W0qUAI5XEeONTvwTeuJZnA"/>
     </availablePage>
-    <availablePage>
-      <emfPageIdentifier href="WebApplicationHosting.notation#_R2M0EI9WEeOO9epavamt9A"/>
-    </availablePage>
   </pageList>
   <sashModel currentSelection="//@sashModel/@windows.0/@children.0">
     <windows>
@@ -25,9 +22,6 @@
         </children>
         <children>
           <emfPageIdentifier href="WebApplicationHosting.notation#_W0qUAI5XEeONTvwTeuJZnA"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="WebApplicationHosting.notation#_R2M0EI9WEeOO9epavamt9A"/>
         </children>
       </children>
     </windows>
