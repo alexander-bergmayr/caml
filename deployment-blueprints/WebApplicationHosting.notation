@@ -12,11 +12,11 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_APJhtY5BEeOyycY9NFDX9w" key="QualifiedNameDepth" value="1000"/>
       </eAnnotations>
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_901FQ45JEeOza5lRrrcUxA" source="Stereotype_Annotation">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zofjkJNsEeOm8br50_71sw" key="StereotypeWithQualifiedNameList" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zofjkZNsEeOm8br50_71sw" key="StereotypeList" value="AmazonAWSProfile::InstancesPackage::M1SmallInstance"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zofjkpNsEeOm8br50_71sw" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zofjk5NsEeOm8br50_71sw" key="PropStereoDisplay" value="AmazonAWSProfile::M1SmallInstance.instanceCategory,AmazonAWSProfile::M1SmallInstance.contract,AmazonAWSProfile::M1SmallInstance.utilization,AmazonAWSProfile::M1SmallInstance.region,AmazonAWSProfile::M1SmallInstance.operatingSystem,AmazonAWSProfile::M1SmallInstance.availabilityZone,AmazonAWSProfile::InstancesPackage::M1SmallInstance.availabilityZone,AmazonAWSProfile::InstancesPackage::M1SmallInstance.autoScaling"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zofjlJNsEeOm8br50_71sw" key="StereotypePropertyLocation" value="Compartment"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__zVFEJmIEeO0j4K8pBRHNA" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__zVFEZmIEeO0j4K8pBRHNA" key="StereotypeList" value="AmazonAWSProfile::InstancesPackage::InstanceType"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__zVFEpmIEeO0j4K8pBRHNA" key="PropStereoDisplay" value="AmazonAWSProfile::M1SmallInstance.instanceCategory,AmazonAWSProfile::M1SmallInstance.contract,AmazonAWSProfile::M1SmallInstance.utilization,AmazonAWSProfile::M1SmallInstance.region,AmazonAWSProfile::M1SmallInstance.operatingSystem,AmazonAWSProfile::M1SmallInstance.availabilityZone,AmazonAWSProfile::InstancesPackage::M1SmallInstance.availabilityZone,AmazonAWSProfile::InstancesPackage::M1SmallInstance.autoScaling,AmazonAWSProfile::InstancesPackage::InstanceType.availabilityZone,AmazonAWSProfile::InstancesPackage::InstanceType.autoScaling"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__zVFE5mIEeO0j4K8pBRHNA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__zVFFJmIEeO0j4K8pBRHNA" key="StereotypePropertyLocation" value="Compartment"/>
       </eAnnotations>
       <children xmi:type="notation:DecorationNode" xmi:id="_APJhto5BEeOyycY9NFDX9w" type="5002"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_APJht45BEeOyycY9NFDX9w" visible="false" type="7001">
@@ -39,11 +39,11 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_A9zL545LEeOza5lRrrcUxA" key="QualifiedNameDepth" value="1000"/>
       </eAnnotations>
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s17Dk5NsEeOm8br50_71sw" source="Stereotype_Annotation">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EyJMIJNtEeOm8br50_71sw" key="StereotypeWithQualifiedNameList" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EyJMIZNtEeOm8br50_71sw" key="StereotypeList" value="AmazonAWSProfile::InstancesPackage::M1SmallInstance"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EyJMIpNtEeOm8br50_71sw" key="PropStereoDisplay" value="AmazonAWSProfile::InstancesPackage::M1SmallInstance.availabilityZone,AmazonAWSProfile::InstancesPackage::M1SmallInstance.autoScaling"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EyJMI5NtEeOm8br50_71sw" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EyJMJJNtEeOm8br50_71sw" key="StereotypePropertyLocation" value="Compartment"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_S5_z8JmJEeO0j4K8pBRHNA" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_S5_z8ZmJEeO0j4K8pBRHNA" key="StereotypeList" value="AmazonAWSProfile::InstancesPackage::InstanceType"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_S5_z8pmJEeO0j4K8pBRHNA" key="PropStereoDisplay" value="AmazonAWSProfile::InstancesPackage::M1SmallInstance.availabilityZone,AmazonAWSProfile::InstancesPackage::M1SmallInstance.autoScaling,AmazonAWSProfile::InstancesPackage::InstanceType.availabilityZone,AmazonAWSProfile::InstancesPackage::InstanceType.autoScaling"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_S5_z85mJEeO0j4K8pBRHNA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_S5_z9JmJEeO0j4K8pBRHNA" key="StereotypePropertyLocation" value="Compartment"/>
       </eAnnotations>
       <children xmi:type="notation:DecorationNode" xmi:id="_A9zL6I5LEeOza5lRrrcUxA" type="5002"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_A95SgI5LEeOza5lRrrcUxA" visible="false" type="7001">
@@ -66,11 +66,11 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XCkqqo5LEeOza5lRrrcUxA" key="QualifiedNameDepth" value="1000"/>
       </eAnnotations>
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KcQPQ5NtEeOm8br50_71sw" source="Stereotype_Annotation">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_L2HlMJNtEeOm8br50_71sw" key="StereotypeWithQualifiedNameList" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_L2HlMZNtEeOm8br50_71sw" key="StereotypeList" value="AmazonAWSProfile::InstancesPackage::M1SmallInstance"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_L2HlMpNtEeOm8br50_71sw" key="PropStereoDisplay" value="AmazonAWSProfile::InstancesPackage::M1SmallInstance.availabilityZone,AmazonAWSProfile::InstancesPackage::M1SmallInstance.autoScaling"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_L2HlM5NtEeOm8br50_71sw" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_L2HlNJNtEeOm8br50_71sw" key="StereotypePropertyLocation" value="Compartment"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YFhdoJmJEeO0j4K8pBRHNA" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YFhdoZmJEeO0j4K8pBRHNA" key="StereotypeList" value="AmazonAWSProfile::InstancesPackage::InstanceType,AmazonAWSProfile::InstancesPackage::InstanceType,AmazonAWSProfile::InstancesPackage::InstanceType"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YFhdopmJEeO0j4K8pBRHNA" key="PropStereoDisplay" value="AmazonAWSProfile::InstancesPackage::M1SmallInstance.availabilityZone,AmazonAWSProfile::InstancesPackage::M1SmallInstance.autoScaling,AmazonAWSProfile::InstancesPackage::InstanceType.availabilityZone,AmazonAWSProfile::InstancesPackage::InstanceType.autoScaling"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YFhdo5mJEeO0j4K8pBRHNA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YFhdpJmJEeO0j4K8pBRHNA" key="StereotypePropertyLocation" value="Compartment"/>
       </eAnnotations>
       <children xmi:type="notation:DecorationNode" xmi:id="_XCkqq45LEeOza5lRrrcUxA" type="5002"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_XCkqrI5LEeOza5lRrrcUxA" visible="false" type="7001">
@@ -93,11 +93,11 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yBBOF45LEeOza5lRrrcUxA" key="QualifiedNameDepth" value="1000"/>
       </eAnnotations>
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2t6cZJNsEeOm8br50_71sw" source="Stereotype_Annotation">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6bzqcJNsEeOm8br50_71sw" key="StereotypeWithQualifiedNameList" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6bzqcZNsEeOm8br50_71sw" key="StereotypeList" value="AmazonAWSProfile::InstancesPackage::M1SmallInstance"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6b80YJNsEeOm8br50_71sw" key="PropStereoDisplay" value="AmazonAWSProfile::InstancesPackage::M1SmallInstance.availabilityZone,AmazonAWSProfile::InstancesPackage::M1SmallInstance.autoScaling"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6b80YZNsEeOm8br50_71sw" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6b80YpNsEeOm8br50_71sw" key="StereotypePropertyLocation" value="Compartment"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HHrccJmJEeO0j4K8pBRHNA" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HHrccZmJEeO0j4K8pBRHNA" key="StereotypeList" value="AmazonAWSProfile::InstancesPackage::InstanceType,AmazonAWSProfile::InstancesPackage::InstanceType"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HHsDgJmJEeO0j4K8pBRHNA" key="PropStereoDisplay" value="AmazonAWSProfile::InstancesPackage::M1SmallInstance.availabilityZone,AmazonAWSProfile::InstancesPackage::M1SmallInstance.autoScaling,AmazonAWSProfile::InstancesPackage::InstanceType.availabilityZone,AmazonAWSProfile::InstancesPackage::InstanceType.autoScaling"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HHsDgZmJEeO0j4K8pBRHNA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HHsDgpmJEeO0j4K8pBRHNA" key="StereotypePropertyLocation" value="Compartment"/>
       </eAnnotations>
       <children xmi:type="notation:DecorationNode" xmi:id="_yBBOGI5LEeOza5lRrrcUxA" type="5002"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_yBBOGY5LEeOza5lRrrcUxA" visible="false" type="7001">
@@ -201,11 +201,11 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qzJ1B45SEeOIDcH6VyuBSQ" key="QualifiedNameDepth" value="1000"/>
       </eAnnotations>
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VnQ3U45YEeONTvwTeuJZnA" source="Stereotype_Annotation">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bpS_gJNsEeOm8br50_71sw" key="StereotypeWithQualifiedNameList" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bpS_gZNsEeOm8br50_71sw" key="StereotypeList" value="AmazonAWSProfile::StoragePackage::SimpleDB"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bpS_gpNsEeOm8br50_71sw" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bpS_g5NsEeOm8br50_71sw" key="PropStereoDisplay" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bpS_hJNsEeOm8br50_71sw" key="StereotypePropertyLocation" value="Compartment"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IPhgMJmHEeOmo7qhpGHj-A" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IPhgMZmHEeOmo7qhpGHj-A" key="StereotypeList" value="AmazonAWSProfile::S3"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IPhgMpmHEeOmo7qhpGHj-A" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IPiHQJmHEeOmo7qhpGHj-A" key="PropStereoDisplay" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IPiHQZmHEeOmo7qhpGHj-A" key="StereotypePropertyLocation" value="Compartment"/>
       </eAnnotations>
       <children xmi:type="notation:DecorationNode" xmi:id="_qzJ1CI5SEeOIDcH6VyuBSQ" type="5002"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_qzJ1CY5SEeOIDcH6VyuBSQ" visible="false" type="7001">
