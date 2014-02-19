@@ -144,11 +144,11 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qzJ1B45SEeOIDcH6VyuBSQ" key="QualifiedNameDepth" value="1000"/>
       </eAnnotations>
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VnQ3U45YEeONTvwTeuJZnA" source="Stereotype_Annotation">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q-2F0JNvEeOm8br50_71sw" key="StereotypeWithQualifiedNameList" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q-2F0ZNvEeOm8br50_71sw" key="StereotypeList" value="AmazonAWSProfile::StoragePackage::SimpleDB"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q-2F0pNvEeOm8br50_71sw" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q-2F05NvEeOm8br50_71sw" key="PropStereoDisplay" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q-2F1JNvEeOm8br50_71sw" key="StereotypePropertyLocation" value="Compartment"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VLKQMJmHEeOmo7qhpGHj-A" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VLKQMZmHEeOmo7qhpGHj-A" key="StereotypeList" value="AmazonAWSProfile::S3"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VLKQMpmHEeOmo7qhpGHj-A" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VLKQM5mHEeOmo7qhpGHj-A" key="PropStereoDisplay" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VLKQNJmHEeOmo7qhpGHj-A" key="StereotypePropertyLocation" value="Compartment"/>
       </eAnnotations>
       <children xmi:type="notation:DecorationNode" xmi:id="_qzJ1CI5SEeOIDcH6VyuBSQ" type="5002"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_qzJ1CY5SEeOIDcH6VyuBSQ" visible="false" type="7001">
