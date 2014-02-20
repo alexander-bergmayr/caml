@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_VyLOYJDrEeOqoMrk1mww6w" type="PapyrusUMLClassDiagram" name="NewDiagram" measurementUnit="Pixel">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_VyLOYJDrEeOqoMrk1mww6w" type="PapyrusUMLClassDiagram" name="TimeSeriesProcessingDiagram" measurementUnit="Pixel">
   <children xmi:type="notation:Shape" xmi:id="_sn_vkJDrEeOqoMrk1mww6w" type="2001" fontName="Segoe UI" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_soBkwJDrEeOqoMrk1mww6w" source="ShadowFigure">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_soBkwZDrEeOqoMrk1mww6w" key="ShadowFigure_Value" value="false"/>
@@ -11,11 +11,11 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_soCL05DrEeOqoMrk1mww6w" key="QualifiedNameDepth" value="1000"/>
     </eAnnotations>
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y8dXQJDrEeOqoMrk1mww6w" source="Stereotype_Annotation">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ikw5tZKkEeOhN-ZLM5bxkw" key="StereotypeWithQualifiedNameList" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ikw5tpKkEeOhN-ZLM5bxkw" key="StereotypeList" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ikw5t5KkEeOhN-ZLM5bxkw" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ikw5uJKkEeOhN-ZLM5bxkw" key="PropStereoDisplay" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ikw5uZKkEeOhN-ZLM5bxkw" key="StereotypePropertyLocation" value="Compartment"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NixjQJobEeO0j4K8pBRHNA" key="StereotypeWithQualifiedNameList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NixjQZobEeO0j4K8pBRHNA" key="StereotypeList" value="AmazonAWSProfile::ServicesPackage::MessageQueue"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NixjQpobEeO0j4K8pBRHNA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NixjQ5obEeO0j4K8pBRHNA" key="PropStereoDisplay" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NixjRJobEeO0j4K8pBRHNA" key="StereotypePropertyLocation" value="Compartment"/>
     </eAnnotations>
     <children xmi:type="notation:DecorationNode" xmi:id="_soCL1JDrEeOqoMrk1mww6w" type="5002"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_soCL1ZDrEeOqoMrk1mww6w" type="7001">
@@ -38,11 +38,11 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0pCN05DrEeOqoMrk1mww6w" key="QualifiedNameDepth" value="1000"/>
     </eAnnotations>
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-IYMEJJqEeOry5Jm6UQebQ" source="Stereotype_Annotation">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ik6DpZKkEeOhN-ZLM5bxkw" key="StereotypeWithQualifiedNameList" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ik6DppKkEeOhN-ZLM5bxkw" key="StereotypeList" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ik6Dp5KkEeOhN-ZLM5bxkw" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ik6DqJKkEeOhN-ZLM5bxkw" key="PropStereoDisplay" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ik6DqZKkEeOhN-ZLM5bxkw" key="StereotypePropertyLocation" value="Compartment"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TixW0JobEeO0j4K8pBRHNA" key="StereotypeWithQualifiedNameList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TixW0ZobEeO0j4K8pBRHNA" key="StereotypeList" value="AmazonAWSProfile::InstancesPackage::InstanceType"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TixW0pobEeO0j4K8pBRHNA" key="PropStereoDisplay" value="AmazonAWSProfile::InstancesPackage::InstanceType.autoScaling"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Tix94JobEeO0j4K8pBRHNA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Tix94ZobEeO0j4K8pBRHNA" key="StereotypePropertyLocation" value="Compartment"/>
     </eAnnotations>
     <children xmi:type="notation:DecorationNode" xmi:id="_0pCN1JDrEeOqoMrk1mww6w" type="5002"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_0pCN1ZDrEeOqoMrk1mww6w" type="7001">
@@ -52,7 +52,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0pCN2ZDrEeOqoMrk1mww6w"/>
     </children>
     <element xmi:type="uml:InstanceSpecification" href="TimeSeriesProcessing.uml#_0o_xkJDrEeOqoMrk1mww6w"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0pA_sZDrEeOqoMrk1mww6w" x="285" y="420" width="161" height="52"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0pA_sZDrEeOqoMrk1mww6w" x="285" y="410" width="161" height="71"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_4F59UJDrEeOqoMrk1mww6w" type="2001" fontName="Segoe UI" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4F59UpDrEeOqoMrk1mww6w" source="ShadowFigure">
@@ -65,11 +65,11 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4F6kZJDrEeOqoMrk1mww6w" key="QualifiedNameDepth" value="1000"/>
     </eAnnotations>
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6315cJDrEeOqoMrk1mww6w" source="Stereotype_Annotation">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ik6Dr5KkEeOhN-ZLM5bxkw" key="StereotypeWithQualifiedNameList" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ik6DsJKkEeOhN-ZLM5bxkw" key="StereotypeList" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ik6DsZKkEeOhN-ZLM5bxkw" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ik6DspKkEeOhN-ZLM5bxkw" key="PropStereoDisplay" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ik6Ds5KkEeOhN-ZLM5bxkw" key="StereotypePropertyLocation" value="Compartment"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bIej8JobEeO0j4K8pBRHNA" key="StereotypeWithQualifiedNameList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bIej8ZobEeO0j4K8pBRHNA" key="StereotypeList" value="AmazonAWSProfile::StoragePackage::DynamoDB"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bIej8pobEeO0j4K8pBRHNA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bIej85obEeO0j4K8pBRHNA" key="PropStereoDisplay" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bIej9JobEeO0j4K8pBRHNA" key="StereotypePropertyLocation" value="Compartment"/>
     </eAnnotations>
     <children xmi:type="notation:DecorationNode" xmi:id="_4F6kZZDrEeOqoMrk1mww6w" type="5002"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_4F6kZpDrEeOqoMrk1mww6w" type="7001">
@@ -92,11 +92,11 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9I7yVZDrEeOqoMrk1mww6w" key="QualifiedNameDepth" value="1000"/>
     </eAnnotations>
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GreOgJJrEeOry5Jm6UQebQ" source="Stereotype_Annotation">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ik6DuZKkEeOhN-ZLM5bxkw" key="StereotypeWithQualifiedNameList" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ik6DupKkEeOhN-ZLM5bxkw" key="StereotypeList" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ik6Du5KkEeOhN-ZLM5bxkw" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ik6DvJKkEeOhN-ZLM5bxkw" key="PropStereoDisplay" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ik6DvZKkEeOhN-ZLM5bxkw" key="StereotypePropertyLocation" value="Compartment"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pW5xgJobEeO0j4K8pBRHNA" key="StereotypeWithQualifiedNameList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pW5xgZobEeO0j4K8pBRHNA" key="StereotypeList" value="AmazonAWSProfile::ServicesPackage::MapReduce"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pW5xgpobEeO0j4K8pBRHNA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pW5xg5obEeO0j4K8pBRHNA" key="PropStereoDisplay" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pW5xhJobEeO0j4K8pBRHNA" key="StereotypePropertyLocation" value="Compartment"/>
     </eAnnotations>
     <children xmi:type="notation:DecorationNode" xmi:id="_9I8ZYJDrEeOqoMrk1mww6w" type="5002"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_9I8ZYZDrEeOqoMrk1mww6w" type="7001">
@@ -119,11 +119,11 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__0cWVZDrEeOqoMrk1mww6w" key="QualifiedNameDepth" value="1000"/>
     </eAnnotations>
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Cnhh8JDsEeOqoMrk1mww6w" source="Stereotype_Annotation">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ik6Dw5KkEeOhN-ZLM5bxkw" key="StereotypeWithQualifiedNameList" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ik6DxJKkEeOhN-ZLM5bxkw" key="StereotypeList" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ik6DxZKkEeOhN-ZLM5bxkw" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ik6DxpKkEeOhN-ZLM5bxkw" key="PropStereoDisplay" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ik6Dx5KkEeOhN-ZLM5bxkw" key="StereotypePropertyLocation" value="Compartment"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IMKOcJocEeO0j4K8pBRHNA" key="StereotypeWithQualifiedNameList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IMKOcZocEeO0j4K8pBRHNA" key="StereotypeList" value="AmazonAWSProfile::S3"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IMKOcpocEeO0j4K8pBRHNA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IMKOc5ocEeO0j4K8pBRHNA" key="PropStereoDisplay" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IMKOdJocEeO0j4K8pBRHNA" key="StereotypePropertyLocation" value="Compartment"/>
     </eAnnotations>
     <children xmi:type="notation:DecorationNode" xmi:id="__0cWVpDrEeOqoMrk1mww6w" type="5002"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="__0cWV5DrEeOqoMrk1mww6w" type="7001">
@@ -146,11 +146,11 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Gk9A1JDsEeOqoMrk1mww6w" key="QualifiedNameDepth" value="1000"/>
     </eAnnotations>
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JeCGwJDsEeOqoMrk1mww6w" source="Stereotype_Annotation">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ilD0pZKkEeOhN-ZLM5bxkw" key="StereotypeWithQualifiedNameList" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ilD0ppKkEeOhN-ZLM5bxkw" key="StereotypeList" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ilD0p5KkEeOhN-ZLM5bxkw" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ilD0qJKkEeOhN-ZLM5bxkw" key="PropStereoDisplay" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ilD0qZKkEeOhN-ZLM5bxkw" key="StereotypePropertyLocation" value="Compartment"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_k4uEEJodEeO599WLEhOQUQ" key="StereotypeWithQualifiedNameList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_k4uEEZodEeO599WLEhOQUQ" key="StereotypeList" value="AmazonAWSProfile::ServicesPackage::Redshift"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_k4uEEpodEeO599WLEhOQUQ" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_k4uEE5odEeO599WLEhOQUQ" key="PropStereoDisplay" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_k4uEFJodEeO599WLEhOQUQ" key="StereotypePropertyLocation" value="Compartment"/>
     </eAnnotations>
     <children xmi:type="notation:DecorationNode" xmi:id="_Gk9A1ZDsEeOqoMrk1mww6w" type="5002"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_Gk9A1pDsEeOqoMrk1mww6w" type="7001">
@@ -162,25 +162,32 @@
     <element xmi:type="uml:InstanceSpecification" href="TimeSeriesProcessing.uml#_Gk6kkJDsEeOqoMrk1mww6w"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gk7ysZDsEeOqoMrk1mww6w" x="608" y="106" width="163" height="55"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_AlvmYJJrEeOry5Jm6UQebQ" type="2001" fontName="Segoe UI" lineColor="0">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AlwNcJJrEeOry5Jm6UQebQ" source="ShadowFigure">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AlwNcZJrEeOry5Jm6UQebQ" key="ShadowFigure_Value" value="false"/>
+  <children xmi:type="notation:Shape" xmi:id="_p90AgJobEeO0j4K8pBRHNA" type="2001" fontName="Segoe UI" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p91OoJobEeO0j4K8pBRHNA" source="ShadowFigure">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_p91OoZobEeO0j4K8pBRHNA" key="ShadowFigure_Value" value="false"/>
     </eAnnotations>
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AlwNcpJrEeOry5Jm6UQebQ" source="displayNameLabelIcon">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AlwNc5JrEeOry5Jm6UQebQ" key="displayNameLabelIcon_value" value="false"/>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p91OopobEeO0j4K8pBRHNA" source="displayNameLabelIcon">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_p91Oo5obEeO0j4K8pBRHNA" key="displayNameLabelIcon_value" value="false"/>
     </eAnnotations>
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Alw0gJJrEeOry5Jm6UQebQ" source="QualifiedName">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Alw0gZJrEeOry5Jm6UQebQ" key="QualifiedNameDepth" value="1000"/>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p911sJobEeO0j4K8pBRHNA" source="QualifiedName">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_p911sZobEeO0j4K8pBRHNA" key="QualifiedNameDepth" value="1000"/>
     </eAnnotations>
-    <children xmi:type="notation:DecorationNode" xmi:id="_Alw0gpJrEeOry5Jm6UQebQ" type="5002"/>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_Alw0g5JrEeOry5Jm6UQebQ" type="7001">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_Alw0hJJrEeOry5Jm6UQebQ"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_Alw0hZJrEeOry5Jm6UQebQ"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_Alw0hpJrEeOry5Jm6UQebQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Alw0h5JrEeOry5Jm6UQebQ"/>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2o2IsJobEeO0j4K8pBRHNA" source="Stereotype_Annotation">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6MXSwJobEeO0j4K8pBRHNA" key="StereotypeWithQualifiedNameList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6MXSwZobEeO0j4K8pBRHNA" key="StereotypeList" value="AmazonAWSProfile::InstancesPackage::InstanceType"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6MX50JobEeO0j4K8pBRHNA" key="PropStereoDisplay" value="AmazonAWSProfile::InstancesPackage::InstanceType.instanceCategory,AmazonAWSProfile::InstancesPackage::InstanceType.autoScaling"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6MX50ZobEeO0j4K8pBRHNA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6MX50pobEeO0j4K8pBRHNA" key="StereotypePropertyLocation" value="Compartment"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_p911spobEeO0j4K8pBRHNA" type="5002"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_p911s5obEeO0j4K8pBRHNA" type="7001">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_p911tJobEeO0j4K8pBRHNA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_p911tZobEeO0j4K8pBRHNA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_p911tpobEeO0j4K8pBRHNA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p911t5obEeO0j4K8pBRHNA"/>
     </children>
-    <element xmi:type="uml:InstanceSpecification" href="TimeSeriesProcessing.uml#_AluYQJJrEeOry5Jm6UQebQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AlvmYZJrEeOry5Jm6UQebQ" x="590" y="400" width="168" height="85"/>
+    <element xmi:type="uml:InstanceSpecification" href="TimeSeriesProcessing.uml#_p9yyYJobEeO0j4K8pBRHNA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p90AgZobEeO0j4K8pBRHNA" x="610" y="400" width="171" height="91"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_VyLOYZDrEeOqoMrk1mww6w"/>
   <element xmi:type="uml:Model" href="TimeSeriesProcessing.uml#_Vx3sYJDrEeOqoMrk1mww6w"/>
@@ -255,16 +262,16 @@
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_e9iVQJDsEeOqoMrk1mww6w" id="(0.7668711656441718,0.23636363636363636)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_e9iVQZDsEeOqoMrk1mww6w" id="(0.7873563218390804,0.3380281690140845)"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_ESHKcJJrEeOry5Jm6UQebQ" type="4021" source="_AlvmYJJrEeOry5Jm6UQebQ" target="_0pA_sJDrEeOqoMrk1mww6w" lineColor="0">
-    <children xmi:type="notation:DecorationNode" xmi:id="_ESHKc5JrEeOry5Jm6UQebQ" type="6039">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_ESHKdJJrEeOry5Jm6UQebQ" x="-12" y="9"/>
+  <edges xmi:type="notation:Connector" xmi:id="_BVWusJocEeO0j4K8pBRHNA" type="4021" source="_p90AgJobEeO0j4K8pBRHNA" target="_9I7LQJDrEeOqoMrk1mww6w" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_BVWus5ocEeO0j4K8pBRHNA" type="6039">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_BVWutJocEeO0j4K8pBRHNA" x="-1" y="-61"/>
     </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_ESHKdZJrEeOry5Jm6UQebQ" type="6038">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_ESHKdpJrEeOry5Jm6UQebQ" x="38" y="-11"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_BVWutZocEeO0j4K8pBRHNA" type="6038">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_BVWutpocEeO0j4K8pBRHNA" x="3" y="-53"/>
     </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_ESHKcZJrEeOry5Jm6UQebQ" fontName="Segoe UI"/>
-    <element xmi:type="uml:InstanceSpecification" href="TimeSeriesProcessing.uml#_ESEuMJJrEeOry5Jm6UQebQ"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ESHKcpJrEeOry5Jm6UQebQ" points="[-31, 3, 225, 1]$[-175, 3, 81, 1]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ESMC8JJrEeOry5Jm6UQebQ" id="(0.18452380952380953,0.5176470588235295)"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_BVWusZocEeO0j4K8pBRHNA" fontName="Segoe UI"/>
+    <element xmi:type="uml:InstanceSpecification" href="TimeSeriesProcessing.uml#_BVU5gJocEeO0j4K8pBRHNA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BVWuspocEeO0j4K8pBRHNA" points="[-1, -8, -8, 100]$[-80, -107, -87, 1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BVbnMJocEeO0j4K8pBRHNA" id="(0.4093567251461988,0.08791208791208792)"/>
   </edges>
 </notation:Diagram>

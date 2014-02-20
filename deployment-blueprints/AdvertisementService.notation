@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_fRbecI53EeOf8-f-VNDImA" type="PapyrusUMLClassDiagram" name="NewDiagram" measurementUnit="Pixel">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_fRbecI53EeOf8-f-VNDImA" type="PapyrusUMLClassDiagram" name="AdvertisementDiagram" measurementUnit="Pixel">
   <children xmi:type="notation:Shape" xmi:id="_87AycI53EeOf8-f-VNDImA" type="2001" fontName="Segoe UI" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_87BZgI53EeOf8-f-VNDImA" source="ShadowFigure">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_87BZgY53EeOf8-f-VNDImA" key="ShadowFigure_Value" value="false"/>
@@ -216,46 +216,6 @@
     <element xmi:type="uml:InstanceSpecification" href="AdvertisementService.uml#_23oMUI56EeOf8-f-VNDImA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_23pacY56EeOf8-f-VNDImA" x="320" y="130" width="152" height="71"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_ZvUSAI59EeOf8-f-VNDImA" type="2001" fontName="Segoe UI" lineColor="0">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZvU5EI59EeOf8-f-VNDImA" source="ShadowFigure">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZvU5EY59EeOf8-f-VNDImA" key="ShadowFigure_Value" value="false"/>
-    </eAnnotations>
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZvU5Eo59EeOf8-f-VNDImA" source="displayNameLabelIcon">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZvU5E459EeOf8-f-VNDImA" key="displayNameLabelIcon_value" value="false"/>
-    </eAnnotations>
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZvU5FI59EeOf8-f-VNDImA" source="QualifiedName">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZvU5FY59EeOf8-f-VNDImA" key="QualifiedNameDepth" value="1000"/>
-    </eAnnotations>
-    <children xmi:type="notation:DecorationNode" xmi:id="_ZvU5Fo59EeOf8-f-VNDImA" type="5002"/>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_ZvU5F459EeOf8-f-VNDImA" type="7001">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_ZvU5GI59EeOf8-f-VNDImA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_ZvU5GY59EeOf8-f-VNDImA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZvU5Go59EeOf8-f-VNDImA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZvU5G459EeOf8-f-VNDImA"/>
-    </children>
-    <element xmi:type="uml:InstanceSpecification" href="AdvertisementService.uml#_ZvSc0I59EeOf8-f-VNDImA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZvUSAY59EeOf8-f-VNDImA" y="340" width="156" height="70"/>
-  </children>
-  <children xmi:type="notation:Shape" xmi:id="_gt2xcI59EeOf8-f-VNDImA" type="2001" fontName="Segoe UI" lineColor="0">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gt2xco59EeOf8-f-VNDImA" source="ShadowFigure">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gt3YgI59EeOf8-f-VNDImA" key="ShadowFigure_Value" value="false"/>
-    </eAnnotations>
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gt3YgY59EeOf8-f-VNDImA" source="displayNameLabelIcon">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gt3Ygo59EeOf8-f-VNDImA" key="displayNameLabelIcon_value" value="false"/>
-    </eAnnotations>
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gt3Yg459EeOf8-f-VNDImA" source="QualifiedName">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gt3YhI59EeOf8-f-VNDImA" key="QualifiedNameDepth" value="1000"/>
-    </eAnnotations>
-    <children xmi:type="notation:DecorationNode" xmi:id="_gt3YhY59EeOf8-f-VNDImA" type="5002"/>
-    <children xmi:type="notation:BasicCompartment" xmi:id="_gt3Yho59EeOf8-f-VNDImA" type="7001">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_gt3Yh459EeOf8-f-VNDImA"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="_gt3YiI59EeOf8-f-VNDImA"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="_gt3YiY59EeOf8-f-VNDImA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gt3Yio59EeOf8-f-VNDImA"/>
-    </children>
-    <element xmi:type="uml:InstanceSpecification" href="AdvertisementService.uml#_gt08QI59EeOf8-f-VNDImA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gt2xcY59EeOf8-f-VNDImA" x="1073" y="342" height="54"/>
-  </children>
   <children xmi:type="notation:Shape" xmi:id="_NbZn0JmKEeO0j4K8pBRHNA" type="2001" fontName="Segoe UI" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Nba18JmKEeO0j4K8pBRHNA" source="ShadowFigure">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NbbdAJmKEeO0j4K8pBRHNA" key="ShadowFigure_Value" value="false"/>
@@ -365,29 +325,6 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_Etl2kY57EeOf8-f-VNDImA" fontName="Segoe UI"/>
     <element xmi:type="uml:InstanceSpecification" href="AdvertisementService.uml#_EtkBYI57EeOf8-f-VNDImA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Etl2ko57EeOf8-f-VNDImA" points="[0, -30, 1, 170]$[0, -164, 1, 36]"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_eziZ0I59EeOf8-f-VNDImA" type="4021" source="_Yqvo4I54EeOf8-f-VNDImA" target="_ZvUSAI59EeOf8-f-VNDImA" lineColor="0">
-    <children xmi:type="notation:DecorationNode" xmi:id="_ezjA4I59EeOf8-f-VNDImA" type="6039">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_ezjA4Y59EeOf8-f-VNDImA" x="-39" y="8"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_ezjA4o59EeOf8-f-VNDImA" type="6038">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_ezjA4459EeOf8-f-VNDImA" x="5" y="-7"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_eziZ0Y59EeOf8-f-VNDImA" fontName="Segoe UI"/>
-    <element xmi:type="uml:InstanceSpecification" href="AdvertisementService.uml#_ezhLsI59EeOf8-f-VNDImA"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eziZ0o59EeOf8-f-VNDImA" points="[-72, 6, 247, 11]$[-241, 19, 78, 24]"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_kheNAI59EeOf8-f-VNDImA" type="4021" source="_gt2xcI59EeOf8-f-VNDImA" target="_-h8pII55EeOf8-f-VNDImA" lineColor="0">
-    <children xmi:type="notation:DecorationNode" xmi:id="_khe0EI59EeOf8-f-VNDImA" type="6039">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_khe0EY59EeOf8-f-VNDImA" x="-16" y="10"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_khe0Eo59EeOf8-f-VNDImA" type="6038">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_khe0E459EeOf8-f-VNDImA" x="37" y="-10"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_kheNAY59EeOf8-f-VNDImA" fontName="Segoe UI"/>
-    <element xmi:type="uml:InstanceSpecification" href="AdvertisementService.uml#_khc-4I59EeOf8-f-VNDImA"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kheNAo59EeOf8-f-VNDImA" points="[-27, 3, 222, 2]$[-167, 3, 82, 2]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_khk6sI59EeOf8-f-VNDImA" id="(0.17763157894736842,0.4444444444444444)"/>
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_bwsSYJmKEeO0j4K8pBRHNA" type="4021" source="_NbZn0JmKEeO0j4K8pBRHNA" target="_gAh4wI56EeOf8-f-VNDImA" lineColor="0">
     <children xmi:type="notation:DecorationNode" xmi:id="_bws5cJmKEeO0j4K8pBRHNA" type="6039">
