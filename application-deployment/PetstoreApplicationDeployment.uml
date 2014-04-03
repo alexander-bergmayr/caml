@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AmazonAWSProfile="http:///schemas/AmazonAWSProfile/_6YJrQJmHEeOO1r0zDW1uRQ/81" xmlns:AmazonAWSProfile.InstancesPackage="http:///AmazonAWSProfile/InstancesPackage.ecore" xmlns:AmazonAWSProfile.ServicesPackage="http:///AmazonAWSProfile/ServicesPackage.ecore" xmlns:AmazonAWSProfile.StoragePackage="http:///AmazonAWSProfile/StoragePackage.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/AmazonAWSProfile/_6YJrQJmHEeOO1r0zDW1uRQ/81 platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml#_6YK5YJmHEeOO1r0zDW1uRQ http:///AmazonAWSProfile/InstancesPackage.ecore platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml#_6YK5fZmHEeOO1r0zDW1uRQ http:///AmazonAWSProfile/ServicesPackage.ecore platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml#_6YLgipmHEeOO1r0zDW1uRQ http:///AmazonAWSProfile/StoragePackage.ecore platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml#_6YK5z5mHEeOO1r0zDW1uRQ">
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AmazonAWSProfile="http:///schemas/AmazonAWSProfile/_yd-1UJocEeOO1r0zDW1uRQ/82" xmlns:AmazonAWSProfile.InstancesPackage="http:///AmazonAWSProfile/InstancesPackage.ecore" xmlns:AmazonAWSProfile.ServicesPackage="http:///AmazonAWSProfile/ServicesPackage.ecore" xmlns:AmazonAWSProfile.StoragePackage="http:///AmazonAWSProfile/StoragePackage.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/AmazonAWSProfile/_yd-1UJocEeOO1r0zDW1uRQ/82 platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml#_yd_cYJocEeOO1r0zDW1uRQ http:///AmazonAWSProfile/InstancesPackage.ecore platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml#_yd_cfZocEeOO1r0zDW1uRQ http:///AmazonAWSProfile/ServicesPackage.ecore platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml#_yd_dEpocEeOO1r0zDW1uRQ http:///AmazonAWSProfile/StoragePackage.ecore platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml#_yd_cz5ocEeOO1r0zDW1uRQ">
   <uml:Model xmi:id="_8r-88I5AEeOyycY9NFDX9w" name="PetstoreApplicatoinDeployment">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_pWLPwI5JEeOza5lRrrcUxA">
       <importedPackage xmi:type="uml:Model" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_c73bE_3gEeKQb7onjNL6fQ"/>
@@ -16,7 +16,8 @@
         <classifier xmi:type="uml:Node" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_c73bKf3gEeKQb7onjNL6fQ"/>
         <classifier xmi:type="uml:Class" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_8jBY4Iy5EeOOGr6qMP3Q2w"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_cFxewo5LEeOza5lRrrcUxA" name="ASOE">
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_cFxewo5LEeOza5lRrrcUxA" clientDependency="_K303QI9XEeOO9epavamt9A" name="ASOE">
+        <deployment xmi:type="uml:Deployment" xmi:id="_K303QI9XEeOO9epavamt9A" name="Deployment" client="_KzNScI9WEeOO9epavamt9A _cFxewo5LEeOza5lRrrcUxA" supplier="_cFxewo5LEeOza5lRrrcUxA _KzNScI9WEeOO9epavamt9A" deployedArtifact="_KzNScI9WEeOO9epavamt9A"/>
         <classifier xmi:type="uml:ExecutionEnvironment" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_GXlLMAr9EeOJxI3yGkc6zw"/>
         <slot xmi:type="uml:Slot" xmi:id="_zThlgI5QEeOIDcH6VyuBSQ">
           <definingFeature xmi:type="uml:Property" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_yJ24MAr9EeOJxI3yGkc6zw"/>
@@ -256,7 +257,6 @@
           </value>
         </slot>
       </packagedElement>
-      <packagedElement xmi:type="uml:Deployment" xmi:id="_K303QI9XEeOO9epavamt9A" name="Deployment" client="_KzNScI9WEeOO9epavamt9A" supplier="_cFxewo5LEeOza5lRrrcUxA _KzNScI9WEeOO9epavamt9A" deployedArtifact="_KzNScI9WEeOO9epavamt9A"/>
       <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_KzNScI9WEeOO9epavamt9A" clientDependency="_K303QI9XEeOO9epavamt9A" name="PetstoreApp" classifier="_StOisI9WEeOO9epavamt9A"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_N1g90I5OEeOza5lRrrcUxA" name="OperatingEnvironment">
@@ -302,7 +302,7 @@
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3Eh2II5JEeOza5lRrrcUxA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3En8wI5JEeOza5lRrrcUxA" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml#_6YK5YJmHEeOO1r0zDW1uRQ"/>
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml#_yd_cYJocEeOO1r0zDW1uRQ"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml#_jQv9dv3kEeKQb7onjNL6fQ"/>
     </profileApplication>
