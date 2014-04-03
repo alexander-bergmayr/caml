@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point="org.eclipse.emf.ecore.uri_mapping">
+      <mapping source="pathmap://CAML_ML/" target="platform:/plugin/eu.artist.migration.caml.operatingenvironments/umllibraries/">
+      </mapping>
+   </extension>
+   <extension point="org.eclipse.papyrus.uml.extensionpoints.UMLLibrary">
+      <library description="A modeling library which focuses on web application deployments" name="Web Application Deployment" path="platform:/plugin/eu.artist.migration.caml.operatingenvironments/umllibraries/webOperatingEnvironment.uml" provider="ARTIST Project">
+      </library>
+   </extension>
+</plugin>

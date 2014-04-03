@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_ZfPdcAT7EeOYqpWHmlUzvA" name="ServiceLevel" metaclassReference="_4139oBB2EeOOwOa9lUqZQQ" metamodelReference="_ZfPdcQT7EeOYqpWHmlUzvA">
+  <eAnnotations xmi:id="_TRXIgBB4EeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="__vTUESBPEeOjPJ3_Uk0aqQ" name="ServiceLevel" nsURI="http:///schemas/ServiceLevel/__vTUECBPEeOjPJ3_Uk0aqQ/4" nsPrefix="ServiceLevel">
+      <eAnnotations xmi:id="__vTUEiBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/4.0.0/UML">
+        <references xmi:type="uml:Profile" href="UtilProfile.profile.uml#_tELQoBAHEeOYBPpMrBwl5w"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="__wKPsCBPEeOjPJ3_Uk0aqQ" source="PapyrusVersion">
+        <details xmi:id="__wKPsSBPEeOjPJ3_Uk0aqQ" key="Version" value="0.0.5"/>
+        <details xmi:id="__wKPsiBPEeOjPJ3_Uk0aqQ" key="Comment" value=""/>
+        <details xmi:id="__wKPsyBPEeOjPJ3_Uk0aqQ" key="Copyright" value=""/>
+        <details xmi:id="__wKPtCBPEeOjPJ3_Uk0aqQ" key="Date" value="2013-09-18"/>
+        <details xmi:id="__wKPtSBPEeOjPJ3_Uk0aqQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__vTUEyBPEeOjPJ3_Uk0aqQ" name="ServiceCommitment">
+        <eAnnotations xmi:id="__vTUFCBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Xa-i4BBwEeOOwOa9lUqZQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__vTUFSBPEeOjPJ3_Uk0aqQ" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="__vTUFyBPEeOjPJ3_Uk0aqQ" name="parameterType" ordered="false" lowerBound="1" eType="__vTUHSBPEeOjPJ3_Uk0aqQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="__vTUGSBPEeOjPJ3_Uk0aqQ" name="description" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__vTUGyBPEeOjPJ3_Uk0aqQ" name="metric" ordered="false" containment="true">
+          <eType xmi:type="ecore:EClass" href="UtilProfile.profile.uml#_mXJv0RCHEeOOwOa9lUqZQQ"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="__vTUHSBPEeOjPJ3_Uk0aqQ" name="ServiceLevelParameterType">
+        <eAnnotations xmi:id="__vTUHiBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_9S1RIBB2EeOOwOa9lUqZQQ"/>
+        <eLiterals xmi:id="__vTUHyBPEeOjPJ3_Uk0aqQ" name="ServiceAvailability"/>
+        <eLiterals xmi:id="__vTUICBPEeOjPJ3_Uk0aqQ" name="ServiceLatency" value="1"/>
+        <eLiterals xmi:id="__vTUISBPEeOjPJ3_Uk0aqQ" name="ServiceSecurity" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="__vTUNCBPEeOjPJ3_Uk0aqQ" name="Util_Unit">
+        <eAnnotations xmi:id="__vTUNSBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="uml:Enumeration" href="UtilProfile.profile.uml#_Y__7MBAIEeOYBPpMrBwl5w"/>
+        </eAnnotations>
+        <eLiterals xmi:id="__vTUNiBPEeOjPJ3_Uk0aqQ" name="EUR"/>
+        <eLiterals xmi:id="__vTUNyBPEeOjPJ3_Uk0aqQ" name="USD" value="1"/>
+        <eLiterals xmi:id="__vTUOCBPEeOjPJ3_Uk0aqQ" name="Hour" value="2"/>
+        <eLiterals xmi:id="__vTUOSBPEeOjPJ3_Uk0aqQ" name="Month" value="3"/>
+        <eLiterals xmi:id="__vTUOiBPEeOjPJ3_Uk0aqQ" name="Year" value="4"/>
+        <eLiterals xmi:id="__vTUOyBPEeOjPJ3_Uk0aqQ" name="Day" value="5"/>
+        <eLiterals xmi:id="__vTUPCBPEeOjPJ3_Uk0aqQ" name="KB" value="6"/>
+        <eLiterals xmi:id="__vTUPSBPEeOjPJ3_Uk0aqQ" name="MB" value="7"/>
+        <eLiterals xmi:id="__vTUPiBPEeOjPJ3_Uk0aqQ" name="GB" value="8"/>
+        <eLiterals xmi:id="__vTUPyBPEeOjPJ3_Uk0aqQ" name="TB" value="9"/>
+        <eLiterals xmi:id="__vTUQCBPEeOjPJ3_Uk0aqQ" name="PB" value="10"/>
+        <eLiterals xmi:id="__vTUQSBPEeOjPJ3_Uk0aqQ" name="percentage" value="11"/>
+        <eLiterals xmi:id="__vTUQiBPEeOjPJ3_Uk0aqQ" name="absolute" value="12"/>
+        <eLiterals xmi:id="__vTUQyBPEeOjPJ3_Uk0aqQ" name="Operation" value="13"/>
+        <eLiterals xmi:id="__vTURCBPEeOjPJ3_Uk0aqQ" name="Query" value="14"/>
+        <eLiterals xmi:id="__vTURSBPEeOjPJ3_Uk0aqQ" name="Application" value="15"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__vTUTCBPEeOjPJ3_Uk0aqQ" name="ServiceCredit">
+        <eAnnotations xmi:id="__vTUTSBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_vvdywBB2EeOOwOa9lUqZQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__vTUTiBPEeOjPJ3_Uk0aqQ" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="__vTUUCBPEeOjPJ3_Uk0aqQ" name="description" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__vTUUiBPEeOjPJ3_Uk0aqQ" name="ServiceLevelPlan">
+        <eAnnotations xmi:id="__vTUUyBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_lsQL8BB3EeOOwOa9lUqZQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__vTUVCBPEeOjPJ3_Uk0aqQ" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__vTUViBPEeOjPJ3_Uk0aqQ" name="serviceCommitment" ordered="false" upperBound="-1" eType="__vTUEyBPEeOjPJ3_Uk0aqQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__vTUWCBPEeOjPJ3_Uk0aqQ" name="serviceCredit" ordered="false" upperBound="-1" eType="__vTUTCBPEeOjPJ3_Uk0aqQ" containment="true"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_8-NFcSBPEeOjPJ3_Uk0aqQ" name="ServiceLevel" nsURI="http:///schemas/ServiceLevel/_8-NFcCBPEeOjPJ3_Uk0aqQ/3" nsPrefix="ServiceLevel">
+      <eAnnotations xmi:id="_8-NFciBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/4.0.0/UML">
+        <references xmi:type="uml:Profile" href="UtilProfile.profile.uml#_tELQoBAHEeOYBPpMrBwl5w"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_8_QOUCBPEeOjPJ3_Uk0aqQ" source="PapyrusVersion">
+        <details xmi:id="_8_QOUSBPEeOjPJ3_Uk0aqQ" key="Version" value="0.0.4"/>
+        <details xmi:id="_8_QOUiBPEeOjPJ3_Uk0aqQ" key="Comment" value=""/>
+        <details xmi:id="_8_QOUyBPEeOjPJ3_Uk0aqQ" key="Copyright" value=""/>
+        <details xmi:id="_8_QOVCBPEeOjPJ3_Uk0aqQ" key="Date" value="2013-09-18"/>
+        <details xmi:id="_8_QOVSBPEeOjPJ3_Uk0aqQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_8-NFcyBPEeOjPJ3_Uk0aqQ" name="ServiceCommitment">
+        <eAnnotations xmi:id="_8-NFdCBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Xa-i4BBwEeOOwOa9lUqZQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_8-NFdSBPEeOjPJ3_Uk0aqQ" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_8-NFdyBPEeOjPJ3_Uk0aqQ" name="parameterType" ordered="false" lowerBound="1" eType="_8-NFfSBPEeOjPJ3_Uk0aqQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_8-NFeSBPEeOjPJ3_Uk0aqQ" name="description" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_8-NFeyBPEeOjPJ3_Uk0aqQ" name="metric" ordered="false" containment="true">
+          <eType xmi:type="ecore:EClass" href="UtilProfile.profile.uml#_mXJv0RCHEeOOwOa9lUqZQQ"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_8-NFfSBPEeOjPJ3_Uk0aqQ" name="ServiceLevelParameterType">
+        <eAnnotations xmi:id="_8-NFfiBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_9S1RIBB2EeOOwOa9lUqZQQ"/>
+        <eLiterals xmi:id="_8-NFfyBPEeOjPJ3_Uk0aqQ" name="ServiceAvailability"/>
+        <eLiterals xmi:id="_8-NFgCBPEeOjPJ3_Uk0aqQ" name="ServiceLatency" value="1"/>
+        <eLiterals xmi:id="_8-NFgSBPEeOjPJ3_Uk0aqQ" name="ServiceSecurity" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_8-NFlCBPEeOjPJ3_Uk0aqQ" name="Util_Unit">
+        <eAnnotations xmi:id="_8-NFlSBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="uml:Enumeration" href="UtilProfile.profile.uml#_Y__7MBAIEeOYBPpMrBwl5w"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_8-NFliBPEeOjPJ3_Uk0aqQ" name="EUR"/>
+        <eLiterals xmi:id="_8-NFlyBPEeOjPJ3_Uk0aqQ" name="USD" value="1"/>
+        <eLiterals xmi:id="_8-NFmCBPEeOjPJ3_Uk0aqQ" name="Hour" value="2"/>
+        <eLiterals xmi:id="_8-NFmSBPEeOjPJ3_Uk0aqQ" name="Month" value="3"/>
+        <eLiterals xmi:id="_8-NFmiBPEeOjPJ3_Uk0aqQ" name="Year" value="4"/>
+        <eLiterals xmi:id="_8-NFmyBPEeOjPJ3_Uk0aqQ" name="Day" value="5"/>
+        <eLiterals xmi:id="_8-NFnCBPEeOjPJ3_Uk0aqQ" name="KB" value="6"/>
+        <eLiterals xmi:id="_8-NFnSBPEeOjPJ3_Uk0aqQ" name="MB" value="7"/>
+        <eLiterals xmi:id="_8-NFniBPEeOjPJ3_Uk0aqQ" name="GB" value="8"/>
+        <eLiterals xmi:id="_8-NFnyBPEeOjPJ3_Uk0aqQ" name="TB" value="9"/>
+        <eLiterals xmi:id="_8-NFoCBPEeOjPJ3_Uk0aqQ" name="PB" value="10"/>
+        <eLiterals xmi:id="_8-NFoSBPEeOjPJ3_Uk0aqQ" name="percentage" value="11"/>
+        <eLiterals xmi:id="_8-NFoiBPEeOjPJ3_Uk0aqQ" name="absolute" value="12"/>
+        <eLiterals xmi:id="_8-NFoyBPEeOjPJ3_Uk0aqQ" name="Operation" value="13"/>
+        <eLiterals xmi:id="_8-NFpCBPEeOjPJ3_Uk0aqQ" name="Query" value="14"/>
+        <eLiterals xmi:id="_8-NFpSBPEeOjPJ3_Uk0aqQ" name="Application" value="15"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_8-NFrCBPEeOjPJ3_Uk0aqQ" name="ServiceCredit">
+        <eAnnotations xmi:id="_8-NFrSBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_vvdywBB2EeOOwOa9lUqZQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_8-NFriBPEeOjPJ3_Uk0aqQ" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_8-NFsCBPEeOjPJ3_Uk0aqQ" name="description" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_8-NFsiBPEeOjPJ3_Uk0aqQ" name="ServiceLevelPlan">
+        <eAnnotations xmi:id="_8-NFsyBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_lsQL8BB3EeOOwOa9lUqZQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_8-NFtCBPEeOjPJ3_Uk0aqQ" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_8-NFtiBPEeOjPJ3_Uk0aqQ" name="serviceCommitment" ordered="false" upperBound="-1" eType="_8-NFcyBPEeOjPJ3_Uk0aqQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_8-NFuCBPEeOjPJ3_Uk0aqQ" name="serviceCredit" ordered="false" upperBound="-1" eType="_8-NFrCBPEeOjPJ3_Uk0aqQ" containment="true"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_2fKfwBCIEeOOwOa9lUqZQQ" name="ServiceLevel" nsURI="http:///schemas/ServiceLevel/_2fJ4sBCIEeOOwOa9lUqZQQ/2" nsPrefix="ServiceLevel">
+      <eAnnotations xmi:id="_2fKfwRCIEeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/4.0.0/UML">
+        <references xmi:type="uml:Profile" href="UtilProfile.profile.uml#_tELQoBAHEeOYBPpMrBwl5w"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_2gLzcBCIEeOOwOa9lUqZQQ" source="PapyrusVersion">
+        <details xmi:id="_2gLzcRCIEeOOwOa9lUqZQQ" key="Version" value="0.0.3"/>
+        <details xmi:id="_2gLzchCIEeOOwOa9lUqZQQ" key="Comment" value=""/>
+        <details xmi:id="_2gLzcxCIEeOOwOa9lUqZQQ" key="Copyright" value=""/>
+        <details xmi:id="_2gLzdBCIEeOOwOa9lUqZQQ" key="Date" value="2013-08-29"/>
+        <details xmi:id="_2gLzdRCIEeOOwOa9lUqZQQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_2fKfwhCIEeOOwOa9lUqZQQ" name="ServiceCommitment">
+        <eAnnotations xmi:id="_2fKfwxCIEeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Xa-i4BBwEeOOwOa9lUqZQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_2fKfxBCIEeOOwOa9lUqZQQ" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_2fKfxhCIEeOOwOa9lUqZQQ" name="parameterType" ordered="false" lowerBound="1" eType="_2fKfzBCIEeOOwOa9lUqZQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_2fKfyBCIEeOOwOa9lUqZQQ" name="description" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_2fKfyhCIEeOOwOa9lUqZQQ" name="metric" ordered="false" containment="true">
+          <eType xmi:type="ecore:EClass" href="UtilProfile.profile.uml#_mXJv0RCHEeOOwOa9lUqZQQ"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_2fKfzBCIEeOOwOa9lUqZQQ" name="ServiceLevelParameterType">
+        <eAnnotations xmi:id="_2fKfzRCIEeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_9S1RIBB2EeOOwOa9lUqZQQ"/>
+        <eLiterals xmi:id="_2fKfzhCIEeOOwOa9lUqZQQ" name="ServiceAvailability"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_2fKf4RCIEeOOwOa9lUqZQQ" name="Util_Unit">
+        <eAnnotations xmi:id="_2fKf4hCIEeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="uml:Enumeration" href="UtilProfile.profile.uml#_Y__7MBAIEeOYBPpMrBwl5w"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_2fKf4xCIEeOOwOa9lUqZQQ" name="EUR"/>
+        <eLiterals xmi:id="_2fKf5BCIEeOOwOa9lUqZQQ" name="USD" value="1"/>
+        <eLiterals xmi:id="_2fKf5RCIEeOOwOa9lUqZQQ" name="Hour" value="2"/>
+        <eLiterals xmi:id="_2fKf5hCIEeOOwOa9lUqZQQ" name="Month" value="3"/>
+        <eLiterals xmi:id="_2fKf5xCIEeOOwOa9lUqZQQ" name="Year" value="4"/>
+        <eLiterals xmi:id="_2fKf6BCIEeOOwOa9lUqZQQ" name="Day" value="5"/>
+        <eLiterals xmi:id="_2fKf6RCIEeOOwOa9lUqZQQ" name="KB" value="6"/>
+        <eLiterals xmi:id="_2fKf6hCIEeOOwOa9lUqZQQ" name="MB" value="7"/>
+        <eLiterals xmi:id="_2fKf6xCIEeOOwOa9lUqZQQ" name="GB" value="8"/>
+        <eLiterals xmi:id="_2fKf7BCIEeOOwOa9lUqZQQ" name="TB" value="9"/>
+        <eLiterals xmi:id="_2fKf7RCIEeOOwOa9lUqZQQ" name="PB" value="10"/>
+        <eLiterals xmi:id="_2fKf7hCIEeOOwOa9lUqZQQ" name="percentage" value="11"/>
+        <eLiterals xmi:id="_2fKf7xCIEeOOwOa9lUqZQQ" name="absolute" value="12"/>
+        <eLiterals xmi:id="_2fKf8BCIEeOOwOa9lUqZQQ" name="Operation" value="13"/>
+        <eLiterals xmi:id="_2fKf8RCIEeOOwOa9lUqZQQ" name="Query" value="14"/>
+        <eLiterals xmi:id="_2fKf8hCIEeOOwOa9lUqZQQ" name="Application" value="15"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_2fKf-RCIEeOOwOa9lUqZQQ" name="ServiceCredit">
+        <eAnnotations xmi:id="_2fKf-hCIEeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_vvdywBB2EeOOwOa9lUqZQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_2fKf-xCIEeOOwOa9lUqZQQ" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_2fKf_RCIEeOOwOa9lUqZQQ" name="ServiceLevelPlan">
+        <eAnnotations xmi:id="_2fKf_hCIEeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_lsQL8BB3EeOOwOa9lUqZQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_2fKf_xCIEeOOwOa9lUqZQQ" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_2fKgARCIEeOOwOa9lUqZQQ" name="serviceCommitment" ordered="false" upperBound="-1" eType="_2fKfwhCIEeOOwOa9lUqZQQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_2fKgAxCIEeOOwOa9lUqZQQ" name="serviceCredit" ordered="false" upperBound="-1" eType="_2fKf-RCIEeOOwOa9lUqZQQ" containment="true"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_wbZ4cBCGEeOOwOa9lUqZQQ" name="ServiceLevel" nsURI="http:///schemas/ServiceLevel/_wbZRYBCGEeOOwOa9lUqZQQ/1" nsPrefix="ServiceLevel">
+      <eAnnotations xmi:id="_wcPl8BCGEeOOwOa9lUqZQQ" source="PapyrusVersion">
+        <details xmi:id="_wcPl8RCGEeOOwOa9lUqZQQ" key="Version" value="0.0.2"/>
+        <details xmi:id="_wcPl8hCGEeOOwOa9lUqZQQ" key="Comment" value=""/>
+        <details xmi:id="_wcPl8xCGEeOOwOa9lUqZQQ" key="Copyright" value=""/>
+        <details xmi:id="_wcPl9BCGEeOOwOa9lUqZQQ" key="Date" value="2013-08-29"/>
+        <details xmi:id="_wcPl9RCGEeOOwOa9lUqZQQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_wbZ4cRCGEeOOwOa9lUqZQQ" name="ServiceCommitment">
+        <eAnnotations xmi:id="_wbZ4chCGEeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Xa-i4BBwEeOOwOa9lUqZQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_wbZ4cxCGEeOOwOa9lUqZQQ" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_wbZ4dRCGEeOOwOa9lUqZQQ" name="parameterType" ordered="false" lowerBound="1" eType="_wbZ4eRCGEeOOwOa9lUqZQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_wbZ4dxCGEeOOwOa9lUqZQQ" name="description" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_wbZ4eRCGEeOOwOa9lUqZQQ" name="ServiceLevelParameterType">
+        <eAnnotations xmi:id="_wbZ4ehCGEeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_9S1RIBB2EeOOwOa9lUqZQQ"/>
+        <eLiterals xmi:id="_wbZ4exCGEeOOwOa9lUqZQQ" name="ServiceAvailability"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_wbZ4fBCGEeOOwOa9lUqZQQ" name="ServiceCredit">
+        <eAnnotations xmi:id="_wbZ4fRCGEeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_vvdywBB2EeOOwOa9lUqZQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_wbZ4fhCGEeOOwOa9lUqZQQ" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_wbZ4gBCGEeOOwOa9lUqZQQ" name="ServiceLevelPlan">
+        <eAnnotations xmi:id="_wbZ4gRCGEeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_lsQL8BB3EeOOwOa9lUqZQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_wbZ4ghCGEeOOwOa9lUqZQQ" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_wbZ4hBCGEeOOwOa9lUqZQQ" name="serviceCommitment" ordered="false" upperBound="-1" eType="_wbZ4cRCGEeOOwOa9lUqZQQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_wbZ4hhCGEeOOwOa9lUqZQQ" name="serviceCredit" ordered="false" upperBound="-1" eType="_wbZ4fBCGEeOOwOa9lUqZQQ" containment="true"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_TRjVwBB4EeOOwOa9lUqZQQ" name="ServiceLevel" nsURI="http:///schemas/ServiceLevel/_TRRB4BB4EeOOwOa9lUqZQQ/0" nsPrefix="ServiceLevel">
+      <eAnnotations xmi:id="_TSUKwBB4EeOOwOa9lUqZQQ" source="PapyrusVersion">
+        <details xmi:id="_TSUKwRB4EeOOwOa9lUqZQQ" key="Version" value="0.0.1"/>
+        <details xmi:id="_TSUKwhB4EeOOwOa9lUqZQQ" key="Comment" value=""/>
+        <details xmi:id="_TSUKwxB4EeOOwOa9lUqZQQ" key="Copyright" value=""/>
+        <details xmi:id="_TSUKxBB4EeOOwOa9lUqZQQ" key="Date" value="2013-08-29"/>
+        <details xmi:id="_TSUKxRB4EeOOwOa9lUqZQQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_TRjVwRB4EeOOwOa9lUqZQQ" name="ServiceCommitment">
+        <eAnnotations xmi:id="_TRjVwhB4EeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Xa-i4BBwEeOOwOa9lUqZQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_TRjVwxB4EeOOwOa9lUqZQQ" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_TRjVxRB4EeOOwOa9lUqZQQ" name="parameterType" ordered="false" lowerBound="1" eType="_TRjVxxB4EeOOwOa9lUqZQQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_TRjVxxB4EeOOwOa9lUqZQQ" name="ServiceLevelParameterType">
+        <eAnnotations xmi:id="_TRjVyBB4EeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_9S1RIBB2EeOOwOa9lUqZQQ"/>
+        <eLiterals xmi:id="_TRjVyRB4EeOOwOa9lUqZQQ" name="ServiceAvailability"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_TRjVyhB4EeOOwOa9lUqZQQ" name="ServiceCredit">
+        <eAnnotations xmi:id="_TRjVyxB4EeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_vvdywBB2EeOOwOa9lUqZQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_TRjVzBB4EeOOwOa9lUqZQQ" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_TRjVzhB4EeOOwOa9lUqZQQ" name="ServiceLevelPlan">
+        <eAnnotations xmi:id="_TRjVzxB4EeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_lsQL8BB3EeOOwOa9lUqZQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_TRjV0BB4EeOOwOa9lUqZQQ" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_TRjV0hB4EeOOwOa9lUqZQQ" name="serviceCommitment" ordered="false" upperBound="-1" eType="_TRjVwRB4EeOOwOa9lUqZQQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_TRjV1BB4EeOOwOa9lUqZQQ" name="serviceCredit" ordered="false" upperBound="-1" eType="_TRjVyhB4EeOOwOa9lUqZQQ" containment="true"/>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <ownedComment xmi:id="_6XDKkBB4EeOOwOa9lUqZQQ">
+    <body>-> What is the condition for the Service Credit !!&#xD;
+-> Maybe we can work with OpaqueExpression here, similar like in OCL!&#xD;
+</body>
+  </ownedComment>
+  <elementImport xmi:id="_4139oBB2EeOOwOa9lUqZQQ" alias="Element">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+  </elementImport>
+  <packageImport xmi:id="_ZfPdcQT7EeOYqpWHmlUzvA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_ZfPdcgT7EeOYqpWHmlUzvA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_0G5dUBCHEeOOwOa9lUqZQQ">
+    <importedPackage xmi:type="uml:Profile" href="UtilProfile.profile.uml#_tELQoBAHEeOYBPpMrBwl5w"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_Xa-i4BBwEeOOwOa9lUqZQQ" name="ServiceCommitment">
+    <ownedAttribute xmi:id="_6BHowBB2EeOOwOa9lUqZQQ" name="base_Element" association="_6BT2ABB2EeOOwOa9lUqZQQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8AGogBB3EeOOwOa9lUqZQQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8AY8YBB3EeOOwOa9lUqZQQ" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_SRnYMBB3EeOOwOa9lUqZQQ" name="parameterType" visibility="public" type="_9S1RIBB2EeOOwOa9lUqZQQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S1kZ0BB3EeOOwOa9lUqZQQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S1qgcBB3EeOOwOa9lUqZQQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_S2C68BB3EeOOwOa9lUqZQQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_o1i6UBCGEeOOwOa9lUqZQQ" name="description" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pN0QYBCGEeOOwOa9lUqZQQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pN-ocBCGEeOOwOa9lUqZQQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_pOXC8BCGEeOOwOa9lUqZQQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Bw2E0BCIEeOOwOa9lUqZQQ" name="metric" aggregation="composite" association="_MjVXABCIEeOOwOa9lUqZQQ">
+      <type xmi:type="uml:Stereotype" href="UtilProfile.profile.uml#_wCmwoBAHEeOYBPpMrBwl5w"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HpaasBCIEeOOwOa9lUqZQQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IWlCsBCIEeOOwOa9lUqZQQ" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_vvdywBB2EeOOwOa9lUqZQQ" name="ServiceCredit">
+    <ownedAttribute xmi:id="_7qBgQBB2EeOOwOa9lUqZQQ" name="base_Element" association="_7qNtgBB2EeOOwOa9lUqZQQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ib2XgBB4EeOOwOa9lUqZQQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IcIrYBB4EeOOwOa9lUqZQQ" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_k-CzUB_nEeONqfDraWuH0A" name="description">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_6BT2ABB2EeOOwOa9lUqZQQ" name="Extension_ServiceCommitment_Element" memberEnd="_6BT2ARB2EeOOwOa9lUqZQQ _6BHowBB2EeOOwOa9lUqZQQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_6BT2ARB2EeOOwOa9lUqZQQ" name="extension_ServiceCommitment" type="_Xa-i4BBwEeOOwOa9lUqZQQ" aggregation="composite" association="_6BT2ABB2EeOOwOa9lUqZQQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_7qNtgBB2EeOOwOa9lUqZQQ" name="Extension_ServiceCredit_Element" memberEnd="_7qNtgRB2EeOOwOa9lUqZQQ _7qBgQBB2EeOOwOa9lUqZQQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_7qNtgRB2EeOOwOa9lUqZQQ" name="extension_ServiceCredit" type="_vvdywBB2EeOOwOa9lUqZQQ" aggregation="composite" association="_7qNtgBB2EeOOwOa9lUqZQQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_9S1RIBB2EeOOwOa9lUqZQQ" name="ServiceLevelParameterType">
+    <ownedLiteral xmi:id="_KhOlEBB3EeOOwOa9lUqZQQ" name="ServiceAvailability"/>
+    <ownedLiteral xmi:id="_OxNisBb9EeOilOzcr03MRg" name="ServiceLatency"/>
+    <ownedLiteral xmi:id="_P6qeEBb9EeOilOzcr03MRg" name="ServiceSecurity"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_lsQL8BB3EeOOwOa9lUqZQQ" name="ServiceLevelPlan">
+    <ownedAttribute xmi:id="_oz22EBB3EeOOwOa9lUqZQQ" name="base_Element" association="_o0DDUBB3EeOOwOa9lUqZQQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_r0BbcBB3EeOOwOa9lUqZQQ" name="serviceCommitment" type="_Xa-i4BBwEeOOwOa9lUqZQQ" aggregation="composite" association="_r0NosBB3EeOOwOa9lUqZQQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_r0BbcRB3EeOOwOa9lUqZQQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_r0BbchB3EeOOwOa9lUqZQQ" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_APnV4BB4EeOOwOa9lUqZQQ" name="serviceCredit" type="_vvdywBB2EeOOwOa9lUqZQQ" aggregation="composite" association="_APzjIBB4EeOOwOa9lUqZQQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_APnV4RB4EeOOwOa9lUqZQQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_APnV4hB4EeOOwOa9lUqZQQ" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_o0DDUBB3EeOOwOa9lUqZQQ" name="Extension_ServiceLevelPlan_Element" memberEnd="_o0DDURB3EeOOwOa9lUqZQQ _oz22EBB3EeOOwOa9lUqZQQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_o0DDURB3EeOOwOa9lUqZQQ" name="extension_ServiceLevelPlan" type="_lsQL8BB3EeOOwOa9lUqZQQ" aggregation="composite" association="_o0DDUBB3EeOOwOa9lUqZQQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_r0NosBB3EeOOwOa9lUqZQQ" name="serviceLevelPlan_serviceCommitment" memberEnd="_r0NosRB3EeOOwOa9lUqZQQ _r0BbcBB3EeOOwOa9lUqZQQ" navigableOwnedEnd="_r0NosRB3EeOOwOa9lUqZQQ">
+    <ownedEnd xmi:id="_r0NosRB3EeOOwOa9lUqZQQ" name="serviceLevelPlan" type="_lsQL8BB3EeOOwOa9lUqZQQ" association="_r0NosBB3EeOOwOa9lUqZQQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_r0NoshB3EeOOwOa9lUqZQQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_r0NosxB3EeOOwOa9lUqZQQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_APzjIBB4EeOOwOa9lUqZQQ" name="serviceLevelPlan_serviceCredit" memberEnd="_APzjIRB4EeOOwOa9lUqZQQ _APnV4BB4EeOOwOa9lUqZQQ" navigableOwnedEnd="_APzjIRB4EeOOwOa9lUqZQQ">
+    <ownedEnd xmi:id="_APzjIRB4EeOOwOa9lUqZQQ" name="serviceLevelPlan" type="_lsQL8BB3EeOOwOa9lUqZQQ" association="_APzjIBB4EeOOwOa9lUqZQQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_APzjIhB4EeOOwOa9lUqZQQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_APzjIxB4EeOOwOa9lUqZQQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MjVXABCIEeOOwOa9lUqZQQ" name="serviceCommitment_metric" memberEnd="_WD0OwBCIEeOOwOa9lUqZQQ _Bw2E0BCIEeOOwOa9lUqZQQ">
+    <ownedEnd xmi:id="_WD0OwBCIEeOOwOa9lUqZQQ" name="serviceCommitment" type="_Xa-i4BBwEeOOwOa9lUqZQQ" association="_MjVXABCIEeOOwOa9lUqZQQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Y-a-sBCIEeOOwOa9lUqZQQ"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Profile>

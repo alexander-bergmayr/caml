@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Cloud Application Modeling Language (CAML) - Operating Environments
+Bundle-SymbolicName: eu.artist.migration.caml.operatingenvironments;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: ARTIST Project
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.papyrus.uml.extensionpoints,
+ org.eclipse.emf.ecore

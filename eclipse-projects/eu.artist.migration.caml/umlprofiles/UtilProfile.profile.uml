@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_tELQoBAHEeOYBPpMrBwl5w" name="Util" metaclassReference="_voYSwBAHEeOYBPpMrBwl5w">
+  <eAnnotations xmi:id="_VTlB4BAKEeOYBPpMrBwl5w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_mXJv0BCHEeOOwOa9lUqZQQ" name="Util" nsURI="http:///schemas/Util/_mXJIwBCHEeOOwOa9lUqZQQ/2" nsPrefix="Util">
+      <eAnnotations xmi:id="_mXo4ABCHEeOOwOa9lUqZQQ" source="PapyrusVersion">
+        <details xmi:id="_mXo4ARCHEeOOwOa9lUqZQQ" key="Version" value="0.0.3"/>
+        <details xmi:id="_mXo4AhCHEeOOwOa9lUqZQQ" key="Comment" value=""/>
+        <details xmi:id="_mXo4AxCHEeOOwOa9lUqZQQ" key="Copyright" value=""/>
+        <details xmi:id="_mXo4BBCHEeOOwOa9lUqZQQ" key="Date" value="2013-08-29"/>
+        <details xmi:id="_mXo4BRCHEeOOwOa9lUqZQQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_mXJv0RCHEeOOwOa9lUqZQQ" name="Metric">
+        <eAnnotations xmi:id="_mXJv0hCHEeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_wCmwoBAHEeOYBPpMrBwl5w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_mXJv0xCHEeOOwOa9lUqZQQ" name="factor" ordered="false" eType="_mXJv3RCHEeOOwOa9lUqZQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mXJv1RCHEeOOwOa9lUqZQQ" name="unit" ordered="false" eType="_mXJv4xCHEeOOwOa9lUqZQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_mXJv1xCHEeOOwOa9lUqZQQ" name="range" ordered="false" eType="_mXJv9RCHEeOOwOa9lUqZQQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mXJv2RCHEeOOwOa9lUqZQQ" name="value" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_mXJv2xCHEeOOwOa9lUqZQQ" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_mXJv3RCHEeOOwOa9lUqZQQ" name="Factor">
+        <eAnnotations xmi:id="_mXJv3hCHEeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_kAFkgBAIEeOYBPpMrBwl5w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mXJv3xCHEeOOwOa9lUqZQQ" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mXJv4RCHEeOOwOa9lUqZQQ" name="unit" ordered="false" eType="_mXJv4xCHEeOOwOa9lUqZQQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_mXJv4xCHEeOOwOa9lUqZQQ" name="Unit">
+        <eAnnotations xmi:id="_mXJv5BCHEeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Y__7MBAIEeOYBPpMrBwl5w"/>
+        <eLiterals xmi:id="_mXJv5RCHEeOOwOa9lUqZQQ" name="EUR"/>
+        <eLiterals xmi:id="_mXJv5hCHEeOOwOa9lUqZQQ" name="USD" value="1"/>
+        <eLiterals xmi:id="_mXJv5xCHEeOOwOa9lUqZQQ" name="Hour" value="2"/>
+        <eLiterals xmi:id="_mXJv6BCHEeOOwOa9lUqZQQ" name="Month" value="3"/>
+        <eLiterals xmi:id="_mXJv6RCHEeOOwOa9lUqZQQ" name="Year" value="4"/>
+        <eLiterals xmi:id="_mXJv6hCHEeOOwOa9lUqZQQ" name="Day" value="5"/>
+        <eLiterals xmi:id="_mXJv6xCHEeOOwOa9lUqZQQ" name="KB" value="6"/>
+        <eLiterals xmi:id="_mXJv7BCHEeOOwOa9lUqZQQ" name="MB" value="7"/>
+        <eLiterals xmi:id="_mXJv7RCHEeOOwOa9lUqZQQ" name="GB" value="8"/>
+        <eLiterals xmi:id="_mXJv7hCHEeOOwOa9lUqZQQ" name="TB" value="9"/>
+        <eLiterals xmi:id="_mXJv7xCHEeOOwOa9lUqZQQ" name="PB" value="10"/>
+        <eLiterals xmi:id="_mXJv8BCHEeOOwOa9lUqZQQ" name="percentage" value="11"/>
+        <eLiterals xmi:id="_mXJv8RCHEeOOwOa9lUqZQQ" name="absolute" value="12"/>
+        <eLiterals xmi:id="_mXJv8hCHEeOOwOa9lUqZQQ" name="Operation" value="13"/>
+        <eLiterals xmi:id="_mXJv8xCHEeOOwOa9lUqZQQ" name="Query" value="14"/>
+        <eLiterals xmi:id="_mXJv9BCHEeOOwOa9lUqZQQ" name="Application" value="15"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_mXJv9RCHEeOOwOa9lUqZQQ" name="Range">
+        <eAnnotations xmi:id="_mXJv9hCHEeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_mxdqgBAJEeOYBPpMrBwl5w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mXJv9xCHEeOOwOa9lUqZQQ" name="lowerBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mXJv-RCHEeOOwOa9lUqZQQ" name="upperBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_iWRUURCHEeOOwOa9lUqZQQ" name="Util" nsURI="http:///schemas/Util/_iWRUUBCHEeOOwOa9lUqZQQ/1" nsPrefix="Util">
+      <eAnnotations xmi:id="_iWxqoBCHEeOOwOa9lUqZQQ" source="PapyrusVersion">
+        <details xmi:id="_iWxqoRCHEeOOwOa9lUqZQQ" key="Version" value="0.0.2"/>
+        <details xmi:id="_iWxqohCHEeOOwOa9lUqZQQ" key="Comment" value=""/>
+        <details xmi:id="_iWxqoxCHEeOOwOa9lUqZQQ" key="Copyright" value=""/>
+        <details xmi:id="_iWxqpBCHEeOOwOa9lUqZQQ" key="Date" value="2013-08-29"/>
+        <details xmi:id="_iWxqpRCHEeOOwOa9lUqZQQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_iWRUUhCHEeOOwOa9lUqZQQ" name="Metric">
+        <eAnnotations xmi:id="_iWRUUxCHEeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_wCmwoBAHEeOYBPpMrBwl5w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_iWRUVBCHEeOOwOa9lUqZQQ" name="factor" ordered="false" eType="_iWRUXhCHEeOOwOa9lUqZQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_iWRUVhCHEeOOwOa9lUqZQQ" name="unit" ordered="false" eType="_iWRUZBCHEeOOwOa9lUqZQQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_iWRUWBCHEeOOwOa9lUqZQQ" name="range" ordered="false" eType="_iWRUdhCHEeOOwOa9lUqZQQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_iWRUWhCHEeOOwOa9lUqZQQ" name="value" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_iWRUXBCHEeOOwOa9lUqZQQ" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_iWRUXhCHEeOOwOa9lUqZQQ" name="Factor">
+        <eAnnotations xmi:id="_iWRUXxCHEeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_kAFkgBAIEeOYBPpMrBwl5w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_iWRUYBCHEeOOwOa9lUqZQQ" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_iWRUYhCHEeOOwOa9lUqZQQ" name="unit" ordered="false" eType="_iWRUZBCHEeOOwOa9lUqZQQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_iWRUZBCHEeOOwOa9lUqZQQ" name="Unit">
+        <eAnnotations xmi:id="_iWRUZRCHEeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Y__7MBAIEeOYBPpMrBwl5w"/>
+        <eLiterals xmi:id="_iWRUZhCHEeOOwOa9lUqZQQ" name="EUR"/>
+        <eLiterals xmi:id="_iWRUZxCHEeOOwOa9lUqZQQ" name="USD" value="1"/>
+        <eLiterals xmi:id="_iWRUaBCHEeOOwOa9lUqZQQ" name="Hour" value="2"/>
+        <eLiterals xmi:id="_iWRUaRCHEeOOwOa9lUqZQQ" name="Month" value="3"/>
+        <eLiterals xmi:id="_iWRUahCHEeOOwOa9lUqZQQ" name="Year" value="4"/>
+        <eLiterals xmi:id="_iWRUaxCHEeOOwOa9lUqZQQ" name="Day" value="5"/>
+        <eLiterals xmi:id="_iWRUbBCHEeOOwOa9lUqZQQ" name="KB" value="6"/>
+        <eLiterals xmi:id="_iWRUbRCHEeOOwOa9lUqZQQ" name="MB" value="7"/>
+        <eLiterals xmi:id="_iWRUbhCHEeOOwOa9lUqZQQ" name="GB" value="8"/>
+        <eLiterals xmi:id="_iWRUbxCHEeOOwOa9lUqZQQ" name="TB" value="9"/>
+        <eLiterals xmi:id="_iWRUcBCHEeOOwOa9lUqZQQ" name="PB" value="10"/>
+        <eLiterals xmi:id="_iWRUcRCHEeOOwOa9lUqZQQ" name="percentage" value="11"/>
+        <eLiterals xmi:id="_iWRUchCHEeOOwOa9lUqZQQ" name="absolute" value="12"/>
+        <eLiterals xmi:id="_iWRUcxCHEeOOwOa9lUqZQQ" name="Operation" value="13"/>
+        <eLiterals xmi:id="_iWRUdBCHEeOOwOa9lUqZQQ" name="Query" value="14"/>
+        <eLiterals xmi:id="_iWRUdRCHEeOOwOa9lUqZQQ" name="Application" value="15"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_iWRUdhCHEeOOwOa9lUqZQQ" name="Range">
+        <eAnnotations xmi:id="_iWRUdxCHEeOOwOa9lUqZQQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_mxdqgBAJEeOYBPpMrBwl5w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_iWRUeBCHEeOOwOa9lUqZQQ" name="lowerBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_iWRUehCHEeOOwOa9lUqZQQ" name="upperBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_VTx2MBAKEeOYBPpMrBwl5w" name="Util" nsURI="http:///schemas/Util/_VTka0BAKEeOYBPpMrBwl5w/0" nsPrefix="Util">
+      <eAnnotations xmi:id="_VUOiIBAKEeOYBPpMrBwl5w" source="PapyrusVersion">
+        <details xmi:id="_VUOiIRAKEeOYBPpMrBwl5w" key="Version" value="0.0.1"/>
+        <details xmi:id="_VUOiIhAKEeOYBPpMrBwl5w" key="Comment" value=""/>
+        <details xmi:id="_VUOiIxAKEeOYBPpMrBwl5w" key="Copyright" value=""/>
+        <details xmi:id="_VUOiJBAKEeOYBPpMrBwl5w" key="Date" value="2013-08-28"/>
+        <details xmi:id="_VUOiJRAKEeOYBPpMrBwl5w" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_VTx2MRAKEeOYBPpMrBwl5w" name="Metric">
+        <eAnnotations xmi:id="_VTx2MhAKEeOYBPpMrBwl5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_wCmwoBAHEeOYBPpMrBwl5w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_VTx2MxAKEeOYBPpMrBwl5w" name="factor" ordered="false" eType="_VTx2PRAKEeOYBPpMrBwl5w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_VTx2NRAKEeOYBPpMrBwl5w" name="unit" ordered="false" eType="_VTx2QxAKEeOYBPpMrBwl5w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_VTx2NxAKEeOYBPpMrBwl5w" name="range" ordered="false" eType="_VTx2VRAKEeOYBPpMrBwl5w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_VTx2ORAKEeOYBPpMrBwl5w" name="value" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_VTx2OxAKEeOYBPpMrBwl5w" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_VTx2PRAKEeOYBPpMrBwl5w" name="Factor">
+        <eAnnotations xmi:id="_VTx2PhAKEeOYBPpMrBwl5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_kAFkgBAIEeOYBPpMrBwl5w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_VTx2PxAKEeOYBPpMrBwl5w" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_VTx2QRAKEeOYBPpMrBwl5w" name="unit" ordered="false" eType="_VTx2QxAKEeOYBPpMrBwl5w"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_VTx2QxAKEeOYBPpMrBwl5w" name="Unit">
+        <eAnnotations xmi:id="_VTx2RBAKEeOYBPpMrBwl5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Y__7MBAIEeOYBPpMrBwl5w"/>
+        <eLiterals xmi:id="_VTx2RRAKEeOYBPpMrBwl5w" name="EUR"/>
+        <eLiterals xmi:id="_VTx2RhAKEeOYBPpMrBwl5w" name="USD" value="1"/>
+        <eLiterals xmi:id="_VTx2RxAKEeOYBPpMrBwl5w" name="Hour" value="2"/>
+        <eLiterals xmi:id="_VTx2SBAKEeOYBPpMrBwl5w" name="Month" value="3"/>
+        <eLiterals xmi:id="_VTx2SRAKEeOYBPpMrBwl5w" name="Year" value="4"/>
+        <eLiterals xmi:id="_VTx2ShAKEeOYBPpMrBwl5w" name="Day" value="5"/>
+        <eLiterals xmi:id="_VTx2SxAKEeOYBPpMrBwl5w" name="KB" value="6"/>
+        <eLiterals xmi:id="_VTx2TBAKEeOYBPpMrBwl5w" name="MB" value="7"/>
+        <eLiterals xmi:id="_VTx2TRAKEeOYBPpMrBwl5w" name="GB" value="8"/>
+        <eLiterals xmi:id="_VTx2ThAKEeOYBPpMrBwl5w" name="TB" value="9"/>
+        <eLiterals xmi:id="_VTx2TxAKEeOYBPpMrBwl5w" name="PB" value="10"/>
+        <eLiterals xmi:id="_VTx2UBAKEeOYBPpMrBwl5w" name="percentage" value="11"/>
+        <eLiterals xmi:id="_VTx2URAKEeOYBPpMrBwl5w" name="absolute" value="12"/>
+        <eLiterals xmi:id="_VTx2UhAKEeOYBPpMrBwl5w" name="Operation" value="13"/>
+        <eLiterals xmi:id="_VTx2UxAKEeOYBPpMrBwl5w" name="Query" value="14"/>
+        <eLiterals xmi:id="_VTx2VBAKEeOYBPpMrBwl5w" name="Application" value="15"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_VTx2VRAKEeOYBPpMrBwl5w" name="Range">
+        <eAnnotations xmi:id="_VTx2VhAKEeOYBPpMrBwl5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_mxdqgBAJEeOYBPpMrBwl5w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_VTx2VxAKEeOYBPpMrBwl5w" name="lowerBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_VTx2WRAKEeOYBPpMrBwl5w" name="upperBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:id="_voYSwBAHEeOYBPpMrBwl5w" alias="Element">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+  </elementImport>
+  <packageImport xmi:id="_bLcpoBAJEeOYBPpMrBwl5w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_wCmwoBAHEeOYBPpMrBwl5w" name="Metric">
+    <ownedAttribute xmi:id="_wOCvIBAIEeOYBPpMrBwl5w" name="factor" visibility="public" type="_kAFkgBAIEeOYBPpMrBwl5w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_watSIBAIEeOYBPpMrBwl5w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wa11ABAIEeOYBPpMrBwl5w" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_wbLMMBAIEeOYBPpMrBwl5w">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_GAXL8BAJEeOYBPpMrBwl5w" name="unit" visibility="public" type="_Y__7MBAIEeOYBPpMrBwl5w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GNxV0BAJEeOYBPpMrBwl5w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GN54sBAJEeOYBPpMrBwl5w" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_GOMzoBAJEeOYBPpMrBwl5w">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_J5uqMBAJEeOYBPpMrBwl5w" name="range" visibility="public" type="_mxdqgBAJEeOYBPpMrBwl5w" aggregation="composite" association="_yjcDwBAJEeOYBPpMrBwl5w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Kg4JwBAJEeOYBPpMrBwl5w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KhBTsBAJEeOYBPpMrBwl5w" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_KhYgEBAJEeOYBPpMrBwl5w">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MJK9QBAJEeOYBPpMrBwl5w" name="value">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TWCzoBAJEeOYBPpMrBwl5w" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TWPn8BAJEeOYBPpMrBwl5w" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_fF00gBAJEeOYBPpMrBwl5w" name="base_Element" association="_fGEFEBAJEeOYBPpMrBwl5w">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hPkK8BCHEeOOwOa9lUqZQQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hP0CkBCHEeOOwOa9lUqZQQ" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_Y__7MBAIEeOYBPpMrBwl5w" name="Unit">
+    <ownedLiteral xmi:id="_Y__7MRAIEeOYBPpMrBwl5w" name="EUR"/>
+    <ownedLiteral xmi:id="_Y__7MhAIEeOYBPpMrBwl5w" name="USD"/>
+    <ownedLiteral xmi:id="_Y__7MxAIEeOYBPpMrBwl5w" name="Hour"/>
+    <ownedLiteral xmi:id="_Y__7NBAIEeOYBPpMrBwl5w" name="Month"/>
+    <ownedLiteral xmi:id="_Y__7NRAIEeOYBPpMrBwl5w" name="Year"/>
+    <ownedLiteral xmi:id="_Y__7NhAIEeOYBPpMrBwl5w" name="Day"/>
+    <ownedLiteral xmi:id="_Y__7NxAIEeOYBPpMrBwl5w" name="KB"/>
+    <ownedLiteral xmi:id="_Y__7OBAIEeOYBPpMrBwl5w" name="MB"/>
+    <ownedLiteral xmi:id="_Y__7ORAIEeOYBPpMrBwl5w" name="GB"/>
+    <ownedLiteral xmi:id="_Y__7OhAIEeOYBPpMrBwl5w" name="TB"/>
+    <ownedLiteral xmi:id="_Y__7OxAIEeOYBPpMrBwl5w" name="PB"/>
+    <ownedLiteral xmi:id="_Y__7PBAIEeOYBPpMrBwl5w" name="percentage"/>
+    <ownedLiteral xmi:id="_Y__7PRAIEeOYBPpMrBwl5w" name="absolute"/>
+    <ownedLiteral xmi:id="_Y__7PhAIEeOYBPpMrBwl5w" name="Operation"/>
+    <ownedLiteral xmi:id="_Y__7PxAIEeOYBPpMrBwl5w" name="Query"/>
+    <ownedLiteral xmi:id="_Y__7QBAIEeOYBPpMrBwl5w" name="Application"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_kAFkgBAIEeOYBPpMrBwl5w" name="Factor">
+    <ownedAttribute xmi:id="_kAFkgRAIEeOYBPpMrBwl5w" name="value">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      <defaultValue xmi:type="uml:LiteralReal" xmi:id="_kAFkghAIEeOYBPpMrBwl5w" name="" value="1.0">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_kAFkgxAIEeOYBPpMrBwl5w" name="unit" type="_Y__7MBAIEeOYBPpMrBwl5w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kAFkhBAIEeOYBPpMrBwl5w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kAFkhRAIEeOYBPpMrBwl5w" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_fGEFEBAJEeOYBPpMrBwl5w" name="Extension_Metric_Element" memberEnd="_fGEFERAJEeOYBPpMrBwl5w _fF00gBAJEeOYBPpMrBwl5w">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_fGEFERAJEeOYBPpMrBwl5w" name="extension_Metric" type="_wCmwoBAHEeOYBPpMrBwl5w" aggregation="composite" association="_fGEFEBAJEeOYBPpMrBwl5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_mxdqgBAJEeOYBPpMrBwl5w" name="Range">
+    <ownedAttribute xmi:id="_mxdqgRAJEeOYBPpMrBwl5w" name="lowerBoundValue">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mxdqghAJEeOYBPpMrBwl5w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mxdqgxAJEeOYBPpMrBwl5w" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_mxdqhBAJEeOYBPpMrBwl5w" name="upperBoundValue">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mxdqhRAJEeOYBPpMrBwl5w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mxdqhhAJEeOYBPpMrBwl5w" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_yjcDwBAJEeOYBPpMrBwl5w" name="metric_range" memberEnd="_yjcDwRAJEeOYBPpMrBwl5w _J5uqMBAJEeOYBPpMrBwl5w">
+    <ownedEnd xmi:id="_yjcDwRAJEeOYBPpMrBwl5w" name="metric" type="_wCmwoBAHEeOYBPpMrBwl5w" association="_yjcDwBAJEeOYBPpMrBwl5w"/>
+  </packagedElement>
+</uml:Profile>

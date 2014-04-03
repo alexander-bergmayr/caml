@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_a2-aECBSEeOjPJ3_Uk0aqQ" name="TechnologyProfile" metaclassReference="_fHJ10CBSEeOjPJ3_Uk0aqQ" metamodelReference="_a2-aESBSEeOjPJ3_Uk0aqQ">
+  <eAnnotations xmi:id="_vqP_QSBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_XyyooSBYEeOjPJ3_Uk0aqQ" name="TechnologyProfile" nsURI="http:///schemas/TechnologyProfile/_XyyooCBYEeOjPJ3_Uk0aqQ/2" nsPrefix="TechnologyProfile">
+      <eAnnotations xmi:id="_XzRJwCBYEeOjPJ3_Uk0aqQ" source="PapyrusVersion">
+        <details xmi:id="_XzRJwSBYEeOjPJ3_Uk0aqQ" key="Version" value="0.0.3"/>
+        <details xmi:id="_XzRJwiBYEeOjPJ3_Uk0aqQ" key="Comment" value=""/>
+        <details xmi:id="_XzRJwyBYEeOjPJ3_Uk0aqQ" key="Copyright" value=""/>
+        <details xmi:id="_XzRJxCBYEeOjPJ3_Uk0aqQ" key="Date" value="2013-09-18"/>
+        <details xmi:id="_XzRJxSBYEeOjPJ3_Uk0aqQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_XyyooiBYEeOjPJ3_Uk0aqQ" name="JSF" eSuperTypes="_XyyopSBYEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_XyyooyBYEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ckpc0CBSEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_XyyopSBYEeOjPJ3_Uk0aqQ" name="Framework" abstract="true">
+        <eAnnotations xmi:id="_XyyopiBYEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ylmykCBSEeOjPJ3_Uk0aqQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_XyyopyBYEeOjPJ3_Uk0aqQ" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_XyyoqSBYEeOjPJ3_Uk0aqQ" name="JPA" eSuperTypes="_XyyopSBYEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_XyyoqiBYEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rPcdUCBSEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_XyyorCBYEeOjPJ3_Uk0aqQ" name="JSP" eSuperTypes="_XyyopSBYEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_XyyorSBYEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_r1Nc0CBSEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_XyyoryBYEeOjPJ3_Uk0aqQ" name="Spring" eSuperTypes="_XyyopSBYEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_XyyosCBYEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_st9CsCBSEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_XyyosiBYEeOjPJ3_Uk0aqQ" name="Struts" eSuperTypes="_XyyopSBYEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_XyyosyBYEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ttqMMCBSEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_XyyotSBYEeOjPJ3_Uk0aqQ" name="Hibernate" eSuperTypes="_XyyopSBYEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_XyyotiBYEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_vbC7ECBSEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_XyyouCBYEeOjPJ3_Uk0aqQ" name="Language" abstract="true">
+        <eAnnotations xmi:id="_XyyouSBYEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_4pXr0CBSEeOjPJ3_Uk0aqQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_XyyouiBYEeOjPJ3_Uk0aqQ" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_XyyovCBYEeOjPJ3_Uk0aqQ" name="CDI" eSuperTypes="_XyyopSBYEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_XyyovSBYEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Hy-IMCBTEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_XyyovyBYEeOjPJ3_Uk0aqQ" name="Objectify" eSuperTypes="_XyyopSBYEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_XyyowCBYEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_JweWsCBTEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_XyyowiBYEeOjPJ3_Uk0aqQ" name="Java" eSuperTypes="_XyyouCBYEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_XyyowyBYEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_r8HgoCBTEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_XyyoxSBYEeOjPJ3_Uk0aqQ" name="C" eSuperTypes="_XyyouCBYEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_XyyoxiBYEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sPkoICBTEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_XyyoyCBYEeOjPJ3_Uk0aqQ" name="PHP" eSuperTypes="_XyyouCBYEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_XyyoySBYEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_scitICBTEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_XyyoyyBYEeOjPJ3_Uk0aqQ" name="JavaScript" eSuperTypes="_XyyouCBYEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_XyyozCBYEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yFIGQCBTEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_XyyoziBYEeOjPJ3_Uk0aqQ" name="HTML" eSuperTypes="_XyyouCBYEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_XyyozyBYEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_0CJzoCBTEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="__POJASBTEeOjPJ3_Uk0aqQ" name="Profile" nsURI="http:///schemas/Profile/__POJACBTEeOjPJ3_Uk0aqQ/1" nsPrefix="Profile">
+      <eAnnotations xmi:id="__PmjgCBTEeOjPJ3_Uk0aqQ" source="PapyrusVersion">
+        <details xmi:id="__PmjgSBTEeOjPJ3_Uk0aqQ" key="Version" value="0.0.2"/>
+        <details xmi:id="__PmjgiBTEeOjPJ3_Uk0aqQ" key="Comment" value=""/>
+        <details xmi:id="__PmjgyBTEeOjPJ3_Uk0aqQ" key="Copyright" value=""/>
+        <details xmi:id="__PmjhCBTEeOjPJ3_Uk0aqQ" key="Date" value="2013-09-18"/>
+        <details xmi:id="__PmjhSBTEeOjPJ3_Uk0aqQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__POJAiBTEeOjPJ3_Uk0aqQ" name="JSF" eSuperTypes="__POJBSBTEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="__POJAyBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ckpc0CBSEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__POJBSBTEeOjPJ3_Uk0aqQ" name="Framework" abstract="true">
+        <eAnnotations xmi:id="__POJBiBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ylmykCBSEeOjPJ3_Uk0aqQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__POJByBTEeOjPJ3_Uk0aqQ" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__POJCSBTEeOjPJ3_Uk0aqQ" name="JPA" eSuperTypes="__POJBSBTEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="__POJCiBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rPcdUCBSEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__POJDCBTEeOjPJ3_Uk0aqQ" name="JSP" eSuperTypes="__POJBSBTEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="__POJDSBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_r1Nc0CBSEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__POJDyBTEeOjPJ3_Uk0aqQ" name="Spring" eSuperTypes="__POJBSBTEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="__POJECBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_st9CsCBSEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__POJEiBTEeOjPJ3_Uk0aqQ" name="Struts" eSuperTypes="__POJBSBTEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="__POJEyBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ttqMMCBSEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__POJFSBTEeOjPJ3_Uk0aqQ" name="Hibernate" eSuperTypes="__POJBSBTEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="__POJFiBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_vbC7ECBSEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__POJGCBTEeOjPJ3_Uk0aqQ" name="Language" abstract="true">
+        <eAnnotations xmi:id="__POJGSBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_4pXr0CBSEeOjPJ3_Uk0aqQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__POJGiBTEeOjPJ3_Uk0aqQ" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__POJHCBTEeOjPJ3_Uk0aqQ" name="CDI" eSuperTypes="__POJBSBTEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="__POJHSBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Hy-IMCBTEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__POJHyBTEeOjPJ3_Uk0aqQ" name="Objectify" eSuperTypes="__POJBSBTEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="__POJICBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_JweWsCBTEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__POJIiBTEeOjPJ3_Uk0aqQ" name="Java" eSuperTypes="__POJGCBTEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="__POJIyBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_r8HgoCBTEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__POJJSBTEeOjPJ3_Uk0aqQ" name="C" eSuperTypes="__POJGCBTEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="__POJJiBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sPkoICBTEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__POJKCBTEeOjPJ3_Uk0aqQ" name="PHP" eSuperTypes="__POJGCBTEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="__POJKSBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_scitICBTEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__POJKyBTEeOjPJ3_Uk0aqQ" name="JavaScript" eSuperTypes="__POJGCBTEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="__POJLCBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yFIGQCBTEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__POJLiBTEeOjPJ3_Uk0aqQ" name="HTML" eSuperTypes="__POJGCBTEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="__POJLyBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_0CJzoCBTEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_vqcMgCBTEeOjPJ3_Uk0aqQ" name="Profile" nsURI="http:///schemas/Profile/_vqP_QCBTEeOjPJ3_Uk0aqQ/0" nsPrefix="Profile">
+      <eAnnotations xmi:id="_vqugYCBTEeOjPJ3_Uk0aqQ" source="PapyrusVersion">
+        <details xmi:id="_vqugYSBTEeOjPJ3_Uk0aqQ" key="Version" value="0.0.1"/>
+        <details xmi:id="_vqugYiBTEeOjPJ3_Uk0aqQ" key="Comment" value=""/>
+        <details xmi:id="_vqugYyBTEeOjPJ3_Uk0aqQ" key="Copyright" value=""/>
+        <details xmi:id="_vqugZCBTEeOjPJ3_Uk0aqQ" key="Date" value="2013-09-18"/>
+        <details xmi:id="_vqugZSBTEeOjPJ3_Uk0aqQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_vqcMgSBTEeOjPJ3_Uk0aqQ" name="JSF" eSuperTypes="_vqcMhCBTEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_vqcMgiBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ckpc0CBSEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_vqcMhCBTEeOjPJ3_Uk0aqQ" name="Framework" abstract="true">
+        <eAnnotations xmi:id="_vqcMhSBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ylmykCBSEeOjPJ3_Uk0aqQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_vqcMhiBTEeOjPJ3_Uk0aqQ" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_vqcMiCBTEeOjPJ3_Uk0aqQ" name="JPA" eSuperTypes="_vqcMhCBTEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_vqcMiSBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rPcdUCBSEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_vqcMiyBTEeOjPJ3_Uk0aqQ" name="JSP" eSuperTypes="_vqcMhCBTEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_vqcMjCBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_r1Nc0CBSEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_vqcMjiBTEeOjPJ3_Uk0aqQ" name="Spring" eSuperTypes="_vqcMhCBTEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_vqcMjyBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_st9CsCBSEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_vqcMkSBTEeOjPJ3_Uk0aqQ" name="Struts" eSuperTypes="_vqcMhCBTEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_vqcMkiBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ttqMMCBSEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_vqcMlCBTEeOjPJ3_Uk0aqQ" name="Hibernate" eSuperTypes="_vqcMhCBTEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_vqcMlSBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_vbC7ECBSEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_vqcMlyBTEeOjPJ3_Uk0aqQ" name="Language" abstract="true">
+        <eAnnotations xmi:id="_vqcMmCBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_4pXr0CBSEeOjPJ3_Uk0aqQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_vqcMmSBTEeOjPJ3_Uk0aqQ" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_vqcMmyBTEeOjPJ3_Uk0aqQ" name="CDI" eSuperTypes="_vqcMhCBTEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_vqcMnCBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Hy-IMCBTEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_vqcMniBTEeOjPJ3_Uk0aqQ" name="Objectify" eSuperTypes="_vqcMhCBTEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_vqcMnyBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_JweWsCBTEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_vqcMoSBTEeOjPJ3_Uk0aqQ" name="Java">
+        <eAnnotations xmi:id="_vqcMoiBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_r8HgoCBTEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_vqcMoyBTEeOjPJ3_Uk0aqQ" name="C">
+        <eAnnotations xmi:id="_vqcMpCBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sPkoICBTEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_vqcMpSBTEeOjPJ3_Uk0aqQ" name="Stereotype3">
+        <eAnnotations xmi:id="_vqcMpiBTEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_scitICBTEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:id="_fHJ10CBSEeOjPJ3_Uk0aqQ" alias="Element">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+  </elementImport>
+  <packageImport xmi:id="_a2-aESBSEeOjPJ3_Uk0aqQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_a2-aEiBSEeOjPJ3_Uk0aqQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_ckpc0CBSEeOjPJ3_Uk0aqQ" name="JSF">
+    <generalization xmi:id="_fSKWgCBTEeOjPJ3_Uk0aqQ" general="_ylmykCBSEeOjPJ3_Uk0aqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_rPcdUCBSEeOjPJ3_Uk0aqQ" name="JPA">
+    <generalization xmi:id="_hOI7ACBTEeOjPJ3_Uk0aqQ" general="_ylmykCBSEeOjPJ3_Uk0aqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_r1Nc0CBSEeOjPJ3_Uk0aqQ" name="JSP">
+    <generalization xmi:id="_c93YoCBTEeOjPJ3_Uk0aqQ" general="_ylmykCBSEeOjPJ3_Uk0aqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_st9CsCBSEeOjPJ3_Uk0aqQ" name="Spring">
+    <generalization xmi:id="_f3WuQCBTEeOjPJ3_Uk0aqQ" general="_ylmykCBSEeOjPJ3_Uk0aqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_ttqMMCBSEeOjPJ3_Uk0aqQ" name="Struts">
+    <generalization xmi:id="_gltCACBTEeOjPJ3_Uk0aqQ" general="_ylmykCBSEeOjPJ3_Uk0aqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_vbC7ECBSEeOjPJ3_Uk0aqQ" name="Hibernate">
+    <generalization xmi:id="_etuzwCBTEeOjPJ3_Uk0aqQ" general="_ylmykCBSEeOjPJ3_Uk0aqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_ylmykCBSEeOjPJ3_Uk0aqQ" name="Framework" isAbstract="true">
+    <ownedAttribute xmi:id="_4MYN0CBSEeOjPJ3_Uk0aqQ" name="base_Element" association="_4MkbECBSEeOjPJ3_Uk0aqQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_4MkbECBSEeOjPJ3_Uk0aqQ" name="E_Framework_Element1" memberEnd="_4MkbESBSEeOjPJ3_Uk0aqQ _4MYN0CBSEeOjPJ3_Uk0aqQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_4MkbESBSEeOjPJ3_Uk0aqQ" name="extension_Framework" type="_ylmykCBSEeOjPJ3_Uk0aqQ" aggregation="composite" association="_4MkbECBSEeOjPJ3_Uk0aqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_4pXr0CBSEeOjPJ3_Uk0aqQ" name="Language" isAbstract="true">
+    <ownedAttribute xmi:id="_9DqF0CBSEeOjPJ3_Uk0aqQ" name="base_Element" association="_9D8ZsCBSEeOjPJ3_Uk0aqQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_9D8ZsCBSEeOjPJ3_Uk0aqQ" name="E_Language_Element1" memberEnd="_9D8ZsSBSEeOjPJ3_Uk0aqQ _9DqF0CBSEeOjPJ3_Uk0aqQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_9D8ZsSBSEeOjPJ3_Uk0aqQ" name="extension_Language" type="_4pXr0CBSEeOjPJ3_Uk0aqQ" aggregation="composite" association="_9D8ZsCBSEeOjPJ3_Uk0aqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_Hy-IMCBTEeOjPJ3_Uk0aqQ" name="CDI">
+    <generalization xmi:id="_ij3-4CBTEeOjPJ3_Uk0aqQ" general="_ylmykCBSEeOjPJ3_Uk0aqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_JweWsCBTEeOjPJ3_Uk0aqQ" name="Objectify">
+    <generalization xmi:id="_d1XoYCBTEeOjPJ3_Uk0aqQ" general="_ylmykCBSEeOjPJ3_Uk0aqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_r8HgoCBTEeOjPJ3_Uk0aqQ" name="Java">
+    <generalization xmi:id="_721Q4CBTEeOjPJ3_Uk0aqQ" general="_4pXr0CBSEeOjPJ3_Uk0aqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_sPkoICBTEeOjPJ3_Uk0aqQ" name="C#">
+    <generalization xmi:id="_81M9oCBTEeOjPJ3_Uk0aqQ" general="_4pXr0CBSEeOjPJ3_Uk0aqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_scitICBTEeOjPJ3_Uk0aqQ" name="PHP">
+    <generalization xmi:id="_8XKWwCBTEeOjPJ3_Uk0aqQ" general="_4pXr0CBSEeOjPJ3_Uk0aqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_yFIGQCBTEeOjPJ3_Uk0aqQ" name="JavaScript">
+    <generalization xmi:id="_7Sl7YCBTEeOjPJ3_Uk0aqQ" general="_4pXr0CBSEeOjPJ3_Uk0aqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_0CJzoCBTEeOjPJ3_Uk0aqQ" name="HTML">
+    <generalization xmi:id="_60K6ACBTEeOjPJ3_Uk0aqQ" general="_4pXr0CBSEeOjPJ3_Uk0aqQ"/>
+  </packagedElement>
+</uml:Profile>

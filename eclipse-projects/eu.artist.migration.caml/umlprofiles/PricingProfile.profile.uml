@@ -1,0 +1,1852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_lwPrEP5jEeKpsuoNdqwiLw" name="Pricing" metaclassReference="_cEg1sP6cEeKLh4Hiknzbzw" metamodelReference="_lwPrEf5jEeKpsuoNdqwiLw">
+  <eAnnotations xmi:id="_WmCN4f5nEeKpsuoNdqwiLw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_pyPm4SBPEeOjPJ3_Uk0aqQ" name="Pricing" nsURI="http:///schemas/Pricing/_pyPm4CBPEeOjPJ3_Uk0aqQ/70" nsPrefix="Pricing">
+      <eAnnotations xmi:id="_pz9eICBPEeOjPJ3_Uk0aqQ" source="PapyrusVersion">
+        <details xmi:id="_pz9eISBPEeOjPJ3_Uk0aqQ" key="Version" value="0.0.71"/>
+        <details xmi:id="_pz9eIiBPEeOjPJ3_Uk0aqQ" key="Comment" value=""/>
+        <details xmi:id="_pz9eIyBPEeOjPJ3_Uk0aqQ" key="Copyright" value=""/>
+        <details xmi:id="_pz9eJCBPEeOjPJ3_Uk0aqQ" key="Date" value="2013-09-18"/>
+        <details xmi:id="_pz9eJSBPEeOjPJ3_Uk0aqQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_pyPm4iBPEeOjPJ3_Uk0aqQ" name="RunningCosts" eSuperTypes="_pyPm5SBPEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_pyPm4yBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yjS_cP5mEeKpsuoNdqwiLw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_pyPm5SBPEeOjPJ3_Uk0aqQ" name="CostComponent" abstract="true">
+        <eAnnotations xmi:id="_pyPm5iBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2NYxIP6eEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_pyPm5yBPEeOjPJ3_Uk0aqQ" name="description" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_pyPm6SBPEeOjPJ3_Uk0aqQ" name="value" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_pyPm6yBPEeOjPJ3_Uk0aqQ" name="currency" ordered="false" eType="_pyPm8SBPEeOjPJ3_Uk0aqQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_pyPm7SBPEeOjPJ3_Uk0aqQ" name="metric" ordered="false" eType="_pyPnAyBPEeOjPJ3_Uk0aqQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_pyPm7yBPEeOjPJ3_Uk0aqQ" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_pyPm8SBPEeOjPJ3_Uk0aqQ" name="Unit">
+        <eAnnotations xmi:id="_pyPm8iBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_r2sosAQFEeOYP5GGYb_HuQ"/>
+        <eLiterals xmi:id="_pyPm8yBPEeOjPJ3_Uk0aqQ" name="EUR"/>
+        <eLiterals xmi:id="_pyPm9CBPEeOjPJ3_Uk0aqQ" name="USD" value="1"/>
+        <eLiterals xmi:id="_pyPm9SBPEeOjPJ3_Uk0aqQ" name="Hour" value="2"/>
+        <eLiterals xmi:id="_pyPm9iBPEeOjPJ3_Uk0aqQ" name="Month" value="3"/>
+        <eLiterals xmi:id="_pyPm9yBPEeOjPJ3_Uk0aqQ" name="Year" value="4"/>
+        <eLiterals xmi:id="_pyPm-CBPEeOjPJ3_Uk0aqQ" name="Day" value="5"/>
+        <eLiterals xmi:id="_pyPm-SBPEeOjPJ3_Uk0aqQ" name="KB" value="6"/>
+        <eLiterals xmi:id="_pyPm-iBPEeOjPJ3_Uk0aqQ" name="MB" value="7"/>
+        <eLiterals xmi:id="_pyPm-yBPEeOjPJ3_Uk0aqQ" name="GB" value="8"/>
+        <eLiterals xmi:id="_pyPm_CBPEeOjPJ3_Uk0aqQ" name="TB" value="9"/>
+        <eLiterals xmi:id="_pyPm_SBPEeOjPJ3_Uk0aqQ" name="PB" value="10"/>
+        <eLiterals xmi:id="_pyPm_iBPEeOjPJ3_Uk0aqQ" name="percentage" value="11"/>
+        <eLiterals xmi:id="_pyPm_yBPEeOjPJ3_Uk0aqQ" name="absolute" value="12"/>
+        <eLiterals xmi:id="_pyPnACBPEeOjPJ3_Uk0aqQ" name="Operation" value="13"/>
+        <eLiterals xmi:id="_pyPnASBPEeOjPJ3_Uk0aqQ" name="Query" value="14"/>
+        <eLiterals xmi:id="_pyPnAiBPEeOjPJ3_Uk0aqQ" name="Application" value="15"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_pyPnAyBPEeOjPJ3_Uk0aqQ" name="Metric">
+        <eAnnotations xmi:id="_pyPnBCBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PgtWcAP4EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_pyPnBSBPEeOjPJ3_Uk0aqQ" name="factor" ordered="false" eType="_pyPnDSBPEeOjPJ3_Uk0aqQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_pyPnByBPEeOjPJ3_Uk0aqQ" name="unit" ordered="false" lowerBound="1" eType="_pyPm8SBPEeOjPJ3_Uk0aqQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_pyPnCSBPEeOjPJ3_Uk0aqQ" name="range" ordered="false" eType="_pyPnEyBPEeOjPJ3_Uk0aqQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_pyPnCyBPEeOjPJ3_Uk0aqQ" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_pyPnDSBPEeOjPJ3_Uk0aqQ" name="Factor">
+        <eAnnotations xmi:id="_pyPnDiBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ks9cUAP5EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_pyPnDyBPEeOjPJ3_Uk0aqQ" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_pyPnESBPEeOjPJ3_Uk0aqQ" name="unit" ordered="false" eType="_pyPm8SBPEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_pyPnEyBPEeOjPJ3_Uk0aqQ" name="Range">
+        <eAnnotations xmi:id="_pyPnFCBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sZvpYAQbEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_pyPnFSBPEeOjPJ3_Uk0aqQ" name="lowerBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_pyPnFyBPEeOjPJ3_Uk0aqQ" name="upperBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_pyPnGSBPEeOjPJ3_Uk0aqQ" name="BaseCosts" eSuperTypes="_pyPm5SBPEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_pyPnGiBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MH79sP5vEeKpsuoNdqwiLw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_pyPnHCBPEeOjPJ3_Uk0aqQ" name="CostPlan">
+        <eAnnotations xmi:id="_pyPnHSBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jT5ZEP6SEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_pyPnHiBPEeOjPJ3_Uk0aqQ" name="costComponent" ordered="false" upperBound="-1" eType="_pyPm5SBPEeOjPJ3_Uk0aqQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_pyPnICBPEeOjPJ3_Uk0aqQ" name="freeQuota" ordered="false" upperBound="-1" eType="_pyPnJCBPEeOjPJ3_Uk0aqQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_pyPnIiBPEeOjPJ3_Uk0aqQ" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_pyPnJCBPEeOjPJ3_Uk0aqQ" name="FreeQuota">
+        <eAnnotations xmi:id="_pyPnJSBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rBRysAP8EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_pyPnJiBPEeOjPJ3_Uk0aqQ" name="value" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_pyPnKCBPEeOjPJ3_Uk0aqQ" name="metric" ordered="false" eType="_pyPnAyBPEeOjPJ3_Uk0aqQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_pyPnKiBPEeOjPJ3_Uk0aqQ" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_pyPnLCBPEeOjPJ3_Uk0aqQ" name="ContextualBaseCosts" eSuperTypes="_pyPnGSBPEeOjPJ3_Uk0aqQ _pyPnMCBPEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_pyPnLSBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KdPdAP6cEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_pyPnMCBPEeOjPJ3_Uk0aqQ" name="ContextualCosts" abstract="true">
+        <eAnnotations xmi:id="_pyPnMSBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FaeysAQLEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_pyPnMiBPEeOjPJ3_Uk0aqQ" name="andCombinedElements" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_pyPnNCBPEeOjPJ3_Uk0aqQ" name="orCombinedElements" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_pyPnNiBPEeOjPJ3_Uk0aqQ" name="CompoundCosts" eSuperTypes="_pyPm5SBPEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_pyPnNyBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qDvewP6eEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_pyPnOCBPEeOjPJ3_Uk0aqQ" name="costComponent" ordered="false" lowerBound="1" upperBound="-1" eType="_pyPm5SBPEeOjPJ3_Uk0aqQ" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_pyPnOyBPEeOjPJ3_Uk0aqQ" name="ContextualRunningCosts" eSuperTypes="_pyPm4iBPEeOjPJ3_Uk0aqQ _pyPnMCBPEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_pyPnPCBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_oPVTIP6kEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_pyPnPyBPEeOjPJ3_Uk0aqQ" name="ContextualCompoundCosts" eSuperTypes="_pyPnNiBPEeOjPJ3_Uk0aqQ _pyPnMCBPEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_pyPnQCBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_49y_EP6lEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_pyPnQyBPEeOjPJ3_Uk0aqQ" name="Discount" eSuperTypes="_pyPm5SBPEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_pyPnRCBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2hjX8AP8EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_pyPnRSBPEeOjPJ3_Uk0aqQ" name="discountKind" ordered="false" lowerBound="1" eType="_pyPnSCBPEeOjPJ3_Uk0aqQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_pyPnSCBPEeOjPJ3_Uk0aqQ" name="DiscountKindType">
+        <eAnnotations xmi:id="_pyPnSSBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_m-IBIAQOEeOYP5GGYb_HuQ"/>
+        <eLiterals xmi:id="_pyPnSiBPEeOjPJ3_Uk0aqQ" name="currentPurchase"/>
+        <eLiterals xmi:id="_pyPnSyBPEeOjPJ3_Uk0aqQ" name="futurePurchase" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_pyPnTCBPEeOjPJ3_Uk0aqQ" name="ContextualDiscount" eSuperTypes="_pyPnQyBPEeOjPJ3_Uk0aqQ _pyPnMCBPEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_pyPnTSBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QVKOAAP_EeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_pyPnUCBPEeOjPJ3_Uk0aqQ" name="ContextualFreeQuota" eSuperTypes="_pyPnJCBPEeOjPJ3_Uk0aqQ _pyPnMCBPEeOjPJ3_Uk0aqQ">
+        <eAnnotations xmi:id="_pyPnUSBPEeOjPJ3_Uk0aqQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_IJ2HgAQBEeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_Dv2ZsQjpEeOpWq22bueY-w" name="Pricing" nsURI="http:///schemas/Pricing/_Dv2ZsAjpEeOpWq22bueY-w/69" nsPrefix="Pricing">
+      <eAnnotations xmi:id="_DxVncAjpEeOpWq22bueY-w" source="PapyrusVersion">
+        <details xmi:id="_DxVncQjpEeOpWq22bueY-w" key="Version" value="0.0.70"/>
+        <details xmi:id="_DxVncgjpEeOpWq22bueY-w" key="Comment" value=""/>
+        <details xmi:id="_DxVncwjpEeOpWq22bueY-w" key="Copyright" value=""/>
+        <details xmi:id="_DxVndAjpEeOpWq22bueY-w" key="Date" value="2013-08-19"/>
+        <details xmi:id="_DxVndQjpEeOpWq22bueY-w" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Dv2ZsgjpEeOpWq22bueY-w" name="RunningCosts" eSuperTypes="_Dv2ZtQjpEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_Dv2ZswjpEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yjS_cP5mEeKpsuoNdqwiLw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Dv2ZtQjpEeOpWq22bueY-w" name="CostComponent" abstract="true">
+        <eAnnotations xmi:id="_Dv2ZtgjpEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2NYxIP6eEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Dv2ZtwjpEeOpWq22bueY-w" name="description" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Dv2ZuQjpEeOpWq22bueY-w" name="value" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Dv2ZuwjpEeOpWq22bueY-w" name="currency" ordered="false" eType="_Dv2ZwQjpEeOpWq22bueY-w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Dv2ZvQjpEeOpWq22bueY-w" name="metric" ordered="false" eType="_Dv2Z0wjpEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Dv2ZvwjpEeOpWq22bueY-w" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_Dv2ZwQjpEeOpWq22bueY-w" name="Unit">
+        <eAnnotations xmi:id="_Dv2ZwgjpEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_r2sosAQFEeOYP5GGYb_HuQ"/>
+        <eLiterals xmi:id="_Dv2ZwwjpEeOpWq22bueY-w" name="EUR"/>
+        <eLiterals xmi:id="_Dv2ZxAjpEeOpWq22bueY-w" name="USD" value="1"/>
+        <eLiterals xmi:id="_Dv2ZxQjpEeOpWq22bueY-w" name="Hour" value="2"/>
+        <eLiterals xmi:id="_Dv2ZxgjpEeOpWq22bueY-w" name="Month" value="3"/>
+        <eLiterals xmi:id="_Dv2ZxwjpEeOpWq22bueY-w" name="Year" value="4"/>
+        <eLiterals xmi:id="_Dv2ZyAjpEeOpWq22bueY-w" name="Day" value="5"/>
+        <eLiterals xmi:id="_Dv2ZyQjpEeOpWq22bueY-w" name="KB" value="6"/>
+        <eLiterals xmi:id="_Dv2ZygjpEeOpWq22bueY-w" name="MB" value="7"/>
+        <eLiterals xmi:id="_Dv2ZywjpEeOpWq22bueY-w" name="GB" value="8"/>
+        <eLiterals xmi:id="_Dv2ZzAjpEeOpWq22bueY-w" name="TB" value="9"/>
+        <eLiterals xmi:id="_Dv2ZzQjpEeOpWq22bueY-w" name="PB" value="10"/>
+        <eLiterals xmi:id="_Dv2ZzgjpEeOpWq22bueY-w" name="percentage" value="11"/>
+        <eLiterals xmi:id="_Dv2ZzwjpEeOpWq22bueY-w" name="absolute" value="12"/>
+        <eLiterals xmi:id="_Dv2Z0AjpEeOpWq22bueY-w" name="Operation" value="13"/>
+        <eLiterals xmi:id="_Dv2Z0QjpEeOpWq22bueY-w" name="Query" value="14"/>
+        <eLiterals xmi:id="_Dv2Z0gjpEeOpWq22bueY-w" name="Application" value="15"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Dv2Z0wjpEeOpWq22bueY-w" name="Metric">
+        <eAnnotations xmi:id="_Dv2Z1AjpEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PgtWcAP4EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Dv2Z1QjpEeOpWq22bueY-w" name="factor" ordered="false" eType="_Dv2Z3QjpEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Dv2Z1wjpEeOpWq22bueY-w" name="unit" ordered="false" lowerBound="1" eType="_Dv2ZwQjpEeOpWq22bueY-w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Dv2Z2QjpEeOpWq22bueY-w" name="range" ordered="false" eType="_Dv2Z4wjpEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Dv2Z2wjpEeOpWq22bueY-w" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Dv2Z3QjpEeOpWq22bueY-w" name="Factor">
+        <eAnnotations xmi:id="_Dv2Z3gjpEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ks9cUAP5EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Dv2Z3wjpEeOpWq22bueY-w" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Dv2Z4QjpEeOpWq22bueY-w" name="unit" ordered="false" eType="_Dv2ZwQjpEeOpWq22bueY-w"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Dv2Z4wjpEeOpWq22bueY-w" name="Range">
+        <eAnnotations xmi:id="_Dv2Z5AjpEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sZvpYAQbEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Dv2Z5QjpEeOpWq22bueY-w" name="lowerBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Dv2Z5wjpEeOpWq22bueY-w" name="upperBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Dv2Z6QjpEeOpWq22bueY-w" name="BaseCosts" eSuperTypes="_Dv2ZtQjpEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_Dv2Z6gjpEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MH79sP5vEeKpsuoNdqwiLw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Dv2Z7AjpEeOpWq22bueY-w" name="CostPlan">
+        <eAnnotations xmi:id="_Dv2Z7QjpEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jT5ZEP6SEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Dv2Z7gjpEeOpWq22bueY-w" name="costComponent" ordered="false" upperBound="-1" eType="_Dv2ZtQjpEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Dv2Z8AjpEeOpWq22bueY-w" name="freeQuota" ordered="false" upperBound="-1" eType="_Dv2Z9AjpEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Dv2Z8gjpEeOpWq22bueY-w" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Dv2Z9AjpEeOpWq22bueY-w" name="FreeQuota">
+        <eAnnotations xmi:id="_Dv2Z9QjpEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rBRysAP8EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Dv2Z9gjpEeOpWq22bueY-w" name="value" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Dv2Z-AjpEeOpWq22bueY-w" name="metric" ordered="false" eType="_Dv2Z0wjpEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Dv2Z-gjpEeOpWq22bueY-w" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Dv2Z_AjpEeOpWq22bueY-w" name="ContextualBaseCosts" eSuperTypes="_Dv2Z6QjpEeOpWq22bueY-w _Dv2aAAjpEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_Dv2Z_QjpEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KdPdAP6cEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Dv2aAAjpEeOpWq22bueY-w" name="ContextualCosts" abstract="true">
+        <eAnnotations xmi:id="_Dv2aAQjpEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FaeysAQLEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Dv2aAgjpEeOpWq22bueY-w" name="andCombinedElements" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Dv2aBAjpEeOpWq22bueY-w" name="orCombinedElements" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Dv2aBgjpEeOpWq22bueY-w" name="CompoundCosts" eSuperTypes="_Dv2ZtQjpEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_Dv2aBwjpEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qDvewP6eEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Dv2aCAjpEeOpWq22bueY-w" name="costComponent" ordered="false" lowerBound="1" upperBound="-1" eType="_Dv2ZtQjpEeOpWq22bueY-w" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Dv2aCwjpEeOpWq22bueY-w" name="ContextualRunningCosts" eSuperTypes="_Dv2ZsgjpEeOpWq22bueY-w _Dv2aAAjpEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_Dv2aDAjpEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_oPVTIP6kEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Dv2aDwjpEeOpWq22bueY-w" name="ContextualCompoundCosts" eSuperTypes="_Dv2aBgjpEeOpWq22bueY-w _Dv2aAAjpEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_Dv2aEAjpEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_49y_EP6lEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Dv2aEwjpEeOpWq22bueY-w" name="Discount" eSuperTypes="_Dv2ZtQjpEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_Dv2aFAjpEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2hjX8AP8EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Dv2aFQjpEeOpWq22bueY-w" name="discountKind" ordered="false" lowerBound="1" eType="_Dv2aGAjpEeOpWq22bueY-w"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_Dv2aGAjpEeOpWq22bueY-w" name="DiscountKindType">
+        <eAnnotations xmi:id="_Dv2aGQjpEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_m-IBIAQOEeOYP5GGYb_HuQ"/>
+        <eLiterals xmi:id="_Dv2aGgjpEeOpWq22bueY-w" name="currentPurchase"/>
+        <eLiterals xmi:id="_Dv2aGwjpEeOpWq22bueY-w" name="futurePurchase" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Dv2aHAjpEeOpWq22bueY-w" name="ContextualDiscount" eSuperTypes="_Dv2aEwjpEeOpWq22bueY-w _Dv2aAAjpEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_Dv2aHQjpEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QVKOAAP_EeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Dv2aIAjpEeOpWq22bueY-w" name="ContextualFreeQuota" eSuperTypes="_Dv2Z9AjpEeOpWq22bueY-w _Dv2aAAjpEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_Dv2aIQjpEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_IJ2HgAQBEeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_CGCYsQjoEeOpWq22bueY-w" name="Pricing" nsURI="http:///schemas/Pricing/_CGCYsAjoEeOpWq22bueY-w/68" nsPrefix="Pricing">
+      <eAnnotations xmi:id="_CSh8kAjoEeOpWq22bueY-w" source="PapyrusVersion">
+        <details xmi:id="_CSh8kQjoEeOpWq22bueY-w" key="Version" value="0.0.69"/>
+        <details xmi:id="_CSh8kgjoEeOpWq22bueY-w" key="Comment" value=""/>
+        <details xmi:id="_CSh8kwjoEeOpWq22bueY-w" key="Copyright" value=""/>
+        <details xmi:id="_CSh8lAjoEeOpWq22bueY-w" key="Date" value="2013-08-19"/>
+        <details xmi:id="_CSh8lQjoEeOpWq22bueY-w" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_CGCYsgjoEeOpWq22bueY-w" name="RunningCosts" eSuperTypes="_CGCYtQjoEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_CGCYswjoEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yjS_cP5mEeKpsuoNdqwiLw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_CGCYtQjoEeOpWq22bueY-w" name="CostComponent" abstract="true">
+        <eAnnotations xmi:id="_CGCYtgjoEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2NYxIP6eEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_CGCYtwjoEeOpWq22bueY-w" name="description" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_CGCYuQjoEeOpWq22bueY-w" name="value" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_CGCYuwjoEeOpWq22bueY-w" name="currency" ordered="false" eType="_CGMJsAjoEeOpWq22bueY-w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CGCYvQjoEeOpWq22bueY-w" name="metric" ordered="false" eType="_CGMJwgjoEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CGCYvwjoEeOpWq22bueY-w" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_CGMJsAjoEeOpWq22bueY-w" name="Unit">
+        <eAnnotations xmi:id="_CGMJsQjoEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_r2sosAQFEeOYP5GGYb_HuQ"/>
+        <eLiterals xmi:id="_CGMJsgjoEeOpWq22bueY-w" name="EUR"/>
+        <eLiterals xmi:id="_CGMJswjoEeOpWq22bueY-w" name="USD" value="1"/>
+        <eLiterals xmi:id="_CGMJtAjoEeOpWq22bueY-w" name="Hour" value="2"/>
+        <eLiterals xmi:id="_CGMJtQjoEeOpWq22bueY-w" name="Month" value="3"/>
+        <eLiterals xmi:id="_CGMJtgjoEeOpWq22bueY-w" name="Year" value="4"/>
+        <eLiterals xmi:id="_CGMJtwjoEeOpWq22bueY-w" name="Day" value="5"/>
+        <eLiterals xmi:id="_CGMJuAjoEeOpWq22bueY-w" name="KB" value="6"/>
+        <eLiterals xmi:id="_CGMJuQjoEeOpWq22bueY-w" name="MB" value="7"/>
+        <eLiterals xmi:id="_CGMJugjoEeOpWq22bueY-w" name="GB" value="8"/>
+        <eLiterals xmi:id="_CGMJuwjoEeOpWq22bueY-w" name="TB" value="9"/>
+        <eLiterals xmi:id="_CGMJvAjoEeOpWq22bueY-w" name="PB" value="10"/>
+        <eLiterals xmi:id="_CGMJvQjoEeOpWq22bueY-w" name="percentage" value="11"/>
+        <eLiterals xmi:id="_CGMJvgjoEeOpWq22bueY-w" name="absolute" value="12"/>
+        <eLiterals xmi:id="_CGMJvwjoEeOpWq22bueY-w" name="Operation" value="13"/>
+        <eLiterals xmi:id="_CGMJwAjoEeOpWq22bueY-w" name="Query" value="14"/>
+        <eLiterals xmi:id="_CGMJwQjoEeOpWq22bueY-w" name="Application" value="15"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_CGMJwgjoEeOpWq22bueY-w" name="Metric">
+        <eAnnotations xmi:id="_CGMJwwjoEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PgtWcAP4EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CGMJxAjoEeOpWq22bueY-w" name="factor" ordered="false" eType="_CGMJzAjoEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_CGMJxgjoEeOpWq22bueY-w" name="unit" ordered="false" lowerBound="1" eType="_CGMJsAjoEeOpWq22bueY-w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CGMJyAjoEeOpWq22bueY-w" name="range" ordered="false" eType="_CGMJ0gjoEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_CGMJygjoEeOpWq22bueY-w" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_CGMJzAjoEeOpWq22bueY-w" name="Factor">
+        <eAnnotations xmi:id="_CGMJzQjoEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ks9cUAP5EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_CGMJzgjoEeOpWq22bueY-w" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_CGMJ0AjoEeOpWq22bueY-w" name="unit" ordered="false" eType="_CGMJsAjoEeOpWq22bueY-w"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_CGMJ0gjoEeOpWq22bueY-w" name="Range">
+        <eAnnotations xmi:id="_CGMJ0wjoEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sZvpYAQbEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_CGMJ1AjoEeOpWq22bueY-w" name="lowerBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_CGMJ1gjoEeOpWq22bueY-w" name="upperBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_CGMJ2AjoEeOpWq22bueY-w" name="BaseCosts" eSuperTypes="_CGCYtQjoEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_CGMJ2QjoEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MH79sP5vEeKpsuoNdqwiLw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_CGMJ2wjoEeOpWq22bueY-w" name="CostPlan">
+        <eAnnotations xmi:id="_CGMJ3AjoEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jT5ZEP6SEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CGMJ3QjoEeOpWq22bueY-w" name="costComponent" ordered="false" upperBound="-1" eType="_CGCYtQjoEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CGMJ3wjoEeOpWq22bueY-w" name="freeQuota" ordered="false" upperBound="-1" eType="_CGMJ4wjoEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CGMJ4QjoEeOpWq22bueY-w" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_CGMJ4wjoEeOpWq22bueY-w" name="FreeQuota">
+        <eAnnotations xmi:id="_CGMJ5AjoEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rBRysAP8EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_CGMJ5QjoEeOpWq22bueY-w" name="value" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CGMJ5wjoEeOpWq22bueY-w" name="metric" ordered="false" eType="_CGMJwgjoEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CGMJ6QjoEeOpWq22bueY-w" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_CGMJ6wjoEeOpWq22bueY-w" name="ContextualBaseCosts" eSuperTypes="_CGMJ2AjoEeOpWq22bueY-w _CGMJ7wjoEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_CGMJ7AjoEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KdPdAP6cEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_CGMJ7wjoEeOpWq22bueY-w" name="ContextualCosts" abstract="true">
+        <eAnnotations xmi:id="_CGMJ8AjoEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FaeysAQLEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CGMJ8QjoEeOpWq22bueY-w" name="andCombinedElements" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CGMJ8wjoEeOpWq22bueY-w" name="orCombinedElements" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_CGMJ9QjoEeOpWq22bueY-w" name="CompoundCosts" eSuperTypes="_CGCYtQjoEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_CGMJ9gjoEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qDvewP6eEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CGMJ9wjoEeOpWq22bueY-w" name="costComponent" ordered="false" lowerBound="1" upperBound="-1" eType="_CGCYtQjoEeOpWq22bueY-w" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_CGMJ-gjoEeOpWq22bueY-w" name="ContextualRunningCosts" eSuperTypes="_CGCYsgjoEeOpWq22bueY-w _CGMJ7wjoEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_CGMJ-wjoEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_oPVTIP6kEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_CGMJ_gjoEeOpWq22bueY-w" name="ContextualCompoundCosts" eSuperTypes="_CGMJ9QjoEeOpWq22bueY-w _CGMJ7wjoEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_CGMJ_wjoEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_49y_EP6lEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_CGMKAgjoEeOpWq22bueY-w" name="Discount" eSuperTypes="_CGCYtQjoEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_CGMKAwjoEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2hjX8AP8EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_CGMKBAjoEeOpWq22bueY-w" name="discountKind" ordered="false" lowerBound="1" eType="_CGMKBwjoEeOpWq22bueY-w"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_CGMKBwjoEeOpWq22bueY-w" name="DiscountKindType">
+        <eAnnotations xmi:id="_CGMKCAjoEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_m-IBIAQOEeOYP5GGYb_HuQ"/>
+        <eLiterals xmi:id="_CGMKCQjoEeOpWq22bueY-w" name="currentPurchase"/>
+        <eLiterals xmi:id="_CGMKCgjoEeOpWq22bueY-w" name="futurePurchase" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_CGMKCwjoEeOpWq22bueY-w" name="ContextualDiscount" eSuperTypes="_CGMKAgjoEeOpWq22bueY-w _CGMJ7wjoEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_CGMKDAjoEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QVKOAAP_EeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_CGMKDwjoEeOpWq22bueY-w" name="ContextualFreeQuota" eSuperTypes="_CGMJ4wjoEeOpWq22bueY-w _CGMJ7wjoEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_CGMKEAjoEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_IJ2HgAQBEeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_HZqD4QjnEeOpWq22bueY-w" name="Pricing" nsURI="http:///schemas/Pricing/_HZqD4AjnEeOpWq22bueY-w/67" nsPrefix="Pricing">
+      <eAnnotations xmi:id="_HbJRoAjnEeOpWq22bueY-w" source="PapyrusVersion">
+        <details xmi:id="_HbJRoQjnEeOpWq22bueY-w" key="Version" value="0.0.68"/>
+        <details xmi:id="_HbJRogjnEeOpWq22bueY-w" key="Comment" value=""/>
+        <details xmi:id="_HbJRowjnEeOpWq22bueY-w" key="Copyright" value=""/>
+        <details xmi:id="_HbJRpAjnEeOpWq22bueY-w" key="Date" value="2013-08-19"/>
+        <details xmi:id="_HbJRpQjnEeOpWq22bueY-w" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_HZqD4gjnEeOpWq22bueY-w" name="OperationUnit">
+        <eAnnotations xmi:id="_HZqD4wjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_HZqD5AjnEeOpWq22bueY-w" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_HZqD5QjnEeOpWq22bueY-w" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_HZqD5gjnEeOpWq22bueY-w" name="Operation"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_HZqD5wjnEeOpWq22bueY-w" name="Unit_Dep">
+        <eAnnotations xmi:id="_HZqD6AjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HZqD6QjnEeOpWq22bueY-w" name="RunningCosts" eSuperTypes="_HZqD7AjnEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_HZqD6gjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yjS_cP5mEeKpsuoNdqwiLw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HZqD7AjnEeOpWq22bueY-w" name="CostComponent" abstract="true">
+        <eAnnotations xmi:id="_HZqD7QjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2NYxIP6eEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HZqD7gjnEeOpWq22bueY-w" name="description" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HZqD8AjnEeOpWq22bueY-w" name="value" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HZqD8gjnEeOpWq22bueY-w" name="currency" ordered="false" eType="_HZqD-AjnEeOpWq22bueY-w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_HZqD9AjnEeOpWq22bueY-w" name="metric" ordered="false" eType="_HZqD_gjnEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_HZqD9gjnEeOpWq22bueY-w" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_HZqD-AjnEeOpWq22bueY-w" name="CurrencyUnit">
+        <eAnnotations xmi:id="_HZqD-QjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_HZqD-gjnEeOpWq22bueY-w" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_HZqD-wjnEeOpWq22bueY-w" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_HZqD_AjnEeOpWq22bueY-w" name="USD"/>
+        <eLiterals xmi:id="_HZqD_QjnEeOpWq22bueY-w" name="EUR" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HZqD_gjnEeOpWq22bueY-w" name="Metric">
+        <eAnnotations xmi:id="_HZqD_wjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PgtWcAP4EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_HZqEAAjnEeOpWq22bueY-w" name="factor" ordered="false" eType="_HZqECAjnEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HZqEAgjnEeOpWq22bueY-w" name="unit" ordered="false" lowerBound="1" eType="_HZqEDgjnEeOpWq22bueY-w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_HZqEBAjnEeOpWq22bueY-w" name="range" ordered="false" eType="_HZqEIAjnEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HZqEBgjnEeOpWq22bueY-w" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HZqECAjnEeOpWq22bueY-w" name="Factor">
+        <eAnnotations xmi:id="_HZqECQjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ks9cUAP5EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HZqECgjnEeOpWq22bueY-w" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HZqEDAjnEeOpWq22bueY-w" name="unit" ordered="false" eType="_HZqEDgjnEeOpWq22bueY-w"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_HZqEDgjnEeOpWq22bueY-w" name="Unit">
+        <eAnnotations xmi:id="_HZqEDwjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_r2sosAQFEeOYP5GGYb_HuQ"/>
+        <eLiterals xmi:id="_HZqEEAjnEeOpWq22bueY-w" name="EUR"/>
+        <eLiterals xmi:id="_HZqEEQjnEeOpWq22bueY-w" name="USD" value="1"/>
+        <eLiterals xmi:id="_HZqEEgjnEeOpWq22bueY-w" name="Hour" value="2"/>
+        <eLiterals xmi:id="_HZqEEwjnEeOpWq22bueY-w" name="Month" value="3"/>
+        <eLiterals xmi:id="_HZqEFAjnEeOpWq22bueY-w" name="Year" value="4"/>
+        <eLiterals xmi:id="_HZqEFQjnEeOpWq22bueY-w" name="Day" value="5"/>
+        <eLiterals xmi:id="_HZqEFgjnEeOpWq22bueY-w" name="KB" value="6"/>
+        <eLiterals xmi:id="_HZqEFwjnEeOpWq22bueY-w" name="MB" value="7"/>
+        <eLiterals xmi:id="_HZqEGAjnEeOpWq22bueY-w" name="GB" value="8"/>
+        <eLiterals xmi:id="_HZqEGQjnEeOpWq22bueY-w" name="TB" value="9"/>
+        <eLiterals xmi:id="_HZqEGgjnEeOpWq22bueY-w" name="PB" value="10"/>
+        <eLiterals xmi:id="_HZqEGwjnEeOpWq22bueY-w" name="percentage" value="11"/>
+        <eLiterals xmi:id="_HZqEHAjnEeOpWq22bueY-w" name="absolute" value="12"/>
+        <eLiterals xmi:id="_HZqEHQjnEeOpWq22bueY-w" name="Operation" value="13"/>
+        <eLiterals xmi:id="_HZqEHgjnEeOpWq22bueY-w" name="Query" value="14"/>
+        <eLiterals xmi:id="_HZqEHwjnEeOpWq22bueY-w" name="Application" value="15"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HZqEIAjnEeOpWq22bueY-w" name="Range">
+        <eAnnotations xmi:id="_HZqEIQjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sZvpYAQbEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HZqEIgjnEeOpWq22bueY-w" name="lowerBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HZqEJAjnEeOpWq22bueY-w" name="upperBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HZqEJgjnEeOpWq22bueY-w" name="BaseCosts" eSuperTypes="_HZqD7AjnEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_HZqEJwjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MH79sP5vEeKpsuoNdqwiLw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HZqEKQjnEeOpWq22bueY-w" name="CostPlan">
+        <eAnnotations xmi:id="_HZqEKgjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jT5ZEP6SEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_HZqEKwjnEeOpWq22bueY-w" name="costComponent" ordered="false" upperBound="-1" eType="_HZqD7AjnEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_HZqELQjnEeOpWq22bueY-w" name="freeQuota" ordered="false" upperBound="-1" eType="_HZqEMQjnEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_HZqELwjnEeOpWq22bueY-w" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HZqEMQjnEeOpWq22bueY-w" name="FreeQuota">
+        <eAnnotations xmi:id="_HZqEMgjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rBRysAP8EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HZqEMwjnEeOpWq22bueY-w" name="value" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_HZqENQjnEeOpWq22bueY-w" name="metric" ordered="false" eType="_HZqD_gjnEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_HZqENwjnEeOpWq22bueY-w" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HZqEOQjnEeOpWq22bueY-w" name="ContextualBaseCosts" eSuperTypes="_HZqEJgjnEeOpWq22bueY-w _HZqEPQjnEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_HZqEOgjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KdPdAP6cEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HZqEPQjnEeOpWq22bueY-w" name="ContextualCosts" abstract="true">
+        <eAnnotations xmi:id="_HZqEPgjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FaeysAQLEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_HZqEPwjnEeOpWq22bueY-w" name="andCombinedElements" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_HZqEQQjnEeOpWq22bueY-w" name="orCombinedElements" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HZqEQwjnEeOpWq22bueY-w" name="CompoundCosts" eSuperTypes="_HZqD7AjnEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_HZqERAjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qDvewP6eEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_HZqERQjnEeOpWq22bueY-w" name="costComponent" ordered="false" lowerBound="1" upperBound="-1" eType="_HZqD7AjnEeOpWq22bueY-w" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HZqESAjnEeOpWq22bueY-w" name="ContextualRunningCosts" eSuperTypes="_HZqD6QjnEeOpWq22bueY-w _HZqEPQjnEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_HZqESQjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_oPVTIP6kEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HZqETAjnEeOpWq22bueY-w" name="ContextualCompoundCosts" eSuperTypes="_HZqEQwjnEeOpWq22bueY-w _HZqEPQjnEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_HZqETQjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_49y_EP6lEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_HZqEUAjnEeOpWq22bueY-w" name="TimeUnit">
+        <eAnnotations xmi:id="_HZqEUQjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_HZqEUgjnEeOpWq22bueY-w" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_HZqEUwjnEeOpWq22bueY-w" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_HZqEVAjnEeOpWq22bueY-w" name="Hour"/>
+        <eLiterals xmi:id="_HZqEVQjnEeOpWq22bueY-w" name="Day" value="1"/>
+        <eLiterals xmi:id="_HZqEVgjnEeOpWq22bueY-w" name="Month" value="2"/>
+        <eLiterals xmi:id="_HZqEVwjnEeOpWq22bueY-w" name="Year" value="3"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_HZqEWAjnEeOpWq22bueY-w" name="CapacityUnit">
+        <eAnnotations xmi:id="_HZqEWQjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_HZqEWgjnEeOpWq22bueY-w" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_HZqEWwjnEeOpWq22bueY-w" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_HZqEXAjnEeOpWq22bueY-w" name="KB"/>
+        <eLiterals xmi:id="_HZqEXQjnEeOpWq22bueY-w" name="MB" value="1"/>
+        <eLiterals xmi:id="_HZqEXgjnEeOpWq22bueY-w" name="GB" value="2"/>
+        <eLiterals xmi:id="_HZqEXwjnEeOpWq22bueY-w" name="TB" value="3"/>
+        <eLiterals xmi:id="_HZqEYAjnEeOpWq22bueY-w" name="PB" value="4"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HZqEYQjnEeOpWq22bueY-w" name="Discount" eSuperTypes="_HZqD7AjnEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_HZqEYgjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2hjX8AP8EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HZqEYwjnEeOpWq22bueY-w" name="discountKind" ordered="false" lowerBound="1" eType="_HZqEZgjnEeOpWq22bueY-w"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_HZqEZgjnEeOpWq22bueY-w" name="DiscountKindType">
+        <eAnnotations xmi:id="_HZqEZwjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_m-IBIAQOEeOYP5GGYb_HuQ"/>
+        <eLiterals xmi:id="_HZqEaAjnEeOpWq22bueY-w" name="currentPurchase"/>
+        <eLiterals xmi:id="_HZqEaQjnEeOpWq22bueY-w" name="futurePurchase" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_HZqEagjnEeOpWq22bueY-w" name="MathUnit">
+        <eAnnotations xmi:id="_HZqEawjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_HZqEbAjnEeOpWq22bueY-w" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_HZqEbQjnEeOpWq22bueY-w" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_HZqEbgjnEeOpWq22bueY-w" name="absolute"/>
+        <eLiterals xmi:id="_HZqEbwjnEeOpWq22bueY-w" name="percentage" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HZqEcAjnEeOpWq22bueY-w" name="ContextualDiscount" eSuperTypes="_HZqEYQjnEeOpWq22bueY-w _HZqEPQjnEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_HZqEcQjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QVKOAAP_EeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HZqEdAjnEeOpWq22bueY-w" name="ContextualFreeQuota" eSuperTypes="_HZqEMQjnEeOpWq22bueY-w _HZqEPQjnEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_HZqEdQjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_IJ2HgAQBEeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_FITsUAjnEeOpWq22bueY-w" name="Pricing" nsURI="http:///schemas/Pricing/_FIJ7UAjnEeOpWq22bueY-w/66" nsPrefix="Pricing">
+      <eAnnotations xmi:id="_FJy6EAjnEeOpWq22bueY-w" source="PapyrusVersion">
+        <details xmi:id="_FJy6EQjnEeOpWq22bueY-w" key="Version" value="0.0.67"/>
+        <details xmi:id="_FJy6EgjnEeOpWq22bueY-w" key="Comment" value=""/>
+        <details xmi:id="_FJy6EwjnEeOpWq22bueY-w" key="Copyright" value=""/>
+        <details xmi:id="_FJy6FAjnEeOpWq22bueY-w" key="Date" value="2013-08-19"/>
+        <details xmi:id="_FJy6FQjnEeOpWq22bueY-w" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_FITsUQjnEeOpWq22bueY-w" name="OperationUnit">
+        <eAnnotations xmi:id="_FITsUgjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_FITsUwjnEeOpWq22bueY-w" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_FITsVAjnEeOpWq22bueY-w" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_FITsVQjnEeOpWq22bueY-w" name="Operation"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_FITsVgjnEeOpWq22bueY-w" name="Unit_Dep">
+        <eAnnotations xmi:id="_FITsVwjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FITsWAjnEeOpWq22bueY-w" name="RunningCosts" eSuperTypes="_FITsWwjnEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_FITsWQjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yjS_cP5mEeKpsuoNdqwiLw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FITsWwjnEeOpWq22bueY-w" name="CostComponent" abstract="true">
+        <eAnnotations xmi:id="_FITsXAjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2NYxIP6eEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_FITsXQjnEeOpWq22bueY-w" name="description" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_FITsXwjnEeOpWq22bueY-w" name="value" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_FITsYQjnEeOpWq22bueY-w" name="currency" ordered="false" eType="_FITsZwjnEeOpWq22bueY-w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FITsYwjnEeOpWq22bueY-w" name="metric" ordered="false" eType="_FITsbQjnEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FITsZQjnEeOpWq22bueY-w" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_FITsZwjnEeOpWq22bueY-w" name="CurrencyUnit">
+        <eAnnotations xmi:id="_FITsaAjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_FITsaQjnEeOpWq22bueY-w" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_FITsagjnEeOpWq22bueY-w" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_FITsawjnEeOpWq22bueY-w" name="USD"/>
+        <eLiterals xmi:id="_FITsbAjnEeOpWq22bueY-w" name="EUR" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FITsbQjnEeOpWq22bueY-w" name="Metric">
+        <eAnnotations xmi:id="_FITsbgjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PgtWcAP4EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FITsbwjnEeOpWq22bueY-w" name="factor" ordered="false" eType="_FITsdwjnEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_FITscQjnEeOpWq22bueY-w" name="unit" ordered="false" lowerBound="1" eType="_FITsfQjnEeOpWq22bueY-w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FITscwjnEeOpWq22bueY-w" name="range" ordered="false" eType="_FITsjwjnEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_FITsdQjnEeOpWq22bueY-w" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FITsdwjnEeOpWq22bueY-w" name="Factor">
+        <eAnnotations xmi:id="_FITseAjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ks9cUAP5EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_FITseQjnEeOpWq22bueY-w" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_FITsewjnEeOpWq22bueY-w" name="unit" ordered="false" eType="_FITsfQjnEeOpWq22bueY-w"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_FITsfQjnEeOpWq22bueY-w" name="Unit">
+        <eAnnotations xmi:id="_FITsfgjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_r2sosAQFEeOYP5GGYb_HuQ"/>
+        <eLiterals xmi:id="_FITsfwjnEeOpWq22bueY-w" name="EUR"/>
+        <eLiterals xmi:id="_FITsgAjnEeOpWq22bueY-w" name="USD" value="1"/>
+        <eLiterals xmi:id="_FITsgQjnEeOpWq22bueY-w" name="Hour" value="2"/>
+        <eLiterals xmi:id="_FITsggjnEeOpWq22bueY-w" name="Month" value="3"/>
+        <eLiterals xmi:id="_FITsgwjnEeOpWq22bueY-w" name="Year" value="4"/>
+        <eLiterals xmi:id="_FITshAjnEeOpWq22bueY-w" name="Day" value="5"/>
+        <eLiterals xmi:id="_FITshQjnEeOpWq22bueY-w" name="KB" value="6"/>
+        <eLiterals xmi:id="_FITshgjnEeOpWq22bueY-w" name="MB" value="7"/>
+        <eLiterals xmi:id="_FITshwjnEeOpWq22bueY-w" name="GB" value="8"/>
+        <eLiterals xmi:id="_FITsiAjnEeOpWq22bueY-w" name="TB" value="9"/>
+        <eLiterals xmi:id="_FITsiQjnEeOpWq22bueY-w" name="PB" value="10"/>
+        <eLiterals xmi:id="_FITsigjnEeOpWq22bueY-w" name="percentage" value="11"/>
+        <eLiterals xmi:id="_FITsiwjnEeOpWq22bueY-w" name="absolute" value="12"/>
+        <eLiterals xmi:id="_FITsjAjnEeOpWq22bueY-w" name="Operation" value="13"/>
+        <eLiterals xmi:id="_FITsjQjnEeOpWq22bueY-w" name="Query" value="14"/>
+        <eLiterals xmi:id="_FITsjgjnEeOpWq22bueY-w" name="Application" value="15"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FITsjwjnEeOpWq22bueY-w" name="Range">
+        <eAnnotations xmi:id="_FITskAjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sZvpYAQbEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_FITskQjnEeOpWq22bueY-w" name="lowerBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_FITskwjnEeOpWq22bueY-w" name="upperBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FITslQjnEeOpWq22bueY-w" name="BaseCosts" eSuperTypes="_FITsWwjnEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_FITslgjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MH79sP5vEeKpsuoNdqwiLw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FITsmAjnEeOpWq22bueY-w" name="CostPlan">
+        <eAnnotations xmi:id="_FITsmQjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jT5ZEP6SEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FITsmgjnEeOpWq22bueY-w" name="costComponent" ordered="false" upperBound="-1" eType="_FITsWwjnEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FITsnAjnEeOpWq22bueY-w" name="freeQuota" ordered="false" upperBound="-1" eType="_FITsoAjnEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FITsngjnEeOpWq22bueY-w" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FITsoAjnEeOpWq22bueY-w" name="FreeQuota">
+        <eAnnotations xmi:id="_FITsoQjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rBRysAP8EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_FITsogjnEeOpWq22bueY-w" name="value" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FITspAjnEeOpWq22bueY-w" name="metric" ordered="false" eType="_FITsbQjnEeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FITspgjnEeOpWq22bueY-w" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FITsqAjnEeOpWq22bueY-w" name="ContextualBaseCosts" eSuperTypes="_FITslQjnEeOpWq22bueY-w _FITsrAjnEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_FITsqQjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KdPdAP6cEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FITsrAjnEeOpWq22bueY-w" name="ContextualCosts" abstract="true">
+        <eAnnotations xmi:id="_FITsrQjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FaeysAQLEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FITsrgjnEeOpWq22bueY-w" name="andCombinedElements" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FITssAjnEeOpWq22bueY-w" name="orCombinedElements" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FITssgjnEeOpWq22bueY-w" name="CompoundCosts" eSuperTypes="_FITsWwjnEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_FITsswjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qDvewP6eEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FITstAjnEeOpWq22bueY-w" name="costComponent" ordered="false" lowerBound="1" upperBound="-1" eType="_FITsWwjnEeOpWq22bueY-w" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FITstwjnEeOpWq22bueY-w" name="ContextualRunningCosts" eSuperTypes="_FITsWAjnEeOpWq22bueY-w _FITsrAjnEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_FITsuAjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_oPVTIP6kEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FITsuwjnEeOpWq22bueY-w" name="ContextualCompoundCosts" eSuperTypes="_FITssgjnEeOpWq22bueY-w _FITsrAjnEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_FITsvAjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_49y_EP6lEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_FITsvwjnEeOpWq22bueY-w" name="TimeUnit">
+        <eAnnotations xmi:id="_FITswAjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_FITswQjnEeOpWq22bueY-w" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_FITswgjnEeOpWq22bueY-w" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_FITswwjnEeOpWq22bueY-w" name="Hour"/>
+        <eLiterals xmi:id="_FITsxAjnEeOpWq22bueY-w" name="Day" value="1"/>
+        <eLiterals xmi:id="_FITsxQjnEeOpWq22bueY-w" name="Month" value="2"/>
+        <eLiterals xmi:id="_FITsxgjnEeOpWq22bueY-w" name="Year" value="3"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_FITsxwjnEeOpWq22bueY-w" name="CapacityUnit">
+        <eAnnotations xmi:id="_FITsyAjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_FITsyQjnEeOpWq22bueY-w" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_FITsygjnEeOpWq22bueY-w" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_FITsywjnEeOpWq22bueY-w" name="KB"/>
+        <eLiterals xmi:id="_FITszAjnEeOpWq22bueY-w" name="MB" value="1"/>
+        <eLiterals xmi:id="_FITszQjnEeOpWq22bueY-w" name="GB" value="2"/>
+        <eLiterals xmi:id="_FITszgjnEeOpWq22bueY-w" name="TB" value="3"/>
+        <eLiterals xmi:id="_FITszwjnEeOpWq22bueY-w" name="PB" value="4"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FITs0AjnEeOpWq22bueY-w" name="Discount" eSuperTypes="_FITsWwjnEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_FITs0QjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2hjX8AP8EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_FITs0gjnEeOpWq22bueY-w" name="discountKind" ordered="false" lowerBound="1" eType="_FITs1QjnEeOpWq22bueY-w"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_FITs1QjnEeOpWq22bueY-w" name="DiscountKindType">
+        <eAnnotations xmi:id="_FITs1gjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_m-IBIAQOEeOYP5GGYb_HuQ"/>
+        <eLiterals xmi:id="_FITs1wjnEeOpWq22bueY-w" name="currentPurchase"/>
+        <eLiterals xmi:id="_FITs2AjnEeOpWq22bueY-w" name="futurePurchase" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_FITs2QjnEeOpWq22bueY-w" name="MathUnit">
+        <eAnnotations xmi:id="_FITs2gjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_FITs2wjnEeOpWq22bueY-w" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_FITs3AjnEeOpWq22bueY-w" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_FITs3QjnEeOpWq22bueY-w" name="absolute"/>
+        <eLiterals xmi:id="_FITs3gjnEeOpWq22bueY-w" name="percentage" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FITs3wjnEeOpWq22bueY-w" name="ContextualDiscount" eSuperTypes="_FITs0AjnEeOpWq22bueY-w _FITsrAjnEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_FITs4AjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QVKOAAP_EeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FITs4wjnEeOpWq22bueY-w" name="ContextualFreeQuota" eSuperTypes="_FITsoAjnEeOpWq22bueY-w _FITsrAjnEeOpWq22bueY-w">
+        <eAnnotations xmi:id="_FITs5AjnEeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_IJ2HgAQBEeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_K6TiIQjREeOpWq22bueY-w" name="Pricing" nsURI="http:///schemas/Pricing/_K6TiIAjREeOpWq22bueY-w/65" nsPrefix="Pricing">
+      <eAnnotations xmi:id="_K8Fq0AjREeOpWq22bueY-w" source="PapyrusVersion">
+        <details xmi:id="_K8Fq0QjREeOpWq22bueY-w" key="Version" value="0.0.66"/>
+        <details xmi:id="_K8Fq0gjREeOpWq22bueY-w" key="Comment" value=""/>
+        <details xmi:id="_K8Fq0wjREeOpWq22bueY-w" key="Copyright" value=""/>
+        <details xmi:id="_K8Fq1AjREeOpWq22bueY-w" key="Date" value="2013-08-19"/>
+        <details xmi:id="_K8Fq1QjREeOpWq22bueY-w" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_K6TiIgjREeOpWq22bueY-w" name="OperationUnit">
+        <eAnnotations xmi:id="_K6TiIwjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_K6TiJAjREeOpWq22bueY-w" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_K6TiJQjREeOpWq22bueY-w" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_K6TiJgjREeOpWq22bueY-w" name="Operation"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_K6TiJwjREeOpWq22bueY-w" name="Unit_Dep">
+        <eAnnotations xmi:id="_K6TiKAjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_K6TiKQjREeOpWq22bueY-w" name="RunningCosts" eSuperTypes="_K6TiLAjREeOpWq22bueY-w">
+        <eAnnotations xmi:id="_K6TiKgjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yjS_cP5mEeKpsuoNdqwiLw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_K6TiLAjREeOpWq22bueY-w" name="CostComponent" abstract="true">
+        <eAnnotations xmi:id="_K6TiLQjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2NYxIP6eEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_K6TiLgjREeOpWq22bueY-w" name="description" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_K6TiMAjREeOpWq22bueY-w" name="value" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_K6TiMgjREeOpWq22bueY-w" name="currency" ordered="false" lowerBound="1" eType="_K6TiOAjREeOpWq22bueY-w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_K6TiNAjREeOpWq22bueY-w" name="metric" ordered="false" lowerBound="1" eType="_K6TiPgjREeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_K6TiNgjREeOpWq22bueY-w" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_K6TiOAjREeOpWq22bueY-w" name="CurrencyUnit">
+        <eAnnotations xmi:id="_K6TiOQjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_K6TiOgjREeOpWq22bueY-w" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_K6TiOwjREeOpWq22bueY-w" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_K6TiPAjREeOpWq22bueY-w" name="USD"/>
+        <eLiterals xmi:id="_K6TiPQjREeOpWq22bueY-w" name="EUR" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_K6TiPgjREeOpWq22bueY-w" name="Metric">
+        <eAnnotations xmi:id="_K6TiPwjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PgtWcAP4EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_K6TiQAjREeOpWq22bueY-w" name="factor" ordered="false" eType="_K6TiSAjREeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_K6TiQgjREeOpWq22bueY-w" name="unit" ordered="false" lowerBound="1" eType="_K6TiTgjREeOpWq22bueY-w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_K6TiRAjREeOpWq22bueY-w" name="range" ordered="false" eType="_K6TiYAjREeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_K6TiRgjREeOpWq22bueY-w" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_K6TiSAjREeOpWq22bueY-w" name="Factor">
+        <eAnnotations xmi:id="_K6TiSQjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ks9cUAP5EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_K6TiSgjREeOpWq22bueY-w" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_K6TiTAjREeOpWq22bueY-w" name="unit" ordered="false" eType="_K6TiTgjREeOpWq22bueY-w"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_K6TiTgjREeOpWq22bueY-w" name="Unit">
+        <eAnnotations xmi:id="_K6TiTwjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_r2sosAQFEeOYP5GGYb_HuQ"/>
+        <eLiterals xmi:id="_K6TiUAjREeOpWq22bueY-w" name="EUR"/>
+        <eLiterals xmi:id="_K6TiUQjREeOpWq22bueY-w" name="USD" value="1"/>
+        <eLiterals xmi:id="_K6TiUgjREeOpWq22bueY-w" name="Hour" value="2"/>
+        <eLiterals xmi:id="_K6TiUwjREeOpWq22bueY-w" name="Month" value="3"/>
+        <eLiterals xmi:id="_K6TiVAjREeOpWq22bueY-w" name="Year" value="4"/>
+        <eLiterals xmi:id="_K6TiVQjREeOpWq22bueY-w" name="Day" value="5"/>
+        <eLiterals xmi:id="_K6TiVgjREeOpWq22bueY-w" name="KB" value="6"/>
+        <eLiterals xmi:id="_K6TiVwjREeOpWq22bueY-w" name="MB" value="7"/>
+        <eLiterals xmi:id="_K6TiWAjREeOpWq22bueY-w" name="GB" value="8"/>
+        <eLiterals xmi:id="_K6TiWQjREeOpWq22bueY-w" name="TB" value="9"/>
+        <eLiterals xmi:id="_K6TiWgjREeOpWq22bueY-w" name="PB" value="10"/>
+        <eLiterals xmi:id="_K6TiWwjREeOpWq22bueY-w" name="percentage" value="11"/>
+        <eLiterals xmi:id="_K6TiXAjREeOpWq22bueY-w" name="absolute" value="12"/>
+        <eLiterals xmi:id="_K6TiXQjREeOpWq22bueY-w" name="Operation" value="13"/>
+        <eLiterals xmi:id="_K6TiXgjREeOpWq22bueY-w" name="Query" value="14"/>
+        <eLiterals xmi:id="_K6TiXwjREeOpWq22bueY-w" name="Application" value="15"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_K6TiYAjREeOpWq22bueY-w" name="Range">
+        <eAnnotations xmi:id="_K6TiYQjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sZvpYAQbEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_K6TiYgjREeOpWq22bueY-w" name="lowerBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_K6TiZAjREeOpWq22bueY-w" name="upperBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_K6TiZgjREeOpWq22bueY-w" name="BaseCosts" eSuperTypes="_K6TiLAjREeOpWq22bueY-w">
+        <eAnnotations xmi:id="_K6TiZwjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MH79sP5vEeKpsuoNdqwiLw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_K6TiaQjREeOpWq22bueY-w" name="CostPlan">
+        <eAnnotations xmi:id="_K6TiagjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jT5ZEP6SEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_K6TiawjREeOpWq22bueY-w" name="costComponent" ordered="false" upperBound="-1" eType="_K6TiLAjREeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_K6TibQjREeOpWq22bueY-w" name="freeQuota" ordered="false" upperBound="-1" eType="_K6TicQjREeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_K6TibwjREeOpWq22bueY-w" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_K6TicQjREeOpWq22bueY-w" name="FreeQuota">
+        <eAnnotations xmi:id="_K6TicgjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rBRysAP8EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_K6TicwjREeOpWq22bueY-w" name="value" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_K6TidQjREeOpWq22bueY-w" name="metric" ordered="false" eType="_K6TiPgjREeOpWq22bueY-w" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_K6TidwjREeOpWq22bueY-w" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_K6TieQjREeOpWq22bueY-w" name="ContextualBaseCosts" eSuperTypes="_K6TiZgjREeOpWq22bueY-w _K6TifQjREeOpWq22bueY-w">
+        <eAnnotations xmi:id="_K6TiegjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KdPdAP6cEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_K6TifQjREeOpWq22bueY-w" name="ContextualCosts" abstract="true">
+        <eAnnotations xmi:id="_K6TifgjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FaeysAQLEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_K6TifwjREeOpWq22bueY-w" name="andCombinedElements" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_K6TigQjREeOpWq22bueY-w" name="orCombinedElements" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_K6TigwjREeOpWq22bueY-w" name="CompoundCosts" eSuperTypes="_K6TiLAjREeOpWq22bueY-w">
+        <eAnnotations xmi:id="_K6TihAjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qDvewP6eEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_K6TihQjREeOpWq22bueY-w" name="costComponent" ordered="false" lowerBound="1" upperBound="-1" eType="_K6TiLAjREeOpWq22bueY-w" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_K6TiiAjREeOpWq22bueY-w" name="ContextualRunningCosts" eSuperTypes="_K6TiKQjREeOpWq22bueY-w _K6TifQjREeOpWq22bueY-w">
+        <eAnnotations xmi:id="_K6TiiQjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_oPVTIP6kEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_K6TijAjREeOpWq22bueY-w" name="ContextualCompoundCosts" eSuperTypes="_K6TigwjREeOpWq22bueY-w _K6TifQjREeOpWq22bueY-w">
+        <eAnnotations xmi:id="_K6TijQjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_49y_EP6lEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_K6TikAjREeOpWq22bueY-w" name="TimeUnit">
+        <eAnnotations xmi:id="_K6TikQjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_K6TikgjREeOpWq22bueY-w" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_K6TikwjREeOpWq22bueY-w" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_K6TilAjREeOpWq22bueY-w" name="Hour"/>
+        <eLiterals xmi:id="_K6TilQjREeOpWq22bueY-w" name="Day" value="1"/>
+        <eLiterals xmi:id="_K6TilgjREeOpWq22bueY-w" name="Month" value="2"/>
+        <eLiterals xmi:id="_K6TilwjREeOpWq22bueY-w" name="Year" value="3"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_K6TimAjREeOpWq22bueY-w" name="CapacityUnit">
+        <eAnnotations xmi:id="_K6TimQjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_K6TimgjREeOpWq22bueY-w" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_K6TimwjREeOpWq22bueY-w" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_K6TinAjREeOpWq22bueY-w" name="KB"/>
+        <eLiterals xmi:id="_K6TinQjREeOpWq22bueY-w" name="MB" value="1"/>
+        <eLiterals xmi:id="_K6TingjREeOpWq22bueY-w" name="GB" value="2"/>
+        <eLiterals xmi:id="_K6TinwjREeOpWq22bueY-w" name="TB" value="3"/>
+        <eLiterals xmi:id="_K6TioAjREeOpWq22bueY-w" name="PB" value="4"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_K6TioQjREeOpWq22bueY-w" name="Discount" eSuperTypes="_K6TiLAjREeOpWq22bueY-w">
+        <eAnnotations xmi:id="_K6TiogjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2hjX8AP8EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_K6TiowjREeOpWq22bueY-w" name="discountKind" ordered="false" lowerBound="1" eType="_K6TipgjREeOpWq22bueY-w"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_K6TipgjREeOpWq22bueY-w" name="DiscountKindType">
+        <eAnnotations xmi:id="_K6TipwjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_m-IBIAQOEeOYP5GGYb_HuQ"/>
+        <eLiterals xmi:id="_K6TiqAjREeOpWq22bueY-w" name="currentPurchase"/>
+        <eLiterals xmi:id="_K6TiqQjREeOpWq22bueY-w" name="futurePurchase" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_K6TiqgjREeOpWq22bueY-w" name="MathUnit">
+        <eAnnotations xmi:id="_K6TiqwjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_K6TirAjREeOpWq22bueY-w" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_K6TirQjREeOpWq22bueY-w" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_K6TirgjREeOpWq22bueY-w" name="absolute"/>
+        <eLiterals xmi:id="_K6TirwjREeOpWq22bueY-w" name="percentage" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_K6TisAjREeOpWq22bueY-w" name="ContextualDiscount" eSuperTypes="_K6TioQjREeOpWq22bueY-w _K6TifQjREeOpWq22bueY-w">
+        <eAnnotations xmi:id="_K6TisQjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QVKOAAP_EeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_K6TitAjREeOpWq22bueY-w" name="ContextualFreeQuota" eSuperTypes="_K6TicQjREeOpWq22bueY-w _K6TifQjREeOpWq22bueY-w">
+        <eAnnotations xmi:id="_K6TitQjREeOpWq22bueY-w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_IJ2HgAQBEeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_Y2cMIAS7EeOYqpWHmlUzvA" name="Pricing" nsURI="http:///schemas/Pricing/_Y2Zv4AS7EeOYqpWHmlUzvA/64" nsPrefix="Pricing">
+      <eAnnotations xmi:id="_Y4O74AS7EeOYqpWHmlUzvA" source="PapyrusVersion">
+        <details xmi:id="_Y4O74QS7EeOYqpWHmlUzvA" key="Version" value="0.0.65"/>
+        <details xmi:id="_Y4O74gS7EeOYqpWHmlUzvA" key="Comment" value=""/>
+        <details xmi:id="_Y4O74wS7EeOYqpWHmlUzvA" key="Copyright" value=""/>
+        <details xmi:id="_Y4O75AS7EeOYqpWHmlUzvA" key="Date" value="2013-08-14"/>
+        <details xmi:id="_Y4O75QS7EeOYqpWHmlUzvA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_Y2cMIQS7EeOYqpWHmlUzvA" name="OperationUnit">
+        <eAnnotations xmi:id="_Y2cMIgS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_Y2cMIwS7EeOYqpWHmlUzvA" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_Y2cMJAS7EeOYqpWHmlUzvA" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_Y2cMJQS7EeOYqpWHmlUzvA" name="Operation"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_Y2cMJgS7EeOYqpWHmlUzvA" name="Unit_Dep">
+        <eAnnotations xmi:id="_Y2cMJwS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Y2cMKAS7EeOYqpWHmlUzvA" name="RunningCosts" eSuperTypes="_Y2cMKwS7EeOYqpWHmlUzvA">
+        <eAnnotations xmi:id="_Y2cMKQS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yjS_cP5mEeKpsuoNdqwiLw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Y2cMKwS7EeOYqpWHmlUzvA" name="CostComponent" abstract="true">
+        <eAnnotations xmi:id="_Y2cMLAS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2NYxIP6eEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Y2cMLQS7EeOYqpWHmlUzvA" name="base_Stereotype" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Stereotype"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Y2cMLwS7EeOYqpWHmlUzvA" name="description" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Y2cMMQS7EeOYqpWHmlUzvA" name="value" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Y2cMMwS7EeOYqpWHmlUzvA" name="currency" ordered="false" lowerBound="1" eType="_Y2cMNwS7EeOYqpWHmlUzvA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Y2cMNQS7EeOYqpWHmlUzvA" name="metric" ordered="false" lowerBound="1" eType="_Y2cMPQS7EeOYqpWHmlUzvA" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_Y2cMNwS7EeOYqpWHmlUzvA" name="CurrencyUnit">
+        <eAnnotations xmi:id="_Y2cMOAS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_Y2cMOQS7EeOYqpWHmlUzvA" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_Y2cMOgS7EeOYqpWHmlUzvA" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_Y2cMOwS7EeOYqpWHmlUzvA" name="USD"/>
+        <eLiterals xmi:id="_Y2cMPAS7EeOYqpWHmlUzvA" name="EUR" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Y2cMPQS7EeOYqpWHmlUzvA" name="Metric">
+        <eAnnotations xmi:id="_Y2cMPgS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PgtWcAP4EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Y2cMPwS7EeOYqpWHmlUzvA" name="factor" ordered="false" eType="_Y2cMRwS7EeOYqpWHmlUzvA" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Y2cMQQS7EeOYqpWHmlUzvA" name="unit" ordered="false" lowerBound="1" eType="_Y2cMTQS7EeOYqpWHmlUzvA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Y2cMQwS7EeOYqpWHmlUzvA" name="range" ordered="false" eType="_Y2czNAS7EeOYqpWHmlUzvA" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Y2cMRQS7EeOYqpWHmlUzvA" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Y2cMRwS7EeOYqpWHmlUzvA" name="Factor">
+        <eAnnotations xmi:id="_Y2cMSAS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ks9cUAP5EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Y2cMSQS7EeOYqpWHmlUzvA" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Y2cMSwS7EeOYqpWHmlUzvA" name="unit" ordered="false" eType="_Y2cMTQS7EeOYqpWHmlUzvA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_Y2cMTQS7EeOYqpWHmlUzvA" name="Unit">
+        <eAnnotations xmi:id="_Y2cMTgS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_r2sosAQFEeOYP5GGYb_HuQ"/>
+        <eLiterals xmi:id="_Y2cMTwS7EeOYqpWHmlUzvA" name="EUR"/>
+        <eLiterals xmi:id="_Y2cMUAS7EeOYqpWHmlUzvA" name="USD" value="1"/>
+        <eLiterals xmi:id="_Y2cMUQS7EeOYqpWHmlUzvA" name="Hour" value="2"/>
+        <eLiterals xmi:id="_Y2cMUgS7EeOYqpWHmlUzvA" name="Month" value="3"/>
+        <eLiterals xmi:id="_Y2cMUwS7EeOYqpWHmlUzvA" name="Year" value="4"/>
+        <eLiterals xmi:id="_Y2cMVAS7EeOYqpWHmlUzvA" name="Day" value="5"/>
+        <eLiterals xmi:id="_Y2cMVQS7EeOYqpWHmlUzvA" name="KB" value="6"/>
+        <eLiterals xmi:id="_Y2cMVgS7EeOYqpWHmlUzvA" name="MB" value="7"/>
+        <eLiterals xmi:id="_Y2cMVwS7EeOYqpWHmlUzvA" name="GB" value="8"/>
+        <eLiterals xmi:id="_Y2cMWAS7EeOYqpWHmlUzvA" name="TB" value="9"/>
+        <eLiterals xmi:id="_Y2cMWQS7EeOYqpWHmlUzvA" name="PB" value="10"/>
+        <eLiterals xmi:id="_Y2cMWgS7EeOYqpWHmlUzvA" name="percentage" value="11"/>
+        <eLiterals xmi:id="_Y2czMAS7EeOYqpWHmlUzvA" name="absolute" value="12"/>
+        <eLiterals xmi:id="_Y2czMQS7EeOYqpWHmlUzvA" name="Operation" value="13"/>
+        <eLiterals xmi:id="_Y2czMgS7EeOYqpWHmlUzvA" name="Query" value="14"/>
+        <eLiterals xmi:id="_Y2czMwS7EeOYqpWHmlUzvA" name="Application" value="15"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Y2czNAS7EeOYqpWHmlUzvA" name="Range">
+        <eAnnotations xmi:id="_Y2czNQS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sZvpYAQbEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Y2czNgS7EeOYqpWHmlUzvA" name="lowerBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Y2czOAS7EeOYqpWHmlUzvA" name="upperBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Y2czOgS7EeOYqpWHmlUzvA" name="BaseCosts" eSuperTypes="_Y2cMKwS7EeOYqpWHmlUzvA">
+        <eAnnotations xmi:id="_Y2czOwS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MH79sP5vEeKpsuoNdqwiLw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Y2czPQS7EeOYqpWHmlUzvA" name="CostPlan">
+        <eAnnotations xmi:id="_Y2czPgS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jT5ZEP6SEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Y2czPwS7EeOYqpWHmlUzvA" name="base_Stereotype" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Stereotype"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Y2czQQS7EeOYqpWHmlUzvA" name="costComponent" ordered="false" upperBound="-1" eType="_Y2cMKwS7EeOYqpWHmlUzvA" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Y2czQwS7EeOYqpWHmlUzvA" name="freeQuota" ordered="false" upperBound="-1" eType="_Y2czRQS7EeOYqpWHmlUzvA" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Y2czRQS7EeOYqpWHmlUzvA" name="FreeQuota">
+        <eAnnotations xmi:id="_Y2czRgS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rBRysAP8EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Y2czRwS7EeOYqpWHmlUzvA" name="value" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Y2czSQS7EeOYqpWHmlUzvA" name="metric" ordered="false" eType="_Y2cMPQS7EeOYqpWHmlUzvA" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Y2czSwS7EeOYqpWHmlUzvA" name="base_Stereotype" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Stereotype"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Y2czTQS7EeOYqpWHmlUzvA" name="ContextualBaseCosts" eSuperTypes="_Y2czOgS7EeOYqpWHmlUzvA _Y2czUQS7EeOYqpWHmlUzvA">
+        <eAnnotations xmi:id="_Y2czTgS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KdPdAP6cEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Y2czUQS7EeOYqpWHmlUzvA" name="ContextualCosts" abstract="true">
+        <eAnnotations xmi:id="_Y2czUgS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FaeysAQLEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Y2czUwS7EeOYqpWHmlUzvA" name="andCombinedElements" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Y2czVQS7EeOYqpWHmlUzvA" name="orCombinedElements" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Y2czVwS7EeOYqpWHmlUzvA" name="CompoundCosts" eSuperTypes="_Y2cMKwS7EeOYqpWHmlUzvA">
+        <eAnnotations xmi:id="_Y2czWAS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qDvewP6eEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Y2czWQS7EeOYqpWHmlUzvA" name="costComponent" ordered="false" lowerBound="1" upperBound="-1" eType="_Y2cMKwS7EeOYqpWHmlUzvA" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Y2czXAS7EeOYqpWHmlUzvA" name="ContextualRunningCosts" eSuperTypes="_Y2cMKAS7EeOYqpWHmlUzvA _Y2czUQS7EeOYqpWHmlUzvA">
+        <eAnnotations xmi:id="_Y2czXQS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_oPVTIP6kEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Y2czYAS7EeOYqpWHmlUzvA" name="ContextualCompoundCosts" eSuperTypes="_Y2czVwS7EeOYqpWHmlUzvA _Y2czUQS7EeOYqpWHmlUzvA">
+        <eAnnotations xmi:id="_Y2czYQS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_49y_EP6lEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_Y2czZAS7EeOYqpWHmlUzvA" name="TimeUnit">
+        <eAnnotations xmi:id="_Y2czZQS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_Y2czZgS7EeOYqpWHmlUzvA" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_Y2czZwS7EeOYqpWHmlUzvA" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_Y2czaAS7EeOYqpWHmlUzvA" name="Hour"/>
+        <eLiterals xmi:id="_Y2czaQS7EeOYqpWHmlUzvA" name="Day" value="1"/>
+        <eLiterals xmi:id="_Y2czagS7EeOYqpWHmlUzvA" name="Month" value="2"/>
+        <eLiterals xmi:id="_Y2czawS7EeOYqpWHmlUzvA" name="Year" value="3"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_Y2czbAS7EeOYqpWHmlUzvA" name="CapacityUnit">
+        <eAnnotations xmi:id="_Y2czbQS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_Y2czbgS7EeOYqpWHmlUzvA" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_Y2czbwS7EeOYqpWHmlUzvA" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_Y2czcAS7EeOYqpWHmlUzvA" name="KB"/>
+        <eLiterals xmi:id="_Y2czcQS7EeOYqpWHmlUzvA" name="MB" value="1"/>
+        <eLiterals xmi:id="_Y2czcgS7EeOYqpWHmlUzvA" name="GB" value="2"/>
+        <eLiterals xmi:id="_Y2czcwS7EeOYqpWHmlUzvA" name="TB" value="3"/>
+        <eLiterals xmi:id="_Y2czdAS7EeOYqpWHmlUzvA" name="PB" value="4"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Y2czdQS7EeOYqpWHmlUzvA" name="Discount" eSuperTypes="_Y2cMKwS7EeOYqpWHmlUzvA">
+        <eAnnotations xmi:id="_Y2czdgS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2hjX8AP8EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Y2czdwS7EeOYqpWHmlUzvA" name="discountKind" ordered="false" lowerBound="1" eType="_Y2czegS7EeOYqpWHmlUzvA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_Y2czegS7EeOYqpWHmlUzvA" name="DiscountKindType">
+        <eAnnotations xmi:id="_Y2czewS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_m-IBIAQOEeOYP5GGYb_HuQ"/>
+        <eLiterals xmi:id="_Y2czfAS7EeOYqpWHmlUzvA" name="currentPurchase"/>
+        <eLiterals xmi:id="_Y2czfQS7EeOYqpWHmlUzvA" name="futurePurchase" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_Y2czfgS7EeOYqpWHmlUzvA" name="MathUnit">
+        <eAnnotations xmi:id="_Y2czfwS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_Y2czgAS7EeOYqpWHmlUzvA" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_Y2czgQS7EeOYqpWHmlUzvA" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_Y2czggS7EeOYqpWHmlUzvA" name="absolute"/>
+        <eLiterals xmi:id="_Y2czgwS7EeOYqpWHmlUzvA" name="percentage" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Y2czhAS7EeOYqpWHmlUzvA" name="ContextualDiscount" eSuperTypes="_Y2czdQS7EeOYqpWHmlUzvA _Y2czUQS7EeOYqpWHmlUzvA">
+        <eAnnotations xmi:id="_Y2czhQS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QVKOAAP_EeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Y2cziAS7EeOYqpWHmlUzvA" name="ContextualFreeQuota" eSuperTypes="_Y2czRQS7EeOYqpWHmlUzvA _Y2czUQS7EeOYqpWHmlUzvA">
+        <eAnnotations xmi:id="_Y2cziQS7EeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_IJ2HgAQBEeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_L_YHcAQpEeOYP5GGYb_HuQ" name="Pricing" nsURI="http:///schemas/Pricing/_L_XgYAQpEeOYP5GGYb_HuQ/63" nsPrefix="Pricing">
+      <eAnnotations xmi:id="_MCDoAAQpEeOYP5GGYb_HuQ" source="PapyrusVersion">
+        <details xmi:id="_MCDoAQQpEeOYP5GGYb_HuQ" key="Version" value="0.0.64"/>
+        <details xmi:id="_MCDoAgQpEeOYP5GGYb_HuQ" key="Comment" value=""/>
+        <details xmi:id="_MCDoAwQpEeOYP5GGYb_HuQ" key="Copyright" value=""/>
+        <details xmi:id="_MCDoBAQpEeOYP5GGYb_HuQ" key="Date" value="2013-08-13"/>
+        <details xmi:id="_MCDoBQQpEeOYP5GGYb_HuQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_L_YHcQQpEeOYP5GGYb_HuQ" name="OperationUnit">
+        <eAnnotations xmi:id="_L_YHcgQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_L_YHcwQpEeOYP5GGYb_HuQ" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_L_YHdAQpEeOYP5GGYb_HuQ" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_L_YHdQQpEeOYP5GGYb_HuQ" name="Operation"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_L_YHdgQpEeOYP5GGYb_HuQ" name="Unit_Dep">
+        <eAnnotations xmi:id="_L_YHdwQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L_YHeAQpEeOYP5GGYb_HuQ" name="RunningCosts" eSuperTypes="_L_YHewQpEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_L_YHeQQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yjS_cP5mEeKpsuoNdqwiLw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L_YHewQpEeOYP5GGYb_HuQ" name="CostComponent" abstract="true">
+        <eAnnotations xmi:id="_L_YHfAQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2NYxIP6eEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L_YHfQQpEeOYP5GGYb_HuQ" name="base_Stereotype" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Stereotype"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_L_YHfwQpEeOYP5GGYb_HuQ" name="description" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_L_YHgQQpEeOYP5GGYb_HuQ" name="value" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_L_YHgwQpEeOYP5GGYb_HuQ" name="currency" ordered="false" lowerBound="1" eType="_L_YHhwQpEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L_YHhQQpEeOYP5GGYb_HuQ" name="metric" ordered="false" lowerBound="1" eType="_L_YHjQQpEeOYP5GGYb_HuQ" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_L_YHhwQpEeOYP5GGYb_HuQ" name="CurrencyUnit">
+        <eAnnotations xmi:id="_L_YHiAQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_L_YHiQQpEeOYP5GGYb_HuQ" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_L_YHigQpEeOYP5GGYb_HuQ" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_L_YHiwQpEeOYP5GGYb_HuQ" name="USD"/>
+        <eLiterals xmi:id="_L_YHjAQpEeOYP5GGYb_HuQ" name="EUR" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L_YHjQQpEeOYP5GGYb_HuQ" name="Metric">
+        <eAnnotations xmi:id="_L_YHjgQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PgtWcAP4EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L_YHjwQpEeOYP5GGYb_HuQ" name="factor" ordered="false" eType="_L_YHlwQpEeOYP5GGYb_HuQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_L_YHkQQpEeOYP5GGYb_HuQ" name="unit" ordered="false" lowerBound="1" eType="_L_YHnQQpEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L_YHkwQpEeOYP5GGYb_HuQ" name="range" ordered="false" eType="_L_YHrwQpEeOYP5GGYb_HuQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_L_YHlQQpEeOYP5GGYb_HuQ" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L_YHlwQpEeOYP5GGYb_HuQ" name="Factor">
+        <eAnnotations xmi:id="_L_YHmAQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ks9cUAP5EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_L_YHmQQpEeOYP5GGYb_HuQ" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_L_YHmwQpEeOYP5GGYb_HuQ" name="unit" ordered="false" eType="_L_YHnQQpEeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_L_YHnQQpEeOYP5GGYb_HuQ" name="Unit">
+        <eAnnotations xmi:id="_L_YHngQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_r2sosAQFEeOYP5GGYb_HuQ"/>
+        <eLiterals xmi:id="_L_YHnwQpEeOYP5GGYb_HuQ" name="EUR"/>
+        <eLiterals xmi:id="_L_YHoAQpEeOYP5GGYb_HuQ" name="USD" value="1"/>
+        <eLiterals xmi:id="_L_YHoQQpEeOYP5GGYb_HuQ" name="Hour" value="2"/>
+        <eLiterals xmi:id="_L_YHogQpEeOYP5GGYb_HuQ" name="Month" value="3"/>
+        <eLiterals xmi:id="_L_YHowQpEeOYP5GGYb_HuQ" name="Year" value="4"/>
+        <eLiterals xmi:id="_L_YHpAQpEeOYP5GGYb_HuQ" name="Day" value="5"/>
+        <eLiterals xmi:id="_L_YHpQQpEeOYP5GGYb_HuQ" name="KB" value="6"/>
+        <eLiterals xmi:id="_L_YHpgQpEeOYP5GGYb_HuQ" name="MB" value="7"/>
+        <eLiterals xmi:id="_L_YHpwQpEeOYP5GGYb_HuQ" name="GB" value="8"/>
+        <eLiterals xmi:id="_L_YHqAQpEeOYP5GGYb_HuQ" name="TB" value="9"/>
+        <eLiterals xmi:id="_L_YHqQQpEeOYP5GGYb_HuQ" name="PB" value="10"/>
+        <eLiterals xmi:id="_L_YHqgQpEeOYP5GGYb_HuQ" name="percentage" value="11"/>
+        <eLiterals xmi:id="_L_YHqwQpEeOYP5GGYb_HuQ" name="absolute" value="12"/>
+        <eLiterals xmi:id="_L_YHrAQpEeOYP5GGYb_HuQ" name="Operation" value="13"/>
+        <eLiterals xmi:id="_L_YHrQQpEeOYP5GGYb_HuQ" name="Query" value="14"/>
+        <eLiterals xmi:id="_L_YHrgQpEeOYP5GGYb_HuQ" name="Application" value="15"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L_YHrwQpEeOYP5GGYb_HuQ" name="Range">
+        <eAnnotations xmi:id="_L_YHsAQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sZvpYAQbEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_L_YHsQQpEeOYP5GGYb_HuQ" name="lowerBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_L_YHswQpEeOYP5GGYb_HuQ" name="upperBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L_YHtQQpEeOYP5GGYb_HuQ" name="BaseCosts" eSuperTypes="_L_YHewQpEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_L_YHtgQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MH79sP5vEeKpsuoNdqwiLw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L_YHuAQpEeOYP5GGYb_HuQ" name="CostPlan">
+        <eAnnotations xmi:id="_L_YHuQQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jT5ZEP6SEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L_YHugQpEeOYP5GGYb_HuQ" name="base_Stereotype" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Stereotype"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L_YHvAQpEeOYP5GGYb_HuQ" name="costComponent" ordered="false" upperBound="-1" eType="_L_YHewQpEeOYP5GGYb_HuQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L_YHvgQpEeOYP5GGYb_HuQ" name="freeQuota" ordered="false" upperBound="-1" eType="_L_YHwAQpEeOYP5GGYb_HuQ" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L_YHwAQpEeOYP5GGYb_HuQ" name="FreeQuota">
+        <eAnnotations xmi:id="_L_YHwQQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rBRysAP8EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_L_YHwgQpEeOYP5GGYb_HuQ" name="value" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L_YHxAQpEeOYP5GGYb_HuQ" name="metric" ordered="false" eType="_L_YHjQQpEeOYP5GGYb_HuQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L_YHxgQpEeOYP5GGYb_HuQ" name="base_Stereotype" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Stereotype"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L_YHyAQpEeOYP5GGYb_HuQ" name="ContextualBaseCosts" eSuperTypes="_L_YHtQQpEeOYP5GGYb_HuQ _L_YHzAQpEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_L_YHyQQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KdPdAP6cEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L_YHzAQpEeOYP5GGYb_HuQ" name="ContextualCosts" abstract="true">
+        <eAnnotations xmi:id="_L_YHzQQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FaeysAQLEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L_YHzgQpEeOYP5GGYb_HuQ" name="exactElements" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L_YH0AQpEeOYP5GGYb_HuQ" name="atLeastElements" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L_YH0gQpEeOYP5GGYb_HuQ" name="CompoundCosts" eSuperTypes="_L_YHewQpEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_L_YH0wQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qDvewP6eEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L_YH1AQpEeOYP5GGYb_HuQ" name="costComponent" ordered="false" lowerBound="1" upperBound="-1" eType="_L_YHewQpEeOYP5GGYb_HuQ" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L_YH1wQpEeOYP5GGYb_HuQ" name="ContextualRunningCosts" eSuperTypes="_L_YHeAQpEeOYP5GGYb_HuQ _L_YHzAQpEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_L_YH2AQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_oPVTIP6kEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L_YH2wQpEeOYP5GGYb_HuQ" name="ContextualCompoundCosts" eSuperTypes="_L_YH0gQpEeOYP5GGYb_HuQ _L_YHzAQpEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_L_YH3AQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_49y_EP6lEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_L_YH3wQpEeOYP5GGYb_HuQ" name="TimeUnit">
+        <eAnnotations xmi:id="_L_YH4AQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_L_YH4QQpEeOYP5GGYb_HuQ" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_L_YH4gQpEeOYP5GGYb_HuQ" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_L_YH4wQpEeOYP5GGYb_HuQ" name="Hour"/>
+        <eLiterals xmi:id="_L_YH5AQpEeOYP5GGYb_HuQ" name="Day" value="1"/>
+        <eLiterals xmi:id="_L_YH5QQpEeOYP5GGYb_HuQ" name="Month" value="2"/>
+        <eLiterals xmi:id="_L_YH5gQpEeOYP5GGYb_HuQ" name="Year" value="3"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_L_YH5wQpEeOYP5GGYb_HuQ" name="CapacityUnit">
+        <eAnnotations xmi:id="_L_YH6AQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_L_YH6QQpEeOYP5GGYb_HuQ" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_L_YH6gQpEeOYP5GGYb_HuQ" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_L_YH6wQpEeOYP5GGYb_HuQ" name="KB"/>
+        <eLiterals xmi:id="_L_YH7AQpEeOYP5GGYb_HuQ" name="MB" value="1"/>
+        <eLiterals xmi:id="_L_YH7QQpEeOYP5GGYb_HuQ" name="GB" value="2"/>
+        <eLiterals xmi:id="_L_YH7gQpEeOYP5GGYb_HuQ" name="TB" value="3"/>
+        <eLiterals xmi:id="_L_YH7wQpEeOYP5GGYb_HuQ" name="PB" value="4"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L_YH8AQpEeOYP5GGYb_HuQ" name="Discount" eSuperTypes="_L_YHewQpEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_L_YH8QQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2hjX8AP8EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_L_YH8gQpEeOYP5GGYb_HuQ" name="discountKind" ordered="false" lowerBound="1" eType="_L_YH9QQpEeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_L_YH9QQpEeOYP5GGYb_HuQ" name="DiscountKindType">
+        <eAnnotations xmi:id="_L_YH9gQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_m-IBIAQOEeOYP5GGYb_HuQ"/>
+        <eLiterals xmi:id="_L_YH9wQpEeOYP5GGYb_HuQ" name="currentPurchase"/>
+        <eLiterals xmi:id="_L_YH-AQpEeOYP5GGYb_HuQ" name="futurePurchase" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_L_YH-QQpEeOYP5GGYb_HuQ" name="MathUnit">
+        <eAnnotations xmi:id="_L_YH-gQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_L_YH-wQpEeOYP5GGYb_HuQ" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_L_YH_AQpEeOYP5GGYb_HuQ" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_L_YH_QQpEeOYP5GGYb_HuQ" name="absolute"/>
+        <eLiterals xmi:id="_L_YH_gQpEeOYP5GGYb_HuQ" name="percentage" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L_YH_wQpEeOYP5GGYb_HuQ" name="ContextualDiscount" eSuperTypes="_L_YH8AQpEeOYP5GGYb_HuQ _L_YHzAQpEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_L_YIAAQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QVKOAAP_EeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L_YIAwQpEeOYP5GGYb_HuQ" name="ContextualFreeQuota" eSuperTypes="_L_YHwAQpEeOYP5GGYb_HuQ _L_YHzAQpEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_L_YIBAQpEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_IJ2HgAQBEeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_tJUZQAQoEeOYP5GGYb_HuQ" name="Pricing" nsURI="http:///schemas/Pricing/_tJTyMAQoEeOYP5GGYb_HuQ/62" nsPrefix="Pricing">
+      <eAnnotations xmi:id="_tK5toAQoEeOYP5GGYb_HuQ" source="PapyrusVersion">
+        <details xmi:id="_tK5toQQoEeOYP5GGYb_HuQ" key="Version" value="0.0.63"/>
+        <details xmi:id="_tK5togQoEeOYP5GGYb_HuQ" key="Comment" value=""/>
+        <details xmi:id="_tK5towQoEeOYP5GGYb_HuQ" key="Copyright" value=""/>
+        <details xmi:id="_tK5tpAQoEeOYP5GGYb_HuQ" key="Date" value="2013-08-13"/>
+        <details xmi:id="_tK5tpQQoEeOYP5GGYb_HuQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_tJUZQQQoEeOYP5GGYb_HuQ" name="OperationUnit">
+        <eAnnotations xmi:id="_tJUZQgQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_tJUZQwQoEeOYP5GGYb_HuQ" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_tJUZRAQoEeOYP5GGYb_HuQ" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_tJUZRQQoEeOYP5GGYb_HuQ" name="Operation"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_tJUZRgQoEeOYP5GGYb_HuQ" name="Unit_Dep">
+        <eAnnotations xmi:id="_tJUZRwQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tJUZSAQoEeOYP5GGYb_HuQ" name="RunningCosts" eSuperTypes="_tJUZSwQoEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_tJUZSQQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yjS_cP5mEeKpsuoNdqwiLw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tJUZSwQoEeOYP5GGYb_HuQ" name="CostComponent" abstract="true">
+        <eAnnotations xmi:id="_tJUZTAQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2NYxIP6eEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_tJUZTQQoEeOYP5GGYb_HuQ" name="base_Stereotype" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Stereotype"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tJUZTwQoEeOYP5GGYb_HuQ" name="description" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tJUZUQQoEeOYP5GGYb_HuQ" name="value" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tJUZUwQoEeOYP5GGYb_HuQ" name="currency" ordered="false" lowerBound="1" eType="_tJUZVwQoEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_tJUZVQQoEeOYP5GGYb_HuQ" name="metric" ordered="false" lowerBound="1" eType="_tJUZXQQoEeOYP5GGYb_HuQ" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_tJUZVwQoEeOYP5GGYb_HuQ" name="CurrencyUnit">
+        <eAnnotations xmi:id="_tJUZWAQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_tJUZWQQoEeOYP5GGYb_HuQ" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_tJUZWgQoEeOYP5GGYb_HuQ" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_tJUZWwQoEeOYP5GGYb_HuQ" name="USD"/>
+        <eLiterals xmi:id="_tJUZXAQoEeOYP5GGYb_HuQ" name="EUR" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tJUZXQQoEeOYP5GGYb_HuQ" name="Metric">
+        <eAnnotations xmi:id="_tJUZXgQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PgtWcAP4EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_tJUZXwQoEeOYP5GGYb_HuQ" name="factor" ordered="false" eType="_tJUZZwQoEeOYP5GGYb_HuQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tJUZYQQoEeOYP5GGYb_HuQ" name="unit" ordered="false" lowerBound="1" eType="_tJUZbQQoEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_tJUZYwQoEeOYP5GGYb_HuQ" name="range" ordered="false" eType="_tJUZfwQoEeOYP5GGYb_HuQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tJUZZQQoEeOYP5GGYb_HuQ" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tJUZZwQoEeOYP5GGYb_HuQ" name="Factor">
+        <eAnnotations xmi:id="_tJUZaAQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ks9cUAP5EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tJUZaQQoEeOYP5GGYb_HuQ" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tJUZawQoEeOYP5GGYb_HuQ" name="unit" ordered="false" eType="_tJUZbQQoEeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_tJUZbQQoEeOYP5GGYb_HuQ" name="Unit">
+        <eAnnotations xmi:id="_tJUZbgQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_r2sosAQFEeOYP5GGYb_HuQ"/>
+        <eLiterals xmi:id="_tJUZbwQoEeOYP5GGYb_HuQ" name="EUR"/>
+        <eLiterals xmi:id="_tJUZcAQoEeOYP5GGYb_HuQ" name="USD" value="1"/>
+        <eLiterals xmi:id="_tJUZcQQoEeOYP5GGYb_HuQ" name="Hour" value="2"/>
+        <eLiterals xmi:id="_tJUZcgQoEeOYP5GGYb_HuQ" name="Month" value="3"/>
+        <eLiterals xmi:id="_tJUZcwQoEeOYP5GGYb_HuQ" name="Year" value="4"/>
+        <eLiterals xmi:id="_tJUZdAQoEeOYP5GGYb_HuQ" name="Day" value="5"/>
+        <eLiterals xmi:id="_tJUZdQQoEeOYP5GGYb_HuQ" name="KB" value="6"/>
+        <eLiterals xmi:id="_tJUZdgQoEeOYP5GGYb_HuQ" name="MB" value="7"/>
+        <eLiterals xmi:id="_tJUZdwQoEeOYP5GGYb_HuQ" name="GB" value="8"/>
+        <eLiterals xmi:id="_tJUZeAQoEeOYP5GGYb_HuQ" name="TB" value="9"/>
+        <eLiterals xmi:id="_tJUZeQQoEeOYP5GGYb_HuQ" name="PB" value="10"/>
+        <eLiterals xmi:id="_tJUZegQoEeOYP5GGYb_HuQ" name="percentage" value="11"/>
+        <eLiterals xmi:id="_tJUZewQoEeOYP5GGYb_HuQ" name="absolute" value="12"/>
+        <eLiterals xmi:id="_tJUZfAQoEeOYP5GGYb_HuQ" name="Operation" value="13"/>
+        <eLiterals xmi:id="_tJUZfQQoEeOYP5GGYb_HuQ" name="Query" value="14"/>
+        <eLiterals xmi:id="_tJUZfgQoEeOYP5GGYb_HuQ" name="Application" value="15"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tJUZfwQoEeOYP5GGYb_HuQ" name="Range">
+        <eAnnotations xmi:id="_tJUZgAQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sZvpYAQbEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tJUZgQQoEeOYP5GGYb_HuQ" name="lowerBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tJUZgwQoEeOYP5GGYb_HuQ" name="upperBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tJUZhQQoEeOYP5GGYb_HuQ" name="BaseCosts" eSuperTypes="_tJUZSwQoEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_tJUZhgQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MH79sP5vEeKpsuoNdqwiLw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tJUZiAQoEeOYP5GGYb_HuQ" name="CostPlan">
+        <eAnnotations xmi:id="_tJUZiQQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jT5ZEP6SEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_tJUZigQoEeOYP5GGYb_HuQ" name="base_Stereotype" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Stereotype"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_tJUZjAQoEeOYP5GGYb_HuQ" name="costComponent" ordered="false" upperBound="-1" eType="_tJUZSwQoEeOYP5GGYb_HuQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_tJUZjgQoEeOYP5GGYb_HuQ" name="freeQuota" ordered="false" upperBound="-1" eType="_tJUZkAQoEeOYP5GGYb_HuQ" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tJUZkAQoEeOYP5GGYb_HuQ" name="FreeQuota">
+        <eAnnotations xmi:id="_tJUZkQQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rBRysAP8EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tJUZkgQoEeOYP5GGYb_HuQ" name="value" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_tJUZlAQoEeOYP5GGYb_HuQ" name="metric" ordered="false" eType="_tJUZXQQoEeOYP5GGYb_HuQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_tJUZlgQoEeOYP5GGYb_HuQ" name="base_Stereotype" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Stereotype"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tJUZmAQoEeOYP5GGYb_HuQ" name="ContextualBaseCosts" eSuperTypes="_tJUZhQQoEeOYP5GGYb_HuQ _tJUZnAQoEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_tJUZmQQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KdPdAP6cEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tJUZnAQoEeOYP5GGYb_HuQ" name="ContextualCosts" abstract="true">
+        <eAnnotations xmi:id="_tJUZnQQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FaeysAQLEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_tJUZngQoEeOYP5GGYb_HuQ" name="exactElements" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_tJUZoAQoEeOYP5GGYb_HuQ" name="atLeastElements" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tJUZogQoEeOYP5GGYb_HuQ" name="CompoundCosts" eSuperTypes="_tJUZSwQoEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_tJUZowQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qDvewP6eEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_tJUZpAQoEeOYP5GGYb_HuQ" name="costComponent" ordered="false" lowerBound="1" upperBound="-1" eType="_tJUZSwQoEeOYP5GGYb_HuQ" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tJUZpwQoEeOYP5GGYb_HuQ" name="ContextualRunningCosts" eSuperTypes="_tJUZSAQoEeOYP5GGYb_HuQ _tJUZnAQoEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_tJUZqAQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_oPVTIP6kEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tJUZqwQoEeOYP5GGYb_HuQ" name="ContextualCompoundCosts" eSuperTypes="_tJUZogQoEeOYP5GGYb_HuQ _tJUZnAQoEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_tJUZrAQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_49y_EP6lEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_tJUZrwQoEeOYP5GGYb_HuQ" name="TimeUnit">
+        <eAnnotations xmi:id="_tJUZsAQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_tJUZsQQoEeOYP5GGYb_HuQ" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_tJUZsgQoEeOYP5GGYb_HuQ" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_tJUZswQoEeOYP5GGYb_HuQ" name="Hour"/>
+        <eLiterals xmi:id="_tJUZtAQoEeOYP5GGYb_HuQ" name="Day" value="1"/>
+        <eLiterals xmi:id="_tJUZtQQoEeOYP5GGYb_HuQ" name="Month" value="2"/>
+        <eLiterals xmi:id="_tJUZtgQoEeOYP5GGYb_HuQ" name="Year" value="3"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_tJUZtwQoEeOYP5GGYb_HuQ" name="CapacityUnit">
+        <eAnnotations xmi:id="_tJUZuAQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_tJUZuQQoEeOYP5GGYb_HuQ" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_tJUZugQoEeOYP5GGYb_HuQ" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_tJUZuwQoEeOYP5GGYb_HuQ" name="KB"/>
+        <eLiterals xmi:id="_tJUZvAQoEeOYP5GGYb_HuQ" name="MB" value="1"/>
+        <eLiterals xmi:id="_tJUZvQQoEeOYP5GGYb_HuQ" name="GB" value="2"/>
+        <eLiterals xmi:id="_tJUZvgQoEeOYP5GGYb_HuQ" name="TB" value="3"/>
+        <eLiterals xmi:id="_tJUZvwQoEeOYP5GGYb_HuQ" name="PB" value="4"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tJUZwAQoEeOYP5GGYb_HuQ" name="Discount" eSuperTypes="_tJUZSwQoEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_tJUZwQQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2hjX8AP8EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tJUZwgQoEeOYP5GGYb_HuQ" name="discountKind" ordered="false" lowerBound="1" eType="_tJUZxQQoEeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_tJUZxQQoEeOYP5GGYb_HuQ" name="DiscountKindType">
+        <eAnnotations xmi:id="_tJUZxgQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_m-IBIAQOEeOYP5GGYb_HuQ"/>
+        <eLiterals xmi:id="_tJUZxwQoEeOYP5GGYb_HuQ" name="currentPurchase"/>
+        <eLiterals xmi:id="_tJUZyAQoEeOYP5GGYb_HuQ" name="futurePurchase" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_tJUZyQQoEeOYP5GGYb_HuQ" name="MathUnit">
+        <eAnnotations xmi:id="_tJUZygQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_tJUZywQoEeOYP5GGYb_HuQ" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_tJUZzAQoEeOYP5GGYb_HuQ" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_tJUZzQQoEeOYP5GGYb_HuQ" name="absolute"/>
+        <eLiterals xmi:id="_tJUZzgQoEeOYP5GGYb_HuQ" name="percentage" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tJUZzwQoEeOYP5GGYb_HuQ" name="ContextualDiscount" eSuperTypes="_tJUZwAQoEeOYP5GGYb_HuQ _tJUZnAQoEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_tJUZ0AQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QVKOAAP_EeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tJUZ0wQoEeOYP5GGYb_HuQ" name="ContextualFreeQuota" eSuperTypes="_tJUZkAQoEeOYP5GGYb_HuQ _tJUZnAQoEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_tJUZ1AQoEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_IJ2HgAQBEeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_6wrZEQQjEeOYP5GGYb_HuQ" name="Pricing" nsURI="http:///schemas/Pricing/_6wrZEAQjEeOYP5GGYb_HuQ/61" nsPrefix="Pricing">
+      <eAnnotations xmi:id="_6yQtcAQjEeOYP5GGYb_HuQ" source="PapyrusVersion">
+        <details xmi:id="_6yQtcQQjEeOYP5GGYb_HuQ" key="Version" value="0.0.62"/>
+        <details xmi:id="_6yQtcgQjEeOYP5GGYb_HuQ" key="Comment" value=""/>
+        <details xmi:id="_6yQtcwQjEeOYP5GGYb_HuQ" key="Copyright" value=""/>
+        <details xmi:id="_6yQtdAQjEeOYP5GGYb_HuQ" key="Date" value="2013-08-13"/>
+        <details xmi:id="_6yQtdQQjEeOYP5GGYb_HuQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_6wrZEgQjEeOYP5GGYb_HuQ" name="OperationUnit">
+        <eAnnotations xmi:id="_6wrZEwQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_6wrZFAQjEeOYP5GGYb_HuQ" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_6wrZFQQjEeOYP5GGYb_HuQ" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_6wrZFgQjEeOYP5GGYb_HuQ" name="Operation"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_6wrZFwQjEeOYP5GGYb_HuQ" name="Unit_Dep">
+        <eAnnotations xmi:id="_6wrZGAQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_6wrZGQQjEeOYP5GGYb_HuQ" name="RunningCosts" eSuperTypes="_6wsAIAQjEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_6wrZGgQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yjS_cP5mEeKpsuoNdqwiLw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_6wsAIAQjEeOYP5GGYb_HuQ" name="CostComponent" abstract="true">
+        <eAnnotations xmi:id="_6wsAIQQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2NYxIP6eEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_6wsAIgQjEeOYP5GGYb_HuQ" name="base_Stereotype" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Stereotype"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_6wsAJAQjEeOYP5GGYb_HuQ" name="description" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_6wsAJgQjEeOYP5GGYb_HuQ" name="value" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_6wsAKAQjEeOYP5GGYb_HuQ" name="currency" ordered="false" lowerBound="1" eType="_6wsALAQjEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_6wsAKgQjEeOYP5GGYb_HuQ" name="metric" ordered="false" lowerBound="1" eType="_6wsAMgQjEeOYP5GGYb_HuQ" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_6wsALAQjEeOYP5GGYb_HuQ" name="CurrencyUnit">
+        <eAnnotations xmi:id="_6wsALQQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_6wsALgQjEeOYP5GGYb_HuQ" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_6wsALwQjEeOYP5GGYb_HuQ" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_6wsAMAQjEeOYP5GGYb_HuQ" name="USD"/>
+        <eLiterals xmi:id="_6wsAMQQjEeOYP5GGYb_HuQ" name="EUR" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_6wsAMgQjEeOYP5GGYb_HuQ" name="Metric">
+        <eAnnotations xmi:id="_6wsAMwQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PgtWcAP4EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_6wsANAQjEeOYP5GGYb_HuQ" name="factor" ordered="false" eType="_6wsAPAQjEeOYP5GGYb_HuQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_6wsANgQjEeOYP5GGYb_HuQ" name="unit" ordered="false" lowerBound="1" eType="_6wsAQgQjEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_6wsAOAQjEeOYP5GGYb_HuQ" name="range" ordered="false" eType="_6wsAUwQjEeOYP5GGYb_HuQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_6wsAOgQjEeOYP5GGYb_HuQ" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_6wsAPAQjEeOYP5GGYb_HuQ" name="Factor">
+        <eAnnotations xmi:id="_6wsAPQQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ks9cUAP5EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_6wsAPgQjEeOYP5GGYb_HuQ" name="value" ordered="false" lowerBound="1" defaultValueLiteral="1.0">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_6wsAQAQjEeOYP5GGYb_HuQ" name="unit" ordered="false" eType="_6wsAQgQjEeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_6wsAQgQjEeOYP5GGYb_HuQ" name="Unit">
+        <eAnnotations xmi:id="_6wsAQwQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_r2sosAQFEeOYP5GGYb_HuQ"/>
+        <eLiterals xmi:id="_6wsARAQjEeOYP5GGYb_HuQ" name="EUR"/>
+        <eLiterals xmi:id="_6wsARQQjEeOYP5GGYb_HuQ" name="USD" value="1"/>
+        <eLiterals xmi:id="_6wsARgQjEeOYP5GGYb_HuQ" name="Hour" value="2"/>
+        <eLiterals xmi:id="_6wsARwQjEeOYP5GGYb_HuQ" name="Month" value="3"/>
+        <eLiterals xmi:id="_6wsASAQjEeOYP5GGYb_HuQ" name="Year" value="4"/>
+        <eLiterals xmi:id="_6wsASQQjEeOYP5GGYb_HuQ" name="Day" value="5"/>
+        <eLiterals xmi:id="_6wsASgQjEeOYP5GGYb_HuQ" name="KB" value="6"/>
+        <eLiterals xmi:id="_6wsASwQjEeOYP5GGYb_HuQ" name="MB" value="7"/>
+        <eLiterals xmi:id="_6wsATAQjEeOYP5GGYb_HuQ" name="GB" value="8"/>
+        <eLiterals xmi:id="_6wsATQQjEeOYP5GGYb_HuQ" name="TB" value="9"/>
+        <eLiterals xmi:id="_6wsATgQjEeOYP5GGYb_HuQ" name="PB" value="10"/>
+        <eLiterals xmi:id="_6wsATwQjEeOYP5GGYb_HuQ" name="percentage" value="11"/>
+        <eLiterals xmi:id="_6wsAUAQjEeOYP5GGYb_HuQ" name="absolute" value="12"/>
+        <eLiterals xmi:id="_6wsAUQQjEeOYP5GGYb_HuQ" name="Operation" value="13"/>
+        <eLiterals xmi:id="_6wsAUgQjEeOYP5GGYb_HuQ" name="Query" value="14"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_6wsAUwQjEeOYP5GGYb_HuQ" name="Range">
+        <eAnnotations xmi:id="_6wsAVAQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_sZvpYAQbEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_6wsAVQQjEeOYP5GGYb_HuQ" name="lowerBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_6wsAVwQjEeOYP5GGYb_HuQ" name="upperBoundValue" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_6wsAWQQjEeOYP5GGYb_HuQ" name="BaseCosts" eSuperTypes="_6wsAIAQjEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_6wsAWgQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MH79sP5vEeKpsuoNdqwiLw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_6wsAXAQjEeOYP5GGYb_HuQ" name="CostPlan">
+        <eAnnotations xmi:id="_6wsAXQQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jT5ZEP6SEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_6wsAXgQjEeOYP5GGYb_HuQ" name="base_Stereotype" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Stereotype"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_6wsAYAQjEeOYP5GGYb_HuQ" name="costComponent" ordered="false" upperBound="-1" eType="_6wsAIAQjEeOYP5GGYb_HuQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_6wsAYgQjEeOYP5GGYb_HuQ" name="freeQuota" ordered="false" upperBound="-1" eType="_6wsAZAQjEeOYP5GGYb_HuQ" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_6wsAZAQjEeOYP5GGYb_HuQ" name="FreeQuota">
+        <eAnnotations xmi:id="_6wsAZQQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rBRysAP8EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_6wsAZgQjEeOYP5GGYb_HuQ" name="value" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_6wsAaAQjEeOYP5GGYb_HuQ" name="metric" ordered="false" eType="_6wsAMgQjEeOYP5GGYb_HuQ" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_6wsAagQjEeOYP5GGYb_HuQ" name="base_Stereotype" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Stereotype"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_6wsAbAQjEeOYP5GGYb_HuQ" name="ContextualBaseCosts" eSuperTypes="_6wsAWQQjEeOYP5GGYb_HuQ _6wsAcAQjEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_6wsAbQQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KdPdAP6cEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_6wsAcAQjEeOYP5GGYb_HuQ" name="ContextualCosts" abstract="true">
+        <eAnnotations xmi:id="_6wsAcQQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FaeysAQLEeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_6wsAcgQjEeOYP5GGYb_HuQ" name="exactElements" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_6wsAdAQjEeOYP5GGYb_HuQ" name="atLeastElements" ordered="false" upperBound="-1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_6wsAdgQjEeOYP5GGYb_HuQ" name="CompoundCosts" eSuperTypes="_6wsAIAQjEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_6wsAdwQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qDvewP6eEeKLh4Hiknzbzw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_6wsAeAQjEeOYP5GGYb_HuQ" name="costComponent" ordered="false" lowerBound="1" upperBound="-1" eType="_6wsAIAQjEeOYP5GGYb_HuQ" containment="true"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_6wsAewQjEeOYP5GGYb_HuQ" name="ContextualRunningCosts" eSuperTypes="_6wrZGQQjEeOYP5GGYb_HuQ _6wsAcAQjEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_6wsAfAQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_oPVTIP6kEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_6wsAfwQjEeOYP5GGYb_HuQ" name="ContextualCompoundCosts" eSuperTypes="_6wsAdgQjEeOYP5GGYb_HuQ _6wsAcAQjEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_6wsAgAQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_49y_EP6lEeKLh4Hiknzbzw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_6wsAgwQjEeOYP5GGYb_HuQ" name="TimeUnit">
+        <eAnnotations xmi:id="_6wsAhAQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_6wsAhQQjEeOYP5GGYb_HuQ" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_6wsAhgQjEeOYP5GGYb_HuQ" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_6wsAhwQjEeOYP5GGYb_HuQ" name="Hour"/>
+        <eLiterals xmi:id="_6wsAiAQjEeOYP5GGYb_HuQ" name="Day" value="1"/>
+        <eLiterals xmi:id="_6wsAiQQjEeOYP5GGYb_HuQ" name="Month" value="2"/>
+        <eLiterals xmi:id="_6wsAigQjEeOYP5GGYb_HuQ" name="Year" value="3"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_6wsAiwQjEeOYP5GGYb_HuQ" name="CapacityUnit">
+        <eAnnotations xmi:id="_6wsAjAQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_6wsAjQQjEeOYP5GGYb_HuQ" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_6wsAjgQjEeOYP5GGYb_HuQ" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_6wsAjwQjEeOYP5GGYb_HuQ" name="KB"/>
+        <eLiterals xmi:id="_6wsAkAQjEeOYP5GGYb_HuQ" name="MB" value="1"/>
+        <eLiterals xmi:id="_6wsAkQQjEeOYP5GGYb_HuQ" name="GB" value="2"/>
+        <eLiterals xmi:id="_6wsAkgQjEeOYP5GGYb_HuQ" name="TB" value="3"/>
+        <eLiterals xmi:id="_6wsAkwQjEeOYP5GGYb_HuQ" name="PB" value="4"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_6wsAlAQjEeOYP5GGYb_HuQ" name="Discount" eSuperTypes="_6wsAIAQjEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_6wsAlQQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2hjX8AP8EeOYP5GGYb_HuQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_6wsAlgQjEeOYP5GGYb_HuQ" name="discountKind" ordered="false" lowerBound="1" eType="_6wsAmQQjEeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_6wsAmQQjEeOYP5GGYb_HuQ" name="DiscountKindType">
+        <eAnnotations xmi:id="_6wsAmgQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_m-IBIAQOEeOYP5GGYb_HuQ"/>
+        <eLiterals xmi:id="_6wsAmwQjEeOYP5GGYb_HuQ" name="currentPurchase"/>
+        <eLiterals xmi:id="_6wsAnAQjEeOYP5GGYb_HuQ" name="futurePurchase" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_6wsAnQQjEeOYP5GGYb_HuQ" name="MathUnit">
+        <eAnnotations xmi:id="_6wsAngQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:id="_6wsAnwQjEeOYP5GGYb_HuQ" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+          <details xmi:id="_6wsAoAQjEeOYP5GGYb_HuQ" key="baseType" value="Unit_Dep"/>
+        </eAnnotations>
+        <eLiterals xmi:id="_6wsAoQQjEeOYP5GGYb_HuQ" name="absolute"/>
+        <eLiterals xmi:id="_6wsAogQjEeOYP5GGYb_HuQ" name="percentage" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_6wsAowQjEeOYP5GGYb_HuQ" name="ContextualDiscount" eSuperTypes="_6wsAlAQjEeOYP5GGYb_HuQ _6wsAcAQjEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_6wsApAQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QVKOAAP_EeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_6wsApwQjEeOYP5GGYb_HuQ" name="ContextualFreeQuota" eSuperTypes="_6wsAZAQjEeOYP5GGYb_HuQ _6wsAcAQjEeOYP5GGYb_HuQ">
+        <eAnnotations xmi:id="_6wsAqAQjEeOYP5GGYb_HuQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_IJ2HgAQBEeOYP5GGYb_HuQ"/>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:id="_cEg1sP6cEeKLh4Hiknzbzw" alias="Element">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+  </elementImport>
+  <packageImport xmi:id="_lwPrEf5jEeKpsuoNdqwiLw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_lwPrEv5jEeKpsuoNdqwiLw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_yjS_cP5mEeKpsuoNdqwiLw" name="RunningCosts">
+    <generalization xmi:id="_L6ogsP6fEeKLh4Hiknzbzw" general="_2NYxIP6eEeKLh4Hiknzbzw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_MH79sP5vEeKpsuoNdqwiLw" name="BaseCosts">
+    <generalization xmi:id="_MbDtMP6fEeKLh4Hiknzbzw" general="_2NYxIP6eEeKLh4Hiknzbzw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_jT5ZEP6SEeKLh4Hiknzbzw" name="CostPlan">
+    <ownedAttribute xmi:id="_qssyoP6SEeKLh4Hiknzbzw" name="costComponent" type="_2NYxIP6eEeKLh4Hiknzbzw" aggregation="composite" association="_qs_tkP6SEeKLh4Hiknzbzw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qssyof6SEeKLh4Hiknzbzw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qssyov6SEeKLh4Hiknzbzw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_QclH0AQDEeOYP5GGYb_HuQ" name="freeQuota" type="_rBRysAP8EeOYP5GGYb_HuQ" aggregation="composite" association="_Qc4p0AQDEeOYP5GGYb_HuQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QclH0QQDEeOYP5GGYb_HuQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QclH0gQDEeOYP5GGYb_HuQ" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_-6L_MAjQEeOpWq22bueY-w" name="base_Element" association="_-6L_MQjQEeOpWq22bueY-w">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qs_tkP6SEeKLh4Hiknzbzw" name="costPlan_costComponent" memberEnd="_qs_tkf6SEeKLh4Hiknzbzw _qssyoP6SEeKLh4Hiknzbzw">
+    <ownedEnd xmi:id="_qs_tkf6SEeKLh4Hiknzbzw" name="costPlan" type="_jT5ZEP6SEeKLh4Hiknzbzw" association="_qs_tkP6SEeKLh4Hiknzbzw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qs_tkv6SEeKLh4Hiknzbzw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qs_tk_6SEeKLh4Hiknzbzw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_KdPdAP6cEeKLh4Hiknzbzw" name="ConditionalBaseCosts">
+    <generalization xmi:id="_NheqEP6cEeKLh4Hiknzbzw" general="_MH79sP5vEeKpsuoNdqwiLw"/>
+    <generalization xmi:id="_hjIC8AQMEeOYP5GGYb_HuQ" general="_FaeysAQLEeOYP5GGYb_HuQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_qDvewP6eEeKLh4Hiknzbzw" name="CompoundCosts">
+    <generalization xmi:id="_EQKS4P6gEeKLh4Hiknzbzw" general="_2NYxIP6eEeKLh4Hiknzbzw"/>
+    <ownedAttribute xmi:id="_614mQP6eEeKLh4Hiknzbzw" name="costComponent" type="_2NYxIP6eEeKLh4Hiknzbzw" aggregation="composite" association="_62MIQP6eEeKLh4Hiknzbzw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_614mQf6eEeKLh4Hiknzbzw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_614mQv6eEeKLh4Hiknzbzw" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_2NYxIP6eEeKLh4Hiknzbzw" name="CostComponent" isAbstract="true">
+    <ownedAttribute xmi:id="_qA8TUP6nEeKLh4Hiknzbzw" name="description" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qfJSQP6nEeKLh4Hiknzbzw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qfJSQf6nEeKLh4Hiknzbzw" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_qfcNMP6nEeKLh4Hiknzbzw">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_cd2mwP5wEeKpsuoNdqwiLw" name="value">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DAedIAjnEeOpWq22bueY-w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DAoOIAjnEeOpWq22bueY-w" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_izsugP5wEeKpsuoNdqwiLw" name="currency" type="_r2sosAQFEeOYP5GGYb_HuQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_D27kAAjnEeOpWq22bueY-w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_D3Oe8AjnEeOpWq22bueY-w" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_upIlEP5oEeKpsuoNdqwiLw" name="metric" type="_PgtWcAP4EeOYP5GGYb_HuQ" aggregation="composite" association="_kupPoAP_EeOYP5GGYb_HuQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0u63kP5oEeKpsuoNdqwiLw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0vEokP5oEeKpsuoNdqwiLw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_CUuzcAjREeOpWq22bueY-w" name="base_Element" association="_CVBuYAjREeOpWq22bueY-w">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__Uu5QAjoEeOpWq22bueY-w"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_62MIQP6eEeKLh4Hiknzbzw" name="compoundCosts_costComponent" memberEnd="_62MIQf6eEeKLh4Hiknzbzw _614mQP6eEeKLh4Hiknzbzw">
+    <ownedEnd xmi:id="_62MIQf6eEeKLh4Hiknzbzw" name="compoundCosts" type="_qDvewP6eEeKLh4Hiknzbzw" association="_62MIQP6eEeKLh4Hiknzbzw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_62MIQv6eEeKLh4Hiknzbzw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_62MIQ_6eEeKLh4Hiknzbzw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_oPVTIP6kEeKLh4Hiknzbzw" name="ConditionalRunningCosts">
+    <generalization xmi:id="_uzdugP6kEeKLh4Hiknzbzw" general="_yjS_cP5mEeKpsuoNdqwiLw"/>
+    <generalization xmi:id="_hB8ogAQMEeOYP5GGYb_HuQ" general="_FaeysAQLEeOYP5GGYb_HuQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_49y_EP6lEeKLh4Hiknzbzw" name="ConditionalCompoundCosts">
+    <generalization xmi:id="_MaSM8P6mEeKLh4Hiknzbzw" general="_qDvewP6eEeKLh4Hiknzbzw"/>
+    <generalization xmi:id="_gesKcAQMEeOYP5GGYb_HuQ" general="_FaeysAQLEeOYP5GGYb_HuQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PgtWcAP4EeOYP5GGYb_HuQ" name="Metric">
+    <ownedAttribute xmi:id="_cP1UcAP4EeOYP5GGYb_HuQ" name="factor" type="_ks9cUAP5EeOYP5GGYb_HuQ" aggregation="composite" association="_SaVHkAP7EeOYP5GGYb_HuQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4IOXoAP4EeOYP5GGYb_HuQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4IhSkAP4EeOYP5GGYb_HuQ" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_yZy1MAP4EeOYP5GGYb_HuQ" name="unit" type="_r2sosAQFEeOYP5GGYb_HuQ"/>
+    <ownedAttribute xmi:id="_9cdjgAQbEeOYP5GGYb_HuQ" name="range" type="_sZvpYAQbEeOYP5GGYb_HuQ" aggregation="composite" association="_K8y8AAQcEeOYP5GGYb_HuQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__KGKAAQbEeOYP5GGYb_HuQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__KcvUAQbEeOYP5GGYb_HuQ" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_iboywAQhEeOYP5GGYb_HuQ" name="value">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      <defaultValue xmi:type="uml:LiteralReal" xmi:id="_waxnIAQhEeOYP5GGYb_HuQ" name="" value="1.0">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      </defaultValue>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ks9cUAP5EeOYP5GGYb_HuQ" name="Factor">
+    <ownedAttribute xmi:id="_q3WiAAP5EeOYP5GGYb_HuQ" name="value">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      <defaultValue xmi:type="uml:LiteralReal" xmi:id="_zLDWYAQhEeOYP5GGYb_HuQ" name="" value="1.0">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_8D1cIAP5EeOYP5GGYb_HuQ" name="unit" type="_r2sosAQFEeOYP5GGYb_HuQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__UHhIAP5EeOYP5GGYb_HuQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__UkNEAP5EeOYP5GGYb_HuQ" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SaVHkAP7EeOYP5GGYb_HuQ" name="factor_metric" memberEnd="_gyC0AAP7EeOYP5GGYb_HuQ _cP1UcAP4EeOYP5GGYb_HuQ">
+    <ownedEnd xmi:id="_gyC0AAP7EeOYP5GGYb_HuQ" name="metric" type="_PgtWcAP4EeOYP5GGYb_HuQ" association="_SaVHkAP7EeOYP5GGYb_HuQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_rBRysAP8EeOYP5GGYb_HuQ" name="FreeQuota">
+    <ownedAttribute xmi:id="_SVLTEAQBEeOYP5GGYb_HuQ" name="value" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XxKaoAQBEeOYP5GGYb_HuQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XxTkkAQBEeOYP5GGYb_HuQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_XxmfgAQBEeOYP5GGYb_HuQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_8oaPMAQBEeOYP5GGYb_HuQ" name="metric" visibility="public" type="_PgtWcAP4EeOYP5GGYb_HuQ" aggregation="composite" association="_P3NmYAQCEeOYP5GGYb_HuQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9ANrMAQBEeOYP5GGYb_HuQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9AW1IAQBEeOYP5GGYb_HuQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_9AzhEAQBEeOYP5GGYb_HuQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_7Bbk8AjQEeOpWq22bueY-w" name="base_Element" association="_7BvG8AjQEeOpWq22bueY-w">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_B0ECcAjpEeOpWq22bueY-w"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_2hjX8AP8EeOYP5GGYb_HuQ" name="Discount">
+    <generalization xmi:id="_NDGAUAP_EeOYP5GGYb_HuQ" general="_2NYxIP6eEeKLh4Hiknzbzw"/>
+    <ownedAttribute xmi:id="_KDlH8AQPEeOYP5GGYb_HuQ" name="discountKind" visibility="public" type="_m-IBIAQOEeOYP5GGYb_HuQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KW66sAQPEeOYP5GGYb_HuQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KXEEoAQPEeOYP5GGYb_HuQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_KXW_kAQPEeOYP5GGYb_HuQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_QVKOAAP_EeOYP5GGYb_HuQ" name="ConditionalDiscount">
+    <generalization xmi:id="_SNN70AP_EeOYP5GGYb_HuQ" general="_2hjX8AP8EeOYP5GGYb_HuQ"/>
+    <generalization xmi:id="_iE5TQAQMEeOYP5GGYb_HuQ" general="_FaeysAQLEeOYP5GGYb_HuQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kupPoAP_EeOYP5GGYb_HuQ" name="costComponent_metric" memberEnd="_qWPKQAP_EeOYP5GGYb_HuQ _upIlEP5oEeKpsuoNdqwiLw">
+    <ownedEnd xmi:id="_qWPKQAP_EeOYP5GGYb_HuQ" name="costComponent" type="_2NYxIP6eEeKLh4Hiknzbzw" association="_kupPoAP_EeOYP5GGYb_HuQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_IJ2HgAQBEeOYP5GGYb_HuQ" name="ContextualFreeQuota">
+    <generalization xmi:id="_LYWD0AQBEeOYP5GGYb_HuQ" general="_rBRysAP8EeOYP5GGYb_HuQ"/>
+    <generalization xmi:id="_iowOQAQMEeOYP5GGYb_HuQ" general="_FaeysAQLEeOYP5GGYb_HuQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_P3NmYAQCEeOYP5GGYb_HuQ" name="freeQuota_metric" memberEnd="_an4ToAQCEeOYP5GGYb_HuQ _8oaPMAQBEeOYP5GGYb_HuQ">
+    <ownedEnd xmi:id="_an4ToAQCEeOYP5GGYb_HuQ" name="freeQuota" type="_rBRysAP8EeOYP5GGYb_HuQ" association="_P3NmYAQCEeOYP5GGYb_HuQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Qc4p0AQDEeOYP5GGYb_HuQ" name="costPlan_freeQuota" memberEnd="_Qc4p0QQDEeOYP5GGYb_HuQ _QclH0AQDEeOYP5GGYb_HuQ">
+    <ownedEnd xmi:id="_Qc4p0QQDEeOYP5GGYb_HuQ" name="costPlan" type="_jT5ZEP6SEeKLh4Hiknzbzw" association="_Qc4p0AQDEeOYP5GGYb_HuQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Qc4p0gQDEeOYP5GGYb_HuQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Qc4p0wQDEeOYP5GGYb_HuQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_r2sosAQFEeOYP5GGYb_HuQ" name="Unit">
+    <ownedLiteral xmi:id="_Nvz4MAQGEeOYP5GGYb_HuQ" name="EUR"/>
+    <ownedLiteral xmi:id="_NwGzIAQGEeOYP5GGYb_HuQ" name="USD"/>
+    <ownedLiteral xmi:id="_An1VUAQGEeOYP5GGYb_HuQ" name="Hour"/>
+    <ownedLiteral xmi:id="_AoIQQAQGEeOYP5GGYb_HuQ" name="Month"/>
+    <ownedLiteral xmi:id="_AoSBQAQGEeOYP5GGYb_HuQ" name="Year"/>
+    <ownedLiteral xmi:id="_AobyQAQGEeOYP5GGYb_HuQ" name="Day"/>
+    <ownedLiteral xmi:id="_6OHaMAQFEeOYP5GGYb_HuQ" name="KB"/>
+    <ownedLiteral xmi:id="_6N9pMQQFEeOYP5GGYb_HuQ" name="MB"/>
+    <ownedLiteral xmi:id="_6N0fQAQFEeOYP5GGYb_HuQ" name="GB"/>
+    <ownedLiteral xmi:id="_6N9pMAQFEeOYP5GGYb_HuQ" name="TB"/>
+    <ownedLiteral xmi:id="_6Ng9QAQFEeOYP5GGYb_HuQ" name="PB"/>
+    <ownedLiteral xmi:id="_zOTvcAQFEeOYP5GGYb_HuQ" name="percentage"/>
+    <ownedLiteral xmi:id="_zOmqYAQFEeOYP5GGYb_HuQ" name="absolute"/>
+    <ownedLiteral xmi:id="_TI9uMAQGEeOYP5GGYb_HuQ" name="Operation"/>
+    <ownedLiteral xmi:id="_ksZpkAQjEeOYP5GGYb_HuQ" name="Query"/>
+    <ownedLiteral xmi:id="_qmt5oAQoEeOYP5GGYb_HuQ" name="Application"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_FaeysAQLEeOYP5GGYb_HuQ" name="ConditionalElement" isAbstract="true">
+    <ownedAttribute xmi:id="_KJPA0AQLEeOYP5GGYb_HuQ" name="andCombinedElements" aggregation="shared" association="_KJh7wAQLEeOYP5GGYb_HuQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KJPA0QQLEeOYP5GGYb_HuQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KJPA0gQLEeOYP5GGYb_HuQ" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_heny4AQLEeOYP5GGYb_HuQ" name="orCombinedElements" aggregation="shared" association="_he6t0AQLEeOYP5GGYb_HuQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_heny4QQLEeOYP5GGYb_HuQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_heny4gQLEeOYP5GGYb_HuQ" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KJh7wAQLEeOYP5GGYb_HuQ" name="contextualCosts_element_exact" memberEnd="_KJh7wQQLEeOYP5GGYb_HuQ _KJPA0AQLEeOYP5GGYb_HuQ">
+    <ownedEnd xmi:id="_KJh7wQQLEeOYP5GGYb_HuQ" name="contextualCosts" type="_FaeysAQLEeOYP5GGYb_HuQ" association="_KJh7wAQLEeOYP5GGYb_HuQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KJh7wgQLEeOYP5GGYb_HuQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KJh7wwQLEeOYP5GGYb_HuQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_he6t0AQLEeOYP5GGYb_HuQ" name="contextualCosts_element_AtLeast" memberEnd="_he6t0QQLEeOYP5GGYb_HuQ _heny4AQLEeOYP5GGYb_HuQ">
+    <ownedEnd xmi:id="_he6t0QQLEeOYP5GGYb_HuQ" name="contextualCosts" type="_FaeysAQLEeOYP5GGYb_HuQ" association="_he6t0AQLEeOYP5GGYb_HuQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_he6t0gQLEeOYP5GGYb_HuQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_he6t0wQLEeOYP5GGYb_HuQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_m-IBIAQOEeOYP5GGYb_HuQ" name="DiscountKindType">
+    <ownedLiteral xmi:id="_s1onEAQOEeOYP5GGYb_HuQ" name="currentPurchase"/>
+    <ownedLiteral xmi:id="_5bPcsAQOEeOYP5GGYb_HuQ" name="futurePurchase"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_sZvpYAQbEeOYP5GGYb_HuQ" name="Range">
+    <ownedAttribute xmi:id="_UqS3sAP-EeOYP5GGYb_HuQ" name="lowerBoundValue">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_b1QpkAP-EeOYP5GGYb_HuQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b1aakAP-EeOYP5GGYb_HuQ" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Q8aQsAP-EeOYP5GGYb_HuQ" name="upperBoundValue">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cld-gAP-EeOYP5GGYb_HuQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_clnIcAP-EeOYP5GGYb_HuQ" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_K8y8AAQcEeOYP5GGYb_HuQ" name="metric_range" memberEnd="_MG9CAAQcEeOYP5GGYb_HuQ _9cdjgAQbEeOYP5GGYb_HuQ">
+    <ownedEnd xmi:id="_MG9CAAQcEeOYP5GGYb_HuQ" name="metric" type="_PgtWcAP4EeOYP5GGYb_HuQ" association="_K8y8AAQcEeOYP5GGYb_HuQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_7BvG8AjQEeOpWq22bueY-w" name="Extension_FreeQuota_Element" memberEnd="_7BvG8QjQEeOpWq22bueY-w _7Bbk8AjQEeOpWq22bueY-w">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_7BvG8QjQEeOpWq22bueY-w" name="extension_FreeQuota" type="_rBRysAP8EeOYP5GGYb_HuQ" aggregation="composite" association="_7BvG8AjQEeOpWq22bueY-w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_-6L_MQjQEeOpWq22bueY-w" name="Extension_CostPlan_Element" memberEnd="_-6L_MgjQEeOpWq22bueY-w _-6L_MAjQEeOpWq22bueY-w">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_-6L_MgjQEeOpWq22bueY-w" name="extension_CostPlan" type="_jT5ZEP6SEeKLh4Hiknzbzw" aggregation="composite" association="_-6L_MQjQEeOpWq22bueY-w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_CVBuYAjREeOpWq22bueY-w" name="Extension_CostComponent_Element" memberEnd="_CVBuYQjREeOpWq22bueY-w _CUuzcAjREeOpWq22bueY-w">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_CVBuYQjREeOpWq22bueY-w" name="extension_CostComponent" type="_2NYxIP6eEeKLh4Hiknzbzw" aggregation="composite" association="_CVBuYAjREeOpWq22bueY-w"/>
+  </packagedElement>
+</uml:Profile>
