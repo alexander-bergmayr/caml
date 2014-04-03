@@ -144,11 +144,11 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qzJ1B45SEeOIDcH6VyuBSQ" key="QualifiedNameDepth" value="1000"/>
       </eAnnotations>
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VnQ3U45YEeONTvwTeuJZnA" source="Stereotype_Annotation">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VLKQMJmHEeOmo7qhpGHj-A" key="StereotypeWithQualifiedNameList" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VLKQMZmHEeOmo7qhpGHj-A" key="StereotypeList" value="AmazonAWSProfile::S3"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VLKQMpmHEeOmo7qhpGHj-A" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VLKQM5mHEeOmo7qhpGHj-A" key="PropStereoDisplay" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VLKQNJmHEeOmo7qhpGHj-A" key="StereotypePropertyLocation" value="Compartment"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_osvRgLtJEeOKK5CcuQv81A" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_osvRgbtJEeOKK5CcuQv81A" key="StereotypeList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_osvRgrtJEeOKK5CcuQv81A" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_osvRg7tJEeOKK5CcuQv81A" key="PropStereoDisplay" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_osvRhLtJEeOKK5CcuQv81A" key="StereotypePropertyLocation" value="Compartment"/>
       </eAnnotations>
       <children xmi:type="notation:DecorationNode" xmi:id="_qzJ1CI5SEeOIDcH6VyuBSQ" type="5002"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_qzJ1CY5SEeOIDcH6VyuBSQ" visible="false" type="7001">
@@ -158,7 +158,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qzJ1DY5SEeOIDcH6VyuBSQ"/>
       </children>
       <element xmi:type="uml:InstanceSpecification" href="PetstoreApplicationDeployment.uml#_qzDuYI5SEeOIDcH6VyuBSQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qzJ1AY5SEeOIDcH6VyuBSQ" x="735" y="60" width="131" height="41"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qzJ1AY5SEeOIDcH6VyuBSQ" x="815" y="60" width="131" height="41"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_5zmVYY5SEeOIDcH6VyuBSQ" type="2001" fontName="Segoe UI" lineColor="0">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5zmVY45SEeOIDcH6VyuBSQ" source="ShadowFigure">
@@ -240,7 +240,7 @@
       <children xmi:type="notation:DecorationNode" xmi:id="_zrEVE45LEeOza5lRrrcUxA" type="6039">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_zrEVFI5LEeOza5lRrrcUxA" x="-44" y="13"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_zrEVFY5LEeOza5lRrrcUxA" type="6038">
+      <children xmi:type="notation:DecorationNode" xmi:id="_zrEVFY5LEeOza5lRrrcUxA" visible="false" type="6038">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_zrEVFo5LEeOza5lRrrcUxA" x="-5" y="30"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_zrEVEY5LEeOza5lRrrcUxA" fontName="Segoe UI"/>
@@ -249,11 +249,11 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_D2rNEI91EeOEFMof5vHWAg" id="(0.1044776119402985,0.030120481927710843)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_yFdaco5REeOIDcH6VyuBSQ" type="4021" source="_yBBOEI5LEeOza5lRrrcUxA" target="_JXJ0wY5REeOIDcH6VyuBSQ" lineColor="0">
-      <children xmi:type="notation:DecorationNode" xmi:id="_yFdadY5REeOIDcH6VyuBSQ" type="6039">
+      <children xmi:type="notation:DecorationNode" xmi:id="_yFdadY5REeOIDcH6VyuBSQ" visible="false" type="6039">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_yFdado5REeOIDcH6VyuBSQ" x="1" y="8"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_yFdad45REeOIDcH6VyuBSQ" type="6038">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_yFdaeI5REeOIDcH6VyuBSQ" x="-48" y="59"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_yFdaeI5REeOIDcH6VyuBSQ" x="-48" y="70"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_yFdac45REeOIDcH6VyuBSQ" fontName="Segoe UI"/>
       <element xmi:type="uml:InstanceSpecification" href="PetstoreApplicationDeployment.uml#_yFXT0I5REeOIDcH6VyuBSQ"/>
@@ -261,7 +261,7 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yFjhEI5REeOIDcH6VyuBSQ" id="(0.5472636815920398,0.006024096385542169)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_3wRyxo5SEeOIDcH6VyuBSQ" type="4021" source="_qzJ1AI5SEeOIDcH6VyuBSQ" target="_dekZgY5SEeOIDcH6VyuBSQ" lineColor="0">
-      <children xmi:type="notation:DecorationNode" xmi:id="_3wRyyY5SEeOIDcH6VyuBSQ" type="6039">
+      <children xmi:type="notation:DecorationNode" xmi:id="_3wRyyY5SEeOIDcH6VyuBSQ" visible="false" type="6039">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_3wRyyo5SEeOIDcH6VyuBSQ" x="-40" y="-8"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_3wRyy45SEeOIDcH6VyuBSQ" type="6038">
@@ -274,11 +274,11 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3wX5YY5SEeOIDcH6VyuBSQ" id="(0.8223684210526315,0.6)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_zaEDoI5WEeONTvwTeuJZnA" type="4021" source="_mD8-II5WEeONTvwTeuJZnA" target="_yBBOEI5LEeOza5lRrrcUxA" lineColor="0">
-      <children xmi:type="notation:DecorationNode" xmi:id="_zaEDo45WEeONTvwTeuJZnA" type="6039">
+      <children xmi:type="notation:DecorationNode" xmi:id="_zaEDo45WEeONTvwTeuJZnA" visible="false" type="6039">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_zaEDpI5WEeONTvwTeuJZnA" x="-39" y="9"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_zaEDpY5WEeONTvwTeuJZnA" type="6038">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_zaEDpo5WEeONTvwTeuJZnA" x="37" y="-6"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_zaEDpo5WEeONTvwTeuJZnA" x="44" y="-11"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_zaEDoY5WEeONTvwTeuJZnA" fontName="Segoe UI"/>
       <element xmi:type="uml:InstanceSpecification" href="PetstoreApplicationDeployment.uml#_zZ99AI5WEeONTvwTeuJZnA"/>
@@ -293,11 +293,11 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RJ5SUo9XEeOO9epavamt9A" key="PropStereoDisplay" value=""/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RJ5SU49XEeOO9epavamt9A" key="StereotypePropertyLocation" value="Compartment"/>
       </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_JhB6wI5XEeONTvwTeuJZnA" type="6039">
+      <children xmi:type="notation:DecorationNode" xmi:id="_JhB6wI5XEeONTvwTeuJZnA" visible="false" type="6039">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_JhB6wY5XEeONTvwTeuJZnA" x="-4" y="61"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_JhB6wo5XEeONTvwTeuJZnA" type="6038">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_JhB6w45XEeONTvwTeuJZnA" x="6" y="59"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JhB6w45XEeONTvwTeuJZnA" x="6" y="70"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_Jg70J45XEeONTvwTeuJZnA" fontName="Segoe UI"/>
       <element xmi:type="uml:InstanceSpecification" href="PetstoreApplicationDeployment.uml#_Jg70II5XEeONTvwTeuJZnA"/>
@@ -306,7 +306,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JhIBYY5XEeONTvwTeuJZnA" id="(0.49645390070921985,0.975609756097561)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_Avp0wI9UEeOO9epavamt9A" type="4021" source="_JXJ0wY5REeOIDcH6VyuBSQ" target="_dekZgY5SEeOIDcH6VyuBSQ" lineColor="0">
-      <children xmi:type="notation:DecorationNode" xmi:id="_Avp0w49UEeOO9epavamt9A" type="6039">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Avp0w49UEeOO9epavamt9A" visible="false" type="6039">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_Avp0xI9UEeOO9epavamt9A" x="-2" y="-59"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_Avp0xY9UEeOO9epavamt9A" type="6038">
@@ -317,11 +317,11 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Avp0wo9UEeOO9epavamt9A" points="[3, -18, 5, 320]$[3, -358, 5, -20]"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_fkzkBo9UEeOO9epavamt9A" type="4021" source="_mD8-II5WEeONTvwTeuJZnA" target="_APDbEI5BEeOyycY9NFDX9w" lineColor="0">
-      <children xmi:type="notation:DecorationNode" xmi:id="_fkzkCY9UEeOO9epavamt9A" type="6039">
+      <children xmi:type="notation:DecorationNode" xmi:id="_fkzkCY9UEeOO9epavamt9A" visible="false" type="6039">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_fkzkCo9UEeOO9epavamt9A" x="-40" y="10"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_fkzkC49UEeOO9epavamt9A" type="6038">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_fkzkDI9UEeOO9epavamt9A" x="36" y="-10"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fkzkDI9UEeOO9epavamt9A" x="45" y="-10"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_fkzkB49UEeOO9epavamt9A" fontName="Segoe UI"/>
       <element xmi:type="uml:InstanceSpecification" href="PetstoreApplicationDeployment.uml#_fkzkAI9UEeOO9epavamt9A"/>
@@ -330,11 +330,18 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fk5qoY9UEeOO9epavamt9A" id="(0.9946236559139785,0.16265060240963855)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_hIdvIo9UEeOO9epavamt9A" type="4021" source="_APDbEI5BEeOyycY9NFDX9w" target="_JXJ0wY5REeOIDcH6VyuBSQ" lineColor="0">
-      <children xmi:type="notation:DecorationNode" xmi:id="_hIdvJY9UEeOO9epavamt9A" type="6039">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_I1fWoLtKEeOKK5CcuQv81A" source="Stereotype_Annotation">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0NzrgLtKEeOKK5CcuQv81A" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0NzrgbtKEeOKK5CcuQv81A" key="StereotypeList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0NzrgrtKEeOKK5CcuQv81A" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0Nzrg7tKEeOKK5CcuQv81A" key="PropStereoDisplay" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0NzrhLtKEeOKK5CcuQv81A" key="StereotypePropertyLocation" value="With brace"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_hIdvJY9UEeOO9epavamt9A" visible="false" type="6039">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_hIdvJo9UEeOO9epavamt9A" x="-4" y="-8"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_hIdvJ49UEeOO9epavamt9A" type="6038">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_hIdvKI9UEeOO9epavamt9A" x="-46" y="-56"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hIdvKI9UEeOO9epavamt9A" x="-41" y="-65"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_hIdvI49UEeOO9epavamt9A" fontName="Segoe UI"/>
       <element xmi:type="uml:InstanceSpecification" href="PetstoreApplicationDeployment.uml#_hIXogI9UEeOO9epavamt9A"/>
@@ -345,7 +352,7 @@
       <children xmi:type="notation:DecorationNode" xmi:id="_9dziKY9WEeOO9epavamt9A" type="6039">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_9dziKo9WEeOO9epavamt9A" x="-46" y="-13"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_9dziK49WEeOO9epavamt9A" type="6038">
+      <children xmi:type="notation:DecorationNode" xmi:id="_9dziK49WEeOO9epavamt9A" visible="false" type="6038">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_9dziLI9WEeOO9epavamt9A" x="-7" y="-30"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_9dziJ49WEeOO9epavamt9A" fontName="Segoe UI"/>

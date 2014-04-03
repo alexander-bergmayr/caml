@@ -16,7 +16,7 @@
         <classifier xmi:type="uml:Node" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_c73bKf3gEeKQb7onjNL6fQ"/>
         <classifier xmi:type="uml:Class" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_8jBY4Iy5EeOOGr6qMP3Q2w"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_cFxewo5LEeOza5lRrrcUxA" clientDependency="_K303QI9XEeOO9epavamt9A" name="ASOE">
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_cFxewo5LEeOza5lRrrcUxA" clientDependency="_K303QI9XEeOO9epavamt9A" name="JavaEnvironment">
         <deployment xmi:type="uml:Deployment" xmi:id="_K303QI9XEeOO9epavamt9A" name="Deployment" client="_KzNScI9WEeOO9epavamt9A _cFxewo5LEeOza5lRrrcUxA" supplier="_cFxewo5LEeOza5lRrrcUxA _KzNScI9WEeOO9epavamt9A" deployedArtifact="_KzNScI9WEeOO9epavamt9A"/>
         <classifier xmi:type="uml:ExecutionEnvironment" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_GXlLMAr9EeOJxI3yGkc6zw"/>
         <slot xmi:type="uml:Slot" xmi:id="_zThlgI5QEeOIDcH6VyuBSQ">
