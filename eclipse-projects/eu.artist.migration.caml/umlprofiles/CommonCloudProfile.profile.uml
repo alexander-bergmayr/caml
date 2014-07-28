@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_CzVHQAb2EeSS0ba5DtSS7A" name="CommonCloudProfile" metaclassReference="_WrweoBGIEeSRW7fIGev8nw" metamodelReference="_CzVHQQb2EeSS0ba5DtSS7A">
+  <eAnnotations xmi:id="_Mn9DAQb2EeSS0ba5DtSS7A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_L6duMRGnEeSRW7fIGev8nw" name="CommonCloudProfile" nsURI="http:///schemas/CommonCloudProfile/_L6duMBGnEeSRW7fIGev8nw/8" nsPrefix="CommonCloudProfile">
+      <eAnnotations xmi:id="_L6duMhGnEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore">
+        <details xmi:id="_L6duMxGnEeSRW7fIGev8nw" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_L6dukxGnEeSRW7fIGev8nw" source="PapyrusVersion">
+        <details xmi:id="_L6dulBGnEeSRW7fIGev8nw" key="Version" value="0.0.9"/>
+        <details xmi:id="_L6dulRGnEeSRW7fIGev8nw" key="Comment" value=""/>
+        <details xmi:id="_L6dulhGnEeSRW7fIGev8nw" key="Copyright" value="Copyright (c) 2014 Vienna University of Technology.&#xD;&#xA;All rights reserved. This program and the accompanying materials&#xD;&#xA;are made available under the terms of the Eclipse Public License v1.0&#xD;&#xA;which accompanies this distribution, and is available at&#xD;&#xA;http://www.eclipse.org/legal/epl-v10.html&#xD;&#xA;&#xD;&#xA;Contributors:&#xD;&#xA;Alexander Bergmayr (Vienna University of Technology) - initial API and implementation&#xD;&#xA;&#xD;&#xA;Initially developed in the context of ARTIST EU project www.artist-project.eu"/>
+        <details xmi:id="_L6dulxGnEeSRW7fIGev8nw" key="Date" value="2014-07-22"/>
+        <details xmi:id="_L6dumBGnEeSRW7fIGev8nw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L6duNBGnEeSRW7fIGev8nw" name="CloudInstanceType" abstract="true">
+        <eAnnotations xmi:id="_L6duNRGnEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QUXewBGIEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_L6duNhGnEeSRW7fIGev8nw" name="RequiresCloudNodeBaseClassifier">
+          <eAnnotations xmi:id="_L6duNxGnEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_L6duOBGnEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudNode')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_L6duOhGnEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_L6duOxGnEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_L6duPBGnEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_L6duPhGnEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_L6duPxGnEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_L6duQBGnEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_L6duQRGnEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_L6duQhGnEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_L6duQxGnEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L6duRBGnEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L6duRhGnEeSRW7fIGev8nw" name="CloudStorage" abstract="true">
+        <eAnnotations xmi:id="_L6duRxGnEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_j-2sYBGIEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_L6duSBGnEeSRW7fIGev8nw" name="RequiresCloudStorageBaseClassifier">
+          <eAnnotations xmi:id="_L6duSRGnEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_L6duShGnEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudStorage')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_L6duTBGnEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_L6duTRGnEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_L6duThGnEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_L6duUBGnEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_L6duURGnEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_L6duUhGnEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_L6duUxGnEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_L6duVBGnEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_L6duVRGnEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L6duVhGnEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L6duWBGnEeSRW7fIGev8nw" name="CloudService" abstract="true">
+        <eAnnotations xmi:id="_L6duWRGnEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_naVUwBGIEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_L6duWhGnEeSRW7fIGev8nw" name="RequiresCloudServiceBaseClassifier">
+          <eAnnotations xmi:id="_L6duWxGnEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_L6duXBGnEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier  -> collect(e | e.name) -> includes('CloudService')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_L6duXhGnEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_L6duXxGnEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_L6duYBGnEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_L6duYhGnEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_L6duYxGnEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_L6duZBGnEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_L6duZRGnEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_L6duZhGnEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_L6duZxGnEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L6duaBGnEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L6duahGnEeSRW7fIGev8nw" name="CloudConfiguration" abstract="true">
+        <eAnnotations xmi:id="_L6duaxGnEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_WkgDQBGMEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_L6dubBGnEeSRW7fIGev8nw" name="RequiresCloudConfigurationBaseClassifier">
+          <eAnnotations xmi:id="_L6dubRGnEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_L6dubhGnEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudConfiguration')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_L6ducBGnEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_L6ducRGnEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_L6duchGnEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_L6dudBGnEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_L6dudRGnEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_L6dudhGnEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_L6dudxGnEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_L6dueBGnEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_L6dueRGnEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L6duehGnEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_L6dufBGnEeSRW7fIGev8nw" name="CloudCommunicationChannel" abstract="true">
+        <eAnnotations xmi:id="_L6dufRGnEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Zq7BoBGMEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_L6dufhGnEeSRW7fIGev8nw" name="RequiresCloudCommunicationChannelBaseRelationship">
+          <eAnnotations xmi:id="_L6dufxGnEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_L6dugBGnEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudCommunicationChannel')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_L6dughGnEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_L6dugxGnEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_L6duhBGnEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_L6duhhGnEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_L6duhxGnEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_L6duiBGnEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_L6duiRGnEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_L6duihGnEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_L6duixGnEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_L6dujBGnEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_7nxi0RGmEeSRW7fIGev8nw" name="CommonCloudProfile" nsURI="http:///schemas/CommonCloudProfile/_7nxi0BGmEeSRW7fIGev8nw/7" nsPrefix="CommonCloudProfile">
+      <eAnnotations xmi:id="_7nxi0hGmEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore">
+        <details xmi:id="_7nxi0xGmEeSRW7fIGev8nw" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_7nxjMxGmEeSRW7fIGev8nw" source="PapyrusVersion">
+        <details xmi:id="_7nxjNBGmEeSRW7fIGev8nw" key="Version" value="0.0.8"/>
+        <details xmi:id="_7nxjNRGmEeSRW7fIGev8nw" key="Comment" value=""/>
+        <details xmi:id="_7nxjNhGmEeSRW7fIGev8nw" key="Copyright" value="Copyright (c) 2014 Vienna University of Technology.&#xD;&#xA;All rights reserved. This program and the accompanying materials&#xD;&#xA;are made available under the terms of the Eclipse Public License v1.0&#xD;&#xA;which accompanies this distribution, and is available at&#xD;&#xA;http://www.eclipse.org/legal/epl-v10.html&#xD;&#xA;&#xD;&#xA;Contributors:&#xD;&#xA;Alexander Bergmayr (Vienna University of Technology) - initial API and implementation&#xD;&#xA;&#xD;&#xA;Initially developed in the context of ARTIST EU project www.artist-project.eu"/>
+        <details xmi:id="_7nxjNxGmEeSRW7fIGev8nw" key="Date" value="2014-07-22"/>
+        <details xmi:id="_7nxjOBGmEeSRW7fIGev8nw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_7nxi1BGmEeSRW7fIGev8nw" name="CloudInstanceType" abstract="true">
+        <eAnnotations xmi:id="_7nxi1RGmEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QUXewBGIEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_7nxi1hGmEeSRW7fIGev8nw" name="RequiresCloudNodeBaseClassifier">
+          <eAnnotations xmi:id="_7nxi1xGmEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_7nxi2BGmEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudNode')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_7nxi2hGmEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_7nxi2xGmEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_7nxi3BGmEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_7nxi3hGmEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_7nxi3xGmEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_7nxi4BGmEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_7nxi4RGmEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_7nxi4hGmEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_7nxi4xGmEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_7nxi5BGmEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_7nxi5hGmEeSRW7fIGev8nw" name="CloudStorage" abstract="true">
+        <eAnnotations xmi:id="_7nxi5xGmEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_j-2sYBGIEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_7nxi6BGmEeSRW7fIGev8nw" name="RequiresCloudStorageBaseClassifier">
+          <eAnnotations xmi:id="_7nxi6RGmEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_7nxi6hGmEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudStorage')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_7nxi7BGmEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_7nxi7RGmEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_7nxi7hGmEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_7nxi8BGmEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_7nxi8RGmEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_7nxi8hGmEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_7nxi8xGmEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_7nxi9BGmEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_7nxi9RGmEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_7nxi9hGmEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_7nxi-BGmEeSRW7fIGev8nw" name="CloudService" abstract="true">
+        <eAnnotations xmi:id="_7nxi-RGmEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_naVUwBGIEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_7nxi-hGmEeSRW7fIGev8nw" name="RequiresCloudServiceBaseClassifier">
+          <eAnnotations xmi:id="_7nxi-xGmEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_7nxi_BGmEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier  -> collect(e | e.name) -> includes('CloudService')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_7nxi_hGmEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_7nxi_xGmEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_7nxjABGmEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_7nxjAhGmEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_7nxjAxGmEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_7nxjBBGmEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_7nxjBRGmEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_7nxjBhGmEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_7nxjBxGmEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_7nxjCBGmEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_7nxjChGmEeSRW7fIGev8nw" name="CloudConfiguration" abstract="true">
+        <eAnnotations xmi:id="_7nxjCxGmEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_WkgDQBGMEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_7nxjDBGmEeSRW7fIGev8nw" name="RequiresCloudConfigurationBaseClassifier">
+          <eAnnotations xmi:id="_7nxjDRGmEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_7nxjDhGmEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudConfiguration')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_7nxjEBGmEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_7nxjERGmEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_7nxjEhGmEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_7nxjFBGmEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_7nxjFRGmEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_7nxjFhGmEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_7nxjFxGmEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_7nxjGBGmEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_7nxjGRGmEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_7nxjGhGmEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_7nxjHBGmEeSRW7fIGev8nw" name="CloudCommunicationChannel" abstract="true">
+        <eAnnotations xmi:id="_7nxjHRGmEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Zq7BoBGMEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_7nxjHhGmEeSRW7fIGev8nw" name="RequiresCloudCommunicationChannelBaseRelationship">
+          <eAnnotations xmi:id="_7nxjHxGmEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_7nxjIBGmEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudCommunicationChannel')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_7nxjIhGmEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_7nxjIxGmEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_7nxjJBGmEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_7nxjJhGmEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_7nxjJxGmEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_7nxjKBGmEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_7nxjKRGmEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_7nxjKhGmEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_7nxjKxGmEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_7nxjLBGmEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_i7LLYRGUEeSRW7fIGev8nw" name="CommonCloudProfile" nsURI="http:///schemas/CommonCloudProfile/_i7LLYBGUEeSRW7fIGev8nw/6" nsPrefix="CommonCloudProfile">
+      <eAnnotations xmi:id="_i7LLYhGUEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore">
+        <details xmi:id="_i7LLYxGUEeSRW7fIGev8nw" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_i7RSBBGUEeSRW7fIGev8nw" source="PapyrusVersion">
+        <details xmi:id="_i7RSBRGUEeSRW7fIGev8nw" key="Version" value="0.0.7"/>
+        <details xmi:id="_i7RSBhGUEeSRW7fIGev8nw" key="Comment" value=""/>
+        <details xmi:id="_i7RSBxGUEeSRW7fIGev8nw" key="Copyright" value="Copyright (c) 2014 Vienna University of Technology.&#xD;&#xA;All rights reserved. This program and the accompanying materials&#xD;&#xA;are made available under the terms of the Eclipse Public License v1.0&#xD;&#xA;which accompanies this distribution, and is available at&#xD;&#xA;http://www.eclipse.org/legal/epl-v10.html&#xD;&#xA;&#xD;&#xA;Contributors:&#xD;&#xA;Alexander Bergmayr (Vienna University of Technology) - initial API and implementation&#xD;&#xA;&#xD;&#xA;Initially developed in the context of ARTIST EU project www.artist-project.eu"/>
+        <details xmi:id="_i7RSCBGUEeSRW7fIGev8nw" key="Date" value="2014-07-22"/>
+        <details xmi:id="_i7RSCRGUEeSRW7fIGev8nw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_i7LLZBGUEeSRW7fIGev8nw" name="CloudInstanceType" abstract="true">
+        <eAnnotations xmi:id="_i7LLZRGUEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QUXewBGIEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_i7LLZhGUEeSRW7fIGev8nw" name="RequiresCloudNodeBaseClassifier">
+          <eAnnotations xmi:id="_i7LLZxGUEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_i7LLaBGUEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudNode')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_i7LLahGUEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_i7LLaxGUEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_i7LLbBGUEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_i7LLbhGUEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_i7LLbxGUEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_i7LLcBGUEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_i7LLcRGUEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_i7LLchGUEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_i7LLcxGUEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_i7LLdBGUEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_i7LLdhGUEeSRW7fIGev8nw" name="CloudStorage" abstract="true">
+        <eAnnotations xmi:id="_i7LLdxGUEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_j-2sYBGIEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_i7LLeBGUEeSRW7fIGev8nw" name="RequiresCloudStorageBaseClassifier">
+          <eAnnotations xmi:id="_i7LLeRGUEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_i7LLehGUEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudStorage')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_i7LLfBGUEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_i7LLfRGUEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_i7LLfhGUEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_i7LLgBGUEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_i7LLgRGUEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_i7LLghGUEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_i7LLgxGUEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_i7LLhBGUEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_i7LLhRGUEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_i7LLhhGUEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_i7LLiBGUEeSRW7fIGev8nw" name="CloudService" abstract="true">
+        <eAnnotations xmi:id="_i7LLiRGUEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_naVUwBGIEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_i7LLihGUEeSRW7fIGev8nw" name="RequiresCloudServiceBaseClassifier">
+          <eAnnotations xmi:id="_i7LLixGUEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_i7LLjBGUEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier  -> collect(e | e.name) -> includes('CloudService')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_i7LLjhGUEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_i7LLjxGUEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_i7LLkBGUEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_i7LLkhGUEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_i7LLkxGUEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_i7LLlBGUEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_i7LLlRGUEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_i7LLlhGUEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_i7LLlxGUEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_i7LLmBGUEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_i7LLmhGUEeSRW7fIGev8nw" name="CloudConfiguration">
+        <eAnnotations xmi:id="_i7LLmxGUEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_WkgDQBGMEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_i7LLnBGUEeSRW7fIGev8nw" name="RequiresCloudConfigurationBaseClassifier">
+          <eAnnotations xmi:id="_i7LLnRGUEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_i7LLnhGUEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudConfiguration')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_i7LLoBGUEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_i7LLoRGUEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_i7LLohGUEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_i7LLpBGUEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_i7LLpRGUEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_i7LLphGUEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_i7LLpxGUEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_i7LLqBGUEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_i7LLqRGUEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_i7LLqhGUEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_i7LLrBGUEeSRW7fIGev8nw" name="CloudCommunicationChannel">
+        <eAnnotations xmi:id="_i7LLrRGUEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Zq7BoBGMEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_i7LLrhGUEeSRW7fIGev8nw" name="RequiresCloudCommunicationChannelBaseRelationship">
+          <eAnnotations xmi:id="_i7LLrxGUEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_i7LLsBGUEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudCommunicationChannel')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_i7LLshGUEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_i7LLsxGUEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_i7LLtBGUEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_i7LLthGUEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_i7LLtxGUEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_i7LLuBGUEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_i7LLuRGUEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_i7LLuhGUEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_i7LLuxGUEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_i7LLvBGUEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_Xv6RARGNEeSRW7fIGev8nw" name="CommonCloudProfile" nsURI="http:///schemas/CommonCloudProfile/_Xv6RABGNEeSRW7fIGev8nw/5" nsPrefix="CommonCloudProfile">
+      <eAnnotations xmi:id="_Xv6RAhGNEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore">
+        <details xmi:id="_Xv6RAxGNEeSRW7fIGev8nw" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_Xv6RYxGNEeSRW7fIGev8nw" source="PapyrusVersion">
+        <details xmi:id="_Xv6RZBGNEeSRW7fIGev8nw" key="Version" value="0.0.6"/>
+        <details xmi:id="_Xv6RZRGNEeSRW7fIGev8nw" key="Comment" value=""/>
+        <details xmi:id="_Xv6RZhGNEeSRW7fIGev8nw" key="Copyright" value="Copyright (c) 2014 Vienna University of Technology.&#xD;&#xA;All rights reserved. This program and the accompanying materials&#xD;&#xA;are made available under the terms of the Eclipse Public License v1.0&#xD;&#xA;which accompanies this distribution, and is available at&#xD;&#xA;http://www.eclipse.org/legal/epl-v10.html&#xD;&#xA;&#xD;&#xA;Contributors:&#xD;&#xA;Alexander Bergmayr (Vienna University of Technology) - initial API and implementation&#xD;&#xA;&#xD;&#xA;Initially developed in the context of ARTIST EU project www.artist-project.eu"/>
+        <details xmi:id="_Xv6RZxGNEeSRW7fIGev8nw" key="Date" value="2014-07-22"/>
+        <details xmi:id="_Xv6RaBGNEeSRW7fIGev8nw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Xv6RBBGNEeSRW7fIGev8nw" name="CloudInstanceType" abstract="true">
+        <eAnnotations xmi:id="_Xv6RBRGNEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QUXewBGIEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_Xv6RBhGNEeSRW7fIGev8nw" name="RequiresCloudNodeBaseClassifier">
+          <eAnnotations xmi:id="_Xv6RBxGNEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_Xv6RCBGNEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudNode')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_Xv6RChGNEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_Xv6RCxGNEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_Xv6RDBGNEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_Xv6RDhGNEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_Xv6RDxGNEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_Xv6REBGNEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_Xv6RERGNEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_Xv6REhGNEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_Xv6RExGNEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Xv6RFBGNEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Xv6RFhGNEeSRW7fIGev8nw" name="CloudStorage" abstract="true">
+        <eAnnotations xmi:id="_Xv6RFxGNEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_j-2sYBGIEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_Xv6RGBGNEeSRW7fIGev8nw" name="RequiresCloudStorageBaseClassifier">
+          <eAnnotations xmi:id="_Xv6RGRGNEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_Xv6RGhGNEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudStorage')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_Xv6RHBGNEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_Xv6RHRGNEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_Xv6RHhGNEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_Xv6RIBGNEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_Xv6RIRGNEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_Xv6RIhGNEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_Xv6RIxGNEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_Xv6RJBGNEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_Xv6RJRGNEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Xv6RJhGNEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Xv6RKBGNEeSRW7fIGev8nw" name="CloudService" abstract="true">
+        <eAnnotations xmi:id="_Xv6RKRGNEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_naVUwBGIEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_Xv6RKhGNEeSRW7fIGev8nw" name="RequiresCloudServiceBaseClassifier">
+          <eAnnotations xmi:id="_Xv6RKxGNEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_Xv6RLBGNEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier  -> collect(e | e.name) -> includes('CloudService')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_Xv6RLhGNEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_Xv6RLxGNEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_Xv6RMBGNEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_Xv6RMhGNEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_Xv6RMxGNEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_Xv6RNBGNEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_Xv6RNRGNEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_Xv6RNhGNEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_Xv6RNxGNEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Xv6ROBGNEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Xv6ROhGNEeSRW7fIGev8nw" name="CloudConfiguration">
+        <eAnnotations xmi:id="_Xv6ROxGNEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_WkgDQBGMEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_Xv6RPBGNEeSRW7fIGev8nw" name="RequiresCloudConfigurationBaseClassifier">
+          <eAnnotations xmi:id="_Xv6RPRGNEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_Xv6RPhGNEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudConfiguration')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_Xv6RQBGNEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_Xv6RQRGNEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_Xv6RQhGNEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_Xv6RRBGNEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_Xv6RRRGNEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_Xv6RRhGNEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_Xv6RRxGNEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_Xv6RSBGNEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_Xv6RSRGNEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Xv6RShGNEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Xv6RTBGNEeSRW7fIGev8nw" name="CloudCommunicationChannel">
+        <eAnnotations xmi:id="_Xv6RTRGNEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Zq7BoBGMEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_Xv6RThGNEeSRW7fIGev8nw" name="RequiresCloudCommunicationChannelBaseRelationship">
+          <eAnnotations xmi:id="_Xv6RTxGNEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_Xv6RUBGNEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudCommunicationChannel')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_Xv6RUhGNEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_Xv6RUxGNEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_Xv6RVBGNEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_Xv6RVhGNEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_Xv6RVxGNEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_Xv6RWBGNEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_Xv6RWRGNEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_Xv6RWhGNEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_Xv6RWxGNEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Xv6RXBGNEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_IoPZMRGLEeSRW7fIGev8nw" name="CommonCloudProfile" nsURI="http:///schemas/CommonCloudProfile/_IoPZMBGLEeSRW7fIGev8nw/4" nsPrefix="CommonCloudProfile">
+      <eAnnotations xmi:id="_IoPZMhGLEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore">
+        <details xmi:id="_IoPZMxGLEeSRW7fIGev8nw" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_IoPZbRGLEeSRW7fIGev8nw" source="PapyrusVersion">
+        <details xmi:id="_IoPZbhGLEeSRW7fIGev8nw" key="Version" value="0.0.5"/>
+        <details xmi:id="_IoPZbxGLEeSRW7fIGev8nw" key="Comment" value=""/>
+        <details xmi:id="_IoPZcBGLEeSRW7fIGev8nw" key="Copyright" value="Copyright (c) 2014 Vienna University of Technology.&#xD;&#xA;All rights reserved. This program and the accompanying materials&#xD;&#xA;are made available under the terms of the Eclipse Public License v1.0&#xD;&#xA;which accompanies this distribution, and is available at&#xD;&#xA;http://www.eclipse.org/legal/epl-v10.html&#xD;&#xA;&#xD;&#xA;Contributors:&#xD;&#xA;Alexander Bergmayr (Vienna University of Technology) - initial API and implementation&#xD;&#xA;&#xD;&#xA;Initially developed in the context of ARTIST EU project www.artist-project.eu"/>
+        <details xmi:id="_IoPZcRGLEeSRW7fIGev8nw" key="Date" value="2014-07-22"/>
+        <details xmi:id="_IoPZchGLEeSRW7fIGev8nw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_IoPZNBGLEeSRW7fIGev8nw" name="CloudInstanceType" abstract="true">
+        <eAnnotations xmi:id="_IoPZNRGLEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QUXewBGIEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_IoPZNhGLEeSRW7fIGev8nw" name="RequiresCloudNodeBaseClassifier">
+          <eAnnotations xmi:id="_IoPZNxGLEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_IoPZOBGLEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudNode')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_IoPZOhGLEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_IoPZOxGLEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_IoPZPBGLEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_IoPZPhGLEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_IoPZPxGLEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_IoPZQBGLEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_IoPZQRGLEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_IoPZQhGLEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_IoPZQxGLEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_IoPZRBGLEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_IoPZRhGLEeSRW7fIGev8nw" name="CloudStorage" abstract="true">
+        <eAnnotations xmi:id="_IoPZRxGLEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_j-2sYBGIEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_IoPZSBGLEeSRW7fIGev8nw" name="RequiresCloudStorageBaseClassifier">
+          <eAnnotations xmi:id="_IoPZSRGLEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_IoPZShGLEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudStorage')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_IoPZTBGLEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_IoPZTRGLEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_IoPZThGLEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_IoPZUBGLEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_IoPZURGLEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_IoPZUhGLEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_IoPZUxGLEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_IoPZVBGLEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_IoPZVRGLEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_IoPZVhGLEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_IoPZWBGLEeSRW7fIGev8nw" name="CloudService" abstract="true">
+        <eAnnotations xmi:id="_IoPZWRGLEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_naVUwBGIEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_IoPZWhGLEeSRW7fIGev8nw" name="RequiresCloudServiceBaseClassifier">
+          <eAnnotations xmi:id="_IoPZWxGLEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_IoPZXBGLEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier  -> collect(e | e.name) -> includes('CloudService')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_IoPZXhGLEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_IoPZXxGLEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_IoPZYBGLEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_IoPZYhGLEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_IoPZYxGLEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_IoPZZBGLEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_IoPZZRGLEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_IoPZZhGLEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_IoPZZxGLEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_IoPZaBGLEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_BDkG0RGLEeSRW7fIGev8nw" name="CommonCloudProfile" nsURI="http:///schemas/CommonCloudProfile/_BDkG0BGLEeSRW7fIGev8nw/3" nsPrefix="CommonCloudProfile">
+      <eAnnotations xmi:id="_BDqNcRGLEeSRW7fIGev8nw" source="PapyrusVersion">
+        <details xmi:id="_BDqNchGLEeSRW7fIGev8nw" key="Version" value="0.0.4"/>
+        <details xmi:id="_BDqNcxGLEeSRW7fIGev8nw" key="Comment" value=""/>
+        <details xmi:id="_BDqNdBGLEeSRW7fIGev8nw" key="Copyright" value="Copyright (c) 2014 Vienna University of Technology.&#xD;&#xA;All rights reserved. This program and the accompanying materials&#xD;&#xA;are made available under the terms of the Eclipse Public License v1.0&#xD;&#xA;which accompanies this distribution, and is available at&#xD;&#xA;http://www.eclipse.org/legal/epl-v10.html&#xD;&#xA;&#xD;&#xA;Contributors:&#xD;&#xA;Alexander Bergmayr (Vienna University of Technology) - initial API and implementation&#xD;&#xA;&#xD;&#xA;Initially developed in the context of ARTIST EU project www.artist-project.eu"/>
+        <details xmi:id="_BDqNdRGLEeSRW7fIGev8nw" key="Date" value="2014-07-22"/>
+        <details xmi:id="_BDqNdhGLEeSRW7fIGev8nw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_BDkG0hGLEeSRW7fIGev8nw" name="CloudInstanceType" abstract="true">
+        <eAnnotations xmi:id="_BDkG0xGLEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QUXewBGIEeSRW7fIGev8nw"/>
+        <eAnnotations xmi:id="_BDkG1BGLEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+          <details xmi:id="_BDkG1RGLEeSRW7fIGev8nw" key="documentation" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudNode')"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_BDkG1hGLEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_BDkG2BGLEeSRW7fIGev8nw" name="CloudStorage" abstract="true">
+        <eAnnotations xmi:id="_BDkG2RGLEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_j-2sYBGIEeSRW7fIGev8nw"/>
+        <eAnnotations xmi:id="_BDkG2hGLEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+          <details xmi:id="_BDkG2xGLEeSRW7fIGev8nw" key="documentation" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudStorage')"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_BDkG3BGLEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_BDkG3hGLEeSRW7fIGev8nw" name="CloudService" abstract="true">
+        <eAnnotations xmi:id="_BDkG3xGLEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_naVUwBGIEeSRW7fIGev8nw"/>
+        <eAnnotations xmi:id="_BDkG4BGLEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+          <details xmi:id="_BDkG4RGLEeSRW7fIGev8nw" key="documentation" value="self.base_InstanceSpecification.classifier  -> collect(e | e.name) -> includes('CloudService')"/>
+        </eAnnotations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_BDkG4hGLEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_xLXfERGKEeSRW7fIGev8nw" name="CommonCloudProfile" nsURI="http:///schemas/CommonCloudProfile/_xLXfEBGKEeSRW7fIGev8nw/2" nsPrefix="CommonCloudProfile">
+      <eAnnotations xmi:id="_xLXfEhGKEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore">
+        <details xmi:id="_xLXfExGKEeSRW7fIGev8nw" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_xLXfTRGKEeSRW7fIGev8nw" source="PapyrusVersion">
+        <details xmi:id="_xLXfThGKEeSRW7fIGev8nw" key="Version" value="0.0.3"/>
+        <details xmi:id="_xLXfTxGKEeSRW7fIGev8nw" key="Comment" value=""/>
+        <details xmi:id="_xLXfUBGKEeSRW7fIGev8nw" key="Copyright" value=""/>
+        <details xmi:id="_xLXfURGKEeSRW7fIGev8nw" key="Date" value="2014-07-22"/>
+        <details xmi:id="_xLXfUhGKEeSRW7fIGev8nw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_xLXfFBGKEeSRW7fIGev8nw" name="CloudInstanceType" abstract="true">
+        <eAnnotations xmi:id="_xLXfFRGKEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_QUXewBGIEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_xLXfFhGKEeSRW7fIGev8nw" name="RequiresCloudNodeBaseClassifier">
+          <eAnnotations xmi:id="_xLXfFxGKEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_xLXfGBGKEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudNode')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_xLXfGhGKEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_xLXfGxGKEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_xLXfHBGKEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_xLXfHhGKEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_xLXfHxGKEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_xLXfIBGKEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_xLXfIRGKEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_xLXfIhGKEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_xLXfIxGKEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_xLXfJBGKEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_xLXfJhGKEeSRW7fIGev8nw" name="CloudStorage" abstract="true">
+        <eAnnotations xmi:id="_xLXfJxGKEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_j-2sYBGIEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_xLXfKBGKEeSRW7fIGev8nw" name="RequiresCloudStorageBaseClassifier">
+          <eAnnotations xmi:id="_xLXfKRGKEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_xLXfKhGKEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudStorage')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_xLXfLBGKEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_xLXfLRGKEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_xLXfLhGKEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_xLXfMBGKEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_xLXfMRGKEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_xLXfMhGKEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_xLXfMxGKEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_xLXfNBGKEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_xLXfNRGKEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_xLXfNhGKEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_xLXfOBGKEeSRW7fIGev8nw" name="CloudService" abstract="true">
+        <eAnnotations xmi:id="_xLXfORGKEeSRW7fIGev8nw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_naVUwBGIEeSRW7fIGev8nw"/>
+        <eOperations xmi:id="_xLXfOhGKEeSRW7fIGev8nw" name="RequiresCloudServiceBaseClassifier">
+          <eAnnotations xmi:id="_xLXfOxGKEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/Ecore/OCL">
+            <details xmi:id="_xLXfPBGKEeSRW7fIGev8nw" key="body" value="self.base_InstanceSpecification.classifier  -> collect(e | e.name) -> includes('CloudService')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:id="_xLXfPhGKEeSRW7fIGev8nw" name="diagnostics">
+            <eAnnotations xmi:id="_xLXfPxGKEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_xLXfQBGKEeSRW7fIGev8nw" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:id="_xLXfQhGKEeSRW7fIGev8nw" name="context">
+            <eAnnotations xmi:id="_xLXfQxGKEeSRW7fIGev8nw" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:id="_xLXfRBGKEeSRW7fIGev8nw" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:id="_xLXfRRGKEeSRW7fIGev8nw">
+              <eTypeArguments xmi:id="_xLXfRhGKEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:id="_xLXfRxGKEeSRW7fIGev8nw">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_xLXfSBGKEeSRW7fIGev8nw" name="base_InstanceSpecification" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//InstanceSpecification"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_OcOdAQb2EeSS0ba5DtSS7A" name="Profile" nsURI="http:///schemas/Profile/_OcOdAAb2EeSS0ba5DtSS7A/1" nsPrefix="Profile">
+      <eAnnotations xmi:id="_OcOdBAb2EeSS0ba5DtSS7A" source="PapyrusVersion">
+        <details xmi:id="_OcOdBQb2EeSS0ba5DtSS7A" key="Version" value="0.0.2"/>
+        <details xmi:id="_OcOdBgb2EeSS0ba5DtSS7A" key="Comment" value=""/>
+        <details xmi:id="_OcOdBwb2EeSS0ba5DtSS7A" key="Copyright" value=""/>
+        <details xmi:id="_OcOdCAb2EeSS0ba5DtSS7A" key="Date" value="2014-07-09"/>
+        <details xmi:id="_OcOdCQb2EeSS0ba5DtSS7A" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_OcOdAgb2EeSS0ba5DtSS7A" name="Stereotype1">
+        <eAnnotations xmi:id="_OcOdAwb2EeSS0ba5DtSS7A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_Mn9DAgb2EeSS0ba5DtSS7A" name="Profile" nsURI="http:///schemas/Profile/_Mn9DAAb2EeSS0ba5DtSS7A/0" nsPrefix="Profile">
+      <eAnnotations xmi:id="_Mn9DAwb2EeSS0ba5DtSS7A" source="PapyrusVersion">
+        <details xmi:id="_Mn9DBAb2EeSS0ba5DtSS7A" key="Version" value="0.0.1"/>
+        <details xmi:id="_Mn9DBQb2EeSS0ba5DtSS7A" key="Comment" value=""/>
+        <details xmi:id="_Mn9DBgb2EeSS0ba5DtSS7A" key="Copyright" value=""/>
+        <details xmi:id="_Mn9DBwb2EeSS0ba5DtSS7A" key="Date" value="2014-07-09"/>
+        <details xmi:id="_Mn9DCAb2EeSS0ba5DtSS7A" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:id="_WrweoBGIEeSRW7fIGev8nw" alias="InstanceSpecification">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#InstanceSpecification"/>
+  </elementImport>
+  <packageImport xmi:id="_CzVHQQb2EeSS0ba5DtSS7A">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_CzVHQgb2EeSS0ba5DtSS7A">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_QUXewBGIEeSRW7fIGev8nw" name="CloudInstanceType" isAbstract="true">
+    <ownedRule xmi:id="_eeygoBGJEeSRW7fIGev8nw" name="RequiresCloudNodeBaseClassifier" constrainedElement="_QUXewBGIEeSRW7fIGev8nw">
+      <specification xmi:type="uml:OpaqueExpression" xmi:id="_CkBCYBGKEeSRW7fIGev8nw">
+        <language>OCL</language>
+        <body>self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudNode')</body>
+      </specification>
+    </ownedRule>
+    <ownedAttribute xmi:id="_dTavIBGIEeSRW7fIGev8nw" name="base_InstanceSpecification" association="_dTavIRGIEeSRW7fIGev8nw">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#InstanceSpecification"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_j-2sYBGIEeSRW7fIGev8nw" name="CloudStorage" isAbstract="true">
+    <ownedRule xmi:id="_fJayABGJEeSRW7fIGev8nw" name="RequiresCloudStorageBaseClassifier" constrainedElement="_j-2sYBGIEeSRW7fIGev8nw">
+      <specification xmi:type="uml:OpaqueExpression" xmi:id="_5NxrwBGJEeSRW7fIGev8nw">
+        <language>OCL</language>
+        <body>self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudStorage')</body>
+      </specification>
+    </ownedRule>
+    <ownedAttribute xmi:id="_tY0FYBGIEeSRW7fIGev8nw" name="base_InstanceSpecification" association="_tY0FYRGIEeSRW7fIGev8nw">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#InstanceSpecification"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_naVUwBGIEeSRW7fIGev8nw" name="CloudService" isAbstract="true">
+    <ownedRule xmi:id="_BFPMsBGJEeSRW7fIGev8nw" name="RequiresCloudServiceBaseClassifier" constrainedElement="_naVUwBGIEeSRW7fIGev8nw">
+      <specification xmi:type="uml:OpaqueExpression" xmi:id="_O5EwABGJEeSRW7fIGev8nw">
+        <language>OCL</language>
+        <body>self.base_InstanceSpecification.classifier  -> collect(e | e.name) -> includes('CloudService')</body>
+      </specification>
+    </ownedRule>
+    <ownedAttribute xmi:id="_uZ-AYBGIEeSRW7fIGev8nw" name="base_InstanceSpecification" association="_uZ-AYRGIEeSRW7fIGev8nw">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#InstanceSpecification"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_WkgDQBGMEeSRW7fIGev8nw" name="CloudConfiguration" isAbstract="true">
+    <ownedRule xmi:id="_uBy0IBGMEeSRW7fIGev8nw" name="RequiresCloudConfigurationBaseClassifier" constrainedElement="_WkgDQBGMEeSRW7fIGev8nw">
+      <specification xmi:type="uml:OpaqueExpression" xmi:id="_ECGpoBGNEeSRW7fIGev8nw">
+        <language>OCL</language>
+        <body>self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudConfiguration')</body>
+      </specification>
+    </ownedRule>
+    <ownedAttribute xmi:id="_jEBfABGMEeSRW7fIGev8nw" name="base_InstanceSpecification" association="_jEBfARGMEeSRW7fIGev8nw">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#InstanceSpecification"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_Zq7BoBGMEeSRW7fIGev8nw" name="CloudCommunicationChannel" isAbstract="true">
+    <ownedRule xmi:id="_uYHCYBGMEeSRW7fIGev8nw" name="RequiresCloudCommunicationChannelBaseRelationship" constrainedElement="_Zq7BoBGMEeSRW7fIGev8nw">
+      <specification xmi:type="uml:OpaqueExpression" xmi:id="_TSIeIBGNEeSRW7fIGev8nw">
+        <language>OCL</language>
+        <body>self.base_InstanceSpecification.classifier -> collect(e | e.name) -> includes('CloudCommunicationChannel')</body>
+      </specification>
+    </ownedRule>
+    <ownedAttribute xmi:id="_kBiQIBGMEeSRW7fIGev8nw" name="base_InstanceSpecification" association="_kBiQIRGMEeSRW7fIGev8nw">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#InstanceSpecification"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_dTavIRGIEeSRW7fIGev8nw" name="E_InstanceType_InstanceSpecification" memberEnd="_dTavIhGIEeSRW7fIGev8nw _dTavIBGIEeSRW7fIGev8nw">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_dTavIhGIEeSRW7fIGev8nw" name="extension_CloudInstanceType" type="_QUXewBGIEeSRW7fIGev8nw" aggregation="composite" association="_dTavIRGIEeSRW7fIGev8nw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_tY0FYRGIEeSRW7fIGev8nw" name="E_CloudStorage_InstanceSpecification" memberEnd="_tY0FYhGIEeSRW7fIGev8nw _tY0FYBGIEeSRW7fIGev8nw">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_tY0FYhGIEeSRW7fIGev8nw" name="extension_CloudStorage" type="_j-2sYBGIEeSRW7fIGev8nw" aggregation="composite" association="_tY0FYRGIEeSRW7fIGev8nw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_uZ-AYRGIEeSRW7fIGev8nw" name="E_CloudService_InstanceSpecification" memberEnd="_uZ-AYhGIEeSRW7fIGev8nw _uZ-AYBGIEeSRW7fIGev8nw">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_uZ-AYhGIEeSRW7fIGev8nw" name="extension_CloudService" type="_naVUwBGIEeSRW7fIGev8nw" aggregation="composite" association="_uZ-AYRGIEeSRW7fIGev8nw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_jEBfARGMEeSRW7fIGev8nw" name="E_CloudConfiguration_InstanceSpecification" memberEnd="_jEBfAhGMEeSRW7fIGev8nw _jEBfABGMEeSRW7fIGev8nw">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_jEBfAhGMEeSRW7fIGev8nw" name="extension_CloudConfiguration" type="_WkgDQBGMEeSRW7fIGev8nw" aggregation="composite" association="_jEBfARGMEeSRW7fIGev8nw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_kBiQIRGMEeSRW7fIGev8nw" name="E_CloudCommunicationChannel_InstanceSpecification" memberEnd="_kBiQIhGMEeSRW7fIGev8nw _kBiQIBGMEeSRW7fIGev8nw">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_kBiQIhGMEeSRW7fIGev8nw" name="extension_CloudCommunicationChannel" type="_Zq7BoBGMEeSRW7fIGev8nw" aggregation="composite" association="_kBiQIRGMEeSRW7fIGev8nw"/>
+  </packagedElement>
+  <profileApplication xmi:id="_LZRpYAb2EeSS0ba5DtSS7A">
+    <eAnnotations xmi:id="_LaIlAAb2EeSS0ba5DtSS7A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="PricingProfile.profile.uml#_pyPm4SBPEeOjPJ3_Uk0aqQ"/>
+    </eAnnotations>
+    <appliedProfile href="PricingProfile.profile.uml#_lwPrEP5jEeKpsuoNdqwiLw"/>
+  </profileApplication>
+</uml:Profile>
