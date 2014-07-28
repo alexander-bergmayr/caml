@@ -11,11 +11,11 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OxnDxY58EeOf8-f-VNDImA" key="QualifiedNameDepth" value="1000"/>
     </eAnnotations>
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R6tisI58EeOf8-f-VNDImA" source="Stereotype_Annotation">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jsB9kJoUEeO0j4K8pBRHNA" key="StereotypeWithQualifiedNameList" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jsB9kZoUEeO0j4K8pBRHNA" key="StereotypeList" value="AmazonAWSProfile::ServicesPackage::ElasticLoadBalancing"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jsB9kpoUEeO0j4K8pBRHNA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jsB9k5oUEeO0j4K8pBRHNA" key="PropStereoDisplay" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jsB9lJoUEeO0j4K8pBRHNA" key="StereotypePropertyLocation" value="Compartment"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_S7ypEBYfEeSAfqg24sfYug" key="StereotypeWithQualifiedNameList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_S7ypERYfEeSAfqg24sfYug" key="StereotypeList" value="AmazonAWSProfile::ServicesPackage::ElasticLoadBalancing"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_S7ypEhYfEeSAfqg24sfYug" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_S7ypExYfEeSAfqg24sfYug" key="PropStereoDisplay" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_S7ypFBYfEeSAfqg24sfYug" key="StereotypePropertyLocation" value="Compartment"/>
     </eAnnotations>
     <children xmi:type="notation:DecorationNode" xmi:id="_OxnDxo58EeOf8-f-VNDImA" type="5002"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_OxnDx458EeOf8-f-VNDImA" type="7001">
@@ -24,8 +24,12 @@
       <styles xmi:type="notation:FilteringStyle" xmi:id="_OxnDyo58EeOf8-f-VNDImA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OxnDy458EeOf8-f-VNDImA"/>
     </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PPOQsBYfEeSAfqg24sfYug" visible="false" type="compartment_shape_display">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_PPOQsRYfEeSAfqg24sfYug"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PPOQshYfEeSAfqg24sfYug"/>
+    </children>
     <element xmi:type="uml:InstanceSpecification" href="FileSynchronizationService.uml#_OxlOkI58EeOf8-f-VNDImA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OxmcsY58EeOf8-f-VNDImA" x="530" y="560" width="169" height="72"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OxmcsY58EeOf8-f-VNDImA" x="560" y="575" width="169" height="72"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_U82eAI58EeOf8-f-VNDImA" type="2001" fontName="Segoe UI" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_U83FEI58EeOf8-f-VNDImA" source="ShadowFigure">
@@ -38,21 +42,33 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U83sIY58EeOf8-f-VNDImA" key="QualifiedNameDepth" value="1000"/>
     </eAnnotations>
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6h5qEJJpEeOry5Jm6UQebQ" source="Stereotype_Annotation">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VhNdoJoUEeO0j4K8pBRHNA" key="StereotypeWithQualifiedNameList" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VhNdoZoUEeO0j4K8pBRHNA" key="StereotypeList" value="AmazonAWSProfile::InstancesPackage::InstanceType"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VhNdopoUEeO0j4K8pBRHNA" key="PropStereoDisplay" value="AmazonAWSProfile::InstancesPackage::InstanceType.autoScaling"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VhNdo5oUEeO0j4K8pBRHNA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VhOEsJoUEeO0j4K8pBRHNA" key="StereotypePropertyLocation" value="Compartment"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d6nHEBYfEeSAfqg24sfYug" key="StereotypeWithQualifiedNameList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d6nHERYfEeSAfqg24sfYug" key="StereotypeList" value="AmazonAWSProfile::InstancesPackage::AWSM3Medium"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d6nHEhYfEeSAfqg24sfYug" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d6nHExYfEeSAfqg24sfYug" key="PropStereoDisplay" value="AmazonAWSProfile::InstancesPackage::InstanceType.autoScaling"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d6nHFBYfEeSAfqg24sfYug" key="StereotypePropertyLocation" value="Compartment"/>
     </eAnnotations>
     <children xmi:type="notation:DecorationNode" xmi:id="_U83sIo58EeOf8-f-VNDImA" type="5002"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_U83sI458EeOf8-f-VNDImA" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_VdKZoRYfEeSAfqg24sfYug" type="3030" fontName="Segoe UI" lineColor="0">
+        <element xmi:type="uml:Slot" href="FileSynchronizationService.uml#_VdKZoBYfEeSAfqg24sfYug"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VdKZohYfEeSAfqg24sfYug"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_VuokIBYfEeSAfqg24sfYug" type="3030" fontName="Segoe UI" lineColor="0">
+        <element xmi:type="uml:Slot" href="FileSynchronizationService.uml#_VunWABYfEeSAfqg24sfYug"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VuokIRYfEeSAfqg24sfYug"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_U83sJI58EeOf8-f-VNDImA"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_U83sJY58EeOf8-f-VNDImA"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_U83sJo58EeOf8-f-VNDImA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U83sJ458EeOf8-f-VNDImA"/>
     </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PPPe0BYfEeSAfqg24sfYug" visible="false" type="compartment_shape_display">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_PPPe0RYfEeSAfqg24sfYug"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PPPe0hYfEeSAfqg24sfYug"/>
+    </children>
     <element xmi:type="uml:InstanceSpecification" href="FileSynchronizationService.uml#_U81P4I58EeOf8-f-VNDImA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U82eAY58EeOf8-f-VNDImA" x="530" y="425" width="172" height="68"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U82eAY58EeOf8-f-VNDImA" x="515" y="425" width="266" height="68"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_tUkaUI59EeOf8-f-VNDImA" type="2001" fontName="Segoe UI" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tUlBYI59EeOf8-f-VNDImA" source="ShadowFigure">
@@ -65,11 +81,11 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tUlBZY59EeOf8-f-VNDImA" key="QualifiedNameDepth" value="1000"/>
     </eAnnotations>
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GPMr4I5-EeOf8-f-VNDImA" source="Stereotype_Annotation">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4bP-oJoUEeO0j4K8pBRHNA" key="StereotypeWithQualifiedNameList" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4bQlsJoUEeO0j4K8pBRHNA" key="StereotypeList" value="AmazonAWSProfile::ServicesPackage::EmailSending"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4bQlsZoUEeO0j4K8pBRHNA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4bQlspoUEeO0j4K8pBRHNA" key="PropStereoDisplay" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4bQls5oUEeO0j4K8pBRHNA" key="StereotypePropertyLocation" value="Compartment"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x1HtsBYfEeSAfqg24sfYug" key="StereotypeWithQualifiedNameList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x1HtsRYfEeSAfqg24sfYug" key="StereotypeList" value="AmazonAWSProfile::ServicesPackage::EmailSending"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x1HtshYfEeSAfqg24sfYug" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x1HtsxYfEeSAfqg24sfYug" key="PropStereoDisplay" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x1HttBYfEeSAfqg24sfYug" key="StereotypePropertyLocation" value="Compartment"/>
     </eAnnotations>
     <children xmi:type="notation:DecorationNode" xmi:id="_tUlBZo59EeOf8-f-VNDImA" type="5002"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_tUlocI59EeOf8-f-VNDImA" type="7001">
@@ -77,6 +93,10 @@
       <styles xmi:type="notation:SortingStyle" xmi:id="_tUloco59EeOf8-f-VNDImA"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_tUloc459EeOf8-f-VNDImA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tUlodI59EeOf8-f-VNDImA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PPQF4BYfEeSAfqg24sfYug" visible="false" type="compartment_shape_display">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_PPQF4RYfEeSAfqg24sfYug"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PPQF4hYfEeSAfqg24sfYug"/>
     </children>
     <element xmi:type="uml:InstanceSpecification" href="FileSynchronizationService.uml#_tUjMMI59EeOf8-f-VNDImA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tUkaUY59EeOf8-f-VNDImA" x="800" y="265" height="64"/>
@@ -92,11 +112,11 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4esJZY59EeOf8-f-VNDImA" key="QualifiedNameDepth" value="1000"/>
     </eAnnotations>
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7X05sI59EeOf8-f-VNDImA" source="Stereotype_Annotation">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zjflgJoUEeO0j4K8pBRHNA" key="StereotypeWithQualifiedNameList" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zjgMkJoUEeO0j4K8pBRHNA" key="StereotypeList" value="AmazonAWSProfile::StoragePackage::DynamoDB"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zjgMkZoUEeO0j4K8pBRHNA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zjgMkpoUEeO0j4K8pBRHNA" key="PropStereoDisplay" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zjgMk5oUEeO0j4K8pBRHNA" key="StereotypePropertyLocation" value="Compartment"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_slBGABYfEeSAfqg24sfYug" key="StereotypeWithQualifiedNameList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_slBGARYfEeSAfqg24sfYug" key="StereotypeList" value="AmazonAWSProfile::StoragePackage::DynamoDB"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_slBGAhYfEeSAfqg24sfYug" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_slBGAxYfEeSAfqg24sfYug" key="PropStereoDisplay" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_slBtEBYfEeSAfqg24sfYug" key="StereotypePropertyLocation" value="Compartment"/>
     </eAnnotations>
     <children xmi:type="notation:DecorationNode" xmi:id="_4esJZo59EeOf8-f-VNDImA" type="5002"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_4eswcI59EeOf8-f-VNDImA" type="7001">
@@ -104,6 +124,10 @@
       <styles xmi:type="notation:SortingStyle" xmi:id="_4eswco59EeOf8-f-VNDImA"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_4eswc459EeOf8-f-VNDImA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4eswdI59EeOf8-f-VNDImA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PPQs8BYfEeSAfqg24sfYug" visible="false" type="compartment_shape_display">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_PPQs8RYfEeSAfqg24sfYug"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PPQs8hYfEeSAfqg24sfYug"/>
     </children>
     <element xmi:type="uml:InstanceSpecification" href="FileSynchronizationService.uml#_4eqUMI59EeOf8-f-VNDImA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4eriUY59EeOf8-f-VNDImA" x="495" y="130" height="74"/>
@@ -119,11 +143,11 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-SAL1Y59EeOf8-f-VNDImA" key="QualifiedNameDepth" value="1000"/>
     </eAnnotations>
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_91m2gJJpEeOry5Jm6UQebQ" source="Stereotype_Annotation">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vfEt0JoUEeO0j4K8pBRHNA" key="StereotypeWithQualifiedNameList" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vfEt0ZoUEeO0j4K8pBRHNA" key="StereotypeList" value="AmazonAWSProfile::ServicesPackage::SecurityTokenService"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vfEt0poUEeO0j4K8pBRHNA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vfFU4JoUEeO0j4K8pBRHNA" key="PropStereoDisplay" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vfFU4ZoUEeO0j4K8pBRHNA" key="StereotypePropertyLocation" value="Compartment"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rUDNYBYfEeSAfqg24sfYug" key="StereotypeWithQualifiedNameList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rUDNYRYfEeSAfqg24sfYug" key="StereotypeList" value="AmazonAWSProfile::ServicesPackage::SecurityTokenService"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rUDNYhYfEeSAfqg24sfYug" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rUDNYxYfEeSAfqg24sfYug" key="PropStereoDisplay" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rUDNZBYfEeSAfqg24sfYug" key="StereotypePropertyLocation" value="Compartment"/>
     </eAnnotations>
     <children xmi:type="notation:DecorationNode" xmi:id="_-SAy4I59EeOf8-f-VNDImA" type="5002"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_-SAy4Y59EeOf8-f-VNDImA" type="7001">
@@ -132,8 +156,12 @@
       <styles xmi:type="notation:FilteringStyle" xmi:id="_-SAy5I59EeOf8-f-VNDImA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-SAy5Y59EeOf8-f-VNDImA"/>
     </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PPR7EBYfEeSAfqg24sfYug" visible="false" type="compartment_shape_display">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_PPR7ERYfEeSAfqg24sfYug"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PPR7EhYfEeSAfqg24sfYug"/>
+    </children>
     <element xmi:type="uml:InstanceSpecification" href="FileSynchronizationService.uml#_-R-WoI59EeOf8-f-VNDImA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-R_kwY59EeOf8-f-VNDImA" x="175" y="230" height="67"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-R_kwY59EeOf8-f-VNDImA" x="175" y="230" height="46"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_J19-QI5-EeOf8-f-VNDImA" type="2001" fontName="Segoe UI" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_J1-lUI5-EeOf8-f-VNDImA" source="ShadowFigure">
@@ -146,11 +174,11 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_J1_MYo5-EeOf8-f-VNDImA" key="QualifiedNameDepth" value="1000"/>
     </eAnnotations>
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NxKBcI5-EeOf8-f-VNDImA" source="Stereotype_Annotation">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pg12oJoUEeO0j4K8pBRHNA" key="StereotypeWithQualifiedNameList" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pg12oZoUEeO0j4K8pBRHNA" key="StereotypeList" value="AmazonAWSProfile::S3"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pg12opoUEeO0j4K8pBRHNA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pg12o5oUEeO0j4K8pBRHNA" key="PropStereoDisplay" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pg12pJoUEeO0j4K8pBRHNA" key="StereotypePropertyLocation" value="Compartment"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lrNVkBYfEeSAfqg24sfYug" key="StereotypeWithQualifiedNameList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lrNVkRYfEeSAfqg24sfYug" key="StereotypeList" value="AmazonAWSProfile::ServicesPackage::S3"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lrN8oBYfEeSAfqg24sfYug" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lrN8oRYfEeSAfqg24sfYug" key="PropStereoDisplay" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lrN8ohYfEeSAfqg24sfYug" key="StereotypePropertyLocation" value="Compartment"/>
     </eAnnotations>
     <children xmi:type="notation:DecorationNode" xmi:id="_J1_MY45-EeOf8-f-VNDImA" type="5002"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_J1_MZI5-EeOf8-f-VNDImA" type="7001">
@@ -159,70 +187,74 @@
       <styles xmi:type="notation:FilteringStyle" xmi:id="_J1_MZ45-EeOf8-f-VNDImA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J1_MaI5-EeOf8-f-VNDImA"/>
     </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PPSiIBYfEeSAfqg24sfYug" visible="false" type="compartment_shape_display">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_PPSiIRYfEeSAfqg24sfYug"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PPSiIhYfEeSAfqg24sfYug"/>
+    </children>
     <element xmi:type="uml:InstanceSpecification" href="FileSynchronizationService.uml#_J18wII5-EeOf8-f-VNDImA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J19-QY5-EeOf8-f-VNDImA" x="180" y="355" height="81"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J19-QY5-EeOf8-f-VNDImA" x="180" y="375" height="66"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_Hjf3QY58EeOf8-f-VNDImA"/>
   <element xmi:type="uml:Model" href="FileSynchronizationService.uml#_HjfQMI58EeOf8-f-VNDImA"/>
-  <edges xmi:type="notation:Connector" xmi:id="_WHk50I5-EeOf8-f-VNDImA" type="4021" source="_U82eAI58EeOf8-f-VNDImA" target="_OxmcsI58EeOf8-f-VNDImA" lineColor="0">
-    <children xmi:type="notation:DecorationNode" xmi:id="_WHlg4I5-EeOf8-f-VNDImA" type="6039">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_WHlg4Y5-EeOf8-f-VNDImA" x="-2" y="-60"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_WHlg4o5-EeOf8-f-VNDImA" type="6038">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_WHlg445-EeOf8-f-VNDImA" x="9" y="62"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_WHk50Y5-EeOf8-f-VNDImA" fontName="Segoe UI"/>
-    <element xmi:type="uml:InstanceSpecification" href="FileSynchronizationService.uml#_WHjEoI5-EeOf8-f-VNDImA"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WHk50o5-EeOf8-f-VNDImA" points="[5, 32, -3, -102]$[5, 98, -3, -36]"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_YqqhoI5-EeOf8-f-VNDImA" type="4021" source="_4eriUI59EeOf8-f-VNDImA" target="_U82eAI58EeOf8-f-VNDImA" lineColor="0">
-    <children xmi:type="notation:DecorationNode" xmi:id="_YqrvwI5-EeOf8-f-VNDImA" type="6039">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_YqrvwY5-EeOf8-f-VNDImA" x="26" y="-55"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_Yqrvwo5-EeOf8-f-VNDImA" type="6038">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_Yqrvw45-EeOf8-f-VNDImA" x="-26" y="-56"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_YqqhoY5-EeOf8-f-VNDImA" fontName="Segoe UI"/>
-    <element xmi:type="uml:InstanceSpecification" href="FileSynchronizationService.uml#_YqoFYI5-EeOf8-f-VNDImA"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Yqqhoo5-EeOf8-f-VNDImA" points="[1, 37, 0, -236]$[-7, 263, -8, -10]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_n6OcEI5-EeOf8-f-VNDImA" id="(0.31862745098039214,0.9864864864864865)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YqxPUI5-EeOf8-f-VNDImA" id="(0.29651162790697677,0.0)"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_baMC8I5-EeOf8-f-VNDImA" type="4021" source="_tUkaUI59EeOf8-f-VNDImA" target="_U82eAI58EeOf8-f-VNDImA" lineColor="0">
-    <children xmi:type="notation:DecorationNode" xmi:id="_baMqAI5-EeOf8-f-VNDImA" type="6039">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_baMqAY5-EeOf8-f-VNDImA" x="26" y="-60"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_baMqAo5-EeOf8-f-VNDImA" type="6038">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_baMqA45-EeOf8-f-VNDImA" x="17" y="8"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_baMC8Y5-EeOf8-f-VNDImA" fontName="Segoe UI"/>
-    <element xmi:type="uml:InstanceSpecification" href="FileSynchronizationService.uml#_baK00I5-EeOf8-f-VNDImA"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_baMC8o5-EeOf8-f-VNDImA" points="[-86, -7, 144, -116]$[-230, -7, 0, -116]$[-230, 108, 0, -1]"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ca5SAI5-EeOf8-f-VNDImA" id="(0.9251700680272109,0.015873015873015872)"/>
-  </edges>
   <edges xmi:type="notation:Connector" xmi:id="_hVhY8I5-EeOf8-f-VNDImA" type="4021" source="_U82eAI58EeOf8-f-VNDImA" target="_J19-QI5-EeOf8-f-VNDImA" lineColor="0">
     <children xmi:type="notation:DecorationNode" xmi:id="_hVhY845-EeOf8-f-VNDImA" type="6039">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_hVhY9I5-EeOf8-f-VNDImA" x="37" y="-59"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hVhY9I5-EeOf8-f-VNDImA" x="57" y="18"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_hViAAI5-EeOf8-f-VNDImA" type="6038">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_hViAAY5-EeOf8-f-VNDImA" x="13" y="8"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_hVhY8Y5-EeOf8-f-VNDImA" fontName="Segoe UI"/>
     <element xmi:type="uml:InstanceSpecification" href="FileSynchronizationService.uml#_hVgK0I5-EeOf8-f-VNDImA"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hVhY8o5-EeOf8-f-VNDImA" points="[0, 6, 226, 90]$[-235, 6, -9, 90]$[-235, -43, -9, 41]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hVhY8o5-EeOf8-f-VNDImA" points="[0, -7, 218, 62]$[-218, -7, 0, 62]$[-218, -36, 0, 33]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iL3LEI5-EeOf8-f-VNDImA" id="(0.0,0.7777777777777778)"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_pGsPMI5-EeOf8-f-VNDImA" type="4021" source="_-R_kwI59EeOf8-f-VNDImA" target="_U82eAI58EeOf8-f-VNDImA" lineColor="0">
-    <children xmi:type="notation:DecorationNode" xmi:id="_pGs2QI5-EeOf8-f-VNDImA" type="6039">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_pGs2QY5-EeOf8-f-VNDImA" x="25" y="62"/>
+  <edges xmi:type="notation:Connector" xmi:id="_hNhpUBYfEeSAfqg24sfYug" type="4021" source="_U82eAI58EeOf8-f-VNDImA" target="_OxmcsI58EeOf8-f-VNDImA" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hNiQYBYfEeSAfqg24sfYug" type="6039">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hNi3cBYfEeSAfqg24sfYug" x="-1" y="41"/>
     </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_pGs2Qo5-EeOf8-f-VNDImA" type="6038">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_pGs2Q45-EeOf8-f-VNDImA" x="16" y="-8"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hNi3cRYfEeSAfqg24sfYug" type="6038">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hNi3chYfEeSAfqg24sfYug" x="2" y="45"/>
     </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_pGsPMY5-EeOf8-f-VNDImA" fontName="Segoe UI"/>
-    <element xmi:type="uml:InstanceSpecification" href="FileSynchronizationService.uml#_pGpL4I5-EeOf8-f-VNDImA"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pGsPMo5-EeOf8-f-VNDImA" points="[43, 9, -135, -151]$[178, 9, 0, -151]$[178, 159, 0, -1]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pGyV0I5-EeOf8-f-VNDImA" id="(0.7611111111111111,0.6119402985074627)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pGyV0Y5-EeOf8-f-VNDImA" id="(0.11627906976744186,0.015873015873015872)"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_hNhpURYfEeSAfqg24sfYug" fontName="Segoe UI"/>
+    <element xmi:type="uml:InstanceSpecification" href="FileSynchronizationService.uml#_hNfNEBYfEeSAfqg24sfYug"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hNhpUhYfEeSAfqg24sfYug" points="[-2, 8, 24, -103]$[-17, 75, 9, -36]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hNoXABYfEeSAfqg24sfYug" id="(0.4699248120300752,0.8823529411764706)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_pVBU4BYfEeSAfqg24sfYug" type="4021" source="_U82eAI58EeOf8-f-VNDImA" target="_-R_kwI59EeOf8-f-VNDImA" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_pVB78BYfEeSAfqg24sfYug" type="6039">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pVB78RYfEeSAfqg24sfYug" x="37" y="-36"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_pVB78hYfEeSAfqg24sfYug" type="6038">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pVB78xYfEeSAfqg24sfYug" x="15" y="-39"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_pVBU4RYfEeSAfqg24sfYug" fontName="Segoe UI"/>
+    <element xmi:type="uml:InstanceSpecification" href="FileSynchronizationService.uml#_pU_fsBYfEeSAfqg24sfYug"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pVBU4hYfEeSAfqg24sfYug" points="[-4, -5, 109, 168]$[-88, -173, 25, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pVIpoBYfEeSAfqg24sfYug" id="(0.09398496240601503,0.07352941176470588)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pVIpoRYfEeSAfqg24sfYug" id="(0.9097472924187726,0.5869565217391305)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_t6_acBYfEeSAfqg24sfYug" type="4021" source="_U82eAI58EeOf8-f-VNDImA" target="_4eriUI59EeOf8-f-VNDImA" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_t7ABghYfEeSAfqg24sfYug" type="6039">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_t7AokBYfEeSAfqg24sfYug" x="11" y="-45"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_t7AokRYfEeSAfqg24sfYug" type="6038">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_t7AokhYfEeSAfqg24sfYug" x="-11" y="49"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_t7ABgBYfEeSAfqg24sfYug" fontName="Segoe UI"/>
+    <element xmi:type="uml:InstanceSpecification" href="FileSynchronizationService.uml#_t6-MUBYfEeSAfqg24sfYug"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_t7ABgRYfEeSAfqg24sfYug" points="[0, -6, -21, 258]$[19, -301, -2, -37]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t7GIIBYfEeSAfqg24sfYug" id="(0.34962406015037595,0.08823529411764706)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_wCBYYBYfEeSAfqg24sfYug" type="4021" source="_U82eAI58EeOf8-f-VNDImA" target="_tUkaUI59EeOf8-f-VNDImA" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wCB_cBYfEeSAfqg24sfYug" type="6039">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wCB_cRYfEeSAfqg24sfYug" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wCB_chYfEeSAfqg24sfYug" type="6038">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wCB_cxYfEeSAfqg24sfYug" y="20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_wCBYYRYfEeSAfqg24sfYug" fontName="Segoe UI"/>
+    <element xmi:type="uml:InstanceSpecification" href="FileSynchronizationService.uml#_wCAKQBYfEeSAfqg24sfYug"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wCBYYhYfEeSAfqg24sfYug" points="[7, -7, -178, 128]$[61, -126, -124, 9]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wCGQ4BYfEeSAfqg24sfYug" id="(0.8421052631578947,0.10294117647058823)"/>
   </edges>
 </notation:Diagram>

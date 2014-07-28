@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AmazonAWSProfile="http:///schemas/AmazonAWSProfile/_yd-1UJocEeOO1r0zDW1uRQ/82" xmlns:AmazonAWSProfile.InstancesPackage="http:///AmazonAWSProfile/InstancesPackage.ecore" xmlns:AmazonAWSProfile.ServicesPackage="http:///AmazonAWSProfile/ServicesPackage.ecore" xmlns:AmazonAWSProfile.StoragePackage="http:///AmazonAWSProfile/StoragePackage.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/AmazonAWSProfile/_yd-1UJocEeOO1r0zDW1uRQ/82 platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml#_yd_cYJocEeOO1r0zDW1uRQ http:///AmazonAWSProfile/InstancesPackage.ecore platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml#_yd_cfZocEeOO1r0zDW1uRQ http:///AmazonAWSProfile/ServicesPackage.ecore platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml#_yd_dEpocEeOO1r0zDW1uRQ http:///AmazonAWSProfile/StoragePackage.ecore platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml#_yd_cz5ocEeOO1r0zDW1uRQ">
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AmazonAWSProfile.InstancesPackage="http:///AmazonAWSProfile/InstancesPackage.ecore" xmlns:AmazonAWSProfile.ServicesPackage="http:///AmazonAWSProfile/ServicesPackage.ecore" xmlns:AmazonAWSProfile.StoragePackage="http:///AmazonAWSProfile/StoragePackage.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///AmazonAWSProfile/InstancesPackage.ecore platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml#_c6SH6RG2EeSRW7fIGev8nw http:///AmazonAWSProfile/ServicesPackage.ecore platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml#_c6SISBG2EeSRW7fIGev8nw http:///AmazonAWSProfile/StoragePackage.ecore platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml#_c6SIJRG2EeSRW7fIGev8nw">
   <uml:Model xmi:id="_fRaQUI53EeOf8-f-VNDImA" name="AdvertisementBlueprint">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_h_ausI53EeOf8-f-VNDImA">
       <importedPackage xmi:type="uml:Model" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_c73bE_3gEeKQb7onjNL6fQ"/>
@@ -11,6 +11,18 @@
     <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_YqvB0I54EeOf8-f-VNDImA" name="AdServer">
       <classifier xmi:type="uml:Node" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_c73bKf3gEeKQb7onjNL6fQ"/>
       <classifier xmi:type="uml:Class" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_8jBY4Iy5EeOOGr6qMP3Q2w"/>
+      <slot xmi:type="uml:Slot" xmi:id="_7y83gBYZEeSAfqg24sfYug">
+        <definingFeature xmi:type="uml:Property" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_FBuHoAKnEeSupvbkJHJ82w"/>
+        <value xmi:type="uml:InstanceValue" xmi:id="_E110UBYaEeSAfqg24sfYug">
+          <instance xmi:type="uml:EnumerationLiteral" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_1QAdYBGDEeSRW7fIGev8nw"/>
+        </value>
+      </slot>
+      <slot xmi:type="uml:Slot" xmi:id="_AAtRYBYaEeSAfqg24sfYug">
+        <definingFeature xmi:type="uml:Property" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_JUs6wBGEEeSRW7fIGev8nw"/>
+        <value xmi:type="uml:InstanceValue" xmi:id="_HIcwIBYaEeSAfqg24sfYug">
+          <instance xmi:type="uml:EnumerationLiteral" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_KxvlgAKnEeSupvbkJHJ82w"/>
+        </value>
+      </slot>
     </packagedElement>
     <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_fHhfEI54EeOf8-f-VNDImA" name="InstanceSpecification0">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fHhfEY54EeOf8-f-VNDImA" source="InstanceEnd" references="_86_kUI53EeOf8-f-VNDImA _YqvB0I54EeOf8-f-VNDImA"/>
@@ -59,6 +71,18 @@
     <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_-h7bAI55EeOf8-f-VNDImA" name="ClickThroughServer">
       <classifier xmi:type="uml:Node" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_c73bKf3gEeKQb7onjNL6fQ"/>
       <classifier xmi:type="uml:Class" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_8jBY4Iy5EeOOGr6qMP3Q2w"/>
+      <slot xmi:type="uml:Slot" xmi:id="_NPb8gBYaEeSAfqg24sfYug">
+        <definingFeature xmi:type="uml:Property" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_FBuHoAKnEeSupvbkJHJ82w"/>
+        <value xmi:type="uml:InstanceValue" xmi:id="_Xm4RcBYaEeSAfqg24sfYug">
+          <instance xmi:type="uml:EnumerationLiteral" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_1QAdYBGDEeSRW7fIGev8nw"/>
+        </value>
+      </slot>
+      <slot xmi:type="uml:Slot" xmi:id="_NcXlQBYaEeSAfqg24sfYug">
+        <definingFeature xmi:type="uml:Property" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_JUs6wBGEEeSRW7fIGev8nw"/>
+        <value xmi:type="uml:InstanceValue" xmi:id="_ZUEzEBYaEeSAfqg24sfYug">
+          <instance xmi:type="uml:EnumerationLiteral" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_KxvlgAKnEeSupvbkJHJ82w"/>
+        </value>
+      </slot>
     </packagedElement>
     <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_ESiHsI56EeOf8-f-VNDImA" name="InstanceSpecification2">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ESiHsY56EeOf8-f-VNDImA" source="InstanceEnd" references="_-h7bAI55EeOf8-f-VNDImA _2yBJAI55EeOf8-f-VNDImA"/>
@@ -148,29 +172,21 @@
         </value>
       </slot>
     </packagedElement>
-    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_ezhLsI59EeOf8-f-VNDImA" name="InstanceSpecification7">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ezhywI59EeOf8-f-VNDImA" source="InstanceEnd" references="_YqvB0I54EeOf8-f-VNDImA"/>
-      <classifier xmi:type="uml:CommunicationPath" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_1kFiwIy3EeOOGr6qMP3Q2w"/>
-      <slot xmi:type="uml:Slot" xmi:id="_ezhywY59EeOf8-f-VNDImA">
-        <definingFeature xmi:type="uml:Property" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_WPVuEQr9EeOJxI3yGkc6zw"/>
-        <value xmi:type="uml:InstanceValue" xmi:id="_ezhywo59EeOf8-f-VNDImA" name="InstanceValue0" instance="_YqvB0I54EeOf8-f-VNDImA">
-          <type xmi:type="uml:Node" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_c73bKf3gEeKQb7onjNL6fQ"/>
-        </value>
-      </slot>
-    </packagedElement>
-    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_khc-4I59EeOf8-f-VNDImA" name="InstanceSpecification8">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_khc-4Y59EeOf8-f-VNDImA" source="InstanceEnd" references="_-h7bAI55EeOf8-f-VNDImA"/>
-      <classifier xmi:type="uml:CommunicationPath" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_1kFiwIy3EeOOGr6qMP3Q2w"/>
-      <slot xmi:type="uml:Slot" xmi:id="_khdl8I59EeOf8-f-VNDImA">
-        <definingFeature xmi:type="uml:Property" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_WPVuEQr9EeOJxI3yGkc6zw"/>
-        <value xmi:type="uml:InstanceValue" xmi:id="_khdl8Y59EeOf8-f-VNDImA" name="InstanceValue0" instance="_-h7bAI55EeOf8-f-VNDImA">
-          <type xmi:type="uml:Node" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_c73bKf3gEeKQb7onjNL6fQ"/>
-        </value>
-      </slot>
-    </packagedElement>
     <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_NapZ4JmKEeO0j4K8pBRHNA" name="SpotInstances">
       <classifier xmi:type="uml:Node" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_c73bKf3gEeKQb7onjNL6fQ"/>
       <classifier xmi:type="uml:Class" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_8jBY4Iy5EeOOGr6qMP3Q2w"/>
+      <slot xmi:type="uml:Slot" xmi:id="_NpfbQBYaEeSAfqg24sfYug">
+        <definingFeature xmi:type="uml:Property" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_FBuHoAKnEeSupvbkJHJ82w"/>
+        <value xmi:type="uml:InstanceValue" xmi:id="_h26W0BYaEeSAfqg24sfYug">
+          <instance xmi:type="uml:EnumerationLiteral" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_1QAdYBGDEeSRW7fIGev8nw"/>
+        </value>
+      </slot>
+      <slot xmi:type="uml:Slot" xmi:id="_N45JMBYaEeSAfqg24sfYug">
+        <definingFeature xmi:type="uml:Property" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_JUs6wBGEEeSRW7fIGev8nw"/>
+        <value xmi:type="uml:InstanceValue" xmi:id="_jxXRUBYaEeSAfqg24sfYug">
+          <instance xmi:type="uml:EnumerationLiteral" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_KxvlgAKnEeSupvbkJHJ82w"/>
+        </value>
+      </slot>
     </packagedElement>
     <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_bwnZ4JmKEeO0j4K8pBRHNA" name="InstanceSpecification9">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bwpPEJmKEeO0j4K8pBRHNA" source="InstanceEnd" references="_NapZ4JmKEeO0j4K8pBRHNA _gAhRsI56EeOf8-f-VNDImA"/>
@@ -188,20 +204,20 @@
         </value>
       </slot>
     </packagedElement>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_DaszkJJmEeOry5Jm6UQebQ">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DaxFAJJmEeOry5Jm6UQebQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml#_yd_cYJocEeOO1r0zDW1uRQ"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3Eh2II5JEeOza5lRrrcUxA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3En8wI5JEeOza5lRrrcUxA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml#_c6SHgRG2EeSRW7fIGev8nw"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml#_jQv9dv3kEeKQb7onjNL6fQ"/>
     </profileApplication>
   </uml:Model>
-  <AmazonAWSProfile.ServicesPackage:ElasticLoadBalancing xmi:id="_DhySII54EeOf8-f-VNDImA" base_InstanceSpecification="_86_kUI53EeOf8-f-VNDImA"/>
-  <AmazonAWSProfile.ServicesPackage:ElasticLoadBalancing xmi:id="_5a5PwI55EeOf8-f-VNDImA" base_InstanceSpecification="_2yBJAI55EeOf8-f-VNDImA"/>
-  <AmazonAWSProfile.StoragePackage:DynamoDB xmi:id="_8X4I0I56EeOf8-f-VNDImA" base_InstanceSpecification="_23oMUI56EeOf8-f-VNDImA"/>
-  <AmazonAWSProfile.ServicesPackage:AWSCloudFront xmi:id="_2Oe0cJJmEeOry5Jm6UQebQ" base_InstanceSpecification="_1GZKII54EeOf8-f-VNDImA"/>
-  <AmazonAWSProfile.ServicesPackage:MapReduce xmi:id="_4W1oEJJmEeOry5Jm6UQebQ" base_InstanceSpecification="_gAhRsI56EeOf8-f-VNDImA"/>
-  <AmazonAWSProfile:S3 xmi:id="_s3LZkJmHEeOmo7qhpGHj-A" base_InstanceSpecification="_AJBxII55EeOf8-f-VNDImA"/>
-  <AmazonAWSProfile.InstancesPackage:InstanceType xmi:id="_vEWJ0JmJEeO0j4K8pBRHNA" base_InstanceSpecification="_YqvB0I54EeOf8-f-VNDImA" autoScaling="true"/>
-  <AmazonAWSProfile.InstancesPackage:InstanceType xmi:id="_E_4NAJmKEeO0j4K8pBRHNA" base_InstanceSpecification="_-h7bAI55EeOf8-f-VNDImA" autoScaling="true"/>
-  <AmazonAWSProfile.InstancesPackage:InstanceType xmi:id="_U4HRAJmKEeO0j4K8pBRHNA" base_InstanceSpecification="_NapZ4JmKEeO0j4K8pBRHNA" instanceCategory="Spot" autoScaling="true"/>
+  <AmazonAWSProfile.ServicesPackage:ElasticLoadBalancing xmi:id="_qtIwoBYaEeSAfqg24sfYug" base_InstanceSpecification="_86_kUI53EeOf8-f-VNDImA"/>
+  <AmazonAWSProfile.ServicesPackage:ElasticLoadBalancing xmi:id="_sfHEkBYaEeSAfqg24sfYug" base_InstanceSpecification="_2yBJAI55EeOf8-f-VNDImA"/>
+  <AmazonAWSProfile.InstancesPackage:AWSM3Medium xmi:id="_wU3OIBYaEeSAfqg24sfYug" base_InstanceSpecification="_YqvB0I54EeOf8-f-VNDImA"/>
+  <AmazonAWSProfile.InstancesPackage:AWSM3Medium xmi:id="_y0GQsBYaEeSAfqg24sfYug" base_InstanceSpecification="_-h7bAI55EeOf8-f-VNDImA"/>
+  <AmazonAWSProfile.InstancesPackage:AWSM3Medium xmi:id="_0P0n0BYaEeSAfqg24sfYug" base_InstanceSpecification="_NapZ4JmKEeO0j4K8pBRHNA" instanceCategory="Spot"/>
+  <AmazonAWSProfile.StoragePackage:DynamoDB xmi:id="_6aQw0BYaEeSAfqg24sfYug" base_InstanceSpecification="_23oMUI56EeOf8-f-VNDImA"/>
+  <AmazonAWSProfile.ServicesPackage:MapReduce xmi:id="_77NmMBYaEeSAfqg24sfYug" base_InstanceSpecification="_gAhRsI56EeOf8-f-VNDImA"/>
+  <AmazonAWSProfile.ServicesPackage:AWSCloudFront xmi:id="_-rxpUBYaEeSAfqg24sfYug" base_InstanceSpecification="_1GZKII54EeOf8-f-VNDImA"/>
+  <AmazonAWSProfile.ServicesPackage:S3 xmi:id="_KxuugBYbEeSAfqg24sfYug" base_InstanceSpecification="_AJBxII55EeOf8-f-VNDImA"/>
 </xmi:XMI>
