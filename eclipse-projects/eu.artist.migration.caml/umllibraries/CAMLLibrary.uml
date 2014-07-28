@@ -1,88 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:l2="http://www.eclipse.org/uml2/4.0.0/UML/Profile/L2" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML">
-  <uml:Model xmi:id="_c73bE_3gEeKQb7onjNL6fQ" name="CAMLLibrary">
-    <elementImport xmi:type="uml:ElementImport" xmi:id="_wPCugIyoEeOOGr6qMP3Q2w">
-      <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#DeploymentTarget"/>
-    </elementImport>
-    <packageImport xmi:type="uml:PackageImport" xmi:id="_c73bFP3gEeKQb7onjNL6fQ">
+  <uml:Model xmi:id="_c73bE_3gEeKQb7onjNL6fQ" name="CloudLibrary">
+    <packageImport xmi:id="_c73bFP3gEeKQb7onjNL6fQ">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Class" xmi:id="_bWurwIy8EeOOGr6qMP3Q2w" name="CloudElement" isAbstract="true">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_8cVDkIzQEeOOGr6qMP3Q2w" name="cloudConfiguration" type="_M3QG4AsJEeOJxI3yGkc6zw" association="_iHg4gB7eEeO2xMtRObGBww">
+    <packagedElement xmi:type="uml:Class" xmi:id="_8jBY4Iy5EeOOGr6qMP3Q2w" name="CloudOffering" isAbstract="true">
+      <ownedAttribute xmi:id="_c73bLf3gEeKQb7onjNL6fQ" name="channelTarget" visibility="public" type="_8jBY4Iy5EeOOGr6qMP3Q2w" association="_c73bNP3gEeKQb7onjNL6fQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_c73bL_3gEeKQb7onjNL6fQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_c73bLv3gEeKQb7onjNL6fQ" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_c73bMP3gEeKQb7onjNL6fQ" name="channelSource" visibility="public" type="_8jBY4Iy5EeOOGr6qMP3Q2w" association="_c73bNP3gEeKQb7onjNL6fQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_c73bMv3gEeKQb7onjNL6fQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_c73bMf3gEeKQb7onjNL6fQ" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_8cVDkIzQEeOOGr6qMP3Q2w" name="configuration" type="_M3QG4AsJEeOJxI3yGkc6zw" association="_iHg4gB7eEeO2xMtRObGBww">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_R5pgwIzREeOOGr6qMP3Q2w"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_R5pgwYzREeOOGr6qMP3Q2w" value="*"/>
       </ownedAttribute>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_8jBY4Iy5EeOOGr6qMP3Q2w" name="CloudOffering" isAbstract="true">
-      <generalization xmi:type="uml:Generalization" xmi:id="_kuaz4Iy8EeOOGr6qMP3Q2w" general="_bWurwIy8EeOOGr6qMP3Q2w"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_c73bLf3gEeKQb7onjNL6fQ" name="communicationSource" visibility="public" type="_8jBY4Iy5EeOOGr6qMP3Q2w" association="_c73bNP3gEeKQb7onjNL6fQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_c73bL_3gEeKQb7onjNL6fQ"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_c73bLv3gEeKQb7onjNL6fQ" value="*"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_c73bMP3gEeKQb7onjNL6fQ" name="communicationTarget" visibility="public" type="_8jBY4Iy5EeOOGr6qMP3Q2w" association="_c73bNP3gEeKQb7onjNL6fQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_c73bMv3gEeKQb7onjNL6fQ"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_c73bMf3gEeKQb7onjNL6fQ" value="*"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_rTp39Iy7EeOOGr6qMP3Q2w" name="cloudEnvironment" type="_mInWcIy7EeOOGr6qMP3Q2w" association="_rTp384y7EeOOGr6qMP3Q2w">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rTp39Yy7EeOOGr6qMP3Q2w" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rTp39oy7EeOOGr6qMP3Q2w" value="1"/>
-      </ownedAttribute>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_mInWcIy7EeOOGr6qMP3Q2w" name="CloudEnvironment" isAbstract="true">
-      <generalization xmi:type="uml:Generalization" xmi:id="_j53xgIy8EeOOGr6qMP3Q2w" general="_bWurwIy8EeOOGr6qMP3Q2w"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_rTp38Iy7EeOOGr6qMP3Q2w" name="cloudOffering" type="_8jBY4Iy5EeOOGr6qMP3Q2w" association="_rTp384y7EeOOGr6qMP3Q2w">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rTp38Yy7EeOOGr6qMP3Q2w" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rTp38oy7EeOOGr6qMP3Q2w" value="*"/>
-      </ownedAttribute>
-    </packagedElement>
     <packagedElement xmi:type="uml:DeploymentSpecification" xmi:id="_M3QG4AsJEeOJxI3yGkc6zw" name="CloudConfiguration" deploymentLocation="">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_UMuWoIzREeOOGr6qMP3Q2w" name="cloudElement" type="_bWurwIy8EeOOGr6qMP3Q2w" association="_iHg4gB7eEeO2xMtRObGBww"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_c73bNf3gEeKQb7onjNL6fQ" name="InfrastructureLevelEnvironment">
-      <generalization xmi:type="uml:Generalization" xmi:id="_rZyDMIy9EeOOGr6qMP3Q2w" general="_mInWcIy7EeOOGr6qMP3Q2w"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_c73bOv3gEeKQb7onjNL6fQ" name="PlatformLevelEnvironment">
-      <generalization xmi:type="uml:Generalization" xmi:id="_r9KdEIy9EeOOGr6qMP3Q2w" general="_mInWcIy7EeOOGr6qMP3Q2w"/>
+      <ownedAttribute xmi:id="_UMuWoIzREeOOGr6qMP3Q2w" name="offering" type="_8jBY4Iy5EeOOGr6qMP3Q2w" association="_iHg4gB7eEeO2xMtRObGBww">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DYx5cBGFEeSRW7fIGev8nw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DYx5cRGFEeSRW7fIGev8nw" value="*"/>
+      </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_c73bPv3gEeKQb7onjNL6fQ" name="CloudStorage">
-      <generalization xmi:type="uml:Generalization" xmi:id="_M8u1cIy-EeOOGr6qMP3Q2w" general="_8jBY4Iy5EeOOGr6qMP3Q2w"/>
+      <generalization xmi:id="_M8u1cIy-EeOOGr6qMP3Q2w" general="_8jBY4Iy5EeOOGr6qMP3Q2w"/>
+      <ownedAttribute xmi:id="_gnxYoBGEEeSRW7fIGev8nw" name="datastruture" visibility="public" type="_wZn9QBGDEeSRW7fIGev8nw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jd7GYBGEEeSRW7fIGev8nw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jd7GYRGEEeSRW7fIGev8nw" value="1"/>
+        <defaultValue xmi:type="uml:InstanceValue" xmi:id="_JBHlgBGGEeSRW7fIGev8nw" name="DefaultDataStructure" instance="_-dVvoBGDEeSRW7fIGev8nw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jxqhwBGEEeSRW7fIGev8nw" name="consistency" visibility="public" type="_wnKqABGDEeSRW7fIGev8nw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mR-iYBGEEeSRW7fIGev8nw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mR-iYRGEEeSRW7fIGev8nw" value="1"/>
+        <defaultValue xmi:type="uml:InstanceValue" xmi:id="_NKt4IBGGEeSRW7fIGev8nw" name="DefaultConsistency" instance="_DbGqIBGEEeSRW7fIGev8nw"/>
+      </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Artifact" xmi:id="_g0ciMAilEeOpWq22bueY-w" name="CloudService" fileName="">
-      <generalization xmi:type="uml:Generalization" xmi:id="_vm1dAIy-EeOOGr6qMP3Q2w" general="_8jBY4Iy5EeOOGr6qMP3Q2w"/>
+      <generalization xmi:id="_vm1dAIy-EeOOGr6qMP3Q2w" general="_8jBY4Iy5EeOOGr6qMP3Q2w"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Node" xmi:id="_c73bKf3gEeKQb7onjNL6fQ" name="CloudNode">
-      <generalization xmi:type="uml:Generalization" xmi:id="_MBacsIy-EeOOGr6qMP3Q2w" general="_8jBY4Iy5EeOOGr6qMP3Q2w"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_WPDaMAr9EeOJxI3yGkc6zw" name="operatingEnvironment" type="_GXlLMAr9EeOJxI3yGkc6zw" association="_1kFiwIy3EeOOGr6qMP3Q2w">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WPDaMQr9EeOJxI3yGkc6zw"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WPDaMgr9EeOJxI3yGkc6zw" value="1"/>
+      <generalization xmi:id="_MBacsIy-EeOOGr6qMP3Q2w" general="_8jBY4Iy5EeOOGr6qMP3Q2w"/>
+      <ownedAttribute xmi:id="_FBuHoAKnEeSupvbkJHJ82w" name="virtualization" visibility="public" type="_wKjmgBGDEeSRW7fIGev8nw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GMxlgAKnEeSupvbkJHJ82w" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GM3sIAKnEeSupvbkJHJ82w" value="1"/>
+        <defaultValue xmi:type="uml:InstanceValue" xmi:id="__J-hQBGFEeSRW7fIGev8nw" name="DefaultVirtualization" instance="_1QAdYBGDEeSRW7fIGev8nw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_JUs6wBGEEeSRW7fIGev8nw" name="scaling" visibility="public" type="_Ha4XYAKnEeSupvbkJHJ82w">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Jo0woBGEEeSRW7fIGev8nw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jo0woRGEEeSRW7fIGev8nw" value="1"/>
+        <defaultValue xmi:type="uml:InstanceValue" xmi:id="_E35tYBGGEeSRW7fIGev8nw" name="DefaultScalingStrategy" instance="_KxvlgAKnEeSupvbkJHJ82w"/>
       </ownedAttribute>
     </packagedElement>
-    <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_GXlLMAr9EeOJxI3yGkc6zw" name="OperatingEnvironment">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_yJ24MAr9EeOJxI3yGkc6zw" name="softwareStack">
-        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#DeploymentTarget"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cCeNgAsBEeOJxI3yGkc6zw" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cCqawAsBEeOJxI3yGkc6zw" value="*"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_WPVuEQr9EeOJxI3yGkc6zw" name="cloudNode" type="_c73bKf3gEeKQb7onjNL6fQ" association="_1kFiwIy3EeOOGr6qMP3Q2w">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WPVuEgr9EeOJxI3yGkc6zw" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WPVuEwr9EeOJxI3yGkc6zw" value="1"/>
-      </ownedAttribute>
+    <packagedElement xmi:type="uml:Association" xmi:id="_iHg4gB7eEeO2xMtRObGBww" name="OfferingConfiguration" memberEnd="_8cVDkIzQEeOOGr6qMP3Q2w _UMuWoIzREeOOGr6qMP3Q2w"/>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_c73bNP3gEeKQb7onjNL6fQ" name="CommunicationChannel" memberEnd="_c73bLf3gEeKQb7onjNL6fQ _c73bMP3gEeKQb7onjNL6fQ"/>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_Ha4XYAKnEeSupvbkJHJ82w" name="ScalingStrategy">
+      <ownedLiteral xmi:id="_KxvlgAKnEeSupvbkJHJ82w" name="Auto"/>
+      <ownedLiteral xmi:id="_M5WyQAKnEeSupvbkJHJ82w" name="Manual"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_iHg4gB7eEeO2xMtRObGBww" name="ElementConfiguration" memberEnd="_8cVDkIzQEeOOGr6qMP3Q2w _UMuWoIzREeOOGr6qMP3Q2w"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_rTp384y7EeOOGr6qMP3Q2w" name="CloudEnvironmentOffering" memberEnd="_rTp39Iy7EeOOGr6qMP3Q2w _rTp38Iy7EeOOGr6qMP3Q2w"/>
-    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_c73bNP3gEeKQb7onjNL6fQ" name="CloudOfferingCommunication" memberEnd="_c73bLf3gEeKQb7onjNL6fQ _c73bMP3gEeKQb7onjNL6fQ"/>
-    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_1kFiwIy3EeOOGr6qMP3Q2w" name="CloudNodeOperatingEnvironment" memberEnd="_WPVuEQr9EeOJxI3yGkc6zw _WPDaMAr9EeOJxI3yGkc6zw"/>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_c73bQ_3gEeKQb7onjNL6fQ">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c73bRP3gEeKQb7onjNL6fQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_wKjmgBGDEeSRW7fIGev8nw" name="VirtualizationKind">
+      <ownedLiteral xmi:id="_1QAdYBGDEeSRW7fIGev8nw" name="Infrastructure"/>
+      <ownedLiteral xmi:id="_3cxP4BGDEeSRW7fIGev8nw" name="Platform"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_wZn9QBGDEeSRW7fIGev8nw" name="StructureKind">
+      <ownedLiteral xmi:id="_8JCxwBGDEeSRW7fIGev8nw" name="Block"/>
+      <ownedLiteral xmi:id="_9foxQBGDEeSRW7fIGev8nw" name="Blob"/>
+      <ownedLiteral xmi:id="_-dVvoBGDEeSRW7fIGev8nw" name="Relational"/>
+      <ownedLiteral xmi:id="__lPy4BGDEeSRW7fIGev8nw" name="KeyValue"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_wnKqABGDEeSRW7fIGev8nw" name="ConsistencyKind">
+      <ownedLiteral xmi:id="_DbGqIBGEEeSRW7fIGev8nw" name="Strict"/>
+      <ownedLiteral xmi:id="_EYCzgBGEEeSRW7fIGev8nw" name="Eventual"/>
+    </packagedElement>
+    <profileApplication xmi:id="_c73bQ_3gEeKQb7onjNL6fQ">
+      <eAnnotations xmi:id="_c73bRP3gEeKQb7onjNL6fQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/4.0.0/UML/Profile/L2#/"/>
       </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/StandardL2.profile.uml#_0"/>
+      <appliedProfile href="pathmap://UML_PROFILES/StandardL2.profile.uml#_0"/>
     </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_tseRUP3gEeKIA9U4FYNeig">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tseRUf3gEeKIA9U4FYNeig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <profileApplication xmi:id="_tseRUP3gEeKIA9U4FYNeig">
+      <eAnnotations xmi:id="_tseRUf3gEeKIA9U4FYNeig" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/4.0.0/UML/Profile/L3#/"/>
       </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/StandardL3.profile.uml#_0"/>
+      <appliedProfile href="pathmap://UML_PROFILES/StandardL3.profile.uml#_0"/>
     </profileApplication>
   </uml:Model>
   <l2:ModelLibrary xmi:id="_c73bRf3gEeKQb7onjNL6fQ" base_Package="_c73bE_3gEeKQb7onjNL6fQ"/>
