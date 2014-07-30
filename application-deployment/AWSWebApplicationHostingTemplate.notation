@@ -456,19 +456,6 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-IhJQBYwEeSAfqg24sfYug" id="(0.0,0.44871794871794873)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-IhJQRYwEeSAfqg24sfYug" id="(0.8416289592760181,0.09900990099009901)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_AqVlwBYxEeSAfqg24sfYug" type="4021" source="_A9zL4I5LEeOza5lRrrcUxA" target="_mD8-II5WEeONTvwTeuJZnA" lineColor="0">
-      <children xmi:type="notation:DecorationNode" xmi:id="_AqWM0BYxEeSAfqg24sfYug" type="6039">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_AqWM0RYxEeSAfqg24sfYug" x="-9" y="45"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_AqWM0hYxEeSAfqg24sfYug" type="6038">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_AqWM0xYxEeSAfqg24sfYug" x="-31" y="47"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_AqVlwRYxEeSAfqg24sfYug" fontName="Segoe UI"/>
-      <element xmi:type="uml:InstanceSpecification" href="AWSWebApplicationHostingTemplate.uml#_AqTJgBYxEeSAfqg24sfYug"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AqVlwhYxEeSAfqg24sfYug" points="[3, 9, -77, -192]$[23, 193, -57, -8]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AqcTcBYxEeSAfqg24sfYug" id="(0.6082474226804123,0.9403973509933775)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AqcTcRYxEeSAfqg24sfYug" id="(0.24675324675324675,0.3170731707317073)"/>
-    </edges>
     <edges xmi:type="notation:Connector" xmi:id="_CXhgUBYxEeSAfqg24sfYug" type="4021" source="_XCkqo45LEeOza5lRrrcUxA" target="_mD8-II5WEeONTvwTeuJZnA" lineColor="0">
       <children xmi:type="notation:DecorationNode" xmi:id="_CXiHYhYxEeSAfqg24sfYug" type="6039">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_CXiHYxYxEeSAfqg24sfYug" x="77" y="27"/>
@@ -558,6 +545,19 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_6cOuARaOEeSbsfOfQqh3Qg" fontName="Segoe UI"/>
       <element xmi:type="uml:Deployment" href="AWSWebApplicationHostingTemplate.uml#_vAfqgBaOEeSbsfOfQqh3Qg"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6cOuAhaOEeSbsfOfQqh3Qg" points="[-30, -23, 80, 64]$[-90, -71, 20, 16]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_8_UkEBfGEeSBGZ2ipVWBmQ" type="4021" source="_A9zL4I5LEeOza5lRrrcUxA" target="_mD8-II5WEeONTvwTeuJZnA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_8_WZQBfGEeSBGZ2ipVWBmQ" type="6039">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8_WZQRfGEeSBGZ2ipVWBmQ" x="-12" y="47"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8_WZQhfGEeSBGZ2ipVWBmQ" type="6038">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8_WZQxfGEeSBGZ2ipVWBmQ" x="-36" y="42"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_8_UkERfGEeSBGZ2ipVWBmQ" fontName="Segoe UI"/>
+      <element xmi:type="uml:InstanceSpecification" href="AWSWebApplicationHostingTemplate.uml#_8-_M4BfGEeSBGZ2ipVWBmQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8_UkEhfGEeSBGZ2ipVWBmQ" points="[4, 10, -85, -182]$[81, 189, -8, -3]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8_dG8BfGEeSBGZ2ipVWBmQ" id="(0.6288659793814433,0.9337748344370861)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8_dG8RfGEeSBGZ2ipVWBmQ" id="(0.3116883116883117,0.07317073170731707)"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_zyx0sI5NEeOza5lRrrcUxA" type="PapyrusUMLClassDiagram" name="OperatingEnvironment" measurementUnit="Pixel">

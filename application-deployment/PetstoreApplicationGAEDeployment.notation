@@ -1,0 +1,1594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:objectify.com.googlecode.objectify.annotation="http:///objectify/com/googlecode/objectify/annotation.ecore" xmlns:platform.org.artist.profiles.platform="http:///platform/org/artist/profiles/platform.ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///objectify/com/googlecode/objectify/annotation.ecore platform:/plugin/eu.artist.migration.umlprofilestore/umlprofiles/objectify_profile.profile.uml#_iBPRyQ4REeOw55r2XsEBlg http:///platform/org/artist/profiles/platform.ecore platform:/plugin/eu.artist.migration.umlprofilestore/umlprofiles/platform_profile.profile.uml#_nVo99-GkEeO9doEpfZw2-A">
+  <notation:Diagram xmi:id="_imD5IOGTEeOQnuqdpdIxcA" type="PapyrusUMLClassDiagram" name="ApplicationDomainEntities" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_2ybr0OGTEeOQnuqdpdIxcA" type="2008" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2yc58OGTEeOQnuqdpdIxcA" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2ydhAOGTEeOQnuqdpdIxcA" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2ydhA-GTEeOQnuqdpdIxcA" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2ydhBOGTEeOQnuqdpdIxcA" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_T6dgAOGWEeOQnuqdpdIxcA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_T6dgAeGWEeOQnuqdpdIxcA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WfH1IOGWEeOQnuqdpdIxcA" source="Stereotype_Annotation">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WfH1IeGWEeOQnuqdpdIxcA" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WfH1IuGWEeOQnuqdpdIxcA" key="StereotypeList" value="objectify::com::googlecode::objectify::annotation::Entity"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WfH1I-GWEeOQnuqdpdIxcA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WfH1JOGWEeOQnuqdpdIxcA" key="PropStereoDisplay" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WfH1JeGWEeOQnuqdpdIxcA" key="StereotypePropertyLocation" value="Compartment"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_2ydhBeGTEeOQnuqdpdIxcA" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_2ydhBuGTEeOQnuqdpdIxcA" type="7017">
+        <children xmi:type="notation:Shape" xmi:id="_Un7U4OGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDivKb8HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_Un7U4eGUEeOQnuqdpdIxcA" x="43" y="24"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Un-YMOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDivLL8HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_Un-YMeGUEeOQnuqdpdIxcA" x="43" y="24"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_UoA0cOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDivL78HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_UoA0ceGUEeOQnuqdpdIxcA" x="43" y="24"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_UoD3wOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDivMr8HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_UoD3weGUEeOQnuqdpdIxcA" x="43" y="24"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_2ydhB-GTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_2ydhCOGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_2ydhCeGTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2ydhCuGTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_2ydhC-GTEeOQnuqdpdIxcA" visible="false" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_2ydhDOGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_2ydhDeGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_2ydhDuGTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2ydhD-GTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_2yeIEOGTEeOQnuqdpdIxcA" visible="false" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_2yeIEeGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_2yeIEuGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_2yeIE-GTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2yeIFOGTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_ck-KwOrmEeOpcOFUhAGYAA" visible="false" type="AppliedStereotypeCompartement">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_ck-KwermEeOpcOFUhAGYAA" showTitle="true"/>
+        <element xmi:type="objectify.com.googlecode.objectify.annotation:Entity" href="PetstoreApplicationGAEDeployment.uml#_MxgdIOGSEeO9doEpfZw2-A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ck-KwurmEeOpcOFUhAGYAA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_clBOEOrmEeOpcOFUhAGYAA" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_clBOEermEeOpcOFUhAGYAA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_clBOEurmEeOpcOFUhAGYAA"/>
+      </children>
+      <element xmi:type="uml:Class" href="PetstoreApplicationGAEDeployment.uml#_zDivKL8HEeO1PYkvBb1AeQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2ybr0eGTEeOQnuqdpdIxcA" x="80" y="320" height="106"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_2y5l4OGTEeOQnuqdpdIxcA" type="2008" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2y5l4uGTEeOQnuqdpdIxcA" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2y5l4-GTEeOQnuqdpdIxcA" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2y5l5uGTEeOQnuqdpdIxcA" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2y5l5-GTEeOQnuqdpdIxcA" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TfeNIOGWEeOQnuqdpdIxcA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TfeNIeGWEeOQnuqdpdIxcA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VeLVgOGWEeOQnuqdpdIxcA" source="Stereotype_Annotation">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VeLVgeGWEeOQnuqdpdIxcA" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VeLVguGWEeOQnuqdpdIxcA" key="StereotypeList" value="objectify::com::googlecode::objectify::annotation::Entity"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VeL8kOGWEeOQnuqdpdIxcA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VeL8keGWEeOQnuqdpdIxcA" key="PropStereoDisplay" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VeL8kuGWEeOQnuqdpdIxcA" key="StereotypePropertyLocation" value="Compartment"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_2y5l6OGTEeOQnuqdpdIxcA" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_2y5l6eGTEeOQnuqdpdIxcA" type="7017">
+        <children xmi:type="notation:Shape" xmi:id="_TZX3EOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDivHL8HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_TZX3EeGUEeOQnuqdpdIxcA" x="57" y="35"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_TZdWoOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDivH78HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_TZdWoeGUEeOQnuqdpdIxcA" x="57" y="35"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_TZgZ8OGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDivIr8HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_TZgZ8eGUEeOQnuqdpdIxcA" x="57" y="35"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_2y5l6uGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_2y5l6-GTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_2y5l7OGTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2y5l7eGTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_2y6M8OGTEeOQnuqdpdIxcA" visible="false" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_2y6M8eGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_2y6M8uGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_2y6M8-GTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2y6M9OGTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_2y6M9eGTEeOQnuqdpdIxcA" visible="false" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_2y6M9uGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_2y6M9-GTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_2y6M-OGTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2y6M-eGTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_clyqIOrmEeOpcOFUhAGYAA" visible="false" type="AppliedStereotypeCompartement">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_clyqIermEeOpcOFUhAGYAA" showTitle="true"/>
+        <element xmi:type="objectify.com.googlecode.objectify.annotation:Entity" href="PetstoreApplicationGAEDeployment.uml#_Mxf2EOGSEeO9doEpfZw2-A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_clyqIurmEeOpcOFUhAGYAA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_clzRMOrmEeOpcOFUhAGYAA" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_clzRMermEeOpcOFUhAGYAA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_clzRMurmEeOpcOFUhAGYAA"/>
+      </children>
+      <element xmi:type="uml:Class" href="PetstoreApplicationGAEDeployment.uml#_zDivG78HEeO1PYkvBb1AeQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2y5l4eGTEeOQnuqdpdIxcA" x="80" y="120" width="156" height="91"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_433HQOGTEeOQnuqdpdIxcA" type="2008" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_433uUOGTEeOQnuqdpdIxcA" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_433uUeGTEeOQnuqdpdIxcA" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_433uVOGTEeOQnuqdpdIxcA" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_433uVeGTEeOQnuqdpdIxcA" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UReR0OGWEeOQnuqdpdIxcA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UReR0eGWEeOQnuqdpdIxcA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YAvY4OGWEeOQnuqdpdIxcA" source="Stereotype_Annotation">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YAvY4eGWEeOQnuqdpdIxcA" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YAvY4uGWEeOQnuqdpdIxcA" key="StereotypeList" value="objectify::com::googlecode::objectify::annotation::Entity"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YAvY4-GWEeOQnuqdpdIxcA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YAvY5OGWEeOQnuqdpdIxcA" key="PropStereoDisplay" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YAvY5eGWEeOQnuqdpdIxcA" key="StereotypePropertyLocation" value="Compartment"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_433uVuGTEeOQnuqdpdIxcA" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_433uV-GTEeOQnuqdpdIxcA" type="7017">
+        <children xmi:type="notation:Shape" xmi:id="_SSr70OGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDivDL8HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_SSsi4OGUEeOQnuqdpdIxcA" x="55" y="24"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_SSyCcOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDivD78HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_SSyCceGUEeOQnuqdpdIxcA" x="55" y="24"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_SS1FwOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDivEr8HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_SS1s0OGUEeOQnuqdpdIxcA" x="55" y="24"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_SS4JEOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDivFb8HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_SS4JEeGUEeOQnuqdpdIxcA" x="55" y="24"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_433uWOGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_433uWeGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_433uWuGTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_433uW-GTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_433uXOGTEeOQnuqdpdIxcA" visible="false" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_433uXeGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_433uXuGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_433uX-GTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_433uYOGTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_433uYeGTEeOQnuqdpdIxcA" visible="false" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_433uYuGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_433uY-GTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_433uZOGTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_433uZeGTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cl2UgOrmEeOpcOFUhAGYAA" visible="false" type="AppliedStereotypeCompartement">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cl2UgermEeOpcOFUhAGYAA" showTitle="true"/>
+        <element xmi:type="objectify.com.googlecode.objectify.annotation:Entity" href="PetstoreApplicationGAEDeployment.uml#_MxNiMOGSEeO9doEpfZw2-A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cl2UgurmEeOpcOFUhAGYAA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cl27kOrmEeOpcOFUhAGYAA" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cl27kermEeOpcOFUhAGYAA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cl27kurmEeOpcOFUhAGYAA"/>
+      </children>
+      <element xmi:type="uml:Class" href="PetstoreApplicationGAEDeployment.uml#_zDivC78HEeO1PYkvBb1AeQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_433HQeGTEeOQnuqdpdIxcA" x="330" y="320" height="111"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_6Qj_kOGTEeOQnuqdpdIxcA" type="2008" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6QkmoOGTEeOQnuqdpdIxcA" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6QlNsOGTEeOQnuqdpdIxcA" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6QlNs-GTEeOQnuqdpdIxcA" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6Ql0wOGTEeOQnuqdpdIxcA" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UoRBMOGWEeOQnuqdpdIxcA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UoRBMeGWEeOQnuqdpdIxcA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZZAzYOGWEeOQnuqdpdIxcA" source="Stereotype_Annotation">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZZBacOGWEeOQnuqdpdIxcA" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZZBaceGWEeOQnuqdpdIxcA" key="StereotypeList" value="objectify::com::googlecode::objectify::annotation::Entity"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZZBacuGWEeOQnuqdpdIxcA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZZBac-GWEeOQnuqdpdIxcA" key="PropStereoDisplay" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZZBadOGWEeOQnuqdpdIxcA" key="StereotypePropertyLocation" value="Compartment"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6Ql0weGTEeOQnuqdpdIxcA" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_6Ql0wuGTEeOQnuqdpdIxcA" type="7017">
+        <children xmi:type="notation:Shape" xmi:id="_LNL4wOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDiH878HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_LNL4weGUEeOQnuqdpdIxcA" x="45" y="33"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_LNOVAOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDiu8r8HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_LNOVAeGUEeOQnuqdpdIxcA" x="45" y="33"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_6Ql0w-GTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_6Ql0xOGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_6Ql0xeGTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6Ql0xuGTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_6Ql0x-GTEeOQnuqdpdIxcA" visible="false" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_6Ql0yOGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_6Ql0yeGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_6Ql0yuGTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6Ql0y-GTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_6Qmb0OGTEeOQnuqdpdIxcA" visible="false" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_6Qmb0eGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_6Qmb0uGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_6Qmb0-GTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6Qmb1OGTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cl8bIOrmEeOpcOFUhAGYAA" visible="false" type="AppliedStereotypeCompartement">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cl8bIermEeOpcOFUhAGYAA" showTitle="true"/>
+        <element xmi:type="objectify.com.googlecode.objectify.annotation:Entity" href="PetstoreApplicationGAEDeployment.uml#_MxE_UOGSEeO9doEpfZw2-A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cl8bIurmEeOpcOFUhAGYAA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cl9CMOrmEeOpcOFUhAGYAA" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cl9CMermEeOpcOFUhAGYAA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cl9CMurmEeOpcOFUhAGYAA"/>
+      </children>
+      <element xmi:type="uml:Class" href="PetstoreApplicationGAEDeployment.uml#_zDiH8r8HEeO1PYkvBb1AeQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6Qj_keGTEeOQnuqdpdIxcA" x="340" y="125" height="86"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_8ICekOGTEeOQnuqdpdIxcA" type="2008" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8IDFoOGTEeOQnuqdpdIxcA" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8IDFoeGTEeOQnuqdpdIxcA" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8IDFpOGTEeOQnuqdpdIxcA" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8IDFpeGTEeOQnuqdpdIxcA" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a-tl4OGWEeOQnuqdpdIxcA" source="Stereotype_Annotation">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-uM8OGWEeOQnuqdpdIxcA" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-uM8eGWEeOQnuqdpdIxcA" key="StereotypeList" value="objectify::com::googlecode::objectify::annotation::Entity"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-uM8uGWEeOQnuqdpdIxcA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-uM8-GWEeOQnuqdpdIxcA" key="PropStereoDisplay" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-uM9OGWEeOQnuqdpdIxcA" key="StereotypePropertyLocation" value="Compartment"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bLqcwOGWEeOQnuqdpdIxcA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bLqcweGWEeOQnuqdpdIxcA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8IDssOGTEeOQnuqdpdIxcA" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_8IDsseGTEeOQnuqdpdIxcA" type="7017">
+        <children xmi:type="notation:Shape" xmi:id="_Opp_oOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDiu-b8HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_Opp_oeGUEeOQnuqdpdIxcA" x="66" y="31"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_OpvfMOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDiu_L8HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_OpvfMeGUEeOQnuqdpdIxcA" x="66" y="31"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_8IDssuGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_8IDss-GTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_8IDstOGTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8IDsteGTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_8IDstuGTEeOQnuqdpdIxcA" visible="false" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_8IDst-GTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_8IDsuOGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_8IDsueGTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8IDsuuGTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_8IDsu-GTEeOQnuqdpdIxcA" visible="false" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_8IDsvOGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_8IDsveGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_8IDsvuGTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8IDsv-GTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cl-3YOrmEeOpcOFUhAGYAA" visible="false" type="AppliedStereotypeCompartement">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cl-3YermEeOpcOFUhAGYAA" showTitle="true"/>
+        <element xmi:type="objectify.com.googlecode.objectify.annotation:Entity" href="PetstoreApplicationGAEDeployment.uml#_MxM7IOGSEeO9doEpfZw2-A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cl-3YurmEeOpcOFUhAGYAA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cl_ecOrmEeOpcOFUhAGYAA" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cl_ecermEeOpcOFUhAGYAA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cl_ecurmEeOpcOFUhAGYAA"/>
+      </children>
+      <element xmi:type="uml:Class" href="PetstoreApplicationGAEDeployment.uml#_zDiu-L8HEeO1PYkvBb1AeQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8ICekeGTEeOQnuqdpdIxcA" x="646" y="109"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_9h830OGTEeOQnuqdpdIxcA" type="2008" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9h9e4OGTEeOQnuqdpdIxcA" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9h9e4eGTEeOQnuqdpdIxcA" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9h9e5OGTEeOQnuqdpdIxcA" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9h9e5eGTEeOQnuqdpdIxcA" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cpUtkOGWEeOQnuqdpdIxcA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cpUtkeGWEeOQnuqdpdIxcA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_do57QOGWEeOQnuqdpdIxcA" source="Stereotype_Annotation">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_do57QeGWEeOQnuqdpdIxcA" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_do57QuGWEeOQnuqdpdIxcA" key="StereotypeList" value="objectify::com::googlecode::objectify::annotation::Embed"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_do57Q-GWEeOQnuqdpdIxcA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_do57ROGWEeOQnuqdpdIxcA" key="PropStereoDisplay" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_do57ReGWEeOQnuqdpdIxcA" key="StereotypePropertyLocation" value="Compartment"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_9h9e5uGTEeOQnuqdpdIxcA" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_9h9e5-GTEeOQnuqdpdIxcA" type="7017">
+        <children xmi:type="notation:Shape" xmi:id="_IHiWcOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDiH6b8HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_IHiWceGUEeOQnuqdpdIxcA" x="23" y="23"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_IHrgYOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDiH7L8HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_IHrgYeGUEeOQnuqdpdIxcA" x="23" y="23"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_IHtVkOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDiH778HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_IHtVkeGUEeOQnuqdpdIxcA" x="23" y="23"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_9h9e6OGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_9h9e6eGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_9h9e6uGTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9h9e6-GTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_9h-F8OGTEeOQnuqdpdIxcA" visible="false" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_9h-F8eGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_9h-F8uGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_9h-F8-GTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9h-F9OGTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_9h-F9eGTEeOQnuqdpdIxcA" visible="false" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_9h-F9uGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_9h-F9-GTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_9h-F-OGTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9h-F-eGTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cmBToOrmEeOpcOFUhAGYAA" visible="false" type="AppliedStereotypeCompartement">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cmBToermEeOpcOFUhAGYAA" showTitle="true"/>
+        <element xmi:type="objectify.com.googlecode.objectify.annotation:Embed" href="PetstoreApplicationGAEDeployment.uml#_MxDxMOGSEeO9doEpfZw2-A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cmBTourmEeOpcOFUhAGYAA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cmBTo-rmEeOpcOFUhAGYAA" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cmBTpOrmEeOpcOFUhAGYAA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cmBTpermEeOpcOFUhAGYAA"/>
+      </children>
+      <element xmi:type="uml:Class" href="PetstoreApplicationGAEDeployment.uml#_zDiH6L8HEeO1PYkvBb1AeQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9h830eGTEeOQnuqdpdIxcA" x="505" y="320" height="91"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_--HT0OGTEeOQnuqdpdIxcA" type="2008" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_--H64OGTEeOQnuqdpdIxcA" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_--H64eGTEeOQnuqdpdIxcA" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_--H65OGTEeOQnuqdpdIxcA" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_--H65eGTEeOQnuqdpdIxcA" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cpUtlOGWEeOQnuqdpdIxcA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cpUtleGWEeOQnuqdpdIxcA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fRjUEOGWEeOQnuqdpdIxcA" source="Stereotype_Annotation">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fRjUEeGWEeOQnuqdpdIxcA" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fRjUEuGWEeOQnuqdpdIxcA" key="StereotypeList" value="objectify::com::googlecode::objectify::annotation::Embed"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fRjUE-GWEeOQnuqdpdIxcA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fRjUFOGWEeOQnuqdpdIxcA" key="PropStereoDisplay" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fRjUFeGWEeOQnuqdpdIxcA" key="StereotypePropertyLocation" value="Compartment"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_--H65uGTEeOQnuqdpdIxcA" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_--H65-GTEeOQnuqdpdIxcA" type="7017">
+        <children xmi:type="notation:Shape" xmi:id="_aK-GsOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDivT78HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_aK-GseGUEeOQnuqdpdIxcA" x="28" y="18"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_aLCYIOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDivUr8HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_aLCYIeGUEeOQnuqdpdIxcA" x="28" y="18"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_aLGCgOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDivVb8HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_aLGCgeGUEeOQnuqdpdIxcA" x="28" y="18"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_aLKT8OGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDivWL8HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_aLKT8eGUEeOQnuqdpdIxcA" x="28" y="18"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_--H66OGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_--H66eGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_--H66uGTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_--H66-GTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_--H67OGTEeOQnuqdpdIxcA" visible="false" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_--H67eGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_--H67uGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_--H67-GTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_--H68OGTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_--H68eGTEeOQnuqdpdIxcA" visible="false" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_--H68uGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_--H68-GTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_--H69OGTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_--H69eGTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cmDI0OrmEeOpcOFUhAGYAA" visible="false" type="AppliedStereotypeCompartement">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cmDI0ermEeOpcOFUhAGYAA" showTitle="true"/>
+        <element xmi:type="objectify.com.googlecode.objectify.annotation:Embed" href="PetstoreApplicationGAEDeployment.uml#_MxiSUOGSEeO9doEpfZw2-A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cmDI0urmEeOpcOFUhAGYAA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cmDv4OrmEeOpcOFUhAGYAA" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cmDv4ermEeOpcOFUhAGYAA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cmDv4urmEeOpcOFUhAGYAA"/>
+      </children>
+      <element xmi:type="uml:Class" href="PetstoreApplicationGAEDeployment.uml#_zDivTr8HEeO1PYkvBb1AeQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_--HT0eGTEeOQnuqdpdIxcA" x="750" y="320"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_--P2sOGTEeOQnuqdpdIxcA" type="2008" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_--P2suGTEeOQnuqdpdIxcA" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_--P2s-GTEeOQnuqdpdIxcA" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_--QdwOGTEeOQnuqdpdIxcA" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_--QdweGTEeOQnuqdpdIxcA" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cpUtluGWEeOQnuqdpdIxcA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cpUtl-GWEeOQnuqdpdIxcA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hbdm4OGWEeOQnuqdpdIxcA" source="Stereotype_Annotation">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hbdm4eGWEeOQnuqdpdIxcA" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hbdm4uGWEeOQnuqdpdIxcA" key="StereotypeList" value="objectify::com::googlecode::objectify::annotation::Entity"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hbdm4-GWEeOQnuqdpdIxcA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hbdm5OGWEeOQnuqdpdIxcA" key="PropStereoDisplay" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hbdm5eGWEeOQnuqdpdIxcA" key="StereotypePropertyLocation" value="Compartment"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_--QdwuGTEeOQnuqdpdIxcA" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_--Qdw-GTEeOQnuqdpdIxcA" type="7017">
+        <children xmi:type="notation:Shape" xmi:id="_YnT7kOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDivOb8HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_YnT7keGUEeOQnuqdpdIxcA" x="25" y="38"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_YnVwwOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDivPL8HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_YnVwweGUEeOQnuqdpdIxcA" x="25" y="38"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_YnYNAOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDivP78HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_YnYNAeGUEeOQnuqdpdIxcA" x="25" y="38"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_YnapQOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDivQr8HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_YnapQeGUEeOQnuqdpdIxcA" x="25" y="38"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_YncecOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDivRb8HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_YnceceGUEeOQnuqdpdIxcA" x="25" y="38"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Yne6sOGUEeOQnuqdpdIxcA" type="3012" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="PetstoreApplicationGAEDeployment.uml#_zDivS78HEeO1PYkvBb1AeQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_Yne6seGUEeOQnuqdpdIxcA" x="25" y="38"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_--QdxOGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_--QdxeGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_--QdxuGTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_--Qdx-GTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_--QdyOGTEeOQnuqdpdIxcA" visible="false" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_--QdyeGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_--QdyuGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_--Qdy-GTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_--QdzOGTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_--QdzeGTEeOQnuqdpdIxcA" visible="false" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_--QdzuGTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_--Qdz-GTEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_--Qd0OGTEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_--Qd0eGTEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cmGMIOrmEeOpcOFUhAGYAA" visible="false" type="AppliedStereotypeCompartement">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cmGMIermEeOpcOFUhAGYAA" showTitle="true"/>
+        <element xmi:type="objectify.com.googlecode.objectify.annotation:Entity" href="PetstoreApplicationGAEDeployment.uml#_MxhrQOGSEeO9doEpfZw2-A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cmGMIurmEeOpcOFUhAGYAA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cmGMI-rmEeOpcOFUhAGYAA" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cmGMJOrmEeOpcOFUhAGYAA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cmGMJermEeOpcOFUhAGYAA"/>
+      </children>
+      <element xmi:type="uml:Class" href="PetstoreApplicationGAEDeployment.uml#_zDivOL8HEeO1PYkvBb1AeQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_--P2seGTEeOQnuqdpdIxcA" x="910" y="110" width="161" height="136"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_bDrQUOGUEeOQnuqdpdIxcA" type="2006" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bDr3YOGUEeOQnuqdpdIxcA" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bDr3YeGUEeOQnuqdpdIxcA" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bDr3ZOGUEeOQnuqdpdIxcA" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bDr3ZeGUEeOQnuqdpdIxcA" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cpUtkuGWEeOQnuqdpdIxcA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cpUtk-GWEeOQnuqdpdIxcA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_bDr3ZuGUEeOQnuqdpdIxcA" type="5023"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_bDr3Z-GUEeOQnuqdpdIxcA" type="7015">
+        <children xmi:type="notation:Shape" xmi:id="_bx0IsOGUEeOQnuqdpdIxcA" type="3017" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:EnumerationLiteral" href="PetstoreApplicationGAEDeployment.uml#_nsI3cL-5EeO8Ft9m1p8bIg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_bx0IseGUEeOQnuqdpdIxcA" x="6"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_bx8EgOGUEeOQnuqdpdIxcA" type="3017" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:EnumerationLiteral" href="PetstoreApplicationGAEDeployment.uml#_nsI3cb-5EeO8Ft9m1p8bIg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_bx8EgeGUEeOQnuqdpdIxcA" x="6"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_bx95sOGUEeOQnuqdpdIxcA" type="3017" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:EnumerationLiteral" href="PetstoreApplicationGAEDeployment.uml#_nsI3cr-5EeO8Ft9m1p8bIg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_bx95seGUEeOQnuqdpdIxcA" x="6"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_bDr3aOGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_bDr3aeGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_bDr3auGUEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bDr3a-GUEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cmJPcOrmEeOpcOFUhAGYAA" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cmJPcermEeOpcOFUhAGYAA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cmJPcurmEeOpcOFUhAGYAA"/>
+      </children>
+      <element xmi:type="uml:Enumeration" href="PetstoreApplicationGAEDeployment.uml#_zDivW78HEeO1PYkvBb1AeQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bDrQUeGUEeOQnuqdpdIxcA" x="555" y="440"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_imD5IeGTEeOQnuqdpdIxcA"/>
+    <element xmi:type="uml:Model" href="PetstoreApplicationGAEDeployment.uml#_zDiH4L8HEeO1PYkvBb1AeQ"/>
+    <edges xmi:type="notation:Connector" xmi:id="_2zFzIOGTEeOQnuqdpdIxcA" type="4001" source="_2ybr0OGTEeOQnuqdpdIxcA" target="_2y5l4OGTEeOQnuqdpdIxcA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_2zGaMOGTEeOQnuqdpdIxcA" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2zGaMeGTEeOQnuqdpdIxcA" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_2zGaMuGTEeOQnuqdpdIxcA" visible="false" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2zGaM-GTEeOQnuqdpdIxcA" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_2zGaNOGTEeOQnuqdpdIxcA" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2zGaNeGTEeOQnuqdpdIxcA" x="4" y="-47"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_2zHBQOGTEeOQnuqdpdIxcA" visible="false" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2zHBQeGTEeOQnuqdpdIxcA" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_2zHBQuGTEeOQnuqdpdIxcA" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2zHBQ-GTEeOQnuqdpdIxcA" x="4" y="27"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_2zHBROGTEeOQnuqdpdIxcA" visible="false" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2zHBReGTEeOQnuqdpdIxcA" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_2zFzIeGTEeOQnuqdpdIxcA" fontName="Segoe UI"/>
+      <element xmi:type="uml:Association" href="PetstoreApplicationGAEDeployment.uml#_zDivfL8HEeO1PYkvBb1AeQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2zFzIuGTEeOQnuqdpdIxcA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_44ARMOGTEeOQnuqdpdIxcA" type="4001" source="_433HQOGTEeOQnuqdpdIxcA" target="_2ybr0OGTEeOQnuqdpdIxcA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_44A4QOGTEeOQnuqdpdIxcA" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_44A4QeGTEeOQnuqdpdIxcA" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_44A4QuGTEeOQnuqdpdIxcA" visible="false" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_44A4Q-GTEeOQnuqdpdIxcA" x="-12" y="-115"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_44BfUOGTEeOQnuqdpdIxcA" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_44BfUeGTEeOQnuqdpdIxcA" x="14" y="-17"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_44BfUuGTEeOQnuqdpdIxcA" visible="false" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_44BfU-GTEeOQnuqdpdIxcA" x="91" y="-105"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_44BfVOGTEeOQnuqdpdIxcA" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_44BfVeGTEeOQnuqdpdIxcA" x="21" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_44BfVuGTEeOQnuqdpdIxcA" visible="false" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_44BfV-GTEeOQnuqdpdIxcA" x="79" y="-140"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_44ARMeGTEeOQnuqdpdIxcA" fontName="Segoe UI"/>
+      <element xmi:type="uml:Association" href="PetstoreApplicationGAEDeployment.uml#_zDivgL8HEeO1PYkvBb1AeQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_44ARMuGTEeOQnuqdpdIxcA" points="[0, 0, -299, -456]$[266, 406, -33, -50]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_6Q4vsOGTEeOQnuqdpdIxcA" type="4001" source="_433HQOGTEeOQnuqdpdIxcA" target="_6Qj_kOGTEeOQnuqdpdIxcA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_6Q590OGTEeOQnuqdpdIxcA" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6Q590eGTEeOQnuqdpdIxcA" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6Q590uGTEeOQnuqdpdIxcA" visible="false" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6Q590-GTEeOQnuqdpdIxcA" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6Q591OGTEeOQnuqdpdIxcA" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6Q591eGTEeOQnuqdpdIxcA" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6Q591uGTEeOQnuqdpdIxcA" visible="false" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6Q591-GTEeOQnuqdpdIxcA" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6Q592OGTEeOQnuqdpdIxcA" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6Q6k4OGTEeOQnuqdpdIxcA" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6Q6k4eGTEeOQnuqdpdIxcA" visible="false" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6Q6k4uGTEeOQnuqdpdIxcA" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_6Q4vseGTEeOQnuqdpdIxcA" fontName="Segoe UI"/>
+      <element xmi:type="uml:Association" href="PetstoreApplicationGAEDeployment.uml#_zDivXL8HEeO1PYkvBb1AeQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6Q4vsuGTEeOQnuqdpdIxcA" points="[-50, -40, 530, 415]$[-580, -455, 0, 0]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_8IQhAOGTEeOQnuqdpdIxcA" type="4001" source="_6Qj_kOGTEeOQnuqdpdIxcA" target="_8ICekOGTEeOQnuqdpdIxcA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_8IRIEOGTEeOQnuqdpdIxcA" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8IRIEeGTEeOQnuqdpdIxcA" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8IRIEuGTEeOQnuqdpdIxcA" visible="false" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8IRIE-GTEeOQnuqdpdIxcA" x="27" y="98"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8IRIFOGTEeOQnuqdpdIxcA" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8IRIFeGTEeOQnuqdpdIxcA" x="20" y="-17"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8IRIFuGTEeOQnuqdpdIxcA" visible="false" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8IRIF-GTEeOQnuqdpdIxcA" x="-28" y="83"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8IRIGOGTEeOQnuqdpdIxcA" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8IRvIOGTEeOQnuqdpdIxcA" x="10" y="13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8IRvIeGTEeOQnuqdpdIxcA" visible="false" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8IRvIuGTEeOQnuqdpdIxcA" x="-45" y="58"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_8IQhAeGTEeOQnuqdpdIxcA" fontName="Segoe UI"/>
+      <element xmi:type="uml:Association" href="PetstoreApplicationGAEDeployment.uml#_zDiveL8HEeO1PYkvBb1AeQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8IQhAuGTEeOQnuqdpdIxcA" points="[-50, -22, 530, 228]$[-580, -250, 0, 0]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_9iGo0OGTEeOQnuqdpdIxcA" type="4001" source="_9h830OGTEeOQnuqdpdIxcA" target="_8ICekOGTEeOQnuqdpdIxcA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_9iGo0-GTEeOQnuqdpdIxcA" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9iGo1OGTEeOQnuqdpdIxcA" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_9iGo1eGTEeOQnuqdpdIxcA" visible="false" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9iGo1uGTEeOQnuqdpdIxcA" x="205" y="-107"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_9iGo1-GTEeOQnuqdpdIxcA" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9iGo2OGTEeOQnuqdpdIxcA" x="-7" y="-34"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_9iHP4OGTEeOQnuqdpdIxcA" visible="false" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9iHP4eGTEeOQnuqdpdIxcA" x="132" y="-144"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_9iHP4uGTEeOQnuqdpdIxcA" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9iHP4-GTEeOQnuqdpdIxcA" x="24" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_9iHP5OGTEeOQnuqdpdIxcA" visible="false" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9iHP5eGTEeOQnuqdpdIxcA" x="95" y="-197"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_9iGo0eGTEeOQnuqdpdIxcA" fontName="Segoe UI"/>
+      <element xmi:type="uml:Association" href="PetstoreApplicationGAEDeployment.uml#_zDivaL8HEeO1PYkvBb1AeQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9iGo0uGTEeOQnuqdpdIxcA" points="[17, -55, -54, 175]$[28, -89, -43, 141]$[56, -180, -15, 50]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_--XygOGTEeOQnuqdpdIxcA" type="4001" source="_--HT0OGTEeOQnuqdpdIxcA" target="_--P2sOGTEeOQnuqdpdIxcA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_--YZkOGTEeOQnuqdpdIxcA" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_--YZkeGTEeOQnuqdpdIxcA" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_--YZkuGTEeOQnuqdpdIxcA" visible="false" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_--YZk-GTEeOQnuqdpdIxcA" x="-29" y="202"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_--YZlOGTEeOQnuqdpdIxcA" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_--YZleGTEeOQnuqdpdIxcA" x="34" y="45"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_--YZluGTEeOQnuqdpdIxcA" visible="false" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_--YZl-GTEeOQnuqdpdIxcA" x="-106" y="205"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_--YZmOGTEeOQnuqdpdIxcA" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_--YZmeGTEeOQnuqdpdIxcA" x="2" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_--YZmuGTEeOQnuqdpdIxcA" visible="false" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_--YZm-GTEeOQnuqdpdIxcA" x="-61" y="160"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_--XygeGTEeOQnuqdpdIxcA" fontName="Segoe UI"/>
+      <element xmi:type="uml:Association" href="PetstoreApplicationGAEDeployment.uml#_zDivdL8HEeO1PYkvBb1AeQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_--XyguGTEeOQnuqdpdIxcA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_A8nn4OGUEeOQnuqdpdIxcA" type="4001" source="_--P2sOGTEeOQnuqdpdIxcA" target="_8ICekOGTEeOQnuqdpdIxcA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_A8o2AOGUEeOQnuqdpdIxcA" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_A8o2AeGUEeOQnuqdpdIxcA" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_A8o2AuGUEeOQnuqdpdIxcA" visible="false" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_A8o2A-GUEeOQnuqdpdIxcA" x="-62" y="138"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_A8pdEOGUEeOQnuqdpdIxcA" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_A8pdEeGUEeOQnuqdpdIxcA" x="24" y="-18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_A8pdEuGUEeOQnuqdpdIxcA" visible="false" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_A8pdE-GUEeOQnuqdpdIxcA" x="-13" y="107"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_A8pdFOGUEeOQnuqdpdIxcA" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_A8qEIOGUEeOQnuqdpdIxcA" x="11" y="17"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_A8qEIeGUEeOQnuqdpdIxcA" visible="false" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_A8qEIuGUEeOQnuqdpdIxcA" x="-20" y="87"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_A8nn4eGUEeOQnuqdpdIxcA" fontName="Segoe UI"/>
+      <element xmi:type="uml:Association" href="PetstoreApplicationGAEDeployment.uml#_zDivYL8HEeO1PYkvBb1AeQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A8nn4uGUEeOQnuqdpdIxcA" points="[-50, -3, 230, 12]$[-230, -13, 50, 2]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_CCcAcOGUEeOQnuqdpdIxcA" type="4001" source="_--HT0OGTEeOQnuqdpdIxcA" target="_8ICekOGTEeOQnuqdpdIxcA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_CCdOkOGUEeOQnuqdpdIxcA" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CCdOkeGUEeOQnuqdpdIxcA" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_CCdOkuGUEeOQnuqdpdIxcA" visible="false" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CCdOk-GUEeOQnuqdpdIxcA" x="146" y="132"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_CCd1oOGUEeOQnuqdpdIxcA" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CCd1oeGUEeOQnuqdpdIxcA" x="20" y="-50"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_CCd1ouGUEeOQnuqdpdIxcA" visible="false" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CCd1o-GUEeOQnuqdpdIxcA" x="115" y="180"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_CCd1pOGUEeOQnuqdpdIxcA" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CCecsOGUEeOQnuqdpdIxcA" x="-2" y="24"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_CCecseGUEeOQnuqdpdIxcA" visible="false" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CCecsuGUEeOQnuqdpdIxcA" x="99" y="159"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_CCcAceGUEeOQnuqdpdIxcA" fontName="Segoe UI"/>
+      <element xmi:type="uml:Association" href="PetstoreApplicationGAEDeployment.uml#_zDivZL8HEeO1PYkvBb1AeQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CCcAcuGUEeOQnuqdpdIxcA" points="[-33, -50, 122, 185]$[-123, -185, 32, 50]"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_vObH0OGTEeOQnuqdpdIxcA" type="PapyrusUMLClassDiagram" name="ApplicationDomainServices" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_9z1ckOGUEeOQnuqdpdIxcA" type="2008" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9z2DoOGUEeOQnuqdpdIxcA" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9z2DoeGUEeOQnuqdpdIxcA" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9z2qsuGUEeOQnuqdpdIxcA" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9z2qs-GUEeOQnuqdpdIxcA" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zyNUsOGWEeOQnuqdpdIxcA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zyNUseGWEeOQnuqdpdIxcA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_9z2qtOGUEeOQnuqdpdIxcA" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_9z2qteGUEeOQnuqdpdIxcA" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_9z2qtuGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_9z2qt-GUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_9z2quOGUEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9z2queGUEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_9z2quuGUEeOQnuqdpdIxcA" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_BoLQ4OGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQx3geGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_BoLQ4eGVEeOQnuqdpdIxcA" x="88" y="11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_BoidQOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQzFoOGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_BoidQeGVEeOQnuqdpdIxcA" x="88" y="11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_BolgkOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQzssuGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_BolgkeGVEeOQnuqdpdIxcA" x="88" y="11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Booj4OGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ0TwOGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_Booj4eGVEeOQnuqdpdIxcA" x="88" y="11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_BoqZEOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ0Tw-GSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_BoqZEeGVEeOQnuqdpdIxcA" x="88" y="11"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_9z2qu-GUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_9z2qvOGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_9z2qveGUEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9z2qvuGUEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_9z2qv-GUEeOQnuqdpdIxcA" visible="false" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_9z2qwOGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_9z2qweGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_9z2qwuGUEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9z2qw-GUEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_con7sOrmEeOpcOFUhAGYAA" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_con7sermEeOpcOFUhAGYAA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_con7surmEeOpcOFUhAGYAA"/>
+      </children>
+      <element xmi:type="uml:Class" href="PetstoreApplicationGAEDeployment.uml#_OQx3gOGSEeO9doEpfZw2-A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9z1ckeGUEeOQnuqdpdIxcA" x="35" y="240" height="131"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_9z_NkOGUEeOQnuqdpdIxcA" type="2008" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9z_0oOGUEeOQnuqdpdIxcA" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9z_0oeGUEeOQnuqdpdIxcA" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9z_0pOGUEeOQnuqdpdIxcA" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9z_0peGUEeOQnuqdpdIxcA" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zyNUsuGWEeOQnuqdpdIxcA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zyNUs-GWEeOQnuqdpdIxcA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_9z_0puGUEeOQnuqdpdIxcA" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_9z_0p-GUEeOQnuqdpdIxcA" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_9z_0qOGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_9z_0qeGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_9z_0quGUEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9z_0q-GUEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_9z_0rOGUEeOQnuqdpdIxcA" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_GPv48OGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ0TxuGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_GPv48eGVEeOQnuqdpdIxcA" x="36" y="12"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_GPxuIOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ060OGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_GPxuIeGVEeOQnuqdpdIxcA" x="36" y="12"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_GPzjUOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ060-GSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_GPzjUeGVEeOQnuqdpdIxcA" x="36" y="12"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_GP1YgOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ061eGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_GP1YgeGVEeOQnuqdpdIxcA" x="36" y="12"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_GP3NsOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ1h4OGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_GP3NseGVEeOQnuqdpdIxcA" x="36" y="12"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_9z_0reGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_9z_0ruGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_9z_0r-GUEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9z_0sOGUEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_9z_0seGUEeOQnuqdpdIxcA" visible="false" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_9z_0suGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_9z_0s-GUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_9z_0tOGUEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9z_0teGUEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_coqX8OrmEeOpcOFUhAGYAA" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_coqX8ermEeOpcOFUhAGYAA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_coqX8urmEeOpcOFUhAGYAA"/>
+      </children>
+      <element xmi:type="uml:Class" href="PetstoreApplicationGAEDeployment.uml#_OQ0TxeGSEeO9doEpfZw2-A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9z_NkeGUEeOQnuqdpdIxcA" x="35" y="420" height="131"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_90GiUOGUEeOQnuqdpdIxcA" type="2008" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_90GiUuGUEeOQnuqdpdIxcA" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_90HJYOGUEeOQnuqdpdIxcA" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_90HJY-GUEeOQnuqdpdIxcA" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_90HJZOGUEeOQnuqdpdIxcA" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zyNUtOGWEeOQnuqdpdIxcA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zyNUteGWEeOQnuqdpdIxcA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_90HJZeGUEeOQnuqdpdIxcA" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_90HJZuGUEeOQnuqdpdIxcA" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_90HJZ-GUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_90HJaOGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_90HJaeGUEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_90HJauGUEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_90HJa-GUEeOQnuqdpdIxcA" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_IUzg8OGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ1h4-GSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_IUzg8eGVEeOQnuqdpdIxcA" x="77" y="14"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_IU19MOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ1h5uGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_IU19MeGVEeOQnuqdpdIxcA" x="77" y="14"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_IU3yYOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ1h6eGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_IU3yYeGVEeOQnuqdpdIxcA" x="77" y="14"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_IU5nkOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ2I8eGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_IU5nkeGVEeOQnuqdpdIxcA" x="77" y="14"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_IU7cwOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ2I9OGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_IU7cweGVEeOQnuqdpdIxcA" x="77" y="14"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_90HJbOGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_90HJbeGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_90HJbuGUEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_90HJb-GUEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_90HJcOGUEeOQnuqdpdIxcA" visible="false" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_90HJceGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_90HJcuGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_90HJc-GUEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_90HJdOGUEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cos0MOrmEeOpcOFUhAGYAA" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cos0MermEeOpcOFUhAGYAA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cos0MurmEeOpcOFUhAGYAA"/>
+      </children>
+      <element xmi:type="uml:Class" href="PetstoreApplicationGAEDeployment.uml#_OQ1h4uGSEeO9doEpfZw2-A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_90GiUeGUEeOQnuqdpdIxcA" x="435" y="235" width="286" height="131"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_90OeIOGUEeOQnuqdpdIxcA" type="2008" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_90OeIuGUEeOQnuqdpdIxcA" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_90OeI-GUEeOQnuqdpdIxcA" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_90OeJuGUEeOQnuqdpdIxcA" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_90OeJ-GUEeOQnuqdpdIxcA" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zyN7wOGWEeOQnuqdpdIxcA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zyN7weGWEeOQnuqdpdIxcA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_90OeKOGUEeOQnuqdpdIxcA" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_90OeKeGUEeOQnuqdpdIxcA" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_90OeKuGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_90OeK-GUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_90OeLOGUEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_90OeLeGUEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_90OeLuGUEeOQnuqdpdIxcA" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_KoKqsOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ2wAOGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_KoKqseGVEeOQnuqdpdIxcA" x="88" y="11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_KoPjMOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ2wA-GSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_KoPjMeGVEeOQnuqdpdIxcA" x="88" y="11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_KoTNkOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ2wBuGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_KoTNkeGVEeOQnuqdpdIxcA" x="88" y="11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_KoVp0OGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ3XEOGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_KoVp0eGVEeOQnuqdpdIxcA" x="88" y="11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_KoXfAOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ3XE-GSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_KoXfAeGVEeOQnuqdpdIxcA" x="88" y="11"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_90OeL-GUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_90OeMOGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_90OeMeGUEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_90OeMuGUEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_90PFMOGUEeOQnuqdpdIxcA" visible="false" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_90PFMeGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_90PFMuGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_90PFM-GUEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_90PFNOGUEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cov3gOrmEeOpcOFUhAGYAA" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cov3germEeOpcOFUhAGYAA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cov3gurmEeOpcOFUhAGYAA"/>
+      </children>
+      <element xmi:type="uml:Class" href="PetstoreApplicationGAEDeployment.uml#_OQ2I9uGSEeO9doEpfZw2-A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_90OeIeGUEeOQnuqdpdIxcA" x="370" y="420" height="131"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_90Vy4OGUEeOQnuqdpdIxcA" type="2008" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_90Vy4uGUEeOQnuqdpdIxcA" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_90Vy4-GUEeOQnuqdpdIxcA" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_90Vy5uGUEeOQnuqdpdIxcA" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_90Vy5-GUEeOQnuqdpdIxcA" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zyN7xOGWEeOQnuqdpdIxcA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zyN7xeGWEeOQnuqdpdIxcA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_90Vy6OGUEeOQnuqdpdIxcA" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_90Vy6eGUEeOQnuqdpdIxcA" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_90Vy6uGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_90Vy6-GUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_90Vy7OGUEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_90Vy7eGUEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_90WZ8OGUEeOQnuqdpdIxcA" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_LzCiYOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ3-IeGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_LzCiYeGVEeOQnuqdpdIxcA" x="89" y="9"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_LzKeMOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ3-JOGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_LzKeMeGVEeOQnuqdpdIxcA" x="89" y="9"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_LzPWsOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ3-J-GSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_LzPWseGVEeOQnuqdpdIxcA" x="89" y="9"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_LzSaAOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ4lMeGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_LzSaAeGVEeOQnuqdpdIxcA" x="89" y="9"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_LzU2QOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ4lNOGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_LzU2QeGVEeOQnuqdpdIxcA" x="89" y="9"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_90WZ8eGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_90WZ8uGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_90WZ8-GUEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_90WZ9OGUEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_90WZ9eGUEeOQnuqdpdIxcA" visible="false" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_90WZ9uGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_90WZ9-GUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_90WZ-OGUEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_90WZ-eGUEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_coyTwOrmEeOpcOFUhAGYAA" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_coyTwermEeOpcOFUhAGYAA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_coyTwurmEeOpcOFUhAGYAA"/>
+      </children>
+      <element xmi:type="uml:Class" href="PetstoreApplicationGAEDeployment.uml#_OQ3-IOGSEeO9doEpfZw2-A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_90Vy4eGUEeOQnuqdpdIxcA" x="745" y="420" height="131"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_90dusOGUEeOQnuqdpdIxcA" type="2008" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_90dusuGUEeOQnuqdpdIxcA" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_90dus-GUEeOQnuqdpdIxcA" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_90dutuGUEeOQnuqdpdIxcA" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_90dut-GUEeOQnuqdpdIxcA" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zyN7wuGWEeOQnuqdpdIxcA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zyN7w-GWEeOQnuqdpdIxcA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_90eVwOGUEeOQnuqdpdIxcA" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_90eVweGUEeOQnuqdpdIxcA" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_90eVwuGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_90eVw-GUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_90eVxOGUEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_90eVxeGUEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_90eVxuGUEeOQnuqdpdIxcA" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_NisiIOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ4lN-GSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_NisiIeGVEeOQnuqdpdIxcA" x="60" y="16"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_NivlcOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ5MQuGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_NivlceGVEeOQnuqdpdIxcA" x="60" y="16"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_NiyBsOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ5MReGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_NiyBseGVEeOQnuqdpdIxcA" x="60" y="16"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Ni2TIOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ5MR-GSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_Ni2TIeGVEeOQnuqdpdIxcA" x="60" y="16"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Ni4vYOGVEeOQnuqdpdIxcA" type="3013" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Operation" href="PetstoreApplicationGAEDeployment.uml#_OQ5MSuGSEeO9doEpfZw2-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_Ni4vYeGVEeOQnuqdpdIxcA" x="60" y="16"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_90eVx-GUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_90eVyOGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_90eVyeGUEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_90eVyuGUEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_90eVy-GUEeOQnuqdpdIxcA" visible="false" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_90eVzOGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_90eVzeGUEeOQnuqdpdIxcA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_90eVzuGUEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_90eVz-GUEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_co1XEOrmEeOpcOFUhAGYAA" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_co1XEermEeOpcOFUhAGYAA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_co1XEurmEeOpcOFUhAGYAA"/>
+      </children>
+      <element xmi:type="uml:Class" href="PetstoreApplicationGAEDeployment.uml#_OQ4lNuGSEeO9doEpfZw2-A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_90duseGUEeOQnuqdpdIxcA" x="775" y="235" height="131"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_vObH0eGTEeOQnuqdpdIxcA"/>
+    <element xmi:type="uml:Model" href="PetstoreApplicationGAEDeployment.uml#_zDiH4L8HEeO1PYkvBb1AeQ"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_5rTrgOGVEeOQnuqdpdIxcA" type="PapyrusUMLComponentDiagram" name="ApplicationComponents" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_3OHa4OGWEeOQnuqdpdIxcA" type="2002" fontName="Segoe UI">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-IP7cOGWEeOQnuqdpdIxcA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-IP7ceGWEeOQnuqdpdIxcA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qB_D4OGuEeO_ftnmml3HUQ" source="Stereotype_Annotation">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BpUhkOGvEeO_ftnmml3HUQ" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BpUhkeGvEeO_ftnmml3HUQ" key="StereotypeList" value="platform::org::artist::profiles::platform::Framework,platform::org::artist::profiles::platform::Language"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BpUhkuGvEeO_ftnmml3HUQ" key="PropStereoDisplay" value="platform::org::artist::profiles::platform::Framework.dependencies,platform::org::artist::profiles::platform::Language.realizations"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BpUhk-GvEeO_ftnmml3HUQ" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BpUhlOGvEeO_ftnmml3HUQ" key="StereotypePropertyLocation" value="Compartment"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_3OIB8OGWEeOQnuqdpdIxcA" type="5004"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_3OIB8eGWEeOQnuqdpdIxcA" visible="false" type="7001">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_3OIB8uGWEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3OIB8-GWEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_crIdIOrmEeOpcOFUhAGYAA" type="AppliedStereotypeCompartement">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_crIdIermEeOpcOFUhAGYAA" showTitle="true"/>
+        <element xmi:type="platform.org.artist.profiles.platform:Framework" href="PetstoreApplicationGAEDeployment.uml#_qB3vIOGuEeO_ftnmml3HUQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_crIdIurmEeOpcOFUhAGYAA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_crMukOrmEeOpcOFUhAGYAA" type="AppliedStereotypeCompartement">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_crMukermEeOpcOFUhAGYAA" showTitle="true"/>
+        <element xmi:type="platform.org.artist.profiles.platform:Language" href="PetstoreApplicationGAEDeployment.uml#_5GVM0OGuEeO_ftnmml3HUQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_crMukurmEeOpcOFUhAGYAA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_crN8sOrmEeOpcOFUhAGYAA" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_crN8sermEeOpcOFUhAGYAA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_crN8surmEeOpcOFUhAGYAA"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_3OHa4eGWEeOQnuqdpdIxcA"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_3OHa4uGWEeOQnuqdpdIxcA"/>
+      <element xmi:type="uml:Component" href="PetstoreApplicationGAEDeployment.uml#_3OB7UOGWEeOQnuqdpdIxcA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3OHa4-GWEeOQnuqdpdIxcA" x="720" y="140" width="181" height="161"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_5G9L0OGWEeOQnuqdpdIxcA" type="2002" fontName="Segoe UI">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-IP7cuGWEeOQnuqdpdIxcA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-IP7c-GWEeOQnuqdpdIxcA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Gpa-YOGvEeO_ftnmml3HUQ" source="Stereotype_Annotation">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IvCnEOGvEeO_ftnmml3HUQ" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IvCnEeGvEeO_ftnmml3HUQ" key="StereotypeList" value="platform::org::artist::profiles::platform::Language"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IvCnEuGvEeO_ftnmml3HUQ" key="PropStereoDisplay" value="platform::org::artist::profiles::platform::Language.realizations"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IvCnE-GvEeO_ftnmml3HUQ" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IvCnFOGvEeO_ftnmml3HUQ" key="StereotypePropertyLocation" value="Compartment"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_5G-Z8OGWEeOQnuqdpdIxcA" type="5004"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_5G-Z8eGWEeOQnuqdpdIxcA" visible="false" type="7001">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_5G-Z8uGWEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5G-Z8-GWEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_crPx4OrmEeOpcOFUhAGYAA" type="AppliedStereotypeCompartement">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_crPx4ermEeOpcOFUhAGYAA" showTitle="true"/>
+        <element xmi:type="platform.org.artist.profiles.platform:Language" href="PetstoreApplicationGAEDeployment.uml#_GpR0cOGvEeO_ftnmml3HUQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_crPx4urmEeOpcOFUhAGYAA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_crQY8OrmEeOpcOFUhAGYAA" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_crQY8ermEeOpcOFUhAGYAA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_crQY8urmEeOpcOFUhAGYAA"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_5G9L0eGWEeOQnuqdpdIxcA"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_5G9L0uGWEeOQnuqdpdIxcA"/>
+      <element xmi:type="uml:Component" href="PetstoreApplicationGAEDeployment.uml#_5G13EOGWEeOQnuqdpdIxcA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5G9L0-GWEeOQnuqdpdIxcA" x="125" y="152"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_5X81MOGWEeOQnuqdpdIxcA" type="2002" fontName="Segoe UI">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-IQigOGWEeOQnuqdpdIxcA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-IQigeGWEeOQnuqdpdIxcA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Esrk4OGvEeO_ftnmml3HUQ" source="Stereotype_Annotation">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_H53SkOGvEeO_ftnmml3HUQ" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_H53SkeGvEeO_ftnmml3HUQ" key="StereotypeList" value="platform::org::artist::profiles::platform::Language"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_H53SkuGvEeO_ftnmml3HUQ" key="PropStereoDisplay" value="platform::org::artist::profiles::platform::Language.realizations"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_H53Sk-GvEeO_ftnmml3HUQ" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_H53SlOGvEeO_ftnmml3HUQ" key="StereotypePropertyLocation" value="Compartment"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_5X81NOGWEeOQnuqdpdIxcA" type="5004"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_5X81NeGWEeOQnuqdpdIxcA" visible="false" type="7001">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_5X81NuGWEeOQnuqdpdIxcA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5X81N-GWEeOQnuqdpdIxcA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_crSOIOrmEeOpcOFUhAGYAA" type="AppliedStereotypeCompartement">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_crSOIermEeOpcOFUhAGYAA" showTitle="true"/>
+        <element xmi:type="platform.org.artist.profiles.platform:Language" href="PetstoreApplicationGAEDeployment.uml#_EskQIOGvEeO_ftnmml3HUQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_crSOIurmEeOpcOFUhAGYAA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_crS1MOrmEeOpcOFUhAGYAA" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_crS1MermEeOpcOFUhAGYAA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_crS1MurmEeOpcOFUhAGYAA"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_5X81MeGWEeOQnuqdpdIxcA"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_5X81MuGWEeOQnuqdpdIxcA"/>
+      <element xmi:type="uml:Component" href="PetstoreApplicationGAEDeployment.uml#_5XrvcOGWEeOQnuqdpdIxcA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5X81M-GWEeOQnuqdpdIxcA" x="410" y="162"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_5rTrgeGVEeOQnuqdpdIxcA"/>
+    <element xmi:type="uml:Model" href="PetstoreApplicationGAEDeployment.uml#_zDiH4L8HEeO1PYkvBb1AeQ"/>
+    <edges xmi:type="notation:Connector" xmi:id="_1N35oBfJEeSBGZ2ipVWBmQ" type="4010" source="_5G9L0OGWEeOQnuqdpdIxcA" target="_5X81MOGWEeOQnuqdpdIxcA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_1N4gsBfJEeSBGZ2ipVWBmQ" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1N4gsRfJEeSBGZ2ipVWBmQ" y="60"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_1N4gshfJEeSBGZ2ipVWBmQ" type="6023">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1N4gsxfJEeSBGZ2ipVWBmQ" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_1N35oRfJEeSBGZ2ipVWBmQ" fontName="Segoe UI"/>
+      <element xmi:type="uml:Usage" href="PetstoreApplicationGAEDeployment.uml#_ZvZyUBfJEeSBGZ2ipVWBmQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1N35ohfJEeSBGZ2ipVWBmQ" points="[75, 3, -210, -7]$[210, 7, -75, -3]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_1e-3wBfJEeSBGZ2ipVWBmQ" type="4010" source="_5G9L0OGWEeOQnuqdpdIxcA" target="_3OHa4OGWEeOQnuqdpdIxcA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_1fAs8BfJEeSBGZ2ipVWBmQ" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1fAs8RfJEeSBGZ2ipVWBmQ" y="60"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_1fAs8hfJEeSBGZ2ipVWBmQ" type="6023">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1fBUABfJEeSBGZ2ipVWBmQ" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_1e-3wRfJEeSBGZ2ipVWBmQ" fontName="Segoe UI"/>
+      <element xmi:type="uml:Usage" href="PetstoreApplicationGAEDeployment.uml#_a8B9gBfJEeSBGZ2ipVWBmQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1e-3whfJEeSBGZ2ipVWBmQ" points="[0, -51, -610, -68]$[0, -93, -610, -110]$[610, -93, 0, -110]$[610, -63, 0, -80]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_2IYaEBfJEeSBGZ2ipVWBmQ" type="4010" source="_5X81MOGWEeOQnuqdpdIxcA" target="_3OHa4OGWEeOQnuqdpdIxcA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_2IZoMBfJEeSBGZ2ipVWBmQ" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2IZoMRfJEeSBGZ2ipVWBmQ" y="60"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_2IaPQBfJEeSBGZ2ipVWBmQ" type="6023">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2IaPQRfJEeSBGZ2ipVWBmQ" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_2IYaERfJEeSBGZ2ipVWBmQ" fontName="Segoe UI"/>
+      <element xmi:type="uml:Usage" href="PetstoreApplicationGAEDeployment.uml#_bemfEBfJEeSBGZ2ipVWBmQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2IYaEhfJEeSBGZ2ipVWBmQ" points="[75, 7, -250, 0]$[235, 0, -90, -7]"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_wClK0OGiEeOQnuqdpdIxcA" type="PapyrusUMLDeploymentDiagram" name="ApplicationComponentsManifestation" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_xrFZsOGiEeOQnuqdpdIxcA" type="2012" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xrGAwOGiEeOQnuqdpdIxcA" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xrGAweGiEeOQnuqdpdIxcA" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xrGAwuGiEeOQnuqdpdIxcA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xrGAw-GiEeOQnuqdpdIxcA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xrGAxOGiEeOQnuqdpdIxcA" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xrGAxeGiEeOQnuqdpdIxcA" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_xrGn0OGiEeOQnuqdpdIxcA" type="53"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_csyqAOrmEeOpcOFUhAGYAA" visible="false" type="AppliedStereotypeCompartement">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_csyqAermEeOpcOFUhAGYAA" showTitle="true"/>
+        <element xmi:type="platform.org.artist.profiles.platform:Framework" href="PetstoreApplicationGAEDeployment.uml#_qB3vIOGuEeO_ftnmml3HUQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_csyqAurmEeOpcOFUhAGYAA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cszREOrmEeOpcOFUhAGYAA" visible="false" type="AppliedStereotypeCompartement">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cszREermEeOpcOFUhAGYAA" showTitle="true"/>
+        <element xmi:type="platform.org.artist.profiles.platform:Language" href="PetstoreApplicationGAEDeployment.uml#_5GVM0OGuEeO_ftnmml3HUQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cszREurmEeOpcOFUhAGYAA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cszRE-rmEeOpcOFUhAGYAA" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cszRFOrmEeOpcOFUhAGYAA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cszRFermEeOpcOFUhAGYAA"/>
+      </children>
+      <element xmi:type="uml:Component" href="PetstoreApplicationGAEDeployment.uml#_3OB7UOGWEeOQnuqdpdIxcA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xrFZseGiEeOQnuqdpdIxcA" x="215" y="260" width="126"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_SwGLYOGmEeO_ftnmml3HUQ" type="2012" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SwInoOGmEeO_ftnmml3HUQ" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SwInoeGmEeO_ftnmml3HUQ" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SwInouGmEeO_ftnmml3HUQ" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SwIno-GmEeO_ftnmml3HUQ" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SwJOsOGmEeO_ftnmml3HUQ" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SwJOseGmEeO_ftnmml3HUQ" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_SwJOsuGmEeO_ftnmml3HUQ" type="53"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cs1GQOrmEeOpcOFUhAGYAA" visible="false" type="AppliedStereotypeCompartement">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cs1GQermEeOpcOFUhAGYAA" showTitle="true"/>
+        <element xmi:type="platform.org.artist.profiles.platform:Language" href="PetstoreApplicationGAEDeployment.uml#_GpR0cOGvEeO_ftnmml3HUQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cs1GQurmEeOpcOFUhAGYAA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cs1GQ-rmEeOpcOFUhAGYAA" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cs1GROrmEeOpcOFUhAGYAA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cs1GRermEeOpcOFUhAGYAA"/>
+      </children>
+      <element xmi:type="uml:Component" href="PetstoreApplicationGAEDeployment.uml#_5G13EOGWEeOQnuqdpdIxcA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SwGLYeGmEeO_ftnmml3HUQ" x="215" y="70" width="126"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_XqKRoOGmEeO_ftnmml3HUQ" type="2012" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XqKRouGmEeO_ftnmml3HUQ" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XqKRo-GmEeO_ftnmml3HUQ" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XqK4sOGmEeO_ftnmml3HUQ" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XqK4seGmEeO_ftnmml3HUQ" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XqK4suGmEeO_ftnmml3HUQ" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XqK4s-GmEeO_ftnmml3HUQ" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_XqK4tOGmEeO_ftnmml3HUQ" type="53"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cs2UYOrmEeOpcOFUhAGYAA" visible="false" type="AppliedStereotypeCompartement">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cs2UYermEeOpcOFUhAGYAA" showTitle="true"/>
+        <element xmi:type="platform.org.artist.profiles.platform:Language" href="PetstoreApplicationGAEDeployment.uml#_EskQIOGvEeO_ftnmml3HUQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cs2UYurmEeOpcOFUhAGYAA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cs27cOrmEeOpcOFUhAGYAA" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cs27cermEeOpcOFUhAGYAA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cs27curmEeOpcOFUhAGYAA"/>
+      </children>
+      <element xmi:type="uml:Component" href="PetstoreApplicationGAEDeployment.uml#_5XrvcOGWEeOQnuqdpdIxcA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XqKRoeGmEeO_ftnmml3HUQ" x="214" y="160" width="126"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_aktNMBfKEeSBGZ2ipVWBmQ" type="2006" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_akt0QBfKEeSBGZ2ipVWBmQ" type="8"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_akt0QRfKEeSBGZ2ipVWBmQ" visible="false" type="26">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_akt0QhfKEeSBGZ2ipVWBmQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_akt0QxfKEeSBGZ2ipVWBmQ"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_aktNMRfKEeSBGZ2ipVWBmQ"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_aktNMhfKEeSBGZ2ipVWBmQ"/>
+      <element xmi:type="uml:Artifact" href="PetstoreApplicationGAEDeployment.uml#_akoUsBfKEeSBGZ2ipVWBmQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aktNMxfKEeSBGZ2ipVWBmQ" x="520" y="70" height="51"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_c3WlQBfKEeSBGZ2ipVWBmQ" type="2006" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_c3XMUBfKEeSBGZ2ipVWBmQ" type="8"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_c3XzYBfKEeSBGZ2ipVWBmQ" visible="false" type="26">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_c3XzYRfKEeSBGZ2ipVWBmQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c3XzYhfKEeSBGZ2ipVWBmQ"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_c3WlQRfKEeSBGZ2ipVWBmQ"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_c3WlQhfKEeSBGZ2ipVWBmQ"/>
+      <element xmi:type="uml:Artifact" href="PetstoreApplicationGAEDeployment.uml#_c3UJABfKEeSBGZ2ipVWBmQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c3WlQxfKEeSBGZ2ipVWBmQ" x="520" y="200" height="51"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_wClK0eGiEeOQnuqdpdIxcA"/>
+    <element xmi:type="uml:Model" href="PetstoreApplicationGAEDeployment.uml#_zDiH4L8HEeO1PYkvBb1AeQ"/>
+    <edges xmi:type="notation:Connector" xmi:id="_gIKOsBfKEeSBGZ2ipVWBmQ" type="4002" source="_aktNMBfKEeSBGZ2ipVWBmQ" target="_SwGLYOGmEeO_ftnmml3HUQ" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_gILc0BfKEeSBGZ2ipVWBmQ" visible="false" type="10">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gILc0RfKEeSBGZ2ipVWBmQ" y="60"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_gIMD4BfKEeSBGZ2ipVWBmQ" type="11">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_gIMD4RfKEeSBGZ2ipVWBmQ" x="7" y="16"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_gIKOsRfKEeSBGZ2ipVWBmQ" fontName="Segoe UI"/>
+      <element xmi:type="uml:Manifestation" href="PetstoreApplicationGAEDeployment.uml#_gIF9QBfKEeSBGZ2ipVWBmQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gIKOshfKEeSBGZ2ipVWBmQ" points="[-4, -7, 196, 0]$[-183, -10, 17, -3]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gIXqEBfKEeSBGZ2ipVWBmQ" id="(0.02666666666666667,0.49019607843137253)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gIXqERfKEeSBGZ2ipVWBmQ" id="(0.8650793650793651,0.36)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_hMdkUBfKEeSBGZ2ipVWBmQ" type="4002" source="_c3WlQBfKEeSBGZ2ipVWBmQ" target="_XqKRoOGmEeO_ftnmml3HUQ" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_hMeLYBfKEeSBGZ2ipVWBmQ" visible="false" type="10">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hMeLYRfKEeSBGZ2ipVWBmQ" x="-337" y="122"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_hMeycBfKEeSBGZ2ipVWBmQ" type="11">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hMeycRfKEeSBGZ2ipVWBmQ" x="-9" y="21"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_hMdkURfKEeSBGZ2ipVWBmQ" fontName="Segoe UI"/>
+      <element xmi:type="uml:Manifestation" href="PetstoreApplicationGAEDeployment.uml#_hMc9QBfKEeSBGZ2ipVWBmQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hMdkUhfKEeSBGZ2ipVWBmQ" points="[-9, -2, 206, 41]$[-189, -48, 26, -5]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hMk5EBfKEeSBGZ2ipVWBmQ" id="(0.06,0.43137254901960786)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hMk5ERfKEeSBGZ2ipVWBmQ" id="(0.7936507936507936,0.38)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_htoXsBfKEeSBGZ2ipVWBmQ" type="4002" source="_c3WlQBfKEeSBGZ2ipVWBmQ" target="_xrFZsOGiEeOQnuqdpdIxcA" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_hto-wBfKEeSBGZ2ipVWBmQ" visible="false" type="10">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_htpl0BfKEeSBGZ2ipVWBmQ" x="-351" y="-98"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_htpl0RfKEeSBGZ2ipVWBmQ" type="11">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_htpl0hfKEeSBGZ2ipVWBmQ" x="11" y="23"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_htoXsRfKEeSBGZ2ipVWBmQ" fontName="Segoe UI"/>
+      <element xmi:type="uml:Manifestation" href="PetstoreApplicationGAEDeployment.uml#_htmigBfKEeSBGZ2ipVWBmQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_htoXshfKEeSBGZ2ipVWBmQ" points="[-9, 2, 193, -52]$[-188, 54, 14, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_htvscBfKEeSBGZ2ipVWBmQ" id="(0.06,0.6274509803921569)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_htvscRfKEeSBGZ2ipVWBmQ" id="(0.8888888888888888,0.52)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_sN7GoBfKEeSBGZ2ipVWBmQ" type="PapyrusUMLClassDiagram" name="PetstoreDeployment" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_ujmkkBfKEeSBGZ2ipVWBmQ" type="2001" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ujnLoBfKEeSBGZ2ipVWBmQ" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ujnysBfKEeSBGZ2ipVWBmQ" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ujnysRfKEeSBGZ2ipVWBmQ" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ujnyshfKEeSBGZ2ipVWBmQ" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ujnysxfKEeSBGZ2ipVWBmQ" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ujnytBfKEeSBGZ2ipVWBmQ" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q2gyUBfLEeSBGZ2ipVWBmQ" source="Stereotype_Annotation">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vM6K0BfLEeSBGZ2ipVWBmQ" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vM6K0RfLEeSBGZ2ipVWBmQ" key="StereotypeList" value="GoogleAppEngineProfile::InstancesPackage::GAEF1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vM6K0hfLEeSBGZ2ipVWBmQ" key="PropStereoDisplay" value="GoogleAppEngineProfile::InstancesPackage::GAEF1.middleware"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vM6K0xfLEeSBGZ2ipVWBmQ" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vM6x4BfLEeSBGZ2ipVWBmQ" key="StereotypePropertyLocation" value="Compartment"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ujnytRfKEeSBGZ2ipVWBmQ" type="5002"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_ujnythfKEeSBGZ2ipVWBmQ" type="7001">
+        <children xmi:type="notation:Shape" xmi:id="_U5ao4BfLEeSBGZ2ipVWBmQ" type="3030" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Slot" href="PetstoreApplicationGAEDeployment.uml#_U5ZawBfLEeSBGZ2ipVWBmQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_U5ao4RfLEeSBGZ2ipVWBmQ"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_VG5EMBfLEeSBGZ2ipVWBmQ" type="3030" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Slot" href="PetstoreApplicationGAEDeployment.uml#_VG32EBfLEeSBGZ2ipVWBmQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_VG5EMRfLEeSBGZ2ipVWBmQ"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_ujnytxfKEeSBGZ2ipVWBmQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_ujnyuBfKEeSBGZ2ipVWBmQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_ujnyuRfKEeSBGZ2ipVWBmQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ujnyuhfKEeSBGZ2ipVWBmQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_ujwVkBfKEeSBGZ2ipVWBmQ" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_ujw8oBfKEeSBGZ2ipVWBmQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ujw8oRfKEeSBGZ2ipVWBmQ"/>
+      </children>
+      <element xmi:type="uml:InstanceSpecification" href="PetstoreApplicationGAEDeployment.uml#_ujPYMBfKEeSBGZ2ipVWBmQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ujmkkRfKEeSBGZ2ipVWBmQ" x="97" y="146" width="248"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_vQTSgBfKEeSBGZ2ipVWBmQ" type="2001" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vQT5kBfKEeSBGZ2ipVWBmQ" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vQT5kRfKEeSBGZ2ipVWBmQ" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vQUgoBfKEeSBGZ2ipVWBmQ" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vQUgoRfKEeSBGZ2ipVWBmQ" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vQUgohfKEeSBGZ2ipVWBmQ" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vQUgoxfKEeSBGZ2ipVWBmQ" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s2OAQBfLEeSBGZ2ipVWBmQ" source="Stereotype_Annotation">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v1fNwBfLEeSBGZ2ipVWBmQ" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v1f00BfLEeSBGZ2ipVWBmQ" key="StereotypeList" value="GoogleAppEngineProfile::InstancesPackage::GAEF4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v1f00RfLEeSBGZ2ipVWBmQ" key="PropStereoDisplay" value="GoogleAppEngineProfile::InstancesPackage::GAEF4.middleware"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v1f00hfLEeSBGZ2ipVWBmQ" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v1f00xfLEeSBGZ2ipVWBmQ" key="StereotypePropertyLocation" value="Compartment"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_vQUgpBfKEeSBGZ2ipVWBmQ" type="5002"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_vQVHsBfKEeSBGZ2ipVWBmQ" type="7001">
+        <children xmi:type="notation:Shape" xmi:id="_VS_mgBfLEeSBGZ2ipVWBmQ" type="3030" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Slot" href="PetstoreApplicationGAEDeployment.uml#_VS-YYBfLEeSBGZ2ipVWBmQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_VS_mgRfLEeSBGZ2ipVWBmQ"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_VddKEBfLEeSBGZ2ipVWBmQ" type="3030" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Slot" href="PetstoreApplicationGAEDeployment.uml#_Vdb78BfLEeSBGZ2ipVWBmQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_VddKERfLEeSBGZ2ipVWBmQ"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_vQVHsRfKEeSBGZ2ipVWBmQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_vQVHshfKEeSBGZ2ipVWBmQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_vQVHsxfKEeSBGZ2ipVWBmQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vQVHtBfKEeSBGZ2ipVWBmQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_vQgt4BfKEeSBGZ2ipVWBmQ" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_vQgt4RfKEeSBGZ2ipVWBmQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vQgt4hfKEeSBGZ2ipVWBmQ"/>
+      </children>
+      <element xmi:type="uml:InstanceSpecification" href="PetstoreApplicationGAEDeployment.uml#_vQQ2QBfKEeSBGZ2ipVWBmQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vQTSgRfKEeSBGZ2ipVWBmQ" x="429" y="150" width="249"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_wBp28BfKEeSBGZ2ipVWBmQ" type="2001" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wBrFEBfKEeSBGZ2ipVWBmQ" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wBrFERfKEeSBGZ2ipVWBmQ" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wBrFEhfKEeSBGZ2ipVWBmQ" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wBrFExfKEeSBGZ2ipVWBmQ" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wBrsIBfKEeSBGZ2ipVWBmQ" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wBrsIRfKEeSBGZ2ipVWBmQ" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_wBrsIhfKEeSBGZ2ipVWBmQ" type="5002"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_wBrsIxfKEeSBGZ2ipVWBmQ" visible="false" type="7001">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_wBrsJBfKEeSBGZ2ipVWBmQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_wBrsJRfKEeSBGZ2ipVWBmQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_wBrsJhfKEeSBGZ2ipVWBmQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wBrsJxfKEeSBGZ2ipVWBmQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_wByZ0BfKEeSBGZ2ipVWBmQ" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_wByZ0RfKEeSBGZ2ipVWBmQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wByZ0hfKEeSBGZ2ipVWBmQ"/>
+      </children>
+      <element xmi:type="uml:InstanceSpecification" href="PetstoreApplicationGAEDeployment.uml#_wBmzoBfKEeSBGZ2ipVWBmQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wBp28RfKEeSBGZ2ipVWBmQ" x="130" y="60" width="173" height="34"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_wQ1icBfKEeSBGZ2ipVWBmQ" type="2001" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wQ2JgBfKEeSBGZ2ipVWBmQ" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wQ2JgRfKEeSBGZ2ipVWBmQ" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wQ2wkBfKEeSBGZ2ipVWBmQ" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wQ2wkRfKEeSBGZ2ipVWBmQ" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wQ2wkhfKEeSBGZ2ipVWBmQ" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wQ2wkxfKEeSBGZ2ipVWBmQ" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_wQ2wlBfKEeSBGZ2ipVWBmQ" type="5002"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_wQ3XoBfKEeSBGZ2ipVWBmQ" visible="false" type="7001">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_wQ3XoRfKEeSBGZ2ipVWBmQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_wQ3XohfKEeSBGZ2ipVWBmQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_wQ3XoxfKEeSBGZ2ipVWBmQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wQ3XpBfKEeSBGZ2ipVWBmQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_wQ-sYBfKEeSBGZ2ipVWBmQ" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_wQ-sYRfKEeSBGZ2ipVWBmQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wQ-sYhfKEeSBGZ2ipVWBmQ"/>
+      </children>
+      <element xmi:type="uml:InstanceSpecification" href="PetstoreApplicationGAEDeployment.uml#_wQzGMBfKEeSBGZ2ipVWBmQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wQ1icRfKEeSBGZ2ipVWBmQ" x="476" y="57" width="134" height="36"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_wper8BfKEeSBGZ2ipVWBmQ" type="2001" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wpf6EBfKEeSBGZ2ipVWBmQ" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wpf6ERfKEeSBGZ2ipVWBmQ" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wpf6EhfKEeSBGZ2ipVWBmQ" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wpghIBfKEeSBGZ2ipVWBmQ" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wpghIRfKEeSBGZ2ipVWBmQ" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wpghIhfKEeSBGZ2ipVWBmQ" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-PupwBfLEeSBGZ2ipVWBmQ" source="Stereotype_Annotation">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HzbNkBfMEeSBGZ2ipVWBmQ" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HzbNkRfMEeSBGZ2ipVWBmQ" key="StereotypeList" value="GoogleAppEngineProfile::ConfigurationPackage::AutoScaled"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HzbNkhfMEeSBGZ2ipVWBmQ" key="PropStereoDisplay" value="GoogleAppEngineProfile::ConfigurationPackage::AutoScaled.maximumIdleInstances,GoogleAppEngineProfile::ConfigurationPackage::AutoScaled.minimumPendingLatencyBeforeStartup"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HzbNkxfMEeSBGZ2ipVWBmQ" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HzbNlBfMEeSBGZ2ipVWBmQ" key="StereotypePropertyLocation" value="Compartment"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_wpghIxfKEeSBGZ2ipVWBmQ" type="5002"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_wpghJBfKEeSBGZ2ipVWBmQ" visible="false" type="7001">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_wpghJRfKEeSBGZ2ipVWBmQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_wpghJhfKEeSBGZ2ipVWBmQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_wpghJxfKEeSBGZ2ipVWBmQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wpghKBfKEeSBGZ2ipVWBmQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_wpprEBfKEeSBGZ2ipVWBmQ" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_wpprERfKEeSBGZ2ipVWBmQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wpprEhfKEeSBGZ2ipVWBmQ"/>
+      </children>
+      <element xmi:type="uml:InstanceSpecification" href="PetstoreApplicationGAEDeployment.uml#_wpcPsBfKEeSBGZ2ipVWBmQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wpfTABfKEeSBGZ2ipVWBmQ" x="70" y="378" width="309" height="95"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_w-w_cBfKEeSBGZ2ipVWBmQ" type="2001" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w-w_chfKEeSBGZ2ipVWBmQ" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w-w_cxfKEeSBGZ2ipVWBmQ" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w-w_dBfKEeSBGZ2ipVWBmQ" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w-w_dRfKEeSBGZ2ipVWBmQ" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w-xmgBfKEeSBGZ2ipVWBmQ" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w-xmgRfKEeSBGZ2ipVWBmQ" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7xBLoBfLEeSBGZ2ipVWBmQ" source="Stereotype_Annotation">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7xBLoRfLEeSBGZ2ipVWBmQ" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7xBLohfLEeSBGZ2ipVWBmQ" key="StereotypeList" value="GoogleAppEngineProfile::StoragePackage::AppEngineDatastore"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7xBLoxfLEeSBGZ2ipVWBmQ" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7xBLpBfLEeSBGZ2ipVWBmQ" key="PropStereoDisplay" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7xBLpRfLEeSBGZ2ipVWBmQ" key="StereotypePropertyLocation" value="Compartment"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_w-xmghfKEeSBGZ2ipVWBmQ" type="5002"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_w-xmgxfKEeSBGZ2ipVWBmQ" type="7001">
+        <children xmi:type="notation:Shape" xmi:id="_V-1Y0BfLEeSBGZ2ipVWBmQ" type="3030" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Slot" href="PetstoreApplicationGAEDeployment.uml#_V-0KsBfLEeSBGZ2ipVWBmQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_V-1Y0RfLEeSBGZ2ipVWBmQ"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_WNuJYBfLEeSBGZ2ipVWBmQ" type="3030" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Slot" href="PetstoreApplicationGAEDeployment.uml#_WNtiUBfLEeSBGZ2ipVWBmQ"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_WNuJYRfLEeSBGZ2ipVWBmQ"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_w-xmhBfKEeSBGZ2ipVWBmQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_w-xmhRfKEeSBGZ2ipVWBmQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_w-xmhhfKEeSBGZ2ipVWBmQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w-xmhxfKEeSBGZ2ipVWBmQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_w-2fABfKEeSBGZ2ipVWBmQ" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_w-2fARfKEeSBGZ2ipVWBmQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w-2fAhfKEeSBGZ2ipVWBmQ"/>
+      </children>
+      <element xmi:type="uml:InstanceSpecification" href="PetstoreApplicationGAEDeployment.uml#_w-vxUBfKEeSBGZ2ipVWBmQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w-w_cRfKEeSBGZ2ipVWBmQ" x="447" y="387" width="233" height="80"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_sN7GoRfKEeSBGZ2ipVWBmQ"/>
+    <element xmi:type="uml:Model" href="PetstoreApplicationGAEDeployment.uml#_zDiH4L8HEeO1PYkvBb1AeQ"/>
+    <edges xmi:type="notation:Connector" xmi:id="_MPw2ABfMEeSBGZ2ipVWBmQ" type="4021" source="_ujmkkBfKEeSBGZ2ipVWBmQ" target="_wper8BfKEeSBGZ2ipVWBmQ" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_MPw2AxfMEeSBGZ2ipVWBmQ" type="6039">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MPw2BBfMEeSBGZ2ipVWBmQ" x="2" y="48"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_MPw2BRfMEeSBGZ2ipVWBmQ" type="6038">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MPxdEBfMEeSBGZ2ipVWBmQ" x="-3" y="34"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_MPw2ARfMEeSBGZ2ipVWBmQ" fontName="Segoe UI"/>
+      <element xmi:type="uml:InstanceSpecification" href="PetstoreApplicationGAEDeployment.uml#_MPuZwBfMEeSBGZ2ipVWBmQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MPw2AhfMEeSBGZ2ipVWBmQ" points="[-2, 11, 15, -114]$[-20, 112, -3, -13]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MP1HcBfMEeSBGZ2ipVWBmQ" id="(0.5040322580645161,0.916030534351145)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MP1HcRfMEeSBGZ2ipVWBmQ" id="(0.47572815533980584,0.1368421052631579)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_QMBQMBfMEeSBGZ2ipVWBmQ" type="4021" source="_vQTSgBfKEeSBGZ2ipVWBmQ" target="_wper8BfKEeSBGZ2ipVWBmQ" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_QMB3QBfMEeSBGZ2ipVWBmQ" type="6039">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QMB3QRfMEeSBGZ2ipVWBmQ" x="37" y="28"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_QMB3QhfMEeSBGZ2ipVWBmQ" type="6038">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QMB3QxfMEeSBGZ2ipVWBmQ" x="13" y="24"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_QMBQMRfMEeSBGZ2ipVWBmQ" fontName="Segoe UI"/>
+      <element xmi:type="uml:InstanceSpecification" href="PetstoreApplicationGAEDeployment.uml#_QL-z8BfMEeSBGZ2ipVWBmQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QMBQMhfMEeSBGZ2ipVWBmQ" points="[-12, 10, 125, -113]$[-95, 107, 42, -16]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QMHW0BfMEeSBGZ2ipVWBmQ" id="(0.0642570281124498,0.9236641221374046)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QMHW0RfMEeSBGZ2ipVWBmQ" id="(0.7702265372168284,0.16842105263157894)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_b4llABfMEeSBGZ2ipVWBmQ" type="4021" source="_vQTSgBfKEeSBGZ2ipVWBmQ" target="_w-w_cBfKEeSBGZ2ipVWBmQ" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_b4llAxfMEeSBGZ2ipVWBmQ" type="6039">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_b4llBBfMEeSBGZ2ipVWBmQ" x="3" y="46"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_b4mMEBfMEeSBGZ2ipVWBmQ" type="6038">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_b4mMERfMEeSBGZ2ipVWBmQ" x="-1" y="50"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_b4llARfMEeSBGZ2ipVWBmQ" fontName="Segoe UI"/>
+      <element xmi:type="uml:InstanceSpecification" href="PetstoreApplicationGAEDeployment.uml#_b4jIwBfMEeSBGZ2ipVWBmQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_b4llAhfMEeSBGZ2ipVWBmQ" points="[5, 9, -4, -146]$[5, 115, -4, -40]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_b4qdgBfMEeSBGZ2ipVWBmQ" id="(0.5020080321285141,0.9312977099236641)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_dDbVkBfOEeSBGZ2ipVWBmQ" type="4008" source="_ujmkkBfKEeSBGZ2ipVWBmQ" target="_wBp28BfKEeSBGZ2ipVWBmQ" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_dDcjsBfOEeSBGZ2ipVWBmQ" type="6026">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dDcjsRfOEeSBGZ2ipVWBmQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_dDcjshfOEeSBGZ2ipVWBmQ" type="6027">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dDdKwBfOEeSBGZ2ipVWBmQ" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_dDbVkRfOEeSBGZ2ipVWBmQ" fontName="Segoe UI"/>
+      <element xmi:type="uml:Deployment" href="PetstoreApplicationGAEDeployment.uml#_WO4foBfOEeSBGZ2ipVWBmQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dDbVkhfOEeSBGZ2ipVWBmQ" points="[5, -65, -10, 110]$[13, -158, -2, 17]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_dzhVwBfOEeSBGZ2ipVWBmQ" type="4008" source="_vQTSgBfKEeSBGZ2ipVWBmQ" target="_wQ1icBfKEeSBGZ2ipVWBmQ" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_dzh80BfOEeSBGZ2ipVWBmQ" type="6026">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dzh80RfOEeSBGZ2ipVWBmQ" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_dzij4BfOEeSBGZ2ipVWBmQ" type="6027">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dzij4RfOEeSBGZ2ipVWBmQ" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_dzhVwRfOEeSBGZ2ipVWBmQ" fontName="Segoe UI"/>
+      <element xmi:type="uml:Deployment" href="PetstoreApplicationGAEDeployment.uml#_XGtfgBfOEeSBGZ2ipVWBmQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dzhVwhfOEeSBGZ2ipVWBmQ" points="[-17, -65, 29, 111]$[-42, -158, 4, 18]"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>

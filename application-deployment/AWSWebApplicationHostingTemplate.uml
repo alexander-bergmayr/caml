@@ -38,6 +38,18 @@
             <type xmi:type="uml:DeploymentSpecification" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_M3QG4AsJEeOJxI3yGkc6zw"/>
           </value>
         </slot>
+        <slot xmi:id="_8_CQMBfGEeSBGZ2ipVWBmQ">
+          <definingFeature xmi:type="uml:Property" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_c73bLf3gEeKQb7onjNL6fQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_8_CQMRfGEeSBGZ2ipVWBmQ" name="InstanceValue0" instance="_mDGCgI5WEeONTvwTeuJZnA">
+            <type xmi:type="uml:Class" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_8jBY4Iy5EeOOGr6qMP3Q2w"/>
+          </value>
+        </slot>
+        <slot xmi:id="_8_C3QBfGEeSBGZ2ipVWBmQ">
+          <definingFeature xmi:type="uml:Property" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_c73bMP3gEeKQb7onjNL6fQ"/>
+          <value xmi:type="uml:InstanceValue" xmi:id="_8_C3QRfGEeSBGZ2ipVWBmQ" name="InstanceValue0" instance="_mDGCgI5WEeONTvwTeuJZnA">
+            <type xmi:type="uml:Class" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_8jBY4Iy5EeOOGr6qMP3Q2w"/>
+          </value>
+        </slot>
       </packagedElement>
       <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_F_2wgI5LEeOza5lRrrcUxA" clientDependency="_XaOD8BZmEeSAfqg24sfYug" name="cN2">
         <deployment xmi:id="_XaOD8BZmEeSAfqg24sfYug" client="_F_2wgI5LEeOza5lRrrcUxA" supplier="_VkTxYBZJEeSAfqg24sfYug" deployedArtifact="_VkTxYBZJEeSAfqg24sfYug"/>
@@ -198,10 +210,6 @@
         <eAnnotations xmi:id="_-IX_UBYwEeSAfqg24sfYug" source="InstanceEnd" references="_F_2wgI5LEeOza5lRrrcUxA _pHx6YBYwEeSAfqg24sfYug"/>
         <classifier xmi:type="uml:Association" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_iHg4gB7eEeO2xMtRObGBww"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_AqTJgBYxEeSAfqg24sfYug" name="InstanceSpecification13">
-        <eAnnotations xmi:id="_AqTJgRYxEeSAfqg24sfYug" source="InstanceEnd" references="_7mYbQY5KEeOza5lRrrcUxA _mDGCgI5WEeONTvwTeuJZnA"/>
-        <classifier xmi:type="uml:CommunicationPath" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_c73bNP3gEeKQb7onjNL6fQ"/>
-      </packagedElement>
       <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_CXfEEBYxEeSAfqg24sfYug" name="InstanceSpecification14">
         <eAnnotations xmi:id="_CXfrIBYxEeSAfqg24sfYug" source="InstanceEnd" references="_F_2wgI5LEeOza5lRrrcUxA _mDGCgI5WEeONTvwTeuJZnA"/>
         <classifier xmi:type="uml:CommunicationPath" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_c73bNP3gEeKQb7onjNL6fQ"/>
@@ -245,6 +253,10 @@
       </packagedElement>
       <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_XS2wgBaOEeSbsfOfQqh3Qg" name="data">
         <classifier xmi:type="uml:Artifact" href="platform:/plugin/eu.artist.migration.caml.operatingenvironments/umllibraries/webOperatingEnvironment.uml#_iXC-EBaLEeSTtJEvdWT__A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_8-_M4BfGEeSBGZ2ipVWBmQ" name="InstanceSpecification13">
+        <eAnnotations xmi:id="_8_BpIBfGEeSBGZ2ipVWBmQ" source="InstanceEnd" references="_7mYbQY5KEeOza5lRrrcUxA _mDGCgI5WEeONTvwTeuJZnA"/>
+        <classifier xmi:type="uml:CommunicationPath" href="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml#_c73bNP3gEeKQb7onjNL6fQ"/>
       </packagedElement>
     </packagedElement>
     <profileApplication xmi:id="_3Eh2II5JEeOza5lRrrcUxA">
