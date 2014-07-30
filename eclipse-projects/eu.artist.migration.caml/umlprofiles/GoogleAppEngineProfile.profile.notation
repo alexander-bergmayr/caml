@@ -1,120 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML">
-  <notation:Diagram xmi:id="_8p0moAQQEeOYP5GGYb_HuQ" type="PapyrusUMLProfileDiagram" name="CoreView" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_Llhw8AQREeOYP5GGYb_HuQ" type="1031" fontName="Segoe UI" lineColor="0">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LliYAAQREeOYP5GGYb_HuQ" source="ShadowFigure">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LliYAQQREeOYP5GGYb_HuQ" key="ShadowFigure_Value" value="false"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LliYAgQREeOYP5GGYb_HuQ" source="displayNameLabelIcon">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LliYAwQREeOYP5GGYb_HuQ" key="displayNameLabelIcon_value" value="false"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LliYBAQREeOYP5GGYb_HuQ" source="QualifiedName">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LliYBQQREeOYP5GGYb_HuQ" key="QualifiedNameDepth" value="1000"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Lli_EAQREeOYP5GGYb_HuQ" source="Stereotype_Annotation">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Lli_EQQREeOYP5GGYb_HuQ" key="StereotypeWithQualifiedNameList" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Lli_EgQREeOYP5GGYb_HuQ" key="StereotypeList" value="StandardProfileL2::Metaclass"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Lli_EwQREeOYP5GGYb_HuQ" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Lli_FAQREeOYP5GGYb_HuQ" key="PropStereoDisplay" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Lli_FQQREeOYP5GGYb_HuQ" key="StereotypePropertyLocation" value="Compartment"/>
-      </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_LliYBgQREeOYP5GGYb_HuQ" type="1084"/>
-      <element xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#InstanceSpecification"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LliYBwQREeOYP5GGYb_HuQ" x="110" y="25" width="137"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_xKRksAQREeOYP5GGYb_HuQ" type="1026" fontName="Segoe UI" lineColor="0">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xKSLwAQREeOYP5GGYb_HuQ" source="ShadowFigure">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xKSLwQQREeOYP5GGYb_HuQ" key="ShadowFigure_Value" value="false"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xKSLwgQREeOYP5GGYb_HuQ" source="displayNameLabelIcon">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xKSLwwQREeOYP5GGYb_HuQ" key="displayNameLabelIcon_value" value="false"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xKSLxAQREeOYP5GGYb_HuQ" source="QualifiedName">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xKSLxQQREeOYP5GGYb_HuQ" key="QualifiedNameDepth" value="1000"/>
-      </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_xKSLxgQREeOYP5GGYb_HuQ" type="1034"/>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_xKSLxwQREeOYP5GGYb_HuQ" type="1071">
-        <children xmi:type="notation:Shape" xmi:id="_NS-vQAQnEeOYP5GGYb_HuQ" type="3002" fontName="Segoe UI" lineColor="0">
-          <element xmi:type="uml:Property" href="GoogleAppEngineProfile.profile.uml#_NSdK0AQnEeOYP5GGYb_HuQ"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_NS-vQQQnEeOYP5GGYb_HuQ"/>
-        </children>
-        <styles xmi:type="notation:TitleStyle" xmi:id="_xKSLyAQREeOYP5GGYb_HuQ"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_xKSLyQQREeOYP5GGYb_HuQ"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_xKSLygQREeOYP5GGYb_HuQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xKSLywQREeOYP5GGYb_HuQ"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_xKSLzAQREeOYP5GGYb_HuQ" visible="false" type="1019">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_xKSLzQQREeOYP5GGYb_HuQ"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_xKSLzgQREeOYP5GGYb_HuQ"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_xKSLzwQREeOYP5GGYb_HuQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xKSL0AQREeOYP5GGYb_HuQ"/>
-      </children>
-      <element xmi:type="uml:Stereotype" href="GoogleAppEngineProfile.profile.uml#_xJ_Q0AQREeOYP5GGYb_HuQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xKRksQQREeOYP5GGYb_HuQ" x="95" y="120" width="181" height="66"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_2RMOoAQmEeOYP5GGYb_HuQ" type="2006" fontName="Segoe UI" lineColor="0">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2RM1sAQmEeOYP5GGYb_HuQ" source="ShadowFigure">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2RM1sQQmEeOYP5GGYb_HuQ" key="ShadowFigure_Value" value="false"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2RM1sgQmEeOYP5GGYb_HuQ" source="displayNameLabelIcon">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2RM1swQmEeOYP5GGYb_HuQ" key="displayNameLabelIcon_value" value="false"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2RM1tAQmEeOYP5GGYb_HuQ" source="QualifiedName">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2RM1tQQmEeOYP5GGYb_HuQ" key="QualifiedNameDepth" value="1000"/>
-      </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_2RM1tgQmEeOYP5GGYb_HuQ" type="5023"/>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_2RM1twQmEeOYP5GGYb_HuQ" type="1063">
-        <children xmi:type="notation:Shape" xmi:id="_GANsQAQnEeOYP5GGYb_HuQ" type="1037" fontName="Segoe UI" lineColor="0">
-          <element xmi:type="uml:EnumerationLiteral" href="GoogleAppEngineProfile.profile.uml#_F_7YYAQnEeOYP5GGYb_HuQ"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_GANsQQQnEeOYP5GGYb_HuQ"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_HuXQIAQnEeOYP5GGYb_HuQ" type="1037" fontName="Segoe UI" lineColor="0">
-          <element xmi:type="uml:EnumerationLiteral" href="GoogleAppEngineProfile.profile.uml#_Ht0dkAQnEeOYP5GGYb_HuQ"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_HuXQIQQnEeOYP5GGYb_HuQ"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_JrjVkAQnEeOYP5GGYb_HuQ" type="1037" fontName="Segoe UI" lineColor="0">
-          <element xmi:type="uml:EnumerationLiteral" href="GoogleAppEngineProfile.profile.uml#_JrMJMAQnEeOYP5GGYb_HuQ"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_JrjVkQQnEeOYP5GGYb_HuQ"/>
-        </children>
-        <styles xmi:type="notation:TitleStyle" xmi:id="_2RM1uAQmEeOYP5GGYb_HuQ"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_2RM1uQQmEeOYP5GGYb_HuQ"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_2RM1ugQmEeOYP5GGYb_HuQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2RM1uwQmEeOYP5GGYb_HuQ"/>
-      </children>
-      <element xmi:type="uml:Enumeration" href="GoogleAppEngineProfile.profile.uml#_2Q1pUAQmEeOYP5GGYb_HuQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2RMOoQQmEeOYP5GGYb_HuQ" x="125" y="200" width="112" height="89"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_fonSoJKZEeOqhc-mDCWgzg" type="1014" fontName="Segoe UI" lineColor="0">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fonSopKZEeOqhc-mDCWgzg" source="ShadowFigure">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fonSo5KZEeOqhc-mDCWgzg" key="ShadowFigure_Value" value="false"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fonSpJKZEeOqhc-mDCWgzg" source="displayNameLabelIcon">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fonSpZKZEeOqhc-mDCWgzg" key="displayNameLabelIcon_value" value="false"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fonSppKZEeOqhc-mDCWgzg" source="QualifiedName">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fonSp5KZEeOqhc-mDCWgzg" key="QualifiedNameDepth" value="1000"/>
-      </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_fonSqJKZEeOqhc-mDCWgzg" type="1015"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_fonSqZKZEeOqhc-mDCWgzg" type="5063"/>
-      <element xmi:type="uml:Constraint" href="GoogleAppEngineProfile.profile.uml#_fnR14JKZEeOqhc-mDCWgzg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fonSoZKZEeOqhc-mDCWgzg" x="325" y="120" width="291"/>
-    </children>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_8p0moQQQEeOYP5GGYb_HuQ"/>
-    <element xmi:type="uml:Profile" href="GoogleAppEngineProfile.profile.uml#_8pyKYAQQEeOYP5GGYb_HuQ"/>
-    <edges xmi:type="notation:Connector" xmi:id="_0K75UAQREeOYP5GGYb_HuQ" type="1013" source="_xKRksAQREeOYP5GGYb_HuQ" target="_Llhw8AQREeOYP5GGYb_HuQ" lineColor="0">
-      <styles xmi:type="notation:FontStyle" xmi:id="_0K75UQQREeOYP5GGYb_HuQ" fontName="Segoe UI"/>
-      <element xmi:type="uml:Extension" href="GoogleAppEngineProfile.profile.uml#_0KsBsAQREeOYP5GGYb_HuQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0K75UgQREeOYP5GGYb_HuQ" points="[24, 1, -194, -14]$[287, 15, 69, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0K9ugAQREeOYP5GGYb_HuQ" id="(0.4983388704318937,0.0989010989010989)"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_mrQO8JKZEeOqhc-mDCWgzg" type="8500" source="_fonSoJKZEeOqhc-mDCWgzg" target="_xKRksAQREeOYP5GGYb_HuQ" lineColor="0">
-      <styles xmi:type="notation:FontStyle" xmi:id="_mrQO8ZKZEeOqhc-mDCWgzg" fontName="Segoe UI"/>
-      <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mrQO8pKZEeOqhc-mDCWgzg" points="[-4, -1, 204, 30]$[-164, -40, 44, -9]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mrQO85KZEeOqhc-mDCWgzg" id="(0.04,0.23333333333333334)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mrQO9JKZEeOqhc-mDCWgzg" id="(0.8538205980066446,0.24691358024691357)"/>
-    </edges>
-  </notation:Diagram>
   <notation:Diagram xmi:id="_BrFTIAjJEeOpWq22bueY-w" type="PapyrusUMLProfileDiagram" name="ServicesView" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_KxO_UAjJEeOpWq22bueY-w" type="1026" fontName="Segoe UI" lineColor="0">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KxO_UgjJEeOpWq22bueY-w" source="ShadowFigure">
@@ -138,6 +23,10 @@
         <styles xmi:type="notation:SortingStyle" xmi:id="_KxYwUgjJEeOpWq22bueY-w"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_KxYwUwjJEeOpWq22bueY-w"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KxYwVAjJEeOpWq22bueY-w"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MFt_gOrlEeOPP6Ni2Il2Hw" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MFt_gerlEeOPP6Ni2Il2Hw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MFt_gurlEeOPP6Ni2Il2Hw"/>
       </children>
       <element xmi:type="uml:Stereotype" href="GoogleAppEngineProfile.profile.uml#_FecBcAQSEeOYP5GGYb_HuQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KxO_UQjJEeOpWq22bueY-w" x="125" y="210" height="46"/>
@@ -165,6 +54,10 @@
         <styles xmi:type="notation:FilteringStyle" xmi:id="_Mo2oTwjJEeOpWq22bueY-w"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mo2oUAjJEeOpWq22bueY-w"/>
       </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MFv0sOrlEeOPP6Ni2Il2Hw" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MFv0serlEeOPP6Ni2Il2Hw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MFv0surlEeOPP6Ni2Il2Hw"/>
+      </children>
       <element xmi:type="uml:Stereotype" href="GoogleAppEngineProfile.profile.uml#_MTB6sAQSEeOYP5GGYb_HuQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mos3QQjJEeOpWq22bueY-w" x="240" y="210" height="46"/>
     </children>
@@ -190,6 +83,10 @@
         <styles xmi:type="notation:SortingStyle" xmi:id="_M_dxgAjJEeOpWq22bueY-w"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_M_dxgQjJEeOpWq22bueY-w"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M_dxggjJEeOpWq22bueY-w"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MFxC0OrlEeOPP6Ni2Il2Hw" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MFxC0erlEeOPP6Ni2Il2Hw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MFxC0urlEeOPP6Ni2Il2Hw"/>
       </children>
       <element xmi:type="uml:Stereotype" href="GoogleAppEngineProfile.profile.uml#_PnKk8AQSEeOYP5GGYb_HuQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M_dxcQjJEeOpWq22bueY-w" x="355" y="210" height="46"/>
@@ -217,29 +114,12 @@
         <styles xmi:type="notation:FilteringStyle" xmi:id="_NTQQMAjJEeOpWq22bueY-w"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NTQQMQjJEeOpWq22bueY-w"/>
       </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MFxp4OrlEeOPP6Ni2Il2Hw" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MFyQ8OrlEeOPP6Ni2Il2Hw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MFyQ8erlEeOPP6Ni2Il2Hw"/>
+      </children>
       <element xmi:type="uml:Stereotype" href="GoogleAppEngineProfile.profile.uml#_SJ7coAQSEeOYP5GGYb_HuQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NTQQIAjJEeOpWq22bueY-w" x="6" y="209" height="47"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_RchLkAjJEeOpWq22bueY-w" type="1031" fontName="Segoe UI" lineColor="0">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RchLkgjJEeOpWq22bueY-w" source="ShadowFigure">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RchLkwjJEeOpWq22bueY-w" key="ShadowFigure_Value" value="false"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RchLlAjJEeOpWq22bueY-w" source="displayNameLabelIcon">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RchLlQjJEeOpWq22bueY-w" key="displayNameLabelIcon_value" value="false"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RchLlgjJEeOpWq22bueY-w" source="QualifiedName">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RchLlwjJEeOpWq22bueY-w" key="QualifiedNameDepth" value="1000"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RcqVhgjJEeOpWq22bueY-w" source="Stereotype_Annotation">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RcqVhwjJEeOpWq22bueY-w" key="StereotypeWithQualifiedNameList" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RcqViAjJEeOpWq22bueY-w" key="StereotypeList" value="StandardProfileL2::Metaclass"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RcqViQjJEeOpWq22bueY-w" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RcqVigjJEeOpWq22bueY-w" key="PropStereoDisplay" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RcqViwjJEeOpWq22bueY-w" key="StereotypePropertyLocation" value="Compartment"/>
-      </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_RchLmAjJEeOpWq22bueY-w" type="1084"/>
-      <element xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#InstanceSpecification"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RchLkQjJEeOpWq22bueY-w" x="210" y="10" width="126"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_TeitsAjJEeOpWq22bueY-w" type="1026" fontName="Segoe UI" lineColor="0">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TeitsgjJEeOpWq22bueY-w" source="ShadowFigure">
@@ -263,6 +143,10 @@
         <styles xmi:type="notation:SortingStyle" xmi:id="_TeitwAjJEeOpWq22bueY-w"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_TeitwQjJEeOpWq22bueY-w"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TeitwgjJEeOpWq22bueY-w"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MF17UOrlEeOPP6Ni2Il2Hw" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MF17UerlEeOPP6Ni2Il2Hw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MF17UurlEeOPP6Ni2Il2Hw"/>
       </children>
       <element xmi:type="uml:Stereotype" href="GoogleAppEngineProfile.profile.uml#__mn5gAQREeOYP5GGYb_HuQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TeitsQjJEeOpWq22bueY-w" x="210" y="105" width="142" height="54"/>
@@ -290,31 +174,45 @@
         <styles xmi:type="notation:FilteringStyle" xmi:id="_G7mBIR-fEeOn7_oz3ix5xA"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G7mBIh-fEeOn7_oz3ix5xA"/>
       </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MF3JcOrlEeOPP6Ni2Il2Hw" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MF3JcerlEeOPP6Ni2Il2Hw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MF3JcurlEeOPP6Ni2Il2Hw"/>
+      </children>
       <element xmi:type="uml:Stereotype" href="GoogleAppEngineProfile.profile.uml#_G7TGIB-fEeOn7_oz3ix5xA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G7mBER-fEeOn7_oz3ix5xA" x="460" y="210" width="107" height="46"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_m6mdEpKaEeOqhc-mDCWgzg" type="1014" fontName="Segoe UI" lineColor="0">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m6wOEJKaEeOqhc-mDCWgzg" source="ShadowFigure">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m6wOEZKaEeOqhc-mDCWgzg" key="ShadowFigure_Value" value="false"/>
+    <children xmi:type="notation:Shape" xmi:id="_YafSABfCEeStw5wN6HKV-g" type="1026" fontName="Segoe UI" fillColor="13948116" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YaggIBfCEeStw5wN6HKV-g" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YaggIRfCEeStw5wN6HKV-g" key="ShadowFigure_Value" value="false"/>
       </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m6wOEpKaEeOqhc-mDCWgzg" source="displayNameLabelIcon">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m6wOE5KaEeOqhc-mDCWgzg" key="displayNameLabelIcon_value" value="false"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YaggIhfCEeStw5wN6HKV-g" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YaggIxfCEeStw5wN6HKV-g" key="displayNameLabelIcon_value" value="false"/>
       </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m6wOFJKaEeOqhc-mDCWgzg" source="QualifiedName">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m6wOFZKaEeOqhc-mDCWgzg" key="QualifiedNameDepth" value="1000"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YaggJBfCEeStw5wN6HKV-g" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YaggJRfCEeStw5wN6HKV-g" key="QualifiedNameDepth" value="1000"/>
       </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_m6wOFpKaEeOqhc-mDCWgzg" type="1015"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_m6wOF5KaEeOqhc-mDCWgzg" type="5063"/>
-      <element xmi:type="uml:Constraint" href="GoogleAppEngineProfile.profile.uml#_m6mdEJKaEeOqhc-mDCWgzg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m6mdE5KaEeOqhc-mDCWgzg" x="460" y="90" width="291"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_YaggJhfCEeStw5wN6HKV-g" type="1034"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_YahHMBfCEeStw5wN6HKV-g" visible="false" type="1071">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_YahHMRfCEeStw5wN6HKV-g"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_YahHMhfCEeStw5wN6HKV-g"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_YahHMxfCEeStw5wN6HKV-g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YahHNBfCEeStw5wN6HKV-g"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_YahHNRfCEeStw5wN6HKV-g" visible="false" type="1019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_YahHNhfCEeStw5wN6HKV-g"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_YahHNxfCEeStw5wN6HKV-g"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_YahHOBfCEeStw5wN6HKV-g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YahHORfCEeStw5wN6HKV-g"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_Yaq4MBfCEeStw5wN6HKV-g" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_Yaq4MRfCEeStw5wN6HKV-g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Yaq4MhfCEeStw5wN6HKV-g"/>
+      </children>
+      <element xmi:type="uml:Stereotype" href="CommonCloudProfile.profile.uml#_naVUwBGIEeSRW7fIGev8nw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YafSARfCEeStw5wN6HKV-g" x="237" y="17" height="42"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_BrFTIQjJEeOpWq22bueY-w"/>
     <element xmi:type="uml:Profile" href="GoogleAppEngineProfile.profile.uml#_8pyKYAQQEeOYP5GGYb_HuQ"/>
-    <edges xmi:type="notation:Connector" xmi:id="_UdxWEAjJEeOpWq22bueY-w" type="1013" source="_TeitsAjJEeOpWq22bueY-w" target="_RchLkAjJEeOpWq22bueY-w" lineColor="0">
-      <styles xmi:type="notation:FontStyle" xmi:id="_UdxWEQjJEeOpWq22bueY-w" fontName="Segoe UI"/>
-      <element xmi:type="uml:Extension" href="GoogleAppEngineProfile.profile.uml#_CVsH0AQSEeOYP5GGYb_HuQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UdxWEgjJEeOpWq22bueY-w" points="[-17, -50, 37, 113]$[-46, -138, 8, 25]"/>
-    </edges>
     <edges xmi:type="notation:Connector" xmi:id="_gLvZEAjJEeOpWq22bueY-w" type="4002" source="_Mos3QAjJEeOpWq22bueY-w" target="_TeitsAjJEeOpWq22bueY-w" lineColor="0">
       <children xmi:type="notation:DecorationNode" xmi:id="_gLvZEwjJEeOpWq22bueY-w" visible="false" type="6007">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_gLvZFAjJEeOpWq22bueY-w" y="60"/>
@@ -359,83 +257,17 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QkGMYh-fEeOn7_oz3ix5xA" points="[-42, -23, 168, 92]$[-193, -115, 17, 0]"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QkPWUB-fEeOn7_oz3ix5xA" id="(0.83,0.5185185185185185)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_ohjz0JKaEeOqhc-mDCWgzg" type="8500" source="_m6mdEpKaEeOqhc-mDCWgzg" target="_TeitsAjJEeOpWq22bueY-w" lineColor="0">
-      <styles xmi:type="notation:FontStyle" xmi:id="_ohjz0ZKaEeOqhc-mDCWgzg" fontName="Segoe UI"/>
-      <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ohjz0pKaEeOqhc-mDCWgzg" points="[-4, 0, 184, -31]$[-167, 28, 21, -3]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ohs9wJKaEeOqhc-mDCWgzg" id="(0.04,0.2833333333333333)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ohs9wZKaEeOqhc-mDCWgzg" id="(0.852112676056338,0.37037037037037035)"/>
+    <edges xmi:type="notation:Connector" xmi:id="_bCen8BfCEeStw5wN6HKV-g" type="4002" source="_TeitsAjJEeOpWq22bueY-w" target="_YafSABfCEeStw5wN6HKV-g" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_bCf2EBfCEeStw5wN6HKV-g" visible="false" type="6007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bCgdIBfCEeStw5wN6HKV-g" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_bCen8RfCEeStw5wN6HKV-g" fontName="Segoe UI"/>
+      <element xmi:type="uml:Generalization" href="GoogleAppEngineProfile.profile.uml#_bCcywBfCEeStw5wN6HKV-g"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bCen8hfCEeStw5wN6HKV-g" points="[6, -3, -1, 67]$[6, -91, -1, -21]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bCpnEBfCEeStw5wN6HKV-g" id="(0.49295774647887325,0.05555555555555555)"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_Bdiw8AjKEeOpWq22bueY-w" type="PapyrusUMLProfileDiagram" name="InstancesView" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_YV5BsAjKEeOpWq22bueY-w" type="2006" fontName="Segoe UI" lineColor="0">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YV5BsgjKEeOpWq22bueY-w" source="ShadowFigure">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YV5BswjKEeOpWq22bueY-w" key="ShadowFigure_Value" value="false"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YV5BtAjKEeOpWq22bueY-w" source="displayNameLabelIcon">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YV5BtQjKEeOpWq22bueY-w" key="displayNameLabelIcon_value" value="false"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YV5BtgjKEeOpWq22bueY-w" source="QualifiedName">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YV5BtwjKEeOpWq22bueY-w" key="QualifiedNameDepth" value="1000"/>
-      </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_YV5BuAjKEeOpWq22bueY-w" type="5023"/>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_YV5BuQjKEeOpWq22bueY-w" type="1063">
-        <children xmi:type="notation:Shape" xmi:id="_ZJ9i8AjKEeOpWq22bueY-w" type="1037" fontName="Segoe UI" lineColor="0">
-          <element xmi:type="uml:EnumerationLiteral" href="GoogleAppEngineProfile.profile.uml#_FeXmoAQrEeOYP5GGYb_HuQ"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_ZJ9i8QjKEeOpWq22bueY-w" x="40" y="16"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_Z3ewQAjKEeOpWq22bueY-w" type="1037" fontName="Segoe UI" lineColor="0">
-          <element xmi:type="uml:EnumerationLiteral" href="GoogleAppEngineProfile.profile.uml#_HcXkYAQrEeOYP5GGYb_HuQ"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_Z3ewQQjKEeOpWq22bueY-w" x="32" y="57"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_aKhoEAjKEeOpWq22bueY-w" type="1037" fontName="Segoe UI" lineColor="0">
-          <element xmi:type="uml:EnumerationLiteral" href="GoogleAppEngineProfile.profile.uml#_Jfy0sAQrEeOYP5GGYb_HuQ"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_aKhoEQjKEeOpWq22bueY-w" x="24" y="62"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_abomMAjKEeOpWq22bueY-w" type="1037" fontName="Segoe UI" lineColor="0">
-          <element xmi:type="uml:EnumerationLiteral" href="GoogleAppEngineProfile.profile.uml#_O5A8IAQrEeOYP5GGYb_HuQ"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_abomMQjKEeOpWq22bueY-w" x="85" y="77"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_auOyEAjKEeOpWq22bueY-w" type="1037" fontName="Segoe UI" lineColor="0">
-          <element xmi:type="uml:EnumerationLiteral" href="GoogleAppEngineProfile.profile.uml#_Rr7IoAQrEeOYP5GGYb_HuQ"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_auOyEQjKEeOpWq22bueY-w" x="46" y="80"/>
-        </children>
-        <styles xmi:type="notation:TitleStyle" xmi:id="_YV5BugjKEeOpWq22bueY-w"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_YV5BuwjKEeOpWq22bueY-w"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_YV5BvAjKEeOpWq22bueY-w"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YV5BvQjKEeOpWq22bueY-w"/>
-      </children>
-      <element xmi:type="uml:Enumeration" href="GoogleAppEngineProfile.profile.uml#_4ctHIAQqEeOYP5GGYb_HuQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YV5BsQjKEeOpWq22bueY-w" x="365" y="290" width="131" height="116"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_87S4UAjKEeOpWq22bueY-w" type="2006" fontName="Segoe UI" lineColor="0">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_87cCQAjKEeOpWq22bueY-w" source="ShadowFigure">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_87cCQQjKEeOpWq22bueY-w" key="ShadowFigure_Value" value="false"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_87cCQgjKEeOpWq22bueY-w" source="displayNameLabelIcon">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_87cCQwjKEeOpWq22bueY-w" key="displayNameLabelIcon_value" value="false"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_87cCRAjKEeOpWq22bueY-w" source="QualifiedName">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_87cCRQjKEeOpWq22bueY-w" key="QualifiedNameDepth" value="1000"/>
-      </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_87cCRgjKEeOpWq22bueY-w" type="5023"/>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_87cCRwjKEeOpWq22bueY-w" type="1063">
-        <children xmi:type="notation:Shape" xmi:id="_-N3TcAjKEeOpWq22bueY-w" type="1037" fontName="Segoe UI" lineColor="0">
-          <element xmi:type="uml:EnumerationLiteral" href="GoogleAppEngineProfile.profile.uml#_xn_ZcAQnEeOYP5GGYb_HuQ"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_-N3TcQjKEeOpWq22bueY-w" x="43" y="20"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_-do00AjKEeOpWq22bueY-w" type="1037" fontName="Segoe UI" lineColor="0">
-          <element xmi:type="uml:EnumerationLiteral" href="GoogleAppEngineProfile.profile.uml#_z8-64AQnEeOYP5GGYb_HuQ"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_-do00QjKEeOpWq22bueY-w" x="85" y="39"/>
-        </children>
-        <styles xmi:type="notation:TitleStyle" xmi:id="_87cCSAjKEeOpWq22bueY-w"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_87cCSQjKEeOpWq22bueY-w"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_87cCSgjKEeOpWq22bueY-w"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_87cCSwjKEeOpWq22bueY-w"/>
-      </children>
-      <element xmi:type="uml:Enumeration" href="GoogleAppEngineProfile.profile.uml#_vY_yUAQnEeOYP5GGYb_HuQ"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_87S4UQjKEeOpWq22bueY-w" x="580" y="325" width="151" height="71"/>
-    </children>
     <children xmi:type="notation:Shape" xmi:id="__VvLsZKZEeOqhc-mDCWgzg" type="1026" fontName="Segoe UI" lineColor="0">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__VvLs5KZEeOqhc-mDCWgzg" source="ShadowFigure">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__VvLtJKZEeOqhc-mDCWgzg" key="ShadowFigure_Value" value="false"/>
@@ -452,10 +284,6 @@
           <element xmi:type="uml:Property" href="GoogleAppEngineProfile.profile.uml#_EFJacAjMEeOpWq22bueY-w"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_T5C3sZKaEeOqhc-mDCWgzg" x="111" y="18"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_gRoTEZKcEeOqhc-mDCWgzg" type="3002" fontName="Segoe UI" lineColor="0">
-          <element xmi:type="uml:Property" href="GoogleAppEngineProfile.profile.uml#_gRoTEJKcEeOqhc-mDCWgzg"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_gRoTEpKcEeOqhc-mDCWgzg"/>
-        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="__V48sZKZEeOqhc-mDCWgzg"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="__V48spKZEeOqhc-mDCWgzg"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="__V48s5KZEeOqhc-mDCWgzg"/>
@@ -467,8 +295,12 @@
         <styles xmi:type="notation:FilteringStyle" xmi:id="__V48uJKZEeOqhc-mDCWgzg"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="__V48uZKZEeOqhc-mDCWgzg"/>
       </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MEG18OrlEeOPP6Ni2Il2Hw" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MEG18erlEeOPP6Ni2Il2Hw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MEG18urlEeOPP6Ni2Il2Hw"/>
+      </children>
       <element xmi:type="uml:Stereotype" href="GoogleAppEngineProfile.profile.uml#__VvLsJKZEeOqhc-mDCWgzg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__VvLspKZEeOqhc-mDCWgzg" x="165" y="90" width="304" height="69"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__VvLspKZEeOqhc-mDCWgzg" x="165" y="112" width="304" height="69"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_H6QxgJKaEeOqhc-mDCWgzg" type="2006" fontName="Segoe UI" lineColor="0">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_H6QxgpKaEeOqhc-mDCWgzg" source="ShadowFigure">
@@ -503,23 +335,12 @@
         <styles xmi:type="notation:FilteringStyle" xmi:id="_H6QxjJKaEeOqhc-mDCWgzg"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H6QxjZKaEeOqhc-mDCWgzg"/>
       </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MEIEEOrlEeOPP6Ni2Il2Hw" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MEIEEerlEeOPP6Ni2Il2Hw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MEIEEurlEeOPP6Ni2Il2Hw"/>
+      </children>
       <element xmi:type="uml:Enumeration" href="GoogleAppEngineProfile.profile.uml#_rzKdQAjLEeOpWq22bueY-w"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H6QxgZKaEeOqhc-mDCWgzg" x="580" y="200"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_WsUQkpKaEeOqhc-mDCWgzg" type="1014" fontName="Segoe UI" lineColor="0">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WsUQlJKaEeOqhc-mDCWgzg" source="ShadowFigure">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WsUQlZKaEeOqhc-mDCWgzg" key="ShadowFigure_Value" value="false"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WsUQlpKaEeOqhc-mDCWgzg" source="displayNameLabelIcon">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WsUQl5KaEeOqhc-mDCWgzg" key="displayNameLabelIcon_value" value="false"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WsUQmJKaEeOqhc-mDCWgzg" source="QualifiedName">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WsUQmZKaEeOqhc-mDCWgzg" key="QualifiedNameDepth" value="1000"/>
-      </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_WsUQmpKaEeOqhc-mDCWgzg" type="1015"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_WsUQm5KaEeOqhc-mDCWgzg" type="5063"/>
-      <element xmi:type="uml:Constraint" href="GoogleAppEngineProfile.profile.uml#_WsUQkJKaEeOqhc-mDCWgzg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WsUQk5KaEeOqhc-mDCWgzg" x="585" y="95" width="291"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H6QxgZKaEeOqhc-mDCWgzg" x="580" y="222" width="148"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_naXQUZKcEeOqhc-mDCWgzg" type="1026" fontName="Segoe UI" lineColor="0">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_naXQU5KcEeOqhc-mDCWgzg" source="ShadowFigure">
@@ -531,12 +352,15 @@
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_naXQV5KcEeOqhc-mDCWgzg" source="QualifiedName">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_naXQWJKcEeOqhc-mDCWgzg" key="QualifiedNameDepth" value="1000"/>
       </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vb34EBfEEeStw5wN6HKV-g" source="Stereotype_Annotation">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LS6QYBfFEeStw5wN6HKV-g" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LS63cBfFEeStw5wN6HKV-g" key="StereotypeList" value="Performance::GeneralPurposeInstance,Pricing::RunningCosts"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LS63cRfFEeStw5wN6HKV-g" key="PropStereoDisplay" value="Performance::GeneralPurposeInstance.CPU,Performance::GeneralPurposeInstance.memory,Pricing::RunningCosts.value,Pricing::RunningCosts.currency,Pricing::RunningCosts.metric"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LS63chfFEeStw5wN6HKV-g" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LS63cxfFEeStw5wN6HKV-g" key="StereotypePropertyLocation" value="Compartment"/>
+      </eAnnotations>
       <children xmi:type="notation:DecorationNode" xmi:id="_naXQWZKcEeOqhc-mDCWgzg" type="1034"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_naXQWpKcEeOqhc-mDCWgzg" type="1071">
-        <children xmi:type="notation:Shape" xmi:id="_T70XgZKdEeOqhc-mDCWgzg" type="3002" fontName="Segoe UI" lineColor="0">
-          <element xmi:type="uml:Property" href="GoogleAppEngineProfile.profile.uml#_T70XgJKdEeOqhc-mDCWgzg"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_T70XgpKdEeOqhc-mDCWgzg"/>
-        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_naXQW5KcEeOqhc-mDCWgzg"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_naXQXJKcEeOqhc-mDCWgzg"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_naXQXZKcEeOqhc-mDCWgzg"/>
@@ -548,8 +372,12 @@
         <styles xmi:type="notation:FilteringStyle" xmi:id="_naXQYpKcEeOqhc-mDCWgzg"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_naXQY5KcEeOqhc-mDCWgzg"/>
       </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MEKgUOrlEeOPP6Ni2Il2Hw" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MEKgUerlEeOPP6Ni2Il2Hw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MEKgUurlEeOPP6Ni2Il2Hw"/>
+      </children>
       <element xmi:type="uml:Stereotype" href="GoogleAppEngineProfile.profile.uml#_naXQUJKcEeOqhc-mDCWgzg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_naXQUpKcEeOqhc-mDCWgzg" x="310" y="205" width="236" height="66"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_naXQUpKcEeOqhc-mDCWgzg" x="310" y="227" width="236" height="170"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_qhk44JKcEeOqhc-mDCWgzg" type="1026" fontName="Segoe UI" lineColor="0">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qhk44pKcEeOqhc-mDCWgzg" source="ShadowFigure">
@@ -561,12 +389,15 @@
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qhk45pKcEeOqhc-mDCWgzg" source="QualifiedName">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qhk455KcEeOqhc-mDCWgzg" key="QualifiedNameDepth" value="1000"/>
       </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dg5iEBfEEeStw5wN6HKV-g" source="Stereotype_Annotation">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KaI1UBfFEeStw5wN6HKV-g" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KaI1URfFEeStw5wN6HKV-g" key="StereotypeList" value="Performance::GeneralPurposeInstance,Pricing::RunningCosts"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KaI1UhfFEeStw5wN6HKV-g" key="PropStereoDisplay" value="Performance::GeneralPurposeInstance.CPU,Performance::GeneralPurposeInstance.memory,Pricing::RunningCosts.value,Pricing::RunningCosts.currency,Pricing::RunningCosts.metric"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KaI1UxfFEeStw5wN6HKV-g" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KaI1VBfFEeStw5wN6HKV-g" key="StereotypePropertyLocation" value="Compartment"/>
+      </eAnnotations>
       <children xmi:type="notation:DecorationNode" xmi:id="_qhk46JKcEeOqhc-mDCWgzg" type="1034"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_qhk46ZKcEeOqhc-mDCWgzg" type="1071">
-        <children xmi:type="notation:Shape" xmi:id="_FLQtQZKdEeOqhc-mDCWgzg" type="3002" fontName="Segoe UI" lineColor="0">
-          <element xmi:type="uml:Property" href="GoogleAppEngineProfile.profile.uml#_FLQtQJKdEeOqhc-mDCWgzg"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_FLQtQpKdEeOqhc-mDCWgzg"/>
-        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_qhk46pKcEeOqhc-mDCWgzg"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_qhk465KcEeOqhc-mDCWgzg"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_qhk47JKcEeOqhc-mDCWgzg"/>
@@ -578,75 +409,45 @@
         <styles xmi:type="notation:FilteringStyle" xmi:id="_qhk48ZKcEeOqhc-mDCWgzg"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qhk48pKcEeOqhc-mDCWgzg"/>
       </children>
-      <element xmi:type="uml:Stereotype" href="GoogleAppEngineProfile.profile.uml#_qhbH4JKcEeOqhc-mDCWgzg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qhk44ZKcEeOqhc-mDCWgzg" x="40" y="205" width="242" height="67"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_4XEpEJKcEeOqhc-mDCWgzg" type="2006" fontName="Segoe UI" lineColor="0">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4XEpEpKcEeOqhc-mDCWgzg" source="ShadowFigure">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4XEpE5KcEeOqhc-mDCWgzg" key="ShadowFigure_Value" value="false"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4XEpFJKcEeOqhc-mDCWgzg" source="displayNameLabelIcon">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4XEpFZKcEeOqhc-mDCWgzg" key="displayNameLabelIcon_value" value="false"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4XEpFpKcEeOqhc-mDCWgzg" source="QualifiedName">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4XEpF5KcEeOqhc-mDCWgzg" key="QualifiedNameDepth" value="1000"/>
-      </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_4XEpGJKcEeOqhc-mDCWgzg" type="5023"/>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_4XEpGZKcEeOqhc-mDCWgzg" type="1063">
-        <children xmi:type="notation:Shape" xmi:id="_7jC10ZKcEeOqhc-mDCWgzg" type="1037" fontName="Segoe UI" lineColor="0">
-          <element xmi:type="uml:EnumerationLiteral" href="GoogleAppEngineProfile.profile.uml#_7jC10JKcEeOqhc-mDCWgzg"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_7jC10pKcEeOqhc-mDCWgzg"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_-JON4ZKcEeOqhc-mDCWgzg" type="1037" fontName="Segoe UI" lineColor="0">
-          <element xmi:type="uml:EnumerationLiteral" href="GoogleAppEngineProfile.profile.uml#_-JON4JKcEeOqhc-mDCWgzg"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_-JON4pKcEeOqhc-mDCWgzg"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="__bDCIZKcEeOqhc-mDCWgzg" type="1037" fontName="Segoe UI" lineColor="0">
-          <element xmi:type="uml:EnumerationLiteral" href="GoogleAppEngineProfile.profile.uml#__bDCIJKcEeOqhc-mDCWgzg"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="__bDCIpKcEeOqhc-mDCWgzg"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_ArFtsZKdEeOqhc-mDCWgzg" type="1037" fontName="Segoe UI" lineColor="0">
-          <element xmi:type="uml:EnumerationLiteral" href="GoogleAppEngineProfile.profile.uml#_ArFtsJKdEeOqhc-mDCWgzg"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_ArFtspKdEeOqhc-mDCWgzg"/>
-        </children>
-        <styles xmi:type="notation:TitleStyle" xmi:id="_4XEpGpKcEeOqhc-mDCWgzg"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_4XEpG5KcEeOqhc-mDCWgzg"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_4XEpHJKcEeOqhc-mDCWgzg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4XEpHZKcEeOqhc-mDCWgzg"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MEMVgOrlEeOPP6Ni2Il2Hw" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MEMVgerlEeOPP6Ni2Il2Hw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MEMVgurlEeOPP6Ni2Il2Hw"/>
       </children>
-      <element xmi:type="uml:Enumeration" href="GoogleAppEngineProfile.profile.uml#_4W64EJKcEeOqhc-mDCWgzg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4XEpEZKcEeOqhc-mDCWgzg" x="85" y="285" width="130" height="101"/>
+      <element xmi:type="uml:Stereotype" href="GoogleAppEngineProfile.profile.uml#_qhbH4JKcEeOqhc-mDCWgzg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qhk44ZKcEeOqhc-mDCWgzg" x="40" y="227" width="242" height="169"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_1vI2IJKfEeOqhc-mDCWgzg" type="1031" fontName="Segoe UI" lineColor="0">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1vI2IpKfEeOqhc-mDCWgzg" source="ShadowFigure">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1vI2I5KfEeOqhc-mDCWgzg" key="ShadowFigure_Value" value="false"/>
+    <children xmi:type="notation:Shape" xmi:id="_MfrF0BfCEeStw5wN6HKV-g" type="1026" fontName="Segoe UI" fillColor="13948116" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Mfs7ABfCEeStw5wN6HKV-g" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Mfs7ARfCEeStw5wN6HKV-g" key="ShadowFigure_Value" value="false"/>
       </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1vI2JJKfEeOqhc-mDCWgzg" source="displayNameLabelIcon">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1vI2JZKfEeOqhc-mDCWgzg" key="displayNameLabelIcon_value" value="false"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Mfs7AhfCEeStw5wN6HKV-g" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Mfs7AxfCEeStw5wN6HKV-g" key="displayNameLabelIcon_value" value="false"/>
       </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1vI2JpKfEeOqhc-mDCWgzg" source="QualifiedName">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1vI2J5KfEeOqhc-mDCWgzg" key="QualifiedNameDepth" value="1000"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Mfs7BBfCEeStw5wN6HKV-g" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Mfs7BRfCEeStw5wN6HKV-g" key="QualifiedNameDepth" value="1000"/>
       </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1vI2KpKfEeOqhc-mDCWgzg" source="Stereotype_Annotation">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1vI2K5KfEeOqhc-mDCWgzg" key="StereotypeWithQualifiedNameList" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1vI2LJKfEeOqhc-mDCWgzg" key="StereotypeList" value="StandardProfileL2::Metaclass"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1vI2LZKfEeOqhc-mDCWgzg" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1vI2LpKfEeOqhc-mDCWgzg" key="PropStereoDisplay" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1vI2L5KfEeOqhc-mDCWgzg" key="StereotypePropertyLocation" value="Compartment"/>
-      </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_1vI2KJKfEeOqhc-mDCWgzg" type="1084"/>
-      <element xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#InstanceSpecification"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1vI2KZKfEeOqhc-mDCWgzg" x="270" width="151"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_MftiEBfCEeStw5wN6HKV-g" type="1034"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MftiERfCEeStw5wN6HKV-g" visible="false" type="1071">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MftiEhfCEeStw5wN6HKV-g"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_MftiExfCEeStw5wN6HKV-g"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_MftiFBfCEeStw5wN6HKV-g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MftiFRfCEeStw5wN6HKV-g"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MftiFhfCEeStw5wN6HKV-g" visible="false" type="1019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MftiFxfCEeStw5wN6HKV-g"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_MftiGBfCEeStw5wN6HKV-g"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_MftiGRfCEeStw5wN6HKV-g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MftiGhfCEeStw5wN6HKV-g"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MfzosBfCEeStw5wN6HKV-g" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MfzosRfCEeStw5wN6HKV-g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MfzoshfCEeStw5wN6HKV-g"/>
+      </children>
+      <element xmi:type="uml:Stereotype" href="CommonCloudProfile.profile.uml#_QUXewBGIEeSRW7fIGev8nw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MfrF0RfCEeStw5wN6HKV-g" x="274" y="17" width="114" height="52"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_Bdiw8QjKEeOpWq22bueY-w"/>
     <element xmi:type="uml:Profile" href="GoogleAppEngineProfile.profile.uml#_8pyKYAQQEeOYP5GGYb_HuQ"/>
-    <edges xmi:type="notation:Connector" xmi:id="_YQSkwJKaEeOqhc-mDCWgzg" type="8500" source="_WsUQkpKaEeOqhc-mDCWgzg" target="__VvLsZKZEeOqhc-mDCWgzg" lineColor="0">
-      <styles xmi:type="notation:FontStyle" xmi:id="_YQSkwZKaEeOqhc-mDCWgzg" fontName="Segoe UI"/>
-      <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YQSkwpKaEeOqhc-mDCWgzg" points="[-15, -3, 204, 34]$[-203, -39, 16, -2]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YQcVwJKaEeOqhc-mDCWgzg" id="(0.15,0.6333333333333333)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YQcVwZKaEeOqhc-mDCWgzg" id="(0.9473684210526315,0.2898550724637681)"/>
-    </edges>
     <edges xmi:type="notation:Connector" xmi:id="_uWvzoJKcEeOqhc-mDCWgzg" type="4002" source="_naXQUZKcEeOqhc-mDCWgzg" target="__VvLsZKZEeOqhc-mDCWgzg" lineColor="0">
       <children xmi:type="notation:DecorationNode" xmi:id="_uWvzo5KcEeOqhc-mDCWgzg" visible="false" type="6007">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_uWvzpJKcEeOqhc-mDCWgzg" x="-111" y="-108"/>
@@ -664,35 +465,17 @@
       <element xmi:type="uml:Generalization" href="GoogleAppEngineProfile.profile.uml#_vJe4IJKcEeOqhc-mDCWgzg"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vJe4I5KcEeOqhc-mDCWgzg" points="[-13, -33, 81, 111]$[10, -109, 104, 35]"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_2vaAUJKfEeOqhc-mDCWgzg" type="1013" source="__VvLsZKZEeOqhc-mDCWgzg" target="_1vI2IJKfEeOqhc-mDCWgzg" lineColor="0">
-      <styles xmi:type="notation:FontStyle" xmi:id="_2vaAUZKfEeOqhc-mDCWgzg" fontName="Segoe UI"/>
-      <element xmi:type="uml:Extension" href="GoogleAppEngineProfile.profile.uml#_2vQ2YZKfEeOqhc-mDCWgzg"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2vaAUpKfEeOqhc-mDCWgzg" points="[0, -14, -10, 50]$[-46, -56, -56, 8]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2vjxUJKfEeOqhc-mDCWgzg" id="(0.6447368421052632,0.2028985507246377)"/>
+    <edges xmi:type="notation:Connector" xmi:id="_PBh-kBfCEeStw5wN6HKV-g" type="4002" source="__VvLsZKZEeOqhc-mDCWgzg" target="_MfrF0BfCEeStw5wN6HKV-g" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_PBiloBfCEeStw5wN6HKV-g" visible="false" type="6007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_PBiloRfCEeStw5wN6HKV-g" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_PBh-kRfCEeStw5wN6HKV-g" fontName="Segoe UI"/>
+      <element xmi:type="uml:Generalization" href="GoogleAppEngineProfile.profile.uml#_PBFSoBfCEeStw5wN6HKV-g"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PBh-khfCEeStw5wN6HKV-g" points="[1, -6, -6, 69]$[1, -101, -6, -26]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PBosQBfCEeStw5wN6HKV-g" id="(0.5230263157894737,0.08695652173913043)"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_GP2pYAjKEeOpWq22bueY-w" type="PapyrusUMLProfileDiagram" name="StorageView" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_U7h-MAjLEeOpWq22bueY-w" type="1031" fontName="Segoe UI" lineColor="0">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_U7h-MgjLEeOpWq22bueY-w" source="ShadowFigure">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U7h-MwjLEeOpWq22bueY-w" key="ShadowFigure_Value" value="false"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_U7h-NAjLEeOpWq22bueY-w" source="displayNameLabelIcon">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U7h-NQjLEeOpWq22bueY-w" key="displayNameLabelIcon_value" value="false"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_U7h-NgjLEeOpWq22bueY-w" source="QualifiedName">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U7h-NwjLEeOpWq22bueY-w" key="QualifiedNameDepth" value="1000"/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_U705IAjLEeOpWq22bueY-w" source="Stereotype_Annotation">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U705IQjLEeOpWq22bueY-w" key="StereotypeWithQualifiedNameList" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U705IgjLEeOpWq22bueY-w" key="StereotypeList" value="StandardProfileL2::Metaclass"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U705IwjLEeOpWq22bueY-w" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U705JAjLEeOpWq22bueY-w" key="PropStereoDisplay" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U705JQjLEeOpWq22bueY-w" key="StereotypePropertyLocation" value="Compartment"/>
-      </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_U7h-OAjLEeOpWq22bueY-w" type="1084"/>
-      <element xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#InstanceSpecification"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U7h-MQjLEeOpWq22bueY-w" x="210" y="15" width="155"/>
-    </children>
     <children xmi:type="notation:Shape" xmi:id="_WzJAEAjLEeOpWq22bueY-w" type="1026" fontName="Segoe UI" lineColor="0">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WzJAEgjLEeOpWq22bueY-w" source="ShadowFigure">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WzJAEwjLEeOpWq22bueY-w" key="ShadowFigure_Value" value="false"/>
@@ -720,6 +503,10 @@
         <styles xmi:type="notation:FilteringStyle" xmi:id="_WzJAIQjLEeOpWq22bueY-w"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WzJAIgjLEeOpWq22bueY-w"/>
       </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MHMmMOrlEeOPP6Ni2Il2Hw" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MHMmMerlEeOPP6Ni2Il2Hw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MHMmMurlEeOPP6Ni2Il2Hw"/>
+      </children>
       <element xmi:type="uml:Stereotype" href="GoogleAppEngineProfile.profile.uml#_W0g6cAQoEeOYP5GGYb_HuQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WzJAEQjLEeOpWq22bueY-w" x="4" y="192" width="211" height="61"/>
     </children>
@@ -746,6 +533,10 @@
         <styles xmi:type="notation:FilteringStyle" xmi:id="_gnc9XwjMEeOpWq22bueY-w"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gndkYAjMEeOpWq22bueY-w"/>
       </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MHN0UOrlEeOPP6Ni2Il2Hw" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MHN0UerlEeOPP6Ni2Il2Hw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MHN0UurlEeOPP6Ni2Il2Hw"/>
+      </children>
       <element xmi:type="uml:Stereotype" href="GoogleAppEngineProfile.profile.uml#_gm48oAjMEeOpWq22bueY-w"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gncWQQjMEeOpWq22bueY-w" x="229" y="192" width="120" height="46"/>
     </children>
@@ -771,6 +562,10 @@
         <styles xmi:type="notation:SortingStyle" xmi:id="_vIRifgjMEeOpWq22bueY-w"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_vIRifwjMEeOpWq22bueY-w"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vIRigAjMEeOpWq22bueY-w"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MHPCcOrlEeOPP6Ni2Il2Hw" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MHPCcerlEeOPP6Ni2Il2Hw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MHPCcurlEeOPP6Ni2Il2Hw"/>
       </children>
       <element xmi:type="uml:Stereotype" href="GoogleAppEngineProfile.profile.uml#_vHwlEAjMEeOpWq22bueY-w"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vIQ7YQjMEeOpWq22bueY-w" x="359" y="192" width="136" height="46"/>
@@ -812,6 +607,10 @@
         <styles xmi:type="notation:FilteringStyle" xmi:id="_fQzeDAjNEeOpWq22bueY-w"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fQzeDQjNEeOpWq22bueY-w"/>
       </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MHQQkOrlEeOPP6Ni2Il2Hw" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MHQQkerlEeOPP6Ni2Il2Hw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MHQQkurlEeOPP6Ni2Il2Hw"/>
+      </children>
       <element xmi:type="uml:Enumeration" href="GoogleAppEngineProfile.profile.uml#_fQgjEAjNEeOpWq22bueY-w"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fQzeAQjNEeOpWq22bueY-w" x="14" y="17" width="136" height="114"/>
     </children>
@@ -838,32 +637,45 @@
         <styles xmi:type="notation:FilteringStyle" xmi:id="_aK43iyBPEeOjPJ3_Uk0aqQ"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aK43jCBPEeOjPJ3_Uk0aqQ"/>
       </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MHResOrlEeOPP6Ni2Il2Hw" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MHReserlEeOPP6Ni2Il2Hw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MHResurlEeOPP6Ni2Il2Hw"/>
+      </children>
       <element xmi:type="uml:Stereotype" href="GoogleAppEngineProfile.profile.uml#_aKaWYCBPEeOjPJ3_Uk0aqQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aKyw4SBPEeOjPJ3_Uk0aqQ" x="199" y="102" width="160" height="48"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_4riIEpKaEeOqhc-mDCWgzg" type="1014" fontName="Segoe UI" lineColor="0">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4riIFJKaEeOqhc-mDCWgzg" source="ShadowFigure">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4riIFZKaEeOqhc-mDCWgzg" key="ShadowFigure_Value" value="false"/>
+    <children xmi:type="notation:Shape" xmi:id="_jkgTYBfCEeStw5wN6HKV-g" type="1026" fontName="Segoe UI" fillColor="13948116" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jkg6cBfCEeStw5wN6HKV-g" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jkg6cRfCEeStw5wN6HKV-g" key="ShadowFigure_Value" value="false"/>
       </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4riIFpKaEeOqhc-mDCWgzg" source="displayNameLabelIcon">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4riIF5KaEeOqhc-mDCWgzg" key="displayNameLabelIcon_value" value="false"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jkhhgBfCEeStw5wN6HKV-g" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jkhhgRfCEeStw5wN6HKV-g" key="displayNameLabelIcon_value" value="false"/>
       </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4riIGJKaEeOqhc-mDCWgzg" source="QualifiedName">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4riIGZKaEeOqhc-mDCWgzg" key="QualifiedNameDepth" value="1000"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jkhhghfCEeStw5wN6HKV-g" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jkhhgxfCEeStw5wN6HKV-g" key="QualifiedNameDepth" value="1000"/>
       </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_4riIGpKaEeOqhc-mDCWgzg" type="1015"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_4riIG5KaEeOqhc-mDCWgzg" type="5063"/>
-      <element xmi:type="uml:Constraint" href="GoogleAppEngineProfile.profile.uml#_4riIEJKaEeOqhc-mDCWgzg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4riIE5KaEeOqhc-mDCWgzg" x="501" y="105" width="290"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_jkhhhBfCEeStw5wN6HKV-g" type="1034"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_jkhhhRfCEeStw5wN6HKV-g" visible="false" type="1071">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_jkhhhhfCEeStw5wN6HKV-g"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_jkhhhxfCEeStw5wN6HKV-g"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_jkhhiBfCEeStw5wN6HKV-g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jkhhiRfCEeStw5wN6HKV-g"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_jkiIkBfCEeStw5wN6HKV-g" visible="false" type="1019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_jkiIkRfCEeStw5wN6HKV-g"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_jkiIkhfCEeStw5wN6HKV-g"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_jkiIkxfCEeStw5wN6HKV-g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jkiIlBfCEeStw5wN6HKV-g"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_jktHsBfCEeStw5wN6HKV-g" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_jktHsRfCEeStw5wN6HKV-g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jktHshfCEeStw5wN6HKV-g"/>
+      </children>
+      <element xmi:type="uml:Stereotype" href="CommonCloudProfile.profile.uml#_j-2sYBGIEeSRW7fIGev8nw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jkgTYRfCEeStw5wN6HKV-g" x="231" y="14" height="43"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_GP2pYQjKEeOpWq22bueY-w"/>
     <element xmi:type="uml:Profile" href="GoogleAppEngineProfile.profile.uml#_8pyKYAQQEeOYP5GGYb_HuQ"/>
-    <edges xmi:type="notation:Connector" xmi:id="_ei-5ICBPEeOjPJ3_Uk0aqQ" type="1013" source="_aKyw4CBPEeOjPJ3_Uk0aqQ" target="_U7h-MAjLEeOpWq22bueY-w" lineColor="0">
-      <styles xmi:type="notation:FontStyle" xmi:id="_ei-5ISBPEeOjPJ3_Uk0aqQ" fontName="Segoe UI"/>
-      <element xmi:type="uml:Extension" href="GoogleAppEngineProfile.profile.uml#_eislQCBPEeOjPJ3_Uk0aqQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ei-5IiBPEeOjPJ3_Uk0aqQ" points="[-3, -7, -15, 62]$[-65, -67, -77, 2]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ei-5IyBPEeOjPJ3_Uk0aqQ" id="(0.475,0.14583333333333334)"/>
-    </edges>
     <edges xmi:type="notation:Connector" xmi:id="_fNhD4CBPEeOjPJ3_Uk0aqQ" type="4002" source="_WzJAEAjLEeOpWq22bueY-w" target="_aKyw4CBPEeOjPJ3_Uk0aqQ" lineColor="0">
       <children xmi:type="notation:DecorationNode" xmi:id="_fNhD4yBPEeOjPJ3_Uk0aqQ" visible="false" type="6007">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_fNhD5CBPEeOjPJ3_Uk0aqQ" x="6" y="153"/>
@@ -889,12 +701,14 @@
       <element xmi:type="uml:Generalization" href="GoogleAppEngineProfile.profile.uml#_gbVh4CBPEeOjPJ3_Uk0aqQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gbhvIiBPEeOjPJ3_Uk0aqQ" points="[-30, -23, 118, 66]$[-68, -90, 80, -1]"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_5jnmoJKaEeOqhc-mDCWgzg" type="8500" source="_4riIEpKaEeOqhc-mDCWgzg" target="_aKyw4CBPEeOjPJ3_Uk0aqQ" lineColor="0">
-      <styles xmi:type="notation:FontStyle" xmi:id="_5jnmoZKaEeOqhc-mDCWgzg" fontName="Segoe UI"/>
-      <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5jnmopKaEeOqhc-mDCWgzg" points="[-3, -6, 174, 0]$[-145, -12, 32, -6]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5jnmo5KaEeOqhc-mDCWgzg" id="(0.03,0.31666666666666665)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5jnmpJKaEeOqhc-mDCWgzg" id="(0.8,0.3333333333333333)"/>
+    <edges xmi:type="notation:Connector" xmi:id="_lsn2cBfCEeStw5wN6HKV-g" type="4002" source="_aKyw4CBPEeOjPJ3_Uk0aqQ" target="_jkgTYBfCEeStw5wN6HKV-g" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_lspEkBfCEeStw5wN6HKV-g" visible="false" type="6007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lspEkRfCEeStw5wN6HKV-g" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_lsn2cRfCEeStw5wN6HKV-g" fontName="Segoe UI"/>
+      <element xmi:type="uml:Generalization" href="GoogleAppEngineProfile.profile.uml#_lsmBQBfCEeStw5wN6HKV-g"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lsn2chfCEeStw5wN6HKV-g" points="[1, -4, -5, 67]$[1, -92, -5, -21]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lszcoBfCEeStw5wN6HKV-g" id="(0.475,0.08333333333333333)"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_bWcMIAjLEeOpWq22bueY-w" type="PapyrusUMLProfileDiagram" name="ConfigurationView" measurementUnit="Pixel">
@@ -929,58 +743,221 @@
         <styles xmi:type="notation:FilteringStyle" xmi:id="_kdoaMQjLEeOpWq22bueY-w"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kdoaMgjLEeOpWq22bueY-w"/>
       </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MIK2kOrlEeOPP6Ni2Il2Hw" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MIK2kerlEeOPP6Ni2Il2Hw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MIK2kurlEeOPP6Ni2Il2Hw"/>
+      </children>
       <element xmi:type="uml:Stereotype" href="GoogleAppEngineProfile.profile.uml#_tMXBoAjHEeOpWq22bueY-w"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kdoaIQjLEeOpWq22bueY-w" x="5" y="110" width="281" height="76"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kdoaIQjLEeOpWq22bueY-w" x="398" y="169" width="281" height="76"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_xdkwoAtjEeO-f7KEdUwVpg" type="1031" fontName="Segoe UI" lineColor="0">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xdkwogtjEeO-f7KEdUwVpg" source="ShadowFigure">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xdkwowtjEeO-f7KEdUwVpg" key="ShadowFigure_Value" value="false"/>
+    <children xmi:type="notation:Shape" xmi:id="_OPe3YAQKEeSFb7efwKsqiw" type="1026" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OPk-AAQKEeSFb7efwKsqiw" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OPk-AQQKEeSFb7efwKsqiw" key="ShadowFigure_Value" value="false"/>
       </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xdkwpAtjEeO-f7KEdUwVpg" source="displayNameLabelIcon">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xdkwpQtjEeO-f7KEdUwVpg" key="displayNameLabelIcon_value" value="false"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OPk-AgQKEeSFb7efwKsqiw" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OPk-AwQKEeSFb7efwKsqiw" key="displayNameLabelIcon_value" value="false"/>
       </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xdkwpgtjEeO-f7KEdUwVpg" source="QualifiedName">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xdkwpwtjEeO-f7KEdUwVpg" key="QualifiedNameDepth" value="1000"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OPk-BAQKEeSFb7efwKsqiw" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OPk-BQQKEeSFb7efwKsqiw" key="QualifiedNameDepth" value="1000"/>
       </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xdkwqgtjEeO-f7KEdUwVpg" source="Stereotype_Annotation">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xdkwqwtjEeO-f7KEdUwVpg" key="StereotypeWithQualifiedNameList" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xdkwrAtjEeO-f7KEdUwVpg" key="StereotypeList" value="StandardProfileL2::Metaclass"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xdkwrQtjEeO-f7KEdUwVpg" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xdkwrgtjEeO-f7KEdUwVpg" key="PropStereoDisplay" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xdkwrwtjEeO-f7KEdUwVpg" key="StereotypePropertyLocation" value="Compartment"/>
-      </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_xdkwqAtjEeO-f7KEdUwVpg" type="1084"/>
-      <element xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#InstanceSpecification"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xdkwqQtjEeO-f7KEdUwVpg" x="85" y="15" width="129"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_OPk-BgQKEeSFb7efwKsqiw" type="1034"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_OPk-BwQKEeSFb7efwKsqiw" type="1071">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_OPk-CAQKEeSFb7efwKsqiw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_OPk-CQQKEeSFb7efwKsqiw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_OPk-CgQKEeSFb7efwKsqiw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OPk-CwQKEeSFb7efwKsqiw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_OPk-DAQKEeSFb7efwKsqiw" visible="false" type="1019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_OPk-DQQKEeSFb7efwKsqiw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_OPk-DgQKEeSFb7efwKsqiw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_OPk-DwQKEeSFb7efwKsqiw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OPk-EAQKEeSFb7efwKsqiw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_OPxLQAQKEeSFb7efwKsqiw" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_OPxLQQQKEeSFb7efwKsqiw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OPxLQgQKEeSFb7efwKsqiw"/>
+      </children>
+      <element xmi:type="uml:Stereotype" href="GoogleAppEngineProfile.profile.uml#_OO0JAAQKEeSFb7efwKsqiw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OPe3YQQKEeSFb7efwKsqiw" x="152" y="171" width="154" height="56"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_a_PPkpKgEeOqhc-mDCWgzg" type="1014" fontName="Segoe UI" lineColor="0">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a_PPlJKgEeOqhc-mDCWgzg" source="ShadowFigure">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a_PPlZKgEeOqhc-mDCWgzg" key="ShadowFigure_Value" value="false"/>
+    <children xmi:type="notation:Shape" xmi:id="_w5Qu0AQKEeSFb7efwKsqiw" type="1026" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w5Qu0gQKEeSFb7efwKsqiw" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w5Qu0wQKEeSFb7efwKsqiw" key="ShadowFigure_Value" value="false"/>
       </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a_PPlpKgEeOqhc-mDCWgzg" source="displayNameLabelIcon">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a_PPl5KgEeOqhc-mDCWgzg" key="displayNameLabelIcon_value" value="false"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w5Qu1AQKEeSFb7efwKsqiw" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w5Qu1QQKEeSFb7efwKsqiw" key="displayNameLabelIcon_value" value="false"/>
       </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a_PPmJKgEeOqhc-mDCWgzg" source="QualifiedName">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a_PPmZKgEeOqhc-mDCWgzg" key="QualifiedNameDepth" value="1000"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w5Qu1gQKEeSFb7efwKsqiw" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w5Qu1wQKEeSFb7efwKsqiw" key="QualifiedNameDepth" value="1000"/>
       </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_a_PPmpKgEeOqhc-mDCWgzg" type="1015"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_a_PPm5KgEeOqhc-mDCWgzg" type="5063"/>
-      <element xmi:type="uml:Constraint" href="GoogleAppEngineProfile.profile.uml#_a_PPkJKgEeOqhc-mDCWgzg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a_PPk5KgEeOqhc-mDCWgzg" x="400" y="115" width="306"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_w5Qu2AQKEeSFb7efwKsqiw" type="1034"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_w5Qu2QQKEeSFb7efwKsqiw" type="1071">
+        <children xmi:type="notation:Shape" xmi:id="_boC-gAQLEeSFb7efwKsqiw" type="3002" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="GoogleAppEngineProfile.profile.uml#_bnqkAAQLEeSFb7efwKsqiw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_boC-gQQLEeSFb7efwKsqiw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_zqwUIQQMEeSFb7efwKsqiw" type="3002" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="GoogleAppEngineProfile.profile.uml#_zqwUIAQMEeSFb7efwKsqiw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_zqwUIgQMEeSFb7efwKsqiw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_w5Qu2gQKEeSFb7efwKsqiw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_w5Qu2wQKEeSFb7efwKsqiw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_w5Qu3AQKEeSFb7efwKsqiw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w5Qu3QQKEeSFb7efwKsqiw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_w5Qu3gQKEeSFb7efwKsqiw" visible="false" type="1019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_w5Qu3wQKEeSFb7efwKsqiw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_w5Qu4AQKEeSFb7efwKsqiw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_w5Qu4QQKEeSFb7efwKsqiw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w5Qu4gQKEeSFb7efwKsqiw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_w5c8EAQKEeSFb7efwKsqiw" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_w5c8EQQKEeSFb7efwKsqiw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w5c8EgQKEeSFb7efwKsqiw"/>
+      </children>
+      <element xmi:type="uml:Stereotype" href="GoogleAppEngineProfile.profile.uml#_w5KoMAQKEeSFb7efwKsqiw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w5Qu0QQKEeSFb7efwKsqiw" x="-31" y="295" width="284" height="70"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_zg0m8QQKEeSFb7efwKsqiw" type="1026" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zg6tkAQKEeSFb7efwKsqiw" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zg6tkQQKEeSFb7efwKsqiw" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zg6tkgQKEeSFb7efwKsqiw" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zg6tkwQKEeSFb7efwKsqiw" key="displayNameLabelIcon_value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zg6tlAQKEeSFb7efwKsqiw" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zg6tlQQKEeSFb7efwKsqiw" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_zg6tlgQKEeSFb7efwKsqiw" type="1034"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_zg6tlwQKEeSFb7efwKsqiw" type="1071">
+        <children xmi:type="notation:Shape" xmi:id="_RuY08QQPEeSFb7efwKsqiw" type="3002" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="GoogleAppEngineProfile.profile.uml#_RuY08AQPEeSFb7efwKsqiw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RuY08gQPEeSFb7efwKsqiw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_5qAZcQQPEeSFb7efwKsqiw" type="3002" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="GoogleAppEngineProfile.profile.uml#_5qAZcAQPEeSFb7efwKsqiw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_5qAZcgQPEeSFb7efwKsqiw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_J3n3kQQQEeSFb7efwKsqiw" type="3002" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="GoogleAppEngineProfile.profile.uml#_J3n3kAQQEeSFb7efwKsqiw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_J3n3kgQQEeSFb7efwKsqiw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_aPBj0QQQEeSFb7efwKsqiw" type="3002" fontName="Segoe UI" lineColor="0">
+          <element xmi:type="uml:Property" href="GoogleAppEngineProfile.profile.uml#_aPBj0AQQEeSFb7efwKsqiw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_aPBj0gQQEeSFb7efwKsqiw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_zg6tmAQKEeSFb7efwKsqiw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_zg6tmQQKEeSFb7efwKsqiw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_zg6tmgQKEeSFb7efwKsqiw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zg6tmwQKEeSFb7efwKsqiw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_zg6tnAQKEeSFb7efwKsqiw" visible="false" type="1019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_zg6tnQQKEeSFb7efwKsqiw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_zg6tngQKEeSFb7efwKsqiw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_zg6tnwQKEeSFb7efwKsqiw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zg6toAQKEeSFb7efwKsqiw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_zhG60AQKEeSFb7efwKsqiw" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_zhG60QQKEeSFb7efwKsqiw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zhG60gQKEeSFb7efwKsqiw"/>
+      </children>
+      <element xmi:type="uml:Stereotype" href="GoogleAppEngineProfile.profile.uml#_zg0m8AQKEeSFb7efwKsqiw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zg0m8gQKEeSFb7efwKsqiw" x="270" y="295" width="294" height="105"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_WV2LcAQTEeSFb7efwKsqiw" type="1014" fontName="Segoe UI" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WV2LcgQTEeSFb7efwKsqiw" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WV2LcwQTEeSFb7efwKsqiw" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WV2LdAQTEeSFb7efwKsqiw" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WV2LdQQTEeSFb7efwKsqiw" key="displayNameLabelIcon_value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WV2LdgQTEeSFb7efwKsqiw" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WV2LdwQTEeSFb7efwKsqiw" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_WV2LeAQTEeSFb7efwKsqiw" type="1015"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_WV2LeQQTEeSFb7efwKsqiw" type="5063"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_WV8SEAQTEeSFb7efwKsqiw" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_WV8SEQQTEeSFb7efwKsqiw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WV8SEgQTEeSFb7efwKsqiw"/>
+      </children>
+      <element xmi:type="uml:Constraint" href="GoogleAppEngineProfile.profile.uml#_WVp-MAQTEeSFb7efwKsqiw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WV2LcQQTEeSFb7efwKsqiw" x="638" y="297" height="49"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_9YHbYBfCEeStw5wN6HKV-g" type="1026" fontName="Segoe UI" fillColor="13948116" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9YIpgBfCEeStw5wN6HKV-g" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9YIpgRfCEeStw5wN6HKV-g" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9YIpghfCEeStw5wN6HKV-g" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9YIpgxfCEeStw5wN6HKV-g" key="displayNameLabelIcon_value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9YJQkBfCEeStw5wN6HKV-g" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9YJQkRfCEeStw5wN6HKV-g" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_9YJQkhfCEeStw5wN6HKV-g" type="1034"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_9YJQkxfCEeStw5wN6HKV-g" visible="false" type="1071">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_9YJQlBfCEeStw5wN6HKV-g"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_9YJQlRfCEeStw5wN6HKV-g"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_9YJQlhfCEeStw5wN6HKV-g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9YJQlxfCEeStw5wN6HKV-g"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_9YJ3oBfCEeStw5wN6HKV-g" visible="false" type="1019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_9YJ3oRfCEeStw5wN6HKV-g"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_9YJ3ohfCEeStw5wN6HKV-g"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_9YJ3oxfCEeStw5wN6HKV-g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9YJ3pBfCEeStw5wN6HKV-g"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_9YX6EBfCEeStw5wN6HKV-g" visible="false" type="compartment_shape_display">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_9YX6ERfCEeStw5wN6HKV-g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9YX6EhfCEeStw5wN6HKV-g"/>
+      </children>
+      <element xmi:type="uml:Stereotype" href="CommonCloudProfile.profile.uml#_WkgDQBGMEeSRW7fIGev8nw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9YHbYRfCEeStw5wN6HKV-g" x="341" y="22" width="116" height="50"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_bWcMIQjLEeOpWq22bueY-w"/>
     <element xmi:type="uml:Profile" href="GoogleAppEngineProfile.profile.uml#_8pyKYAQQEeOYP5GGYb_HuQ"/>
-    <edges xmi:type="notation:Connector" xmi:id="_yeSmwAtjEeO-f7KEdUwVpg" type="1013" source="_kdoaIAjLEeOpWq22bueY-w" target="_xdkwoAtjEeO-f7KEdUwVpg" lineColor="0">
-      <styles xmi:type="notation:FontStyle" xmi:id="_yeSmwQtjEeO-f7KEdUwVpg" fontName="Segoe UI"/>
-      <element xmi:type="uml:Extension" href="GoogleAppEngineProfile.profile.uml#_yd_r0AtjEeO-f7KEdUwVpg"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yeSmwgtjEeO-f7KEdUwVpg" points="[0, -63, -4, 120]$[0, -208, -4, -25]"/>
+    <edges xmi:type="notation:Connector" xmi:id="_YYJUAAQLEeSFb7efwKsqiw" type="4002" source="_w5Qu0AQKEeSFb7efwKsqiw" target="_OPe3YAQKEeSFb7efwKsqiw" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_YYJUAwQLEeSFb7efwKsqiw" visible="false" type="6007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YYJUBAQLEeSFb7efwKsqiw" x="1" y="349"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_YYJUAQQLEeSFb7efwKsqiw" fontName="Segoe UI"/>
+      <element xmi:type="uml:Generalization" href="GoogleAppEngineProfile.profile.uml#_YXeloAQLEeSFb7efwKsqiw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YYJUAgQLEeSFb7efwKsqiw" points="[-2, -11, -4, 101]$[-75, -103, -77, 9]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YYPaoAQLEeSFb7efwKsqiw" id="(0.4327485380116959,0.15714285714285714)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_dJJiYJKgEeOqhc-mDCWgzg" type="8500" source="_a_PPkpKgEeOqhc-mDCWgzg" target="_kdoaIAjLEeOpWq22bueY-w" lineColor="0">
-      <styles xmi:type="notation:FontStyle" xmi:id="_dJJiYZKgEeOqhc-mDCWgzg" fontName="Segoe UI"/>
+    <edges xmi:type="notation:Connector" xmi:id="_Y5hiwAQLEeSFb7efwKsqiw" type="4002" source="_zg0m8QQKEeSFb7efwKsqiw" target="_OPe3YAQKEeSFb7efwKsqiw" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Y5hiwwQLEeSFb7efwKsqiw" visible="false" type="6007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Y5hixAQLEeSFb7efwKsqiw" x="-237" y="132"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Y5hiwQQLEeSFb7efwKsqiw" fontName="Segoe UI"/>
+      <element xmi:type="uml:Generalization" href="GoogleAppEngineProfile.profile.uml#_Y5bcIAQLEeSFb7efwKsqiw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Y5hiwgQLEeSFb7efwKsqiw" points="[-20, -11, 146, 83]$[-150, -91, 16, 3]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y5twAAQLEeSFb7efwKsqiw" id="(0.425,0.11)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Y5twAQQLEeSFb7efwKsqiw" id="(0.8961038961038961,0.75)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_xAfCEAQTEeSFb7efwKsqiw" type="8500" source="_WV2LcAQTEeSFb7efwKsqiw" target="_zg0m8QQKEeSFb7efwKsqiw" lineColor="0">
+      <styles xmi:type="notation:FontStyle" xmi:id="_xAfCEQQTEeSFb7efwKsqiw" fontName="Segoe UI"/>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dJJiYpKgEeOqhc-mDCWgzg" points="[-3, -1, 184, 20]$[-163, -25, 24, -4]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dJTTYJKgEeOqhc-mDCWgzg" id="(0.03,0.16666666666666666)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dJTTYZKgEeOqhc-mDCWgzg" id="(0.9145907473309609,0.2894736842105263)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xAfCEgQTEeSFb7efwKsqiw" points="[-4, 0, 86, -13]$[-65, 4, 25, -9]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xAlIsAQTEeSFb7efwKsqiw" id="(0.04,0.23333333333333334)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xAlIsQQTEeSFb7efwKsqiw" id="(0.9271137026239067,0.16428571428571428)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_AIOLgBfDEeStw5wN6HKV-g" type="4002" source="_OPe3YAQKEeSFb7efwKsqiw" target="_9YHbYBfCEeStw5wN6HKV-g" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_AIQAsBfDEeStw5wN6HKV-g" visible="false" type="6007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_AIQAsRfDEeStw5wN6HKV-g" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_AIOykBfDEeStw5wN6HKV-g" fontName="Segoe UI"/>
+      <element xmi:type="uml:Generalization" href="GoogleAppEngineProfile.profile.uml#_AIM9YBfDEeStw5wN6HKV-g"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AIOykRfDEeStw5wN6HKV-g" points="[4, -4, -140, 124]$[139, -153, -5, -25]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AIaYwBfDEeStw5wN6HKV-g" id="(0.6688311688311688,0.07142857142857142)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_A_KakBfDEeStw5wN6HKV-g" type="4002" source="_kdoaIAjLEeOpWq22bueY-w" target="_9YHbYBfCEeStw5wN6HKV-g" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_A_KakxfDEeStw5wN6HKV-g" visible="false" type="6007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_A_LBoBfDEeStw5wN6HKV-g" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_A_KakRfDEeStw5wN6HKV-g" fontName="Segoe UI"/>
+      <element xmi:type="uml:Generalization" href="GoogleAppEngineProfile.profile.uml#_A_JzgBfDEeStw5wN6HKV-g"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A_KakhfDEeStw5wN6HKV-g" points="[-5, -7, 102, 122]$[-49, -122, 58, 7]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A_OsABfDEeStw5wN6HKV-g" id="(0.38434163701067614,0.09210526315789473)"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
