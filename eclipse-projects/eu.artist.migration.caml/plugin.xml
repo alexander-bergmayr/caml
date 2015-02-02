@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?eclipse version="3.4"?>
 <plugin>
-   <extension
-         point="org.eclipse.emf.ecore.uri_mapping">
-      <mapping
-            source="pathmap://CAML_PROFILES/"
-            target="platform:/plugin/eu.artist.migration.caml/umlprofiles/">
+   <extension point="org.eclipse.emf.ecore.uri_mapping">
+      <mapping source="pathmap://CAML_PROFILES/" target="platform:/plugin/eu.artist.migration.caml/umlprofiles/">
       </mapping>
    </extension>
    <extension point="org.eclipse.emf.ecore.uri_mapping">
@@ -13,76 +10,43 @@
       </mapping>
    </extension>
    <extension point="org.eclipse.papyrus.uml.extensionpoints.UMLLibrary">
-      <library
-            description="The modeling library of CAML which focuses on the representation of cloud-based application deployments"
-            name="CAML Library"
-            path="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml"
-            provider="ARTIST Project">
+      <library description="The modeling library of CAML which focuses on the representation of cloud-based application deployments" name="CAML Library" path="platform:/plugin/eu.artist.migration.caml/umllibraries/CAMLLibrary.uml" provider="ARTIST Project">
       </library>
    </extension>
    <extension point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
-      <profile
-            description="UML Profile dedicted to Amazon AWS cloud environment"
-            name="Amazon AWS UML Profile"
-            path="platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml"
-            provider="ARTIST Project">
+      <profile description="UML Profile dedicted to Amazon AWS cloud environment" name="Amazon AWS UML Profile" path="platform:/plugin/eu.artist.migration.caml/umlprofiles/AmazonAWSProfile.profile.uml" provider="ARTIST Project">
       </profile>
    </extension>
    <extension point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
-      <profile
-            description="UML Profile dedicated to Google App Engine cloud environment"
-            iconpath="icons/"
-            name="Google App Engine UML Profile"
-            path="platform:/plugin/eu.artist.migration.caml/umlprofiles/GoogleAppEngineProfile.profile.uml"
-            provider="ARTIST Project">
+      <profile description="UML Profile dedicated to Google App Engine cloud environment" iconpath="icons/" name="Google App Engine UML Profile" path="platform:/plugin/eu.artist.migration.caml/umlprofiles/GoogleAppEngineProfile.profile.uml" provider="ARTIST Project">
+      </profile>
+   </extension>
+      <extension point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
+      <profile description="UML Profile dedicated to Microsoft Azure cloud environment" iconpath="icons/" name="Microsoft Azure UML Profile" path="platform:/plugin/eu.artist.migration.caml/umlprofiles/MicrosoftAzureProfile.profile.uml" provider="ARTIST Project">
       </profile>
    </extension>
    <extension point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
-      <profile
-            description="UML Profile dedicted performance aspects of cloud environments"
-            name="Performance UML Profile"
-            path="platform:/plugin/eu.artist.migration.caml/umlprofiles/PerformanceProfile.profile.uml"
-            provider="ARTIST Project">
+      <profile description="UML Profile dedicted performance aspects of cloud environments" name="Performance UML Profile" path="platform:/plugin/eu.artist.migration.caml/umlprofiles/PerformanceProfile.profile.uml" provider="ARTIST Project">
       </profile>
    </extension>
    <extension point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
-      <profile
-            description="UML Profile dedicted pricing aspects of cloud environments"
-            name="Pricing UML Profile"
-            path="platform:/plugin/eu.artist.migration.caml/umlprofiles/PricingProfile.profile.uml"
-            provider="ARTIST Project">
+      <profile description="UML Profile dedicted pricing aspects of cloud environments" name="Pricing UML Profile" path="platform:/plugin/eu.artist.migration.caml/umlprofiles/PricingProfile.profile.uml" provider="ARTIST Project">
       </profile>
    </extension>
    <extension point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
-      <profile
-            description="UML Profile dedicted service level aspects of cloud environments"
-            name="Service Level UML Profile"
-            path="platform:/plugin/eu.artist.migration.caml/umlprofiles/ServiceLevelProfile.profile.uml"
-            provider="ARTIST Project">
+      <profile description="UML Profile dedicted service level aspects of cloud environments" name="Service Level UML Profile" path="platform:/plugin/eu.artist.migration.caml/umlprofiles/ServiceLevelProfile.profile.uml" provider="ARTIST Project">
       </profile>
    </extension>
    <extension point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
-      <profile
-            description="UML Profile dedicted technoloy aspects useful to turn PIMs into PSMs"
-            name="Technology UML Profile"
-            path="platform:/plugin/eu.artist.migration.caml/umlprofiles/TechnologyProfile.profile.uml"
-            provider="ARTIST Project">
+      <profile description="UML Profile dedicted technoloy aspects useful to turn PIMs into PSMs" name="Technology UML Profile" path="platform:/plugin/eu.artist.migration.caml/umlprofiles/TechnologyProfile.profile.uml" provider="ARTIST Project">
       </profile>
    </extension>
    <extension point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
-      <profile
-            description="UML Profile dedicted to libraries and frameworks useful to turn PIMs into PSMs"
-            name="Technology UML Profile"
-            path="platform:/plugin/eu.artist.migration.caml/umlprofiles/TechnologyProfile.profile.uml"
-            provider="ARTIST Project">
+      <profile description="UML Profile dedicted to libraries and frameworks useful to turn PIMs into PSMs" name="Technology UML Profile" path="platform:/plugin/eu.artist.migration.caml/umlprofiles/TechnologyProfile.profile.uml" provider="ARTIST Project">
       </profile>
    </extension>
    <extension point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
-      <profile
-            description="Util UML Profile"
-            name="Util UML Profile"
-            path="platform:/plugin/eu.artist.migration.caml/umlprofiles/UtilProfile.profile.uml"
-            provider="ARTIST Project">
+      <profile description="Util UML Profile" name="Util UML Profile" path="platform:/plugin/eu.artist.migration.caml/umlprofiles/UtilProfile.profile.uml" provider="ARTIST Project">
       </profile>
    </extension>   
 </plugin>

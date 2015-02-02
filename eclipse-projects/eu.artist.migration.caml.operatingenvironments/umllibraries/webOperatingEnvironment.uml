@@ -100,6 +100,8 @@
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Enumeration" xmi:id="_5q2WaAl7EeO-Gf_thSXy4g" name="ContainerType">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_4mYkgJzGEeSlkY1rQ7e5gw" name="Jetty"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_6JKl4JzGEeSlkY1rQ7e5gw" name="Tomcat"/>
       <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_5q2WaQl7EeO-Gf_thSXy4g" name="JEE5">
         <specification xmi:type="uml:OpaqueExpression" xmi:id="_5q2Wagl7EeO-Gf_thSXy4g">
           <language></language>
@@ -208,6 +210,7 @@
       <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_3WXN4Al_EeOfkKiyoHVilg" name="MySQL"/>
       <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_4RbH8Al_EeOfkKiyoHVilg" name="PostgreSQL"/>
       <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_5jZtMAl_EeOfkKiyoHVilg" name="Oracle"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_KCkukJzHEeSlkY1rQ7e5gw" name="MongoDB"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Enumeration" xmi:id="_8LETAAl_EeOfkKiyoHVilg" name="WebServerType">
       <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_9t2UYAl_EeOfkKiyoHVilg" name="ApacheHttp"/>
