@@ -1,6 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Profile xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_ilF9kATNEeOYqpWHmlUzvA" name="Performance" metaclassReference="_JRbQ4BAFEeOYBPpMrBwl5w" metamodelReference="_ilF9kQTNEeOYqpWHmlUzvA">
   <eAnnotations xmi:id="_Zru1kATgEeOYqpWHmlUzvA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="__kFdcasfEeSV28oeYzt0BQ" name="Performance" nsURI="http:///schemas/Performance/__kFdcKsfEeSV28oeYzt0BQ/14" nsPrefix="Performance">
+      <eAnnotations xmi:id="__kHSoKsfEeSV28oeYzt0BQ" source="PapyrusVersion">
+        <details xmi:id="__kHSoasfEeSV28oeYzt0BQ" key="Version" value="0.0.15"/>
+        <details xmi:id="__kHSoqsfEeSV28oeYzt0BQ" key="Comment" value=""/>
+        <details xmi:id="__kHSo6sfEeSV28oeYzt0BQ" key="Copyright" value="Copyright (c) 2014 Vienna University of Technology.&#xD;&#xA;All rights reserved. This program and the accompanying materials&#xD;&#xA;are made available under the terms of the Eclipse Public License v1.0&#xD;&#xA;which accompanies this distribution, and is available at&#xD;&#xA;http://www.eclipse.org/legal/epl-v10.html&#xD;&#xA;&#xD;&#xA;Contributors:&#xD;&#xA;Alexander Bergmayr (Vienna University of Technology) - initial API and implementation&#xD;&#xA;&#xD;&#xA;Initially developed in the context of ARTIST EU project www.artist-project.eu"/>
+        <details xmi:id="__kHSpKsfEeSV28oeYzt0BQ" key="Date" value="2015-02-02"/>
+        <details xmi:id="__kHSpasfEeSV28oeYzt0BQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__kFdcqsfEeSV28oeYzt0BQ" name="InstanceTypeCharacteristics" abstract="true">
+        <eAnnotations xmi:id="__kFdc6sfEeSV28oeYzt0BQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rMDMUATNEeOYqpWHmlUzvA"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="__kFddKsfEeSV28oeYzt0BQ" name="virtualCores" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="__kFddqsfEeSV28oeYzt0BQ" name="CPU" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="__kFdeKsfEeSV28oeYzt0BQ" name="memory" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="__kFdeqsfEeSV28oeYzt0BQ" name="localDisk" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="__kFdfKsfEeSV28oeYzt0BQ" name="processorArchitecture" ordered="false" upperBound="-1" eType="__kFdgqsfEeSV28oeYzt0BQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="__kFdfqsfEeSV28oeYzt0BQ" name="networkPerformance" ordered="false" eType="__kFdhqsfEeSV28oeYzt0BQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__kFdgKsfEeSV28oeYzt0BQ" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="__kFdgqsfEeSV28oeYzt0BQ" name="ProcessorArchitectureType">
+        <eAnnotations xmi:id="__kFdg6sfEeSV28oeYzt0BQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_4g8J0ATNEeOYqpWHmlUzvA"/>
+        <eLiterals xmi:id="__kFdhKsfEeSV28oeYzt0BQ" name="Arch_32_Bit"/>
+        <eLiterals xmi:id="__kFdhasfEeSV28oeYzt0BQ" name="Arch_64_Bit" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="__kFdhqsfEeSV28oeYzt0BQ" name="NetworkPerformanceType">
+        <eAnnotations xmi:id="__kFdh6sfEeSV28oeYzt0BQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MUiDkATjEeOYqpWHmlUzvA"/>
+        <eLiterals xmi:id="__kFdiKsfEeSV28oeYzt0BQ" name="Very_Low"/>
+        <eLiterals xmi:id="__kFdiasfEeSV28oeYzt0BQ" name="Low" value="1"/>
+        <eLiterals xmi:id="__kFdiqsfEeSV28oeYzt0BQ" name="Moderate" value="2"/>
+        <eLiterals xmi:id="__kFdi6sfEeSV28oeYzt0BQ" name="High" value="3"/>
+        <eLiterals xmi:id="__kFdjKsfEeSV28oeYzt0BQ" name="Very_High" value="4"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__kFdjasfEeSV28oeYzt0BQ" name="GeneralPurposeInstance" eSuperTypes="__kFdcqsfEeSV28oeYzt0BQ">
+        <eAnnotations xmi:id="__kFdjqsfEeSV28oeYzt0BQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_GWPqwATkEeOYqpWHmlUzvA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__kFdkKsfEeSV28oeYzt0BQ" name="ComputeOptimizedInstance" eSuperTypes="__kFdcqsfEeSV28oeYzt0BQ">
+        <eAnnotations xmi:id="__kFdkasfEeSV28oeYzt0BQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Lo_WwATkEeOYqpWHmlUzvA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__kFdk6sfEeSV28oeYzt0BQ" name="MemoryOptimizedInstance" eSuperTypes="__kFdcqsfEeSV28oeYzt0BQ">
+        <eAnnotations xmi:id="__kFdlKsfEeSV28oeYzt0BQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_R1hxgATkEeOYqpWHmlUzvA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__kFdlqsfEeSV28oeYzt0BQ" name="StorageOptimizedInstance" eSuperTypes="__kFdcqsfEeSV28oeYzt0BQ">
+        <eAnnotations xmi:id="__kFdl6sfEeSV28oeYzt0BQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_XQ2xwATkEeOYqpWHmlUzvA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__kFdmasfEeSV28oeYzt0BQ" name="MicroInstance" eSuperTypes="__kFdcqsfEeSV28oeYzt0BQ">
+        <eAnnotations xmi:id="__kFdmqsfEeSV28oeYzt0BQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_nfN2wATkEeOYqpWHmlUzvA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__kFdnKsfEeSV28oeYzt0BQ" name="GraphicsProcessingInstance" eSuperTypes="__kFdcqsfEeSV28oeYzt0BQ">
+        <eAnnotations xmi:id="__kFdnasfEeSV28oeYzt0BQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_1K-cIATkEeOYqpWHmlUzvA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__kFdn6sfEeSV28oeYzt0BQ" name="NetworkOptimizedInstance" eSuperTypes="__kFdcqsfEeSV28oeYzt0BQ">
+        <eAnnotations xmi:id="__kFdoKsfEeSV28oeYzt0BQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_t6e4kKsWEeSV28oeYzt0BQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__kFdoqsfEeSV28oeYzt0BQ" name="StorageCharacteristics">
+        <eAnnotations xmi:id="__kFdo6sfEeSV28oeYzt0BQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_gxVh8KsfEeSV28oeYzt0BQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__kFdpKsfEeSV28oeYzt0BQ" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="__kFdpqsfEeSV28oeYzt0BQ" name="size" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_3jQwsKsWEeSV28oeYzt0BQ" name="Performance" nsURI="http:///schemas/Performance/_3jOUcKsWEeSV28oeYzt0BQ/13" nsPrefix="Performance">
+      <eAnnotations xmi:id="_3jTM8KsWEeSV28oeYzt0BQ" source="PapyrusVersion">
+        <details xmi:id="_3jTM8asWEeSV28oeYzt0BQ" key="Version" value="0.0.14"/>
+        <details xmi:id="_3jTM8qsWEeSV28oeYzt0BQ" key="Comment" value=""/>
+        <details xmi:id="_3jTM86sWEeSV28oeYzt0BQ" key="Copyright" value="Copyright (c) 2014 Vienna University of Technology.&#xD;&#xA;All rights reserved. This program and the accompanying materials&#xD;&#xA;are made available under the terms of the Eclipse Public License v1.0&#xD;&#xA;which accompanies this distribution, and is available at&#xD;&#xA;http://www.eclipse.org/legal/epl-v10.html&#xD;&#xA;&#xD;&#xA;Contributors:&#xD;&#xA;Alexander Bergmayr (Vienna University of Technology) - initial API and implementation&#xD;&#xA;&#xD;&#xA;Initially developed in the context of ARTIST EU project www.artist-project.eu"/>
+        <details xmi:id="_3jTM9KsWEeSV28oeYzt0BQ" key="Date" value="2015-02-02"/>
+        <details xmi:id="_3jTM9asWEeSV28oeYzt0BQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_3jQwsasWEeSV28oeYzt0BQ" name="InstanceTypeCharacteristics" abstract="true">
+        <eAnnotations xmi:id="_3jQwsqsWEeSV28oeYzt0BQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rMDMUATNEeOYqpWHmlUzvA"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_3jQws6sWEeSV28oeYzt0BQ" name="virtualCores" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_3jQwtasWEeSV28oeYzt0BQ" name="CPU" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_3jQwt6sWEeSV28oeYzt0BQ" name="memory" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_3jQwuasWEeSV28oeYzt0BQ" name="localDisk" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/4.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_3jQwu6sWEeSV28oeYzt0BQ" name="processorArchitecture" ordered="false" upperBound="-1" eType="_3jQwwasWEeSV28oeYzt0BQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_3jQwvasWEeSV28oeYzt0BQ" name="networkPerformance" ordered="false" eType="_3jQwxasWEeSV28oeYzt0BQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_3jQwv6sWEeSV28oeYzt0BQ" name="base_Element" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_3jQwwasWEeSV28oeYzt0BQ" name="ProcessorArchitectureType">
+        <eAnnotations xmi:id="_3jQwwqsWEeSV28oeYzt0BQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_4g8J0ATNEeOYqpWHmlUzvA"/>
+        <eLiterals xmi:id="_3jQww6sWEeSV28oeYzt0BQ" name="Arch_32_Bit"/>
+        <eLiterals xmi:id="_3jQwxKsWEeSV28oeYzt0BQ" name="Arch_64_Bit" value="1"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_3jQwxasWEeSV28oeYzt0BQ" name="NetworkPerformanceType">
+        <eAnnotations xmi:id="_3jQwxqsWEeSV28oeYzt0BQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MUiDkATjEeOYqpWHmlUzvA"/>
+        <eLiterals xmi:id="_3jQwx6sWEeSV28oeYzt0BQ" name="Very_Low"/>
+        <eLiterals xmi:id="_3jQwyKsWEeSV28oeYzt0BQ" name="Low" value="1"/>
+        <eLiterals xmi:id="_3jQwyasWEeSV28oeYzt0BQ" name="Moderate" value="2"/>
+        <eLiterals xmi:id="_3jQwyqsWEeSV28oeYzt0BQ" name="High" value="3"/>
+        <eLiterals xmi:id="_3jQwy6sWEeSV28oeYzt0BQ" name="Very_High" value="4"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_3jQwzKsWEeSV28oeYzt0BQ" name="GeneralPurposeInstance" eSuperTypes="_3jQwsasWEeSV28oeYzt0BQ">
+        <eAnnotations xmi:id="_3jQwzasWEeSV28oeYzt0BQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_GWPqwATkEeOYqpWHmlUzvA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_3jQwz6sWEeSV28oeYzt0BQ" name="ComputeOptimizedInstance" eSuperTypes="_3jQwsasWEeSV28oeYzt0BQ">
+        <eAnnotations xmi:id="_3jQw0KsWEeSV28oeYzt0BQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Lo_WwATkEeOYqpWHmlUzvA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_3jQw0qsWEeSV28oeYzt0BQ" name="MemoryOptimizedInstance" eSuperTypes="_3jQwsasWEeSV28oeYzt0BQ">
+        <eAnnotations xmi:id="_3jQw06sWEeSV28oeYzt0BQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_R1hxgATkEeOYqpWHmlUzvA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_3jQw1asWEeSV28oeYzt0BQ" name="StorageOptimizedInstance" eSuperTypes="_3jQwsasWEeSV28oeYzt0BQ">
+        <eAnnotations xmi:id="_3jQw1qsWEeSV28oeYzt0BQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_XQ2xwATkEeOYqpWHmlUzvA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_3jQw2KsWEeSV28oeYzt0BQ" name="MicroInstance" eSuperTypes="_3jQwsasWEeSV28oeYzt0BQ">
+        <eAnnotations xmi:id="_3jQw2asWEeSV28oeYzt0BQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_nfN2wATkEeOYqpWHmlUzvA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_3jQw26sWEeSV28oeYzt0BQ" name="GraphicsProcessingInstance" eSuperTypes="_3jQwsasWEeSV28oeYzt0BQ">
+        <eAnnotations xmi:id="_3jQw3KsWEeSV28oeYzt0BQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_1K-cIATkEeOYqpWHmlUzvA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_3jQw3qsWEeSV28oeYzt0BQ" name="NetworkOptimizedInstance" eSuperTypes="_3jQwsasWEeSV28oeYzt0BQ">
+        <eAnnotations xmi:id="_3jQw36sWEeSV28oeYzt0BQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_t6e4kKsWEeSV28oeYzt0BQ"/>
+      </eClassifiers>
+    </contents>
     <contents xmi:type="ecore:EPackage" xmi:id="_jrVpQBfEEeStw5wN6HKV-g" name="Performance" nsURI="http:///schemas/Performance/_jrTNABfEEeStw5wN6HKV-g/12" nsPrefix="Performance">
       <eAnnotations xmi:id="_jrW3YRfEEeStw5wN6HKV-g" source="PapyrusVersion">
         <details xmi:id="_jrW3YhfEEeStw5wN6HKV-g" key="Version" value="0.0.13"/>
@@ -761,5 +896,19 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Extension" xmi:id="_KK854BAFEeOYBPpMrBwl5w" name="E_InstanceTypeCharacteristics_Element1" memberEnd="_KK854RAFEeOYBPpMrBwl5w _KKtpUBAFEeOYBPpMrBwl5w">
     <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_KK854RAFEeOYBPpMrBwl5w" name="extension_InstanceTypeCharacteristics" type="_rMDMUATNEeOYqpWHmlUzvA" aggregation="composite" association="_KK854BAFEeOYBPpMrBwl5w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_t6e4kKsWEeSV28oeYzt0BQ" name="NetworkOptimizedInstance">
+    <generalization xmi:id="_yhYLMKsWEeSV28oeYzt0BQ" general="_rMDMUATNEeOYqpWHmlUzvA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_gxVh8KsfEeSV28oeYzt0BQ" name="StorageCharacteristics">
+    <ownedAttribute xmi:id="_h6PDsKsfEeSV28oeYzt0BQ" name="base_Element" association="_h6Q44KsfEeSV28oeYzt0BQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_1UwisKsfEeSV28oeYzt0BQ" name="size">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_h6Q44KsfEeSV28oeYzt0BQ" name="E_StorageCharacteristics_Element1" memberEnd="_h6Q44asfEeSV28oeYzt0BQ _h6PDsKsfEeSV28oeYzt0BQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_h6Q44asfEeSV28oeYzt0BQ" name="extension_StorageCharacteristics" type="_gxVh8KsfEeSV28oeYzt0BQ" aggregation="composite" association="_h6Q44KsfEeSV28oeYzt0BQ"/>
   </packagedElement>
 </uml:Profile>
